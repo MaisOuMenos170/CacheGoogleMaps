@@ -2282,5 +2282,228 @@
     "user_ratings_total": 3131,
     "website": "https://www.restaurantegatopreto.com/",
     "added_at": "2026-08-26T18:57:55.293Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "3645",
+        "short_name": "3645",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Brasílio Itiberê",
+        "short_name": "R. Brasílio Itiberê",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Água Verde",
+        "short_name": "Água Verde",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80240-060",
+        "short_name": "80240-060",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-BR",
+      "overview": "Tradicional boteco do bairro com diversas porções e cervejas e telão para acompanhar partidas de futebol."
+    },
+    "formatted_address": "R. Brasílio Itiberê, 3645 - Água Verde, Curitiba - PR, 80240-060, Brasil",
+    "formatted_phone_number": "(41) 99580-3434",
+    "geometry": {
+      "location": {
+        "lat": -25.4510304,
+        "lng": -49.2790136
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4496094697085,
+          "lng": -49.2777004197085
+        },
+        "southwest": {
+          "lat": -25.4523074302915,
+          "lng": -49.28039838029149
+        }
+      }
+    },
+    "international_phone_number": "+55 41 99580-3434",
+    "name": "Bek's Bar",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "2300"
+          },
+          "open": {
+            "day": 2,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "0130"
+          },
+          "open": {
+            "day": 3,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1630"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1630"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 16:30 – 23:00",
+        "quarta-feira: 16:30 – 01:30",
+        "quinta-feira: 16:30 – 01:00",
+        "sexta-feira: 16:30 – 02:00",
+        "sábado: 16:30 – 02:00",
+        "domingo: Fechado"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "AVoNoXR9gvpiqf4oG8_SplPRQAbCkMQr_bA_Vwfpt7rbcMxia29MpTGUSnULj423bZOFiWEBQeBKff-DJC2C2yu22-iE1PYSneNt0a7k-LK83ZB2yo-20jm0oe5-QduzAjE7rHEHvRE9ehSSUwqLXGOcz_V_jMT-CkkYpkGn13iiltVAHRGecqpQQ1ObnyjZHkQreHKuoM5n7VHKChDkk4JihEnbLxIPTPxbDXY7X5LkKIwdv1mBJTXm2d4RwC7vmcF4bVr5rDwLkTQWcwM5NeE_xKzG6sU7DsEDN38SM4aYC-6rELSIwOW6NgNpHl6KBewmiTZhQozoQ8uQPRFPnQm6L-QsumHAOqWiUv4ClaEAoAU8MZyV_jgpLvrzLY46tJ3lRX-2O9YxF-FYagwIWKs_wyjvG-R3CRkXSJzVL4zjavYto8Pf",
+        "height": 2322,
+        "width": 4128,
+        "proxy_url": "/api/places/photo?ref=AVoNoXR9gvpiqf4oG8_SplPRQAbCkMQr_bA_Vwfpt7rbcMxia29MpTGUSnULj423bZOFiWEBQeBKff-DJC2C2yu22-iE1PYSneNt0a7k-LK83ZB2yo-20jm0oe5-QduzAjE7rHEHvRE9ehSSUwqLXGOcz_V_jMT-CkkYpkGn13iiltVAHRGecqpQQ1ObnyjZHkQreHKuoM5n7VHKChDkk4JihEnbLxIPTPxbDXY7X5LkKIwdv1mBJTXm2d4RwC7vmcF4bVr5rDwLkTQWcwM5NeE_xKzG6sU7DsEDN38SM4aYC-6rELSIwOW6NgNpHl6KBewmiTZhQozoQ8uQPRFPnQm6L-QsumHAOqWiUv4ClaEAoAU8MZyV_jgpLvrzLY46tJ3lRX-2O9YxF-FYagwIWKs_wyjvG-R3CRkXSJzVL4zjavYto8Pf"
+      },
+      {
+        "photo_reference": "AVoNoXTKuLtUvdsAQGX_y7Tri5ov_-1s0Mxy_T2Elvsw9vv85h6k7kCditLYah7wUmzycxSyWc0k9CzgIC3ItMA1_dczR0fMl-08MmZQiQ2bOotWGVSMmesTqM6muv9IHDrQQW7tEG7RcUd1UeGzL_nlKOFZmHR0kP1Sf4Tf5HwOZWe8ozSZOq5_dU7kxDW0VK2REF2M7H2acyjAAilCb13uPeiKpTANgfYeFFps0PkuBzL50UFfHMQYuyuSifKhSahqFNK8mCNwtRuCoXc7JpUq6fCcx9wzNChzyZUI0wByqXxY2nmFgclXGpWoBpmhtNwnu0RQOVuux_nFDIOC-wqFpFwowgsZoAbdB68rgycSqPCr3ezhZsnwMuQHm73zisjGu7sulpCbZN1HflE_bvqPRRiV5byBhW58HyWczesnDAUzIpvm",
+        "height": 812,
+        "width": 1242,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTKuLtUvdsAQGX_y7Tri5ov_-1s0Mxy_T2Elvsw9vv85h6k7kCditLYah7wUmzycxSyWc0k9CzgIC3ItMA1_dczR0fMl-08MmZQiQ2bOotWGVSMmesTqM6muv9IHDrQQW7tEG7RcUd1UeGzL_nlKOFZmHR0kP1Sf4Tf5HwOZWe8ozSZOq5_dU7kxDW0VK2REF2M7H2acyjAAilCb13uPeiKpTANgfYeFFps0PkuBzL50UFfHMQYuyuSifKhSahqFNK8mCNwtRuCoXc7JpUq6fCcx9wzNChzyZUI0wByqXxY2nmFgclXGpWoBpmhtNwnu0RQOVuux_nFDIOC-wqFpFwowgsZoAbdB68rgycSqPCr3ezhZsnwMuQHm73zisjGu7sulpCbZN1HflE_bvqPRRiV5byBhW58HyWczesnDAUzIpvm"
+      },
+      {
+        "photo_reference": "AVoNoXTQ1-WDW6_3kJDSR28XuNRc0lc3AhcxIzDym0uOy2cxD3MDe0OjXPcjapkmswb9WM2H-qHaGeky0uSeAt6OfxUZQ0sZIIcMhyBqM6BpMQz5X1TKcPmkrIPicrzcsF6KYPoW0oWmu4ri1_6G0Exg0DGFLLb6R3SoJWHWlYOSvjaJs2BhrJSpghA87xDcLiUQDxR-swVcszJDRJmZ22kRanX5D3phkayMvNGEBaefTClVLSqegWfFPq-OMvO0QOs6gMVt0CO8r28H--TPwB2YDvGc2DvcruoAcy-kiFbN0M-LEkcZ0-I4C0QrWfbfyWOO6zc97Sl27GRF2OPBcDp0dFLi0NDroXEqttP2QhaeIuZbruiQ0rgYDsuFMWT8ePqHhN1tMNT_35HI1REnMiLbVPq3EJ2HLD1wxSF8BnhbzFZRdEoayLG_DYfqWFMRB0XY",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTQ1-WDW6_3kJDSR28XuNRc0lc3AhcxIzDym0uOy2cxD3MDe0OjXPcjapkmswb9WM2H-qHaGeky0uSeAt6OfxUZQ0sZIIcMhyBqM6BpMQz5X1TKcPmkrIPicrzcsF6KYPoW0oWmu4ri1_6G0Exg0DGFLLb6R3SoJWHWlYOSvjaJs2BhrJSpghA87xDcLiUQDxR-swVcszJDRJmZ22kRanX5D3phkayMvNGEBaefTClVLSqegWfFPq-OMvO0QOs6gMVt0CO8r28H--TPwB2YDvGc2DvcruoAcy-kiFbN0M-LEkcZ0-I4C0QrWfbfyWOO6zc97Sl27GRF2OPBcDp0dFLi0NDroXEqttP2QhaeIuZbruiQ0rgYDsuFMWT8ePqHhN1tMNT_35HI1REnMiLbVPq3EJ2HLD1wxSF8BnhbzFZRdEoayLG_DYfqWFMRB0XY"
+      },
+      {
+        "photo_reference": "AVoNoXSgHy0x_7pPx3CJrWeunLIE2UEXdmOgsr59tIbEzkJ1Ysv1Pa22QL19XaVIvSf4KeagYYoGB--mnWpAupvE6J83rPs0MyuiQlmYlzq4knvS6gTDtRAVWK7aDQIbA0FBEOUzNv3I51fsGq2apJX7TKClzwYSyaU5-hSzZYizJwTvhZE1EM5RZyk28HwceZflJfQKBXkV84Lzw0vZpM1hHTCvzO6i6qTzi2t2lVIKtDK17SZRts6Vb4RHbxFNh9N78oXL33uHkuJoIUe8TXxUzl-5eyP813YCdtp8tjZURETLlVBAxyEln99sGJcUwGwUcKJjqKQc3_Hgca9-e7mm9KsMlY1ZhKcFjtxusoE1xLosY6Mz-rPFHDyvxy67BMWnGthOdZ4J51m37EZgye7Vfo0hKYy9rTdhhOzSScw72vIk-A",
+        "height": 3722,
+        "width": 2792,
+        "proxy_url": "/api/places/photo?ref=AVoNoXSgHy0x_7pPx3CJrWeunLIE2UEXdmOgsr59tIbEzkJ1Ysv1Pa22QL19XaVIvSf4KeagYYoGB--mnWpAupvE6J83rPs0MyuiQlmYlzq4knvS6gTDtRAVWK7aDQIbA0FBEOUzNv3I51fsGq2apJX7TKClzwYSyaU5-hSzZYizJwTvhZE1EM5RZyk28HwceZflJfQKBXkV84Lzw0vZpM1hHTCvzO6i6qTzi2t2lVIKtDK17SZRts6Vb4RHbxFNh9N78oXL33uHkuJoIUe8TXxUzl-5eyP813YCdtp8tjZURETLlVBAxyEln99sGJcUwGwUcKJjqKQc3_Hgca9-e7mm9KsMlY1ZhKcFjtxusoE1xLosY6Mz-rPFHDyvxy67BMWnGthOdZ4J51m37EZgye7Vfo0hKYy9rTdhhOzSScw72vIk-A"
+      },
+      {
+        "photo_reference": "AVoNoXQsTyR6oxO6L7e7OIyl-eoWhn-8iUSHbvwF52kaDF2_4ad7eKB7ckjDhruq3uv0beeKanY8EplsAtUlzArSSbpQUWhRLYBRs4w1dhAg2TUoW2_qm14UGFB3W2rYPx5uZzysDza2rsiefQhs4AkFEOfJxDbfvNuPpGGmO5JWcL6yx9KMZC1IywaVCe4-nJRxnt8bjHV9NNxLOM0UEH7pHlloeQKGjmgyyNrUhtNZANr12K9jA1sA3bGkEWUv1B5mEAEjTSXwgs3T0GHhkDf2e5jF4pUbiOKdiApqRceWGAlZpSLM8Nx5wuUeSwxDtIiyd_1xTXGEjCyQ1lJpeQAm5UKejv_xo5LiqbdTGY6_zDiu3wPorwjLZ4CK1cFCNe7dXQzMZOnKYEeu4psZAy5SRa7P0i5SK7CdMJuE4DpmctZo9js",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQsTyR6oxO6L7e7OIyl-eoWhn-8iUSHbvwF52kaDF2_4ad7eKB7ckjDhruq3uv0beeKanY8EplsAtUlzArSSbpQUWhRLYBRs4w1dhAg2TUoW2_qm14UGFB3W2rYPx5uZzysDza2rsiefQhs4AkFEOfJxDbfvNuPpGGmO5JWcL6yx9KMZC1IywaVCe4-nJRxnt8bjHV9NNxLOM0UEH7pHlloeQKGjmgyyNrUhtNZANr12K9jA1sA3bGkEWUv1B5mEAEjTSXwgs3T0GHhkDf2e5jF4pUbiOKdiApqRceWGAlZpSLM8Nx5wuUeSwxDtIiyd_1xTXGEjCyQ1lJpeQAm5UKejv_xo5LiqbdTGY6_zDiu3wPorwjLZ4CK1cFCNe7dXQzMZOnKYEeu4psZAy5SRa7P0i5SK7CdMJuE4DpmctZo9js"
+      },
+      {
+        "photo_reference": "AVoNoXQpNdRMPeUkg0gsUY0_pf06vl2ujRVUqMWz3LhJDBF0EvTRsxxZ4h9FdtGPnNFwIfMbwvxP-rxflK1qQ0Tbb2TW2uEyU3DP18SbW8fpmM5oiyuOA_5WkS495GrqieLbEmhSoiqUxiOwI3rxc_8-eBEY-iq8MHQFDtrVPK1xItD1LTTa0sT8C5fMWY9fnfwP9Vtqp7gJhsl9zUizYMmFboVVSPZ872MNjGzHJmsFcYABre6ZFiRwvLGelnI1AuTyC_SWlDbJTvguFR6p99w3MiMnz1VkV3b4ydJafCfW74k4AP1SzFwDgXQkDizPpuLOSK61Zgs8WemJ9Bdp-lcLLg7JMfDa77OpWmRy_-yxXyORj2Ve_TwiRxFMHjAxlJbNJtTYnpTG8-NCZlmmVKjP87qb_RvE8xzSOLS9RCs81A1lrrbH",
+        "height": 4624,
+        "width": 3468,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQpNdRMPeUkg0gsUY0_pf06vl2ujRVUqMWz3LhJDBF0EvTRsxxZ4h9FdtGPnNFwIfMbwvxP-rxflK1qQ0Tbb2TW2uEyU3DP18SbW8fpmM5oiyuOA_5WkS495GrqieLbEmhSoiqUxiOwI3rxc_8-eBEY-iq8MHQFDtrVPK1xItD1LTTa0sT8C5fMWY9fnfwP9Vtqp7gJhsl9zUizYMmFboVVSPZ872MNjGzHJmsFcYABre6ZFiRwvLGelnI1AuTyC_SWlDbJTvguFR6p99w3MiMnz1VkV3b4ydJafCfW74k4AP1SzFwDgXQkDizPpuLOSK61Zgs8WemJ9Bdp-lcLLg7JMfDa77OpWmRy_-yxXyORj2Ve_TwiRxFMHjAxlJbNJtTYnpTG8-NCZlmmVKjP87qb_RvE8xzSOLS9RCs81A1lrrbH"
+      },
+      {
+        "photo_reference": "AVoNoXSiAeXT6DfEawBJ4FIRPyAjH5SKd219BjaJ2r-ih-NPGoZ5W7mJFSJzPVceRfrIMfFSgaJSvejU3zhRF1-GWJQ4kIf1g_tHAoW_FDQtotN19DlbJs7HQ3gwHIj__vb_r9qpMFVgrwKu5FJ5dRtSyQ7bUvaw1ExzCZDlWKAXlLlInqPDdk7zfpG3MIrS-wT-ZurwCpqEUoH87aXPYVYy8kjvqghHnXEfVJmTgj9kAbBZ0o1hYWSkaPVGrKDu1o6UqixJkC7Iynid0HOLUivOS_kOS5PPFqy_XWXquleVdrSr30cYQp1gPkiY8loBwDflrzldhS47h-lrMpWaCGuwHM8AUTNNCddqkhqhgl5ZvLgj-s_5Vkmp6vdYYAYZTCnR5O6At1xKC-SqY14gPovbOSqAkHLzJyIHxDyHrtoRIK-GiW0",
+        "height": 4624,
+        "width": 3468,
+        "proxy_url": "/api/places/photo?ref=AVoNoXSiAeXT6DfEawBJ4FIRPyAjH5SKd219BjaJ2r-ih-NPGoZ5W7mJFSJzPVceRfrIMfFSgaJSvejU3zhRF1-GWJQ4kIf1g_tHAoW_FDQtotN19DlbJs7HQ3gwHIj__vb_r9qpMFVgrwKu5FJ5dRtSyQ7bUvaw1ExzCZDlWKAXlLlInqPDdk7zfpG3MIrS-wT-ZurwCpqEUoH87aXPYVYy8kjvqghHnXEfVJmTgj9kAbBZ0o1hYWSkaPVGrKDu1o6UqixJkC7Iynid0HOLUivOS_kOS5PPFqy_XWXquleVdrSr30cYQp1gPkiY8loBwDflrzldhS47h-lrMpWaCGuwHM8AUTNNCddqkhqhgl5ZvLgj-s_5Vkmp6vdYYAYZTCnR5O6At1xKC-SqY14gPovbOSqAkHLzJyIHxDyHrtoRIK-GiW0"
+      },
+      {
+        "photo_reference": "AVoNoXQswJzbSl5EXRJHRDRZvDbQSJsnaOYEXhQxjidmgwq2JHWxcZlgtxcB1oNg7E474SelY7GMtVoL_fktsx5wsASfezmxlokNf_lEVPyeRIeQN8mBgI0Z-F7YX3s_faPENss8QlyQafmFSaFyZgH_bnC1az8DCF3WXv4atEbTyYKMHVqu5DkNiorQAxlZptnoxlgJARAba4aoZY0ktFOu_67c95gboKUMeJu8ylrvJnCCs7bMYejCfwSyuESzR1H1TFDkWLi_ZgccUfW-cOmK85UEvekJiVYoQN7eBaRfina1Q3qzvIE9CIEpRcrO6_ppVq132Z5U7pBansolL2a5EAdoOLbaZ1tUUGGBsmC42axGymA6KcWCSkTbmFKzj0y-oKjRa2JxsDudmgpCyQhDSKo71B9vkJN82G5Yd4OeH0_aHg",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQswJzbSl5EXRJHRDRZvDbQSJsnaOYEXhQxjidmgwq2JHWxcZlgtxcB1oNg7E474SelY7GMtVoL_fktsx5wsASfezmxlokNf_lEVPyeRIeQN8mBgI0Z-F7YX3s_faPENss8QlyQafmFSaFyZgH_bnC1az8DCF3WXv4atEbTyYKMHVqu5DkNiorQAxlZptnoxlgJARAba4aoZY0ktFOu_67c95gboKUMeJu8ylrvJnCCs7bMYejCfwSyuESzR1H1TFDkWLi_ZgccUfW-cOmK85UEvekJiVYoQN7eBaRfina1Q3qzvIE9CIEpRcrO6_ppVq132Z5U7pBansolL2a5EAdoOLbaZ1tUUGGBsmC42axGymA6KcWCSkTbmFKzj0y-oKjRa2JxsDudmgpCyQhDSKo71B9vkJN82G5Yd4OeH0_aHg"
+      },
+      {
+        "photo_reference": "AVoNoXTxnAbbXJttmd3YbwddVnj9ZJ2XNLHjq8F_vxHJXxzw-68IwmDkxH6-k3oDx5cdubS76qP0AbUf362CVe_59st1brVwc9RUS9w4TKVpoQXSl2XfAiXc8x7gRcsBMqzi82djUVLkob2ZD6EBGH6aRogdx_k0Qi2_8dOx4LW9TN1AZ5nwPtGzEWeN6S1te9NoR7VzmWGJ_79Me82k-ZKxJJAahwoJidCrWcZZFXw97uUjeJLBLdV0otLbGLgbXOnLR0q8rL7KM6cyndVZLK1AU_UTGVg3LFZ_bBYPzjsCmpbEQXNgHebLCSnKUWm2FiRmIllp922Ct8OPFPPVXyg_Q9ZBF6BmVjTkdtoIv_Y4XdH5c8fejvFVS0g3V8wSac3PYbCPkj_WQlC-ZtUXZxIsaV6YZJ9fE_BX0ZuPubULXR0DaFE",
+        "height": 1960,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTxnAbbXJttmd3YbwddVnj9ZJ2XNLHjq8F_vxHJXxzw-68IwmDkxH6-k3oDx5cdubS76qP0AbUf362CVe_59st1brVwc9RUS9w4TKVpoQXSl2XfAiXc8x7gRcsBMqzi82djUVLkob2ZD6EBGH6aRogdx_k0Qi2_8dOx4LW9TN1AZ5nwPtGzEWeN6S1te9NoR7VzmWGJ_79Me82k-ZKxJJAahwoJidCrWcZZFXw97uUjeJLBLdV0otLbGLgbXOnLR0q8rL7KM6cyndVZLK1AU_UTGVg3LFZ_bBYPzjsCmpbEQXNgHebLCSnKUWm2FiRmIllp922Ct8OPFPPVXyg_Q9ZBF6BmVjTkdtoIv_Y4XdH5c8fejvFVS0g3V8wSac3PYbCPkj_WQlC-ZtUXZxIsaV6YZJ9fE_BX0ZuPubULXR0DaFE"
+      },
+      {
+        "photo_reference": "AVoNoXRGvpTgjLQXg9FcAyf_svT3ihxqCIXXLh0NND44nBSYd8dqHECohN1oU_XIf_xHsfsj52iq3QmSZFum10xpPS9GTztdUo6GTAjUE1gk43e-7n_CPonry_1ak9G-WHwm7OH7HCJf0wT4ntlxTKNVJAQx5aeCoiEyXWIpn3XUnYB_GDNZ6qSzNcHAJHeRwKR4UGvqGbqCVo0gqZ4d3G1BEZAnHdN2zlqDdlYrzaAVHOyfYOZ4m6HQqBnEKE-N0TU2R9HFCHxjiRoP9ghfOBNAfYjGzlsvtW-bhEw5jZ-tMSByoY8KA6rgtJXjj0gNu8HShWANBB0WBHChdKE_hzJmRM_ucxfOKnohsoovkW5xslKcoVtURiKfnIygO4ZYo6wLRwGn5p5zwJrrQnA4fwedhFjYkFCFQ3ubx8-JSAJRGhkIj04l",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=AVoNoXRGvpTgjLQXg9FcAyf_svT3ihxqCIXXLh0NND44nBSYd8dqHECohN1oU_XIf_xHsfsj52iq3QmSZFum10xpPS9GTztdUo6GTAjUE1gk43e-7n_CPonry_1ak9G-WHwm7OH7HCJf0wT4ntlxTKNVJAQx5aeCoiEyXWIpn3XUnYB_GDNZ6qSzNcHAJHeRwKR4UGvqGbqCVo0gqZ4d3G1BEZAnHdN2zlqDdlYrzaAVHOyfYOZ4m6HQqBnEKE-N0TU2R9HFCHxjiRoP9ghfOBNAfYjGzlsvtW-bhEw5jZ-tMSByoY8KA6rgtJXjj0gNu8HShWANBB0WBHChdKE_hzJmRM_ucxfOKnohsoovkW5xslKcoVtURiKfnIygO4ZYo6wLRwGn5p5zwJrrQnA4fwedhFjYkFCFQ3ubx8-JSAJRGhkIj04l"
+      }
+    ],
+    "place_id": "ChIJx62W133k3JQRwq-5IgDkFmM",
+    "price_level": 2,
+    "rating": 4.1,
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "url": "https://maps.google.com/?cid=7140144948476227522",
+    "user_ratings_total": 2309,
+    "website": "https://linktr.ee/beksbar",
+    "added_at": "2026-08-26T18:58:26.275Z"
   }
 ]
