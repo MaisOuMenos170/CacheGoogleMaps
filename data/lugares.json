@@ -1093,5 +1093,219 @@
     "url": "https://maps.google.com/?cid=16712019685001207292",
     "user_ratings_total": 97,
     "added_at": "2026-08-26T18:52:02.807Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "860",
+        "short_name": "860",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Amauri Lange Silvério",
+        "short_name": "R. Amauri Lange Silvério",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pilarzinho",
+        "short_name": "Pilarzinho",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "82120-000",
+        "short_name": "82120-000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-BR",
+      "overview": "Self-service com saladas, massas e diversos pratos caseiros, destaque à feijoada e caipirinhas, clima casual."
+    },
+    "formatted_address": "R. Amauri Lange Silvério, 860 - Pilarzinho, Curitiba - PR, 82120-000, Brasil",
+    "formatted_phone_number": "(41) 3339-4318",
+    "geometry": {
+      "location": {
+        "lat": -25.390726,
+        "lng": -49.2831
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.3894218697085,
+          "lng": -49.2818316697085
+        },
+        "southwest": {
+          "lat": -25.3921198302915,
+          "lng": -49.2845296302915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3339-4318",
+    "name": "Burek Grill",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1415"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1415"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1415"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1415"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1415"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1430"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: 11:00 – 14:15",
+        "terça-feira: 11:00 – 14:15",
+        "quarta-feira: 11:00 – 14:15",
+        "quinta-feira: 11:00 – 14:15",
+        "sexta-feira: 11:00 – 14:15",
+        "sábado: 11:00 – 14:30",
+        "domingo: Fechado"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "AVoNoXT7cNsiPaC4GIm-XIDuO6PKq4O3ZZ0ufBAWzDUMjJqlF9WW63Hgiv8rL7yw8FVmHL77ou-MTPvvbdux71iFrHeHLBjEjVfY6ZLshV4-lAViYNzgCGvZBiTqlIdinGRje-2gkH70kq4gNjdWNQideYz0f2N1yVPpn9P36N4mEM8XoUPebPYkdqNlB_z-Gnvk9V17vWdfimIYm0Zr0PF7PDmpJrz1xsjll6rhIgBm2hGTejPezgcDfFF3zox_zyIINk4TGMon09jxDN5mo0Qc3FNzZOHYOZ23DqrFsFMY56EsDjUzxvKDaFuAaxoZ7XIqS_FsTjLSZ8aZZwZbAvADNjvtyM7gqJrpf0l18ugtDpyk7GBnq-rXuYo9e_IIZSXsUkhRnghh2oWpPJ7YlqHJFu-IkILXJtjLfT7GAwW4LWSAzQ",
+        "height": 4128,
+        "width": 3096,
+        "proxy_url": "/api/places/photo?ref=AVoNoXT7cNsiPaC4GIm-XIDuO6PKq4O3ZZ0ufBAWzDUMjJqlF9WW63Hgiv8rL7yw8FVmHL77ou-MTPvvbdux71iFrHeHLBjEjVfY6ZLshV4-lAViYNzgCGvZBiTqlIdinGRje-2gkH70kq4gNjdWNQideYz0f2N1yVPpn9P36N4mEM8XoUPebPYkdqNlB_z-Gnvk9V17vWdfimIYm0Zr0PF7PDmpJrz1xsjll6rhIgBm2hGTejPezgcDfFF3zox_zyIINk4TGMon09jxDN5mo0Qc3FNzZOHYOZ23DqrFsFMY56EsDjUzxvKDaFuAaxoZ7XIqS_FsTjLSZ8aZZwZbAvADNjvtyM7gqJrpf0l18ugtDpyk7GBnq-rXuYo9e_IIZSXsUkhRnghh2oWpPJ7YlqHJFu-IkILXJtjLfT7GAwW4LWSAzQ"
+      },
+      {
+        "photo_reference": "AVoNoXQgewdWlbbvx6CmFh2Kobo_sPfZPSYvGTWPVSe3rLXrxWd7kC2RMUwHaiiFuceflB1cliF71rWKMNJ3yWtqE847sbWyLqgd3d-7YO8wdv89mGaFG5sOpxO1v3i9i8B-WNjUhoWdwTUhaDGidL21t1GfWzd1TKwSTPewOYGvY2nGq8W6-JCMYhOIMTnOkrjkNM6ugbe5cGjIu3j7Ew5KHZTJagjosy2_fkZFBicGd0YHcQrWv70qgMXzKvJek8N57mbcIr4sS5LFp-ZXdNzkd2UT_bEb0jIW-Vl5C3RQWjILID8HfoUlMfzU4ynA4dBq8ne4WLiddsHTcUkbsOUiQL2p1gHdh2I67gK_clSVfpC5m-Yye_RBEmHl3T4WaLLAPpXGzG3_j9M2i0cT-iGll08wg33ejMbVfXrtLGW5JsFuLg",
+        "height": 4080,
+        "width": 1836,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQgewdWlbbvx6CmFh2Kobo_sPfZPSYvGTWPVSe3rLXrxWd7kC2RMUwHaiiFuceflB1cliF71rWKMNJ3yWtqE847sbWyLqgd3d-7YO8wdv89mGaFG5sOpxO1v3i9i8B-WNjUhoWdwTUhaDGidL21t1GfWzd1TKwSTPewOYGvY2nGq8W6-JCMYhOIMTnOkrjkNM6ugbe5cGjIu3j7Ew5KHZTJagjosy2_fkZFBicGd0YHcQrWv70qgMXzKvJek8N57mbcIr4sS5LFp-ZXdNzkd2UT_bEb0jIW-Vl5C3RQWjILID8HfoUlMfzU4ynA4dBq8ne4WLiddsHTcUkbsOUiQL2p1gHdh2I67gK_clSVfpC5m-Yye_RBEmHl3T4WaLLAPpXGzG3_j9M2i0cT-iGll08wg33ejMbVfXrtLGW5JsFuLg"
+      },
+      {
+        "photo_reference": "AVoNoXTTZmRkAJh8i0BaC3_7XkTt-F_855oEtm3GBPDIpSl-cQ5VwNnJ9ACfiw2jIif_XBLbOtkwDOc5n6gGmsC-9-LL6TnQmFvm_wCIg1kGjEenctZn5c0aUJ0_QtkMsT-OlJoAbwe_7H03erxe3RLmadjilcIT3DlWlFUqPE33LCY_1swip-t09WRSbAveu4KacFno9ObBMFS3vr7FNAT93SoM1sWnyOW380orGdYdgAwk9kycSmSlaZM10LMcDjh7Wdup5TsTMOFJAV-ZmVw7wCyeqsne_OaVwa544V_AG46UBSITEny_myF4pfB_GXfIVwe-A3XDgefJeP-2CDZ4w1Pgdbnd0sePPpY61fC1MzNIstzpwYGuFw7SywotC02kAW9vVI1TfKNOYnvpRBwX9lkgNCImaBylyxd6PdalffFFCQ",
+        "height": 3120,
+        "width": 4160,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTTZmRkAJh8i0BaC3_7XkTt-F_855oEtm3GBPDIpSl-cQ5VwNnJ9ACfiw2jIif_XBLbOtkwDOc5n6gGmsC-9-LL6TnQmFvm_wCIg1kGjEenctZn5c0aUJ0_QtkMsT-OlJoAbwe_7H03erxe3RLmadjilcIT3DlWlFUqPE33LCY_1swip-t09WRSbAveu4KacFno9ObBMFS3vr7FNAT93SoM1sWnyOW380orGdYdgAwk9kycSmSlaZM10LMcDjh7Wdup5TsTMOFJAV-ZmVw7wCyeqsne_OaVwa544V_AG46UBSITEny_myF4pfB_GXfIVwe-A3XDgefJeP-2CDZ4w1Pgdbnd0sePPpY61fC1MzNIstzpwYGuFw7SywotC02kAW9vVI1TfKNOYnvpRBwX9lkgNCImaBylyxd6PdalffFFCQ"
+      },
+      {
+        "photo_reference": "AVoNoXSpahmr2wKklZUBNcQl69s5Y65lQoAgN2vwvpjw3M1ji-CY4r_TUaGtAtye6fN9L2LhKBE3c6uOkwphULFTk_H4hDwS4Gk_lAV6j2sOTq9nmsJaj7SGSFSrubsSw0Ib3bPTvE80tmbm_wS5_NMf1aFc1z4dPq6ZemapwlikLKnBE3SQ4G8xxATARdNdRaAE3jG_dFNppHGjqfsk9r4ijO1imEp7LlebziUjMYoJnRDPetVXf_zqYaDb4T_mkaExNyxwhrX2B0p8kPSHU2HZYzt1Fi43ioQeP16xVP271GZ9sk5pwNGIqFwp1thPHr7BmNHa9uM3np7nkG40hN_9zFwCl4-17l3ZH0XMYFykjiWvL96nmFGVisM3mBM-nnrXMEw-Y1xk4ujq_9vauVXxd03E7hK64SOn-cX7EoUiUBx1ml0",
+        "height": 4160,
+        "width": 3120,
+        "proxy_url": "/api/places/photo?ref=AVoNoXSpahmr2wKklZUBNcQl69s5Y65lQoAgN2vwvpjw3M1ji-CY4r_TUaGtAtye6fN9L2LhKBE3c6uOkwphULFTk_H4hDwS4Gk_lAV6j2sOTq9nmsJaj7SGSFSrubsSw0Ib3bPTvE80tmbm_wS5_NMf1aFc1z4dPq6ZemapwlikLKnBE3SQ4G8xxATARdNdRaAE3jG_dFNppHGjqfsk9r4ijO1imEp7LlebziUjMYoJnRDPetVXf_zqYaDb4T_mkaExNyxwhrX2B0p8kPSHU2HZYzt1Fi43ioQeP16xVP271GZ9sk5pwNGIqFwp1thPHr7BmNHa9uM3np7nkG40hN_9zFwCl4-17l3ZH0XMYFykjiWvL96nmFGVisM3mBM-nnrXMEw-Y1xk4ujq_9vauVXxd03E7hK64SOn-cX7EoUiUBx1ml0"
+      },
+      {
+        "photo_reference": "AVoNoXSyCGAkQC4xmB5TQfAkgErM8K27MCO-nyGR2euCoi7VO-eR2wRnFssGTvDWviyUUZev1d26zYHDa_p9Y80MfbWwKUeu-wQ8YixerOsV0ciOoukaoOJjbDfdf0oFmQe8NczMngzu0JfB7areL9l6ZDrFxC1aYociES4lSmqxMvJnZqS4uwekNY1br-HBTc7OzsYKZQ32yHXgrSwVOKwO1L_Ns4mUu6dO6-YoVggWcZ1PT243_l9YAL3zB3r4JXg2BLpFXRw6jMF5p_gPyvYg6mjCe03lKKHmdbKM5YnBR-5CwG1eVkiCHO4mvZ67DhJON-2_lGNy_abwpKpuuMo7HrVgUpYntntq6rLZ3FA_u14XrbcqsHEsBUFTyIg_HGlnrJTZvpNfNVFq_0tpXaJ5lxF6M7616kWYwK4GLicJUYGBiPJh6Kp9kkTAaZH_kA",
+        "height": 1599,
+        "width": 899,
+        "proxy_url": "/api/places/photo?ref=AVoNoXSyCGAkQC4xmB5TQfAkgErM8K27MCO-nyGR2euCoi7VO-eR2wRnFssGTvDWviyUUZev1d26zYHDa_p9Y80MfbWwKUeu-wQ8YixerOsV0ciOoukaoOJjbDfdf0oFmQe8NczMngzu0JfB7areL9l6ZDrFxC1aYociES4lSmqxMvJnZqS4uwekNY1br-HBTc7OzsYKZQ32yHXgrSwVOKwO1L_Ns4mUu6dO6-YoVggWcZ1PT243_l9YAL3zB3r4JXg2BLpFXRw6jMF5p_gPyvYg6mjCe03lKKHmdbKM5YnBR-5CwG1eVkiCHO4mvZ67DhJON-2_lGNy_abwpKpuuMo7HrVgUpYntntq6rLZ3FA_u14XrbcqsHEsBUFTyIg_HGlnrJTZvpNfNVFq_0tpXaJ5lxF6M7616kWYwK4GLicJUYGBiPJh6Kp9kkTAaZH_kA"
+      },
+      {
+        "photo_reference": "AVoNoXQ0jeoRjui3KKdZTk9DmQZxwr-uuFuzsRC6fSY5XGCVVSY89Nz-dv9_39gik2Y_RsrJcAYke7YryNGZZCY_KMX6R1bvhVrfXzocxhxT9lnMC5MiDxrgBW5yShzkJVbkntWufRqy66V8Amb4fYUSTrWsGywkdZWeSAh_mfR37MpzW3ku9LNo5KB8fwQDB44MBB1mP0tdXKloMtyWuHg_pqoJffZ1poBXalM69er57dGHeZt9Zyk7z56BZFHInXbTwkmLwPjk8OSWAuWJ4BceB21hmSCyfe3m_hjgNyfNPYihS78nKmACevWa97kXd82kV6My2RSlJ4gAOQRwnC1Hxh7sK98mOdAa4LPvBvqoTQUI94D9QTrHRieYWhBexLEZcBO390Ayzx6ae7hkiqij1xYp8i9V91fAZSURlhPneS_VbA",
+        "height": 3096,
+        "width": 4128,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQ0jeoRjui3KKdZTk9DmQZxwr-uuFuzsRC6fSY5XGCVVSY89Nz-dv9_39gik2Y_RsrJcAYke7YryNGZZCY_KMX6R1bvhVrfXzocxhxT9lnMC5MiDxrgBW5yShzkJVbkntWufRqy66V8Amb4fYUSTrWsGywkdZWeSAh_mfR37MpzW3ku9LNo5KB8fwQDB44MBB1mP0tdXKloMtyWuHg_pqoJffZ1poBXalM69er57dGHeZt9Zyk7z56BZFHInXbTwkmLwPjk8OSWAuWJ4BceB21hmSCyfe3m_hjgNyfNPYihS78nKmACevWa97kXd82kV6My2RSlJ4gAOQRwnC1Hxh7sK98mOdAa4LPvBvqoTQUI94D9QTrHRieYWhBexLEZcBO390Ayzx6ae7hkiqij1xYp8i9V91fAZSURlhPneS_VbA"
+      },
+      {
+        "photo_reference": "AVoNoXQBtR9syE4ZIj8r-3eejbtsSvjopRogE55TJaKNaUV9U1rkARLZM8J0Pg7p_9nUJ5jKuSuv2MZlI-T0kQ0d_ZrGEVwzOF5AD9dBCYlUxPDUvK204v2KAAIcQbwA-eYhoWbWriSb_CFC3gB5euNPqJxfdfX7f5Ey_6OKPN1B6v9pUGm0rvUt10HGF7tybkt6To1XYYDB2jGasFILXGUCslxnnKzzz3UdABBJbRhKCNlqXB264LrRK0TLLxNt0UHLCHMuZ03BukxPBuDekhVLze7CPXIVOP97SFXk0EZIckm4c7Sv5FMv5VZvDmyNsuo7c9S-I_oHFUwyDFBDefrhuXaDldaCgBfAG3FJ4BuJki9aVR1Q8eaw00BMUBSzOzigwlgLko6LPPqgAahVI3aHgSdIPjBDcSX-z2IeEDQchGXV1g",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQBtR9syE4ZIj8r-3eejbtsSvjopRogE55TJaKNaUV9U1rkARLZM8J0Pg7p_9nUJ5jKuSuv2MZlI-T0kQ0d_ZrGEVwzOF5AD9dBCYlUxPDUvK204v2KAAIcQbwA-eYhoWbWriSb_CFC3gB5euNPqJxfdfX7f5Ey_6OKPN1B6v9pUGm0rvUt10HGF7tybkt6To1XYYDB2jGasFILXGUCslxnnKzzz3UdABBJbRhKCNlqXB264LrRK0TLLxNt0UHLCHMuZ03BukxPBuDekhVLze7CPXIVOP97SFXk0EZIckm4c7Sv5FMv5VZvDmyNsuo7c9S-I_oHFUwyDFBDefrhuXaDldaCgBfAG3FJ4BuJki9aVR1Q8eaw00BMUBSzOzigwlgLko6LPPqgAahVI3aHgSdIPjBDcSX-z2IeEDQchGXV1g"
+      }
+    ],
+    "place_id": "ChIJAQBsX8vm3JQRAugvDTcW0Jk",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "url": "https://maps.google.com/?cid=11083383108659046402",
+    "user_ratings_total": 219,
+    "website": "https://pt-br.facebook.com/burekgrillrestaurante/",
+    "added_at": "2026-08-26T18:55:08.636Z"
   }
 ]
