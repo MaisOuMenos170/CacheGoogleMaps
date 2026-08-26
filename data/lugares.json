@@ -2872,5 +2872,89 @@
     "user_ratings_total": 11908,
     "website": "https://museuegipcioerosacruz.org.br/",
     "added_at": "2026-08-26T19:00:04.118Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "1224",
+        "short_name": "1224",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Mateus Leme",
+        "short_name": "R. Mateus Leme",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bom Retiro",
+        "short_name": "Bom Retiro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80530-010",
+        "short_name": "80530-010",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "R. Mateus Leme, 1224 - Bom Retiro, Curitiba - PR, 80530-010, Brasil",
+    "geometry": {
+      "location": {
+        "lat": -25.4165203,
+        "lng": -49.2711692
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.41517133014453,
+          "lng": -49.26991624959056
+        },
+        "southwest": {
+          "lat": -25.41786929072753,
+          "lng": -49.27261421017355
+        }
+      }
+    },
+    "name": "R. Mateus Leme, 1224",
+    "place_id": "ChIJeUBfgxvk3JQRUXSh7ycAc_s",
+    "types": [
+      "premise",
+      "street_address"
+    ],
+    "url": "https://maps.google.com/?cid=18118825897365697617",
+    "photos": [],
+    "added_at": "2026-08-26T19:08:32.811Z"
   }
 ]
