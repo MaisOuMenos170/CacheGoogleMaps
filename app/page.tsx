@@ -20,6 +20,8 @@ import {
   Download,
   CheckCircle,
   Trash2,
+  Pencil,
+  Tag,
 } from "lucide-react";
 import { CatalogItem, PlaceDetails, PlaceSearchResult } from "@/lib/types";
 
@@ -95,16 +97,26 @@ export default function Home() {
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [loadingDetails, setLoadingDetails] = useState(false);
   const [selectedPlaceDetails, setSelectedPlaceDetails] = useState<PlaceDetails | null>(null);
+  const [newPlaceNickname, setNewPlaceNickname] = useState<string>("");
   const [detailsError, setDetailsError] = useState<string | null>(null);
 
-  // Ação de Salvar / Excluir
+  // Ações de Salvar / Excluir / Renomear
   const [savingToGitHub, setSavingToGitHub] = useState(false);
   const [deletingPlaceId, setDeletingPlaceId] = useState<string | null>(null);
+  const [updatingPlaceId, setUpdatingPlaceId] = useState<string | null>(null);
   const [actionSuccess, setActionSuccess] = useState<{ message: string; fileUrl?: string } | null>(null);
   const [actionError, setActionError] = useState<string | null>(null);
 
-  // Modal de Confirmação de Exclusão
+  // Modal de Exclusão
   const [itemToDelete, setItemToDelete] = useState<{ place_id: string; name: string } | null>(null);
+
+  // Modal de Edição de Apelido / Nome
+  const [itemToRename, setItemToRename] = useState<{
+    place_id: string;
+    originalName: string;
+    currentNickname?: string;
+  } | null>(null);
+  const [renameInputValue, setRenameInputValue] = useState<string>("");
 
   // Filtro do Catálogo & Cópia
   const [catalogFilter, setCatalogFilter] = useState("");
@@ -148,6 +160,7 @@ export default function Home() {
     setSearchResults([]);
     setSelectedPlaceId(null);
     setSelectedPlaceDetails(null);
+    setNewPlaceNickname("");
     setActionSuccess(null);
     setActionError(null);
 
@@ -179,6 +192,7 @@ export default function Home() {
     setLoadingDetails(true);
     setDetailsError(null);
     setSelectedPlaceDetails(null);
+    setNewPlaceNickname("");
     setActionSuccess(null);
     setActionError(null);
 
@@ -193,6 +207,12 @@ export default function Home() {
       if (!res.ok) throw new Error(data.error || "Erro ao obter detalhes.");
 
       setSelectedPlaceDetails(data.place);
+
+      // Se já estiver no catálogo, preencher nickname existente
+      const existingInCatalog = catalog.find((c) => c.place_id === placeId);
+      if (existingInCatalog?.nickname) {
+        setNewPlaceNickname(existingInCatalog.nickname);
+      }
     } catch (err) {
       setDetailsError((err as Error).message);
     } finally {
@@ -215,6 +235,7 @@ export default function Home() {
         body: JSON.stringify({
           place_id: selectedPlaceDetails.place_id,
           place: selectedPlaceDetails,
+          nickname: newPlaceNickname.trim() || undefined,
         }),
       });
 
@@ -241,6 +262,42 @@ export default function Home() {
       setActionError((err as Error).message);
     } finally {
       setSavingToGitHub(false);
+    }
+  };
+
+  // Salvar Atualização de Apelido / Nome
+  const handleSaveNickname = async () => {
+    if (!itemToRename) return;
+
+    setUpdatingPlaceId(itemToRename.place_id);
+    setActionError(null);
+    setActionSuccess(null);
+
+    try {
+      const res = await fetch("/api/catalog", {
+        method: "PATCH",
+        headers: getCustomHeaders(),
+        body: JSON.stringify({
+          place_id: itemToRename.place_id,
+          nickname: renameInputValue.trim(),
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) throw new Error(data.error || "Erro ao atualizar apelido.");
+
+      setActionSuccess({
+        message: data.message || "Apelido atualizado com sucesso!",
+        fileUrl: data.fileUrl,
+      });
+
+      setItemToRename(null);
+      loadCatalog();
+    } catch (err) {
+      setActionError((err as Error).message);
+    } finally {
+      setUpdatingPlaceId(null);
     }
   };
 
@@ -302,6 +359,7 @@ export default function Home() {
       const q = catalogFilter.toLowerCase();
       return (
         item.name?.toLowerCase().includes(q) ||
+        item.nickname?.toLowerCase().includes(q) ||
         item.formatted_address?.toLowerCase().includes(q) ||
         item.types?.some((t) => t.toLowerCase().includes(q))
       );
@@ -309,6 +367,7 @@ export default function Home() {
   }, [catalog, catalogFilter]);
 
   const isSelectedPlaceAlreadyInCatalog = selectedPlaceId ? existingIds.has(selectedPlaceId) : false;
+  const existingCatalogItemForSelected = selectedPlaceId ? catalog.find((c) => c.place_id === selectedPlaceId) : null;
 
   return (
     <div className="min-h-screen flex flex-col bg-zinc-50 text-zinc-900 font-sans">
@@ -496,7 +555,8 @@ export default function Home() {
                   <div className="space-y-2.5 max-h-[600px] overflow-y-auto pr-1">
                     {searchResults.map((place) => {
                       const isSelected = selectedPlaceId === place.place_id;
-                      const isAlreadyInCatalog = existingIds.has(place.place_id);
+                      const catalogItem = catalog.find((c) => c.place_id === place.place_id);
+                      const isAlreadyInCatalog = Boolean(catalogItem);
 
                       return (
                         <div
@@ -509,9 +569,17 @@ export default function Home() {
                           }`}
                         >
                           <div className="flex items-start justify-between gap-2">
-                            <h3 className={`text-sm font-semibold leading-snug ${isSelected ? "text-white" : "text-zinc-900"}`}>
-                              {place.name}
-                            </h3>
+                            <div>
+                              <h3 className={`text-sm font-semibold leading-snug ${isSelected ? "text-white" : "text-zinc-900"}`}>
+                                {catalogItem?.nickname || place.name}
+                              </h3>
+                              {catalogItem?.nickname && (
+                                <p className={`text-[11px] mt-0.5 ${isSelected ? "text-zinc-400" : "text-zinc-500"}`}>
+                                  Oficial: {place.name}
+                                </p>
+                              )}
+                            </div>
+
                             {isAlreadyInCatalog ? (
                               <span
                                 className={`shrink-0 text-[10px] font-medium px-2 py-0.5 rounded-full border ${
@@ -596,8 +664,13 @@ export default function Home() {
                         <div className="flex items-start justify-between gap-3">
                           <div>
                             <h2 className="text-xl font-bold text-zinc-900">
-                              {selectedPlaceDetails.name}
+                              {existingCatalogItemForSelected?.nickname || selectedPlaceDetails.name}
                             </h2>
+                            {existingCatalogItemForSelected?.nickname && (
+                              <p className="text-xs text-zinc-500 mt-0.5">
+                                Nome Oficial: {selectedPlaceDetails.name}
+                              </p>
+                            )}
                             <p className="text-[11px] font-mono text-zinc-400 mt-0.5">
                               ID: {selectedPlaceDetails.place_id}
                             </p>
@@ -643,6 +716,23 @@ export default function Home() {
                           )}
                         </div>
                       </div>
+
+                      {/* Campo opcional de Nickname ao adicionar novo */}
+                      {!isSelectedPlaceAlreadyInCatalog && (
+                        <div className="p-3 bg-zinc-50 rounded-xl border border-zinc-200/80 space-y-1.5">
+                          <label className="text-xs font-semibold text-zinc-700 flex items-center gap-1.5">
+                            <Tag className="w-3.5 h-3.5 text-zinc-500" />
+                            <span>Apelido ou Nome Personalizado (opcional)</span>
+                          </label>
+                          <input
+                            type="text"
+                            value={newPlaceNickname}
+                            onChange={(e) => setNewPlaceNickname(e.target.value)}
+                            placeholder="Ex: MON, Café do Zé..."
+                            className="w-full px-3 py-1.5 text-xs bg-white rounded-lg border border-zinc-200 focus:outline-none focus:border-zinc-400"
+                          />
+                        </div>
+                      )}
 
                       {/* Detailed Grid Info */}
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
@@ -806,20 +896,40 @@ export default function Home() {
                       {/* Action Buttons */}
                       <div className="pt-2">
                         {isSelectedPlaceAlreadyInCatalog ? (
-                          <div className="p-3 bg-zinc-100 rounded-xl text-xs text-zinc-600 flex items-center justify-between gap-2">
-                            <span>Este lugar já está salvo no catálogo.</span>
-                            <button
-                              onClick={() =>
-                                setItemToDelete({
-                                  place_id: selectedPlaceDetails.place_id,
-                                  name: selectedPlaceDetails.name,
-                                })
-                              }
-                              className="px-3 py-1.5 bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 font-semibold rounded-lg text-xs transition flex items-center gap-1.5 cursor-pointer"
-                            >
-                              <Trash2 className="w-3.5 h-3.5 text-red-600" />
-                              <span>Remover do Catálogo</span>
-                            </button>
+                          <div className="p-3 bg-zinc-100 rounded-xl text-xs text-zinc-600 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2">
+                            <span>Lugar já salvo no catálogo.</span>
+                            <div className="flex items-center gap-2">
+                              {/* Botão de Editar Apelido */}
+                              <button
+                                onClick={() => {
+                                  const catItem = catalog.find((c) => c.place_id === selectedPlaceDetails.place_id);
+                                  setItemToRename({
+                                    place_id: selectedPlaceDetails.place_id,
+                                    originalName: selectedPlaceDetails.name,
+                                    currentNickname: catItem?.nickname,
+                                  });
+                                  setRenameInputValue(catItem?.nickname || "");
+                                }}
+                                className="px-3 py-1.5 bg-white hover:bg-zinc-200 text-zinc-700 border border-zinc-300 font-semibold rounded-lg text-xs transition flex items-center justify-center gap-1.5 cursor-pointer"
+                              >
+                                <Pencil className="w-3.5 h-3.5 text-zinc-600" />
+                                <span>{existingCatalogItemForSelected?.nickname ? "Editar Apelido" : "Adicionar Apelido"}</span>
+                              </button>
+
+                              {/* Botão de Remover */}
+                              <button
+                                onClick={() =>
+                                  setItemToDelete({
+                                    place_id: selectedPlaceDetails.place_id,
+                                    name: existingCatalogItemForSelected?.nickname || selectedPlaceDetails.name,
+                                  })
+                                }
+                                className="px-3 py-1.5 bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 font-semibold rounded-lg text-xs transition flex items-center justify-center gap-1.5 cursor-pointer"
+                              >
+                                <Trash2 className="w-3.5 h-3.5 text-red-600" />
+                                <span>Remover</span>
+                              </button>
+                            </div>
                           </div>
                         ) : (
                           <button
@@ -868,7 +978,7 @@ export default function Home() {
                     type="text"
                     value={catalogFilter}
                     onChange={(e) => setCatalogFilter(e.target.value)}
-                    placeholder="Filtrar catálogo..."
+                    placeholder="Filtrar por nome ou apelido..."
                     className="w-full pl-9 pr-3 py-1.5 text-xs bg-zinc-50 rounded-lg border border-zinc-200 focus:bg-white focus:outline-none"
                   />
                 </div>
@@ -918,7 +1028,24 @@ export default function Home() {
                   >
                     <div>
                       <div className="flex items-start justify-between gap-2">
-                        <h3 className="font-semibold text-zinc-900 text-sm leading-snug">{item.name}</h3>
+                        <div>
+                          <div className="flex items-center gap-1.5">
+                            <h3 className="font-semibold text-zinc-900 text-sm leading-snug">
+                              {item.nickname || item.name}
+                            </h3>
+                            {item.nickname && (
+                              <span className="px-1.5 py-0.2 rounded text-[9px] font-semibold bg-blue-50 text-blue-700 border border-blue-200">
+                                Apelido
+                              </span>
+                            )}
+                          </div>
+                          {item.nickname && (
+                            <p className="text-[11px] text-zinc-400 mt-0.5">
+                              Oficial: {item.name}
+                            </p>
+                          )}
+                        </div>
+
                         {item.rating !== undefined && (
                           <div className="flex items-center text-amber-500 font-semibold text-xs shrink-0">
                             <Star className="w-3.5 h-3.5 fill-amber-400 mr-0.5" />
@@ -928,7 +1055,7 @@ export default function Home() {
                       </div>
 
                       {item.formatted_address && (
-                        <p className="text-xs text-zinc-500 mt-1.5 flex items-start gap-1">
+                        <p className="text-xs text-zinc-500 mt-2 flex items-start gap-1">
                           <MapPin className="w-3.5 h-3.5 shrink-0 mt-0.5 text-zinc-400" />
                           <span className="line-clamp-2">{item.formatted_address}</span>
                         </p>
@@ -953,21 +1080,37 @@ export default function Home() {
                         {item.added_at ? new Date(item.added_at).toLocaleDateString("pt-BR") : ""}
                       </span>
 
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center gap-2">
                         {item.url && (
                           <a
                             href={item.url}
                             target="_blank"
                             rel="noreferrer"
-                            className="text-blue-600 hover:underline inline-flex items-center gap-1 font-medium text-xs"
+                            className="text-blue-600 hover:underline inline-flex items-center gap-1 font-medium text-xs mr-1"
                           >
                             Maps <ExternalLink className="w-3 h-3" />
                           </a>
                         )}
 
+                        {/* Botão de Editar Apelido */}
+                        <button
+                          onClick={() => {
+                            setItemToRename({
+                              place_id: item.place_id,
+                              originalName: item.name,
+                              currentNickname: item.nickname,
+                            });
+                            setRenameInputValue(item.nickname || "");
+                          }}
+                          className="p-1 hover:bg-zinc-100 hover:text-zinc-700 rounded text-zinc-400 transition"
+                          title="Editar apelido / renomear"
+                        >
+                          <Pencil className="w-3.5 h-3.5" />
+                        </button>
+
                         {/* Botão de Excluir */}
                         <button
-                          onClick={() => setItemToDelete({ place_id: item.place_id, name: item.name })}
+                          onClick={() => setItemToDelete({ place_id: item.place_id, name: item.nickname || item.name })}
                           disabled={deletingPlaceId === item.place_id}
                           className="p-1 hover:bg-red-50 hover:text-red-600 rounded text-zinc-400 transition"
                           title="Remover do catálogo"
@@ -987,6 +1130,74 @@ export default function Home() {
           </div>
         )}
       </main>
+
+      {/* Modal de Edição de Apelido / Renomear */}
+      {itemToRename && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-zinc-900/40 backdrop-blur-sm">
+          <div className="bg-white rounded-2xl max-w-sm w-full p-5 shadow-xl border border-zinc-200">
+            <div className="flex items-center justify-between pb-3 border-b border-zinc-100">
+              <h3 className="font-bold text-zinc-900 text-sm flex items-center gap-2">
+                <Pencil className="w-4 h-4 text-zinc-600" />
+                <span>Apelido / Nome do Lugar</span>
+              </h3>
+              <button
+                onClick={() => setItemToRename(null)}
+                className="text-zinc-400 hover:text-zinc-600"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <div className="mt-4 space-y-3">
+              <div>
+                <span className="text-[11px] text-zinc-400 block mb-0.5">Nome Oficial do Google:</span>
+                <p className="text-xs font-semibold text-zinc-700">{itemToRename.originalName}</p>
+              </div>
+
+              <div>
+                <label className="text-xs font-semibold text-zinc-700 block mb-1">
+                  Apelido Personalizado:
+                </label>
+                <input
+                  type="text"
+                  value={renameInputValue}
+                  onChange={(e) => setRenameInputValue(e.target.value)}
+                  placeholder="Ex: MON, Café do Mercado..."
+                  className="w-full px-3 py-2 text-xs bg-zinc-50 rounded-lg border border-zinc-300 focus:bg-white focus:outline-none focus:border-zinc-500"
+                  autoFocus
+                />
+                <p className="text-[11px] text-zinc-400 mt-1">
+                  Deixe vazio para utilizar o nome oficial original.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-5 flex justify-end gap-2">
+              <button
+                onClick={() => setItemToRename(null)}
+                disabled={Boolean(updatingPlaceId)}
+                className="px-3.5 py-1.5 text-xs font-medium text-zinc-600 hover:bg-zinc-100 rounded-lg transition"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={handleSaveNickname}
+                disabled={Boolean(updatingPlaceId)}
+                className="px-4 py-1.5 text-xs font-semibold text-white bg-zinc-900 hover:bg-zinc-800 rounded-lg transition flex items-center gap-1.5"
+              >
+                {updatingPlaceId ? (
+                  <>
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    <span>Salvando...</span>
+                  </>
+                ) : (
+                  <span>Salvar</span>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Modal de Confirmação de Exclusão */}
       {itemToDelete && (

@@ -45,12 +45,16 @@ export interface PlaceDetails {
   editorial_summary?: {
     overview?: string;
   };
+  nickname?: string;
   added_at?: string;
+  updated_at?: string;
   [key: string]: unknown;
 }
 
 export interface CatalogItem extends PlaceDetails {
   added_at: string;
+  nickname?: string;
+  updated_at?: string;
 }
 
 export interface GitHubCatalogResponse {

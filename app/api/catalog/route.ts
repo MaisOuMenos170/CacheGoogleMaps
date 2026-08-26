@@ -31,7 +31,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { place_id, place: providedPlace } = body;
+    const { place_id, place: providedPlace, nickname } = body;
 
     if (!place_id && !providedPlace?.place_id) {
       return NextResponse.json(
@@ -41,7 +41,6 @@ export async function POST(req: NextRequest) {
     }
 
     const targetPlaceId = place_id || providedPlace.place_id;
-
     const customToken = req.headers.get("x-github-token");
 
     // 1. Obter o catálogo atual do GitHub
@@ -72,13 +71,15 @@ export async function POST(req: NextRequest) {
     // 4. Montar o novo item do catálogo
     const newItem: CatalogItem = {
       ...fullDetails,
+      ...(nickname?.trim() ? { nickname: nickname.trim() } : {}),
       added_at: new Date().toISOString(),
     };
 
     const updatedItems = [...currentCatalog.items, newItem];
 
     // 5. Salvar / Fazer commit no GitHub
-    const commitMessage = `Adiciona "${newItem.name}" ao catálogo de lugares`;
+    const displayName = newItem.nickname || newItem.name;
+    const commitMessage = `Adiciona "${displayName}" ao catálogo de lugares`;
     const commitResult = await commitCatalogToGitHub(
       updatedItems,
       currentCatalog.sha,
@@ -88,7 +89,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      message: `"${newItem.name}" foi adicionado com sucesso ao GitHub!`,
+      message: `"${displayName}" foi adicionado com sucesso ao GitHub!`,
       item: newItem,
       totalItems: updatedItems.length,
       commitSha: commitResult.commitSha,
@@ -98,6 +99,77 @@ export async function POST(req: NextRequest) {
     console.error("Erro na rota POST /api/catalog:", error);
     return NextResponse.json(
       { error: (error as Error).message || "Erro ao salvar lugar no GitHub." },
+      { status: 500 }
+    );
+  }
+}
+
+// PATCH /api/catalog - Atualiza o nickname/nome customizado de um lugar no catálogo
+export async function PATCH(req: NextRequest) {
+  try {
+    const body = await req.json();
+    const { place_id, nickname } = body;
+
+    if (!place_id) {
+      return NextResponse.json(
+        { error: "place_id é obrigatório para atualizar o lugar." },
+        { status: 400 }
+      );
+    }
+
+    const customToken = req.headers.get("x-github-token");
+
+    // 1. Obter o catálogo atual do GitHub
+    const currentCatalog = await fetchCatalogFromGitHub(customToken);
+
+    // 2. Localizar o item no catálogo
+    const itemIndex = currentCatalog.items.findIndex((item) => item.place_id === place_id);
+    if (itemIndex === -1) {
+      return NextResponse.json(
+        { error: "Lugar não encontrado no catálogo." },
+        { status: 404 }
+      );
+    }
+
+    const targetItem = currentCatalog.items[itemIndex];
+    const cleanNickname = typeof nickname === "string" ? nickname.trim() : "";
+
+    // 3. Atualizar o item
+    const updatedItem: CatalogItem = {
+      ...targetItem,
+      nickname: cleanNickname || undefined,
+      updated_at: new Date().toISOString(),
+    };
+
+    const updatedItems = [...currentCatalog.items];
+    updatedItems[itemIndex] = updatedItem;
+
+    // 4. Salvar / Fazer commit no GitHub
+    const commitMessage = cleanNickname
+      ? `Atualiza apelido de "${targetItem.name}" para "${cleanNickname}"`
+      : `Remove apelido de "${targetItem.name}"`;
+
+    const commitResult = await commitCatalogToGitHub(
+      updatedItems,
+      currentCatalog.sha,
+      commitMessage,
+      customToken
+    );
+
+    return NextResponse.json({
+      success: true,
+      message: cleanNickname
+        ? `Apelido definido para "${cleanNickname}" com sucesso!`
+        : `Apelido de "${targetItem.name}" removido com sucesso!`,
+      item: updatedItem,
+      totalItems: updatedItems.length,
+      commitSha: commitResult.commitSha,
+      fileUrl: commitResult.fileUrl,
+    });
+  } catch (error) {
+    console.error("Erro na rota PATCH /api/catalog:", error);
+    return NextResponse.json(
+      { error: (error as Error).message || "Erro ao atualizar lugar no GitHub." },
       { status: 500 }
     );
   }
@@ -143,7 +215,8 @@ export async function DELETE(req: NextRequest) {
     const updatedItems = currentCatalog.items.filter((item) => item.place_id !== placeId);
 
     // 4. Salvar / Fazer commit no GitHub
-    const commitMessage = `Remove "${itemToRemove.name}" do catálogo de lugares`;
+    const displayName = itemToRemove.nickname || itemToRemove.name;
+    const commitMessage = `Remove "${displayName}" do catálogo de lugares`;
     const commitResult = await commitCatalogToGitHub(
       updatedItems,
       currentCatalog.sha,
@@ -153,7 +226,7 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      message: `"${itemToRemove.name}" foi removido do catálogo com sucesso!`,
+      message: `"${displayName}" foi removido do catálogo com sucesso!`,
       removedPlaceId: placeId,
       totalItems: updatedItems.length,
       commitSha: commitResult.commitSha,
