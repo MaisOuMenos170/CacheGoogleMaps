@@ -1558,5 +1558,246 @@
     "user_ratings_total": 1085,
     "website": "https://m.facebook.com/pages/Schnaps-Bar/158212900956003",
     "added_at": "2026-08-26T18:55:25.275Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "210",
+        "short_name": "210",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Victor Benato",
+        "short_name": "Rua Victor Benato",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Pilarzinho",
+        "short_name": "Pilarzinho",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "82120-110",
+        "short_name": "82120-110",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Organização educacional fundada em 1991, conhecida pelos prédios inspirados na natureza em cenário verdejante."
+    },
+    "formatted_address": "Rua Victor Benato, 210 - Pilarzinho, Curitiba - PR, 82120-110, Brasil",
+    "formatted_phone_number": "(41) 3350-8508",
+    "geometry": {
+      "location": {
+        "lat": -25.3986201,
+        "lng": -49.2819355
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.3972083697085,
+          "lng": -49.2806135197085
+        },
+        "southwest": {
+          "lat": -25.3999063302915,
+          "lng": -49.2833114802915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3350-8508",
+    "name": "Bosque Zaninelli I UNILIVRE",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: 08:00 – 18:00",
+        "terça-feira: 08:00 – 18:00",
+        "quarta-feira: 08:00 – 18:00",
+        "quinta-feira: 08:00 – 18:00",
+        "sexta-feira: 08:00 – 18:00",
+        "sábado: 08:00 – 18:00",
+        "domingo: 08:00 – 18:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "AVoNoXSm0lJYGnzqJW8J6Te87eY4P5jp_fp_UBRSwTxCkho9JrBQJIu4wtE9bgyYSBF3efJSMCRzVkzQi-P9tDlsO5RL3Fu4BuFoXOfn7HtQ1vzlGMHH3of1XViy3I7Yznp50CDvSGrIsUwCP3a_JbAfRI0GxjU5nPRQGBfOE3ShygYO41zhFXkjjQy2pcRCPZgcP6HSwp4QIUuLHiQvJbFUheGRsJTERudv75Z267iX5o93lqBibhYULOeOysLG1wtyiUK4dCMM3BgtdTeMoaIJVAxAuac3DCPuYFZFxnnbJzc-ebmQOZUdIG3zqdyUl5sPz8On37_-0LGwKqd_sXZwC2Ym3cpXHOwEcp-JI8UV3hMrehZPhH8g5aURcmzlW5Wbiiwpa8nyJIqD855mY5Ijlh7cEE0IYw3fQYrAHW3n8WVA8W0D",
+        "height": 3240,
+        "width": 4320,
+        "proxy_url": "/api/places/photo?ref=AVoNoXSm0lJYGnzqJW8J6Te87eY4P5jp_fp_UBRSwTxCkho9JrBQJIu4wtE9bgyYSBF3efJSMCRzVkzQi-P9tDlsO5RL3Fu4BuFoXOfn7HtQ1vzlGMHH3of1XViy3I7Yznp50CDvSGrIsUwCP3a_JbAfRI0GxjU5nPRQGBfOE3ShygYO41zhFXkjjQy2pcRCPZgcP6HSwp4QIUuLHiQvJbFUheGRsJTERudv75Z267iX5o93lqBibhYULOeOysLG1wtyiUK4dCMM3BgtdTeMoaIJVAxAuac3DCPuYFZFxnnbJzc-ebmQOZUdIG3zqdyUl5sPz8On37_-0LGwKqd_sXZwC2Ym3cpXHOwEcp-JI8UV3hMrehZPhH8g5aURcmzlW5Wbiiwpa8nyJIqD855mY5Ijlh7cEE0IYw3fQYrAHW3n8WVA8W0D"
+      },
+      {
+        "photo_reference": "AVoNoXQqIKUKNZydYG8imGpMtPYLh0cOoorJpYk2DaIouclbpan-CMcSm3U6F0_NCtZ_N6itLtoBgh8qIBuFykx4esCLXGw0lgXuyigV1xYYMNSGYVfzfOycM5wlCeqqEajhMCXdZaER0BtFP2GvuF2TyAKDZC-LMf9eJzyOfwZfNlEa4R4wAYP0AyysdFbvT9V3E_XeGlOdYPRBlv51ANU_sQM0XbhHaxdr0VNb7bYr86LfEiPhsnzix9IlGOVFD5EXGVbx5TmzYglr6q_a84Nhgn2ykkCvO0fe0eEGGsSee_1KYgI59IfCIu2RqBfOMK75PtJgRRoHBPWT-LngLynwbf5tLAYSCKofRshA4j2--MmRPf1mb3Bu9OMp8SPUgVDA3ENF4oeDaakK0jJdZh1xzQ3b4KPZlY6kDasxBvNKQGq_GJ6m",
+        "height": 2322,
+        "width": 4128,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQqIKUKNZydYG8imGpMtPYLh0cOoorJpYk2DaIouclbpan-CMcSm3U6F0_NCtZ_N6itLtoBgh8qIBuFykx4esCLXGw0lgXuyigV1xYYMNSGYVfzfOycM5wlCeqqEajhMCXdZaER0BtFP2GvuF2TyAKDZC-LMf9eJzyOfwZfNlEa4R4wAYP0AyysdFbvT9V3E_XeGlOdYPRBlv51ANU_sQM0XbhHaxdr0VNb7bYr86LfEiPhsnzix9IlGOVFD5EXGVbx5TmzYglr6q_a84Nhgn2ykkCvO0fe0eEGGsSee_1KYgI59IfCIu2RqBfOMK75PtJgRRoHBPWT-LngLynwbf5tLAYSCKofRshA4j2--MmRPf1mb3Bu9OMp8SPUgVDA3ENF4oeDaakK0jJdZh1xzQ3b4KPZlY6kDasxBvNKQGq_GJ6m"
+      },
+      {
+        "photo_reference": "AVoNoXTudvEg5g8IfFjC_e4Me1QF3QK2bnyhZ7rDRSIJ6nBPFMy0mn5zHTjLDYWJat6i7jtIRJkkd8WHsunm9UhOi6iB40ybrFdMgmAJB5q58zUaiQri_FmcJN45A5Vi2oI5PCY-6C2FArcHRPoYFATKVXuzbPK2ea1XuDFtgG2hUwS5jn742udCQFo3ojNsbiFeIYiA53suS9QTblU-eIMD1BW4i8GDHjp9_plxXq6bDIqmS_g4RmYy20R3UO0D1H8f37UQA_pyEUME2D3JaSaO_Vnoo25FfzuO62YR5z99QfARbUeitv8j3-e9TZ0BSOPmU7ecdiQUZmZYT40y6vop-heyxgRzuGy_F4psT6OIHAPW_lFfJDuU59b_zmX_i1PihvHuEKmVllYeXii1L14RSReFTnqP2J4ojTRZ7LDwg_wr0w",
+        "height": 4032,
+        "width": 2016,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTudvEg5g8IfFjC_e4Me1QF3QK2bnyhZ7rDRSIJ6nBPFMy0mn5zHTjLDYWJat6i7jtIRJkkd8WHsunm9UhOi6iB40ybrFdMgmAJB5q58zUaiQri_FmcJN45A5Vi2oI5PCY-6C2FArcHRPoYFATKVXuzbPK2ea1XuDFtgG2hUwS5jn742udCQFo3ojNsbiFeIYiA53suS9QTblU-eIMD1BW4i8GDHjp9_plxXq6bDIqmS_g4RmYy20R3UO0D1H8f37UQA_pyEUME2D3JaSaO_Vnoo25FfzuO62YR5z99QfARbUeitv8j3-e9TZ0BSOPmU7ecdiQUZmZYT40y6vop-heyxgRzuGy_F4psT6OIHAPW_lFfJDuU59b_zmX_i1PihvHuEKmVllYeXii1L14RSReFTnqP2J4ojTRZ7LDwg_wr0w"
+      },
+      {
+        "photo_reference": "AVoNoXTsVflgw5uLydxDdcFmpRV2vvposaH54e2NWC43_ZBEo1MPMgtUSCjxBQZghdbb03O5j7xLA7EXiEjMlh-V8O8-M7kx30ewx0GYSGmhQKz2Aq_DBh8S0PPHkfliUq_raOPvKXWBfua7-8_rdjIdqMAVyw_ogyr2xX6NEeA4ZKQ3sNUd4muTN7_twQUrUOr5Hp_VvW7YhOTtOPKdVhymCU-lhRrVvned_6q6rgkthfMQrV3Se-cEI3lDr2TI6bLQNkaZgMWchgfGI9NkkwkoRgD5JWlulam8fJt9hQ7S6TydvbBjzAi80_H973UmVNut6pj22xb5wvXkYGN1p05i515JM7537KsF1vispE9fy-yznZhqft5x8ebV936aonbXn4Oar7hj3C7ptkMh-x_xE4Cxy7qccH0_sWW5lwR3YJc6BS2t",
+        "height": 1993,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTsVflgw5uLydxDdcFmpRV2vvposaH54e2NWC43_ZBEo1MPMgtUSCjxBQZghdbb03O5j7xLA7EXiEjMlh-V8O8-M7kx30ewx0GYSGmhQKz2Aq_DBh8S0PPHkfliUq_raOPvKXWBfua7-8_rdjIdqMAVyw_ogyr2xX6NEeA4ZKQ3sNUd4muTN7_twQUrUOr5Hp_VvW7YhOTtOPKdVhymCU-lhRrVvned_6q6rgkthfMQrV3Se-cEI3lDr2TI6bLQNkaZgMWchgfGI9NkkwkoRgD5JWlulam8fJt9hQ7S6TydvbBjzAi80_H973UmVNut6pj22xb5wvXkYGN1p05i515JM7537KsF1vispE9fy-yznZhqft5x8ebV936aonbXn4Oar7hj3C7ptkMh-x_xE4Cxy7qccH0_sWW5lwR3YJc6BS2t"
+      },
+      {
+        "photo_reference": "AVoNoXTEfKHwLTu3xWc6dkKmpVLlUQHHde4YtxliCPK1y9kqs6qQibqRCONEj_UX3dLksfuOWsd_aNJ2TKrEmgrtpPgQnMtkwaqbd3rpAyhJDICDnOCciHyPGmF63zg9NOgAKurzW-dhozOt8Tv0KHmH8dXLvhQkKYsnDHWFAklJrWUcGJ6JlTRkV7RMEVwlctRxzCeWiR_4OX3iKG9qxs9upliXuO2Bg-HW1nv0hC476dcTtRS83vPnYxktVILyCNnU2mcAUe3lT3XjP-yqDWYib4iU48XYZEp9Dj9zjQUVRbxp9v6AcMrTUqRLr_deFVw9w0vsQ-ghOcUal6Ps2SxcXfosUP-hyqZGUAalhEkN3FOjb9wiJbKJk6VJYP_FvCCk3WHpjIi7NjpUmZ0B_pi7SEwaIxt5cTlwFD2azWnqB9Ub5Q",
+        "height": 3794,
+        "width": 2846,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTEfKHwLTu3xWc6dkKmpVLlUQHHde4YtxliCPK1y9kqs6qQibqRCONEj_UX3dLksfuOWsd_aNJ2TKrEmgrtpPgQnMtkwaqbd3rpAyhJDICDnOCciHyPGmF63zg9NOgAKurzW-dhozOt8Tv0KHmH8dXLvhQkKYsnDHWFAklJrWUcGJ6JlTRkV7RMEVwlctRxzCeWiR_4OX3iKG9qxs9upliXuO2Bg-HW1nv0hC476dcTtRS83vPnYxktVILyCNnU2mcAUe3lT3XjP-yqDWYib4iU48XYZEp9Dj9zjQUVRbxp9v6AcMrTUqRLr_deFVw9w0vsQ-ghOcUal6Ps2SxcXfosUP-hyqZGUAalhEkN3FOjb9wiJbKJk6VJYP_FvCCk3WHpjIi7NjpUmZ0B_pi7SEwaIxt5cTlwFD2azWnqB9Ub5Q"
+      },
+      {
+        "photo_reference": "AVoNoXQNJHMB2ggzkMd-ywesyGRqCGwlPcQ0mXuXv4CrNdVum1uCcioBGZOzkmxMzrbrE0AzOFfxpSB2DU0VafhyY3yHVkx5vMUcPu4s1YALcPtTXjjlt6_6fk1rNrV_jf3TVZbBTMsNKpfHfiVX_p_Zd49qqp75Gez7cL9Qgllr8xi2J5S7dCh9RhSaSJpT175ZuxgFVxONURybdhz8IQp3Am5zOqoDYKjDyjW18EUyl6lDG0-Y4fyLvLlPAKSGeIVHIAPBEiAFbaLAN_uqdlGbIfDNfLayJ0FMPrFGUzYzQqOe8aqUqlsZ7MlWAZmkIweGTM2l9tBIXR1wyGh9By1pbmc44vjiKra9z44Ng9iP_qi_dKaTOCRR-81oXDJTA-U2HDMhljDXBXagOa51o_z3H3rwzcsZkVwZtUjDp5bc7RRJROww",
+        "height": 2592,
+        "width": 4608,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQNJHMB2ggzkMd-ywesyGRqCGwlPcQ0mXuXv4CrNdVum1uCcioBGZOzkmxMzrbrE0AzOFfxpSB2DU0VafhyY3yHVkx5vMUcPu4s1YALcPtTXjjlt6_6fk1rNrV_jf3TVZbBTMsNKpfHfiVX_p_Zd49qqp75Gez7cL9Qgllr8xi2J5S7dCh9RhSaSJpT175ZuxgFVxONURybdhz8IQp3Am5zOqoDYKjDyjW18EUyl6lDG0-Y4fyLvLlPAKSGeIVHIAPBEiAFbaLAN_uqdlGbIfDNfLayJ0FMPrFGUzYzQqOe8aqUqlsZ7MlWAZmkIweGTM2l9tBIXR1wyGh9By1pbmc44vjiKra9z44Ng9iP_qi_dKaTOCRR-81oXDJTA-U2HDMhljDXBXagOa51o_z3H3rwzcsZkVwZtUjDp5bc7RRJROww"
+      },
+      {
+        "photo_reference": "AVoNoXSKmQ3h_RW0ZXoxltm2KD3YHw7ICNCaDxU8SSHYHZwETBy8mV1IHuIAX-JxppTL-LWtC25P6GipLY3OX32N1b9702g_dql7-bDo5qc0aBKtISSMGtfw6EhENzjNYICTuJ_VPqzQ7NV6kG6sgFLvwXy4WsTIMNJuICWrxG6vf20f9B6_5JaOiGazw9-i3nqCINsS2VcSPgI9CTOZxyQVQD-A7J_Ozix0DUs33E7WWyDlGJhcP0ONaN2dXx9RmgRVH3O_4Jp4D5L406wrRM0UPoxFdVBuR7YQQqAmyqZzZ85G26AWcnKXMvwVCme_t1EEkwAVEbO6RT3gZEmHTSc4AnWXpDXvKXhEJCqwe_1E9VcMbWF2g6QyKXNZYH4YEXAoU-LWawpkWPzfMqquXU1mvoVucCaqSj-mbzyLxG0EOQAZGoea",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=AVoNoXSKmQ3h_RW0ZXoxltm2KD3YHw7ICNCaDxU8SSHYHZwETBy8mV1IHuIAX-JxppTL-LWtC25P6GipLY3OX32N1b9702g_dql7-bDo5qc0aBKtISSMGtfw6EhENzjNYICTuJ_VPqzQ7NV6kG6sgFLvwXy4WsTIMNJuICWrxG6vf20f9B6_5JaOiGazw9-i3nqCINsS2VcSPgI9CTOZxyQVQD-A7J_Ozix0DUs33E7WWyDlGJhcP0ONaN2dXx9RmgRVH3O_4Jp4D5L406wrRM0UPoxFdVBuR7YQQqAmyqZzZ85G26AWcnKXMvwVCme_t1EEkwAVEbO6RT3gZEmHTSc4AnWXpDXvKXhEJCqwe_1E9VcMbWF2g6QyKXNZYH4YEXAoU-LWawpkWPzfMqquXU1mvoVucCaqSj-mbzyLxG0EOQAZGoea"
+      },
+      {
+        "photo_reference": "AVoNoXRfqArgfT_dHoRrCwhfQKbf5FHmHPrUCDa_f5dU8eIe4ZjBVROQLMWyammzUvGe2e2iZv4ozQaxDcrSjHUOu2KKX8o-fx-Z82B6MRIzcEkatATlb4RsY-02kw_5cOOEQUSIOx4fVuREIgUCGJpHrdS9ROcb8WnF84auBQrAYtmwwucL5m1U0yl3YSrr9UiSGiE2b--cqKG0j2ba7vPXefUmTdKd_521TA1kviEJ0mJMZLWwW7nonp3NYaxUQezAu0ZJdKTsd_dFtfsw_zLZBsl13K-Tu2OUQRIi_nRvrJsAeBm2ru46mpFaU91bQiR-1DgECxDmslwOrnsZGr6igDfAV8GlLAd-gsB80G8o199Obm9WxIoGuYVTaNnUMgvnJeFh0UsfygS77Cwe3ZuoHKbJbiIWC4aHhIuT5n8esRk",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=AVoNoXRfqArgfT_dHoRrCwhfQKbf5FHmHPrUCDa_f5dU8eIe4ZjBVROQLMWyammzUvGe2e2iZv4ozQaxDcrSjHUOu2KKX8o-fx-Z82B6MRIzcEkatATlb4RsY-02kw_5cOOEQUSIOx4fVuREIgUCGJpHrdS9ROcb8WnF84auBQrAYtmwwucL5m1U0yl3YSrr9UiSGiE2b--cqKG0j2ba7vPXefUmTdKd_521TA1kviEJ0mJMZLWwW7nonp3NYaxUQezAu0ZJdKTsd_dFtfsw_zLZBsl13K-Tu2OUQRIi_nRvrJsAeBm2ru46mpFaU91bQiR-1DgECxDmslwOrnsZGr6igDfAV8GlLAd-gsB80G8o199Obm9WxIoGuYVTaNnUMgvnJeFh0UsfygS77Cwe3ZuoHKbJbiIWC4aHhIuT5n8esRk"
+      },
+      {
+        "photo_reference": "AVoNoXQZJQTMRySvxVq-XPtVLIRvZhkbbHkmbuG3dZHnUmPe30Dp04I51A0lX06jjtRMAk9SFEfiktltGSEHESDUocmS72f1aZmnPXXF2hm46QyRJRryzzT2e19VuyqbCJCvc2m1yPGJw0vSEkdbWq9hUvUBKeTWluCReT1-F1gaE3JjRHqL7RSqM_236UKam-mN2PJ4Nh1euk-25v_yDmpAZRkR3V9c_KZn-rkpysiblSbgc39oGfZHuCWe1jxIV3Q4B2ruvEvkzOiD7gsurxBCnIkds568o5AY0ohVI8mb5RZnJuGmlcGYvCQaEi1_vLy61Rdm7Vbu4AMQO1miaF4ktp6QiYivAldAnewUeBVkaw5TOS-sv_VPqnQ341V01vz0Ls_EF9LHeBnWzNoCLEkQrIvyqVWWblGhPiUFT8hDpp7Jxg",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQZJQTMRySvxVq-XPtVLIRvZhkbbHkmbuG3dZHnUmPe30Dp04I51A0lX06jjtRMAk9SFEfiktltGSEHESDUocmS72f1aZmnPXXF2hm46QyRJRryzzT2e19VuyqbCJCvc2m1yPGJw0vSEkdbWq9hUvUBKeTWluCReT1-F1gaE3JjRHqL7RSqM_236UKam-mN2PJ4Nh1euk-25v_yDmpAZRkR3V9c_KZn-rkpysiblSbgc39oGfZHuCWe1jxIV3Q4B2ruvEvkzOiD7gsurxBCnIkds568o5AY0ohVI8mb5RZnJuGmlcGYvCQaEi1_vLy61Rdm7Vbu4AMQO1miaF4ktp6QiYivAldAnewUeBVkaw5TOS-sv_VPqnQ341V01vz0Ls_EF9LHeBnWzNoCLEkQrIvyqVWWblGhPiUFT8hDpp7Jxg"
+      },
+      {
+        "photo_reference": "AVoNoXQW_DZd3yHKH_JVYNxgZfeEU1TGiQjDMQ1yn3tN2v3qMORVELUAvgK36zs2UpbTUivgevlrk_83aqtrahx3eNrTAtho1o4y53yuFfNc_x5sLOlEEa1sGD-sywZAALkkMYLgIJW6YuSIMHfX-3V94x3lYdrQqzy0-1DxuJLkgHRTGV3Co8jx1dqyKlgvJrf_pfwsDAggJvoE7_b68DwKXuAJFvjG346pmt3F6DCJ66E7kQ6qFbVnMfo-4xMZ_VkLXF8SkoL5_mx8SfTbe8Tc1VWGIIqrqryXq2YRPl0FyAcLiBUm3xvSdR7c8Rp7HrF33xv-jZpLtOuahfzMbXS5UO5b15NQvmw50BcR1OtO7pbTDFqvC2KL8l5YYpiEh5ZBtWF9TOyLWcGP1RY6VHoSgfHd59oqu8JCCL5nmLUdSTa8OQ",
+        "height": 2136,
+        "width": 3216,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQW_DZd3yHKH_JVYNxgZfeEU1TGiQjDMQ1yn3tN2v3qMORVELUAvgK36zs2UpbTUivgevlrk_83aqtrahx3eNrTAtho1o4y53yuFfNc_x5sLOlEEa1sGD-sywZAALkkMYLgIJW6YuSIMHfX-3V94x3lYdrQqzy0-1DxuJLkgHRTGV3Co8jx1dqyKlgvJrf_pfwsDAggJvoE7_b68DwKXuAJFvjG346pmt3F6DCJ66E7kQ6qFbVnMfo-4xMZ_VkLXF8SkoL5_mx8SfTbe8Tc1VWGIIqrqryXq2YRPl0FyAcLiBUm3xvSdR7c8Rp7HrF33xv-jZpLtOuahfzMbXS5UO5b15NQvmw50BcR1OtO7pbTDFqvC2KL8l5YYpiEh5ZBtWF9TOyLWcGP1RY6VHoSgfHd59oqu8JCCL5nmLUdSTa8OQ"
+      }
+    ],
+    "place_id": "ChIJO4taPrXm3JQRTPhFQf_T8Rc",
+    "rating": 4.8,
+    "types": [
+      "establishment",
+      "park",
+      "point_of_interest",
+      "university"
+    ],
+    "url": "https://maps.google.com/?cid=1725393225524836428",
+    "user_ratings_total": 1552,
+    "website": "https://www.curitiba.pr.gov.br/conteudo/bosque-municipal-zaninelli-escola-municipal-de-sustentabilidade/285",
+    "added_at": "2026-08-26T18:55:43.469Z"
   }
 ]
