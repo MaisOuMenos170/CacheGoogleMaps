@@ -2642,5 +2642,235 @@
     ],
     "url": "https://maps.google.com/?cid=12039559149293840011",
     "added_at": "2026-08-26T18:59:25.060Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "2641",
+        "short_name": "2641",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Nicarágua",
+        "short_name": "R. Nicarágua",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bacacheri",
+        "short_name": "Bacacheri",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "82515-260",
+        "short_name": "82515-260",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Museu e jardim de esculturas com réplicas de relíquias egípcias, múmias reais e objetos rosa-cruz."
+    },
+    "formatted_address": "R. Nicarágua, 2641 - Bacacheri, Curitiba - PR, 82515-260, Brasil",
+    "formatted_phone_number": "(41) 3351-3024",
+    "geometry": {
+      "location": {
+        "lat": -25.3905399,
+        "lng": -49.2259859
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.3893555697085,
+          "lng": -49.2245202697085
+        },
+        "southwest": {
+          "lat": -25.3920535302915,
+          "lng": -49.2272182302915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3351-3024",
+    "name": "Museu Egípcio e Rosacruz - Tutankhamon",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1630"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1630"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1630"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 10:00 – 16:30",
+        "quarta-feira: 10:00 – 16:30",
+        "quinta-feira: 10:00 – 16:30",
+        "sexta-feira: 10:00 – 16:00",
+        "sábado: 10:00 – 16:00",
+        "domingo: 10:00 – 16:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "AVoNoXTfWHmfO-FB6rdAng7s5bxzMmfe4RBrQC7LozYpqLMBHKmt3QF-xD3ftIhom5PnaWmdx30kw__X0KzRdZtsBcVtPoUU6D6LJ-GS2KoSxc33C2VbnkVKcplDz0rEgPWEqyyLV0TT7LJF04Ms7zt6_-j7saMELq2Rg1iw2B2QUKNTnXbbcYE1eMjKv7T7OGAfY0jYb3pdVS-bbp5oVvIPLeC2Zjdpk8XaDr2ifOFxV3wEG1LioGrer4hHpBHG2BO_MW9bARat7ebS4CCRynTSDjqQhP2wE4TBNtBbaN6nemwvIUMAS5w3UmURd4OQD8a_aBFA8wJTHfYJFXagyyEXEP7V8BitTa7-O1NHeHVr0AbA1SrXWMP87riXLhpAazfSTUIUgCrpZLCjPAl8HrdXpbn8XvyY1qLl4Jn_qfOvDO02yGpH",
+        "height": 1536,
+        "width": 2048,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTfWHmfO-FB6rdAng7s5bxzMmfe4RBrQC7LozYpqLMBHKmt3QF-xD3ftIhom5PnaWmdx30kw__X0KzRdZtsBcVtPoUU6D6LJ-GS2KoSxc33C2VbnkVKcplDz0rEgPWEqyyLV0TT7LJF04Ms7zt6_-j7saMELq2Rg1iw2B2QUKNTnXbbcYE1eMjKv7T7OGAfY0jYb3pdVS-bbp5oVvIPLeC2Zjdpk8XaDr2ifOFxV3wEG1LioGrer4hHpBHG2BO_MW9bARat7ebS4CCRynTSDjqQhP2wE4TBNtBbaN6nemwvIUMAS5w3UmURd4OQD8a_aBFA8wJTHfYJFXagyyEXEP7V8BitTa7-O1NHeHVr0AbA1SrXWMP87riXLhpAazfSTUIUgCrpZLCjPAl8HrdXpbn8XvyY1qLl4Jn_qfOvDO02yGpH"
+      },
+      {
+        "photo_reference": "AVoNoXSYmO3QeiCxDh9twlodS7UYRmUniEpTl8MUWOjjKcpQbm7evTz01ixQLDLwPbxhzQNHetU0kRj7Ih1DzAJDX9G4jUpsEcKUVbmAn7tn9YFQ0GZYH8uwTTwGR4jhsnyT4gJRfDD4ibtJeppM-dyFBO661IsgoP0j1pBJcBtLG-m1N9cAPmSIhEGVAh4GYAbXVUgo2j72WxXjHiSEKMKM87k26cPp7nJv-C7SySgJ8UfudsvdetI49Nmx6Dt589hd3538R06K17FYYu9gSI3qBqqgvLi7Mgi1S9afmE3zpLiJumaMc6iKNQekI_i9s-O0bl4o6D16RFSSJ4yFpw5JIRHIUGbFKUYpeqzH_cAk1tu3uW0jvuGSqAvMTUiST8JXELdM8RwIkU2iUd9DoJ2l_JVD6B0gHt5Vpf_-QD27h8wgsoBRIsHc4uEv5o8ob86w",
+        "height": 640,
+        "width": 960,
+        "proxy_url": "/api/places/photo?ref=AVoNoXSYmO3QeiCxDh9twlodS7UYRmUniEpTl8MUWOjjKcpQbm7evTz01ixQLDLwPbxhzQNHetU0kRj7Ih1DzAJDX9G4jUpsEcKUVbmAn7tn9YFQ0GZYH8uwTTwGR4jhsnyT4gJRfDD4ibtJeppM-dyFBO661IsgoP0j1pBJcBtLG-m1N9cAPmSIhEGVAh4GYAbXVUgo2j72WxXjHiSEKMKM87k26cPp7nJv-C7SySgJ8UfudsvdetI49Nmx6Dt589hd3538R06K17FYYu9gSI3qBqqgvLi7Mgi1S9afmE3zpLiJumaMc6iKNQekI_i9s-O0bl4o6D16RFSSJ4yFpw5JIRHIUGbFKUYpeqzH_cAk1tu3uW0jvuGSqAvMTUiST8JXELdM8RwIkU2iUd9DoJ2l_JVD6B0gHt5Vpf_-QD27h8wgsoBRIsHc4uEv5o8ob86w"
+      },
+      {
+        "photo_reference": "AVoNoXRKnWTVKNYlq9oRPCzVUnEIZtn4NhKuf5A3R-nY3fS_bHLdv7g84NSIx5EfGcg-4k-_V5RBkRdB_rUrFsWsDStSePnG9prl9D2GKTDVqRMtu5U3LqKnvLePXASENrGzQhUUtAQEZaCnBKviqwGC9JOkhDhskOuZ4XhMToHjzisc4u5a8_DO9U9xocsunmyTp6KhbCSAGnJ1SLfp5fFqFKHeGPJtF_gQYAJeegO3DFRtOOZf_q48alvhuVdc0N_93_7MzhGp1zOUL1HdWFZJk4a-OmPTBFfimNVzDaiUo45g0OI1QBrHgXaSM4Gg70m4qZS3LcdwqU5H8SacMYLiOympq-elGY9sSGklnhYnl6Fe08OBkB2uYD1bhVcrj3qcZTF75EXYaxe15exOME4uhCtrDf3wY_PMY0PCulGx4L9seA",
+        "height": 2700,
+        "width": 4800,
+        "proxy_url": "/api/places/photo?ref=AVoNoXRKnWTVKNYlq9oRPCzVUnEIZtn4NhKuf5A3R-nY3fS_bHLdv7g84NSIx5EfGcg-4k-_V5RBkRdB_rUrFsWsDStSePnG9prl9D2GKTDVqRMtu5U3LqKnvLePXASENrGzQhUUtAQEZaCnBKviqwGC9JOkhDhskOuZ4XhMToHjzisc4u5a8_DO9U9xocsunmyTp6KhbCSAGnJ1SLfp5fFqFKHeGPJtF_gQYAJeegO3DFRtOOZf_q48alvhuVdc0N_93_7MzhGp1zOUL1HdWFZJk4a-OmPTBFfimNVzDaiUo45g0OI1QBrHgXaSM4Gg70m4qZS3LcdwqU5H8SacMYLiOympq-elGY9sSGklnhYnl6Fe08OBkB2uYD1bhVcrj3qcZTF75EXYaxe15exOME4uhCtrDf3wY_PMY0PCulGx4L9seA"
+      },
+      {
+        "photo_reference": "AVoNoXSJiyI7xpagIQxWEbolzcS2bwmcKYC4m7DwV-Nmco1lQJwmkVCXYLD6c9bTO6T1nhVKf_jgNlvHJvFfdFmF5APyK1-61VpZaONZUtr3HSkNKeNZLsb-_9_rf8TSvTBxz5JXdTKXz4ilVf7Ja4NoieV0jx1uyu5T_d5Gz-F3dkuBHR-xo_28Pkd2jOvQsXtKxqRNsfeaTspT4G-FkF8hiSUIn0QtH_1mrKsjXRGQUB7lEchKOjSgbODrH_Sf3dOePjJ1XZohCwb5xj5c6yg-7OI8yjJydPsygZVsg80goFEDU-GY8lqdwhWP7FoRuFMZVmTFXpMz8zDrSV6kdNnqaH4WLnDuYBps_7dcBR6JPATQ4yph7UFOcRV6QAF7YhFgDg98RIjB_VjQAcWB-wOAliPMxgYBcpvdmeIuCPlnIBw3OA",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=AVoNoXSJiyI7xpagIQxWEbolzcS2bwmcKYC4m7DwV-Nmco1lQJwmkVCXYLD6c9bTO6T1nhVKf_jgNlvHJvFfdFmF5APyK1-61VpZaONZUtr3HSkNKeNZLsb-_9_rf8TSvTBxz5JXdTKXz4ilVf7Ja4NoieV0jx1uyu5T_d5Gz-F3dkuBHR-xo_28Pkd2jOvQsXtKxqRNsfeaTspT4G-FkF8hiSUIn0QtH_1mrKsjXRGQUB7lEchKOjSgbODrH_Sf3dOePjJ1XZohCwb5xj5c6yg-7OI8yjJydPsygZVsg80goFEDU-GY8lqdwhWP7FoRuFMZVmTFXpMz8zDrSV6kdNnqaH4WLnDuYBps_7dcBR6JPATQ4yph7UFOcRV6QAF7YhFgDg98RIjB_VjQAcWB-wOAliPMxgYBcpvdmeIuCPlnIBw3OA"
+      },
+      {
+        "photo_reference": "AVoNoXQ3TH9erBjCxTX51VaEoT9y1GGLQZipTd-GiOUDD0WkroQROH2PbxOuLwiXEkt1YcVVdwTx1RwKnuBVauVi1s9dE5-KfCK-9Md6a2wkM0BHIYuLtCdwIFZmjsYUSJWDFiMFMJm2o9uIOnkOHd_TOe8pSFNvQ3lzGiCyabMu9Ea-ty6ApuBbXAHvf8Nw6t2BmxrxI-RBzHXu_j5h38JmUDFk_eoXFZXBeGiB7bMZXjshIR-z6lya9UWisHWCj7jQw6Kpi8BxuJ9fl1yg0tzCeTRnKXrIwftwCAhnhljZL2uWmVzfY_IGxC_7DwJls6PMNsOu6gLCwthRSzwILFEnuDWj0UcUtVhsPyaK29HFe6F00DbsTcf60XX-BT84yJqKZ_BMHVYZDoEvWYxtf113PXP5RhD4nrCzrpTK5xhyCWbrdw",
+        "height": 1203,
+        "width": 2323,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQ3TH9erBjCxTX51VaEoT9y1GGLQZipTd-GiOUDD0WkroQROH2PbxOuLwiXEkt1YcVVdwTx1RwKnuBVauVi1s9dE5-KfCK-9Md6a2wkM0BHIYuLtCdwIFZmjsYUSJWDFiMFMJm2o9uIOnkOHd_TOe8pSFNvQ3lzGiCyabMu9Ea-ty6ApuBbXAHvf8Nw6t2BmxrxI-RBzHXu_j5h38JmUDFk_eoXFZXBeGiB7bMZXjshIR-z6lya9UWisHWCj7jQw6Kpi8BxuJ9fl1yg0tzCeTRnKXrIwftwCAhnhljZL2uWmVzfY_IGxC_7DwJls6PMNsOu6gLCwthRSzwILFEnuDWj0UcUtVhsPyaK29HFe6F00DbsTcf60XX-BT84yJqKZ_BMHVYZDoEvWYxtf113PXP5RhD4nrCzrpTK5xhyCWbrdw"
+      },
+      {
+        "photo_reference": "AVoNoXQb8jwQKh1yEgaY7LeaSi_4l40Svkz731KinAhYC2Z7ohH_8LVktdjeV5Uaf5F6eCZwnwaFH9rIae2NUoig3Z4qhD4aF--ZX2vjmUl82vQNo2NvrPi3DZTop4gEPi9JnqLBS4M3EHJ0W5iwkwZ7v9gESSNCG3_6FHNDyZpqRq4wXfW7U6_Y9BrjYZuX5x3ZRhmbz4fB9OXCltpqEemx90FzDufwOJ0-R4aAe88mQdOebC-tYgU_oP3uMBzAkX09SHYuFWIftEw7UzzHPH-eVBXz9udX1-p1w5JMi28LWQaw43oHXPR04WBU5nvIGXdoCf_1zGneTTS7UYLKiX6pklBJWY4h0-6Z1EF7cIOIGZqbgS9BZK_RVVuJ9k5kENV_B-lsbKpsIHenHjKCmuSqH2EBpUJyEXAT30XmCk9TxI4jjUCM",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=AVoNoXQb8jwQKh1yEgaY7LeaSi_4l40Svkz731KinAhYC2Z7ohH_8LVktdjeV5Uaf5F6eCZwnwaFH9rIae2NUoig3Z4qhD4aF--ZX2vjmUl82vQNo2NvrPi3DZTop4gEPi9JnqLBS4M3EHJ0W5iwkwZ7v9gESSNCG3_6FHNDyZpqRq4wXfW7U6_Y9BrjYZuX5x3ZRhmbz4fB9OXCltpqEemx90FzDufwOJ0-R4aAe88mQdOebC-tYgU_oP3uMBzAkX09SHYuFWIftEw7UzzHPH-eVBXz9udX1-p1w5JMi28LWQaw43oHXPR04WBU5nvIGXdoCf_1zGneTTS7UYLKiX6pklBJWY4h0-6Z1EF7cIOIGZqbgS9BZK_RVVuJ9k5kENV_B-lsbKpsIHenHjKCmuSqH2EBpUJyEXAT30XmCk9TxI4jjUCM"
+      },
+      {
+        "photo_reference": "AVoNoXS1EZ1NOnC_HhvWSKPqDBliDAb5wz7T-E06Wl3Qqx_ZHnfuAH7gar_zAy3t5uPP9uZlTu5vyuyRjzB5GHW4iw4AZHDF57LpgwolKWMzoJyF0NBEowGCZ7aOA3fADRd9lFVsQEd4-dcpeu7wcQkc-bRMibh6oMAjnJRt6io1KcgP6PF5L8stdraK12_j7PCENRBC3vq1rMV5FK7_9hro3YzfQBZaFl0nuy-uTetUwoNzVu-gxr22SH-OIdIICcPq14HyRBYQFoQgNSfO0_8hEfzwpM1o1hnlTsypo0qgdDSxT-sGcMblKciIat0bKVv-96lnZ9qxsdAEPqF-5Od3ihSIGwv9sYCJHOIMWj4-Si3HuDXZIBlSP4IKuWEa3OWSn8bGhoy-ppUkx6lo5_7tbsnKNfimBw8wzNTuiHVFTKUgHCJL",
+        "height": 2268,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=AVoNoXS1EZ1NOnC_HhvWSKPqDBliDAb5wz7T-E06Wl3Qqx_ZHnfuAH7gar_zAy3t5uPP9uZlTu5vyuyRjzB5GHW4iw4AZHDF57LpgwolKWMzoJyF0NBEowGCZ7aOA3fADRd9lFVsQEd4-dcpeu7wcQkc-bRMibh6oMAjnJRt6io1KcgP6PF5L8stdraK12_j7PCENRBC3vq1rMV5FK7_9hro3YzfQBZaFl0nuy-uTetUwoNzVu-gxr22SH-OIdIICcPq14HyRBYQFoQgNSfO0_8hEfzwpM1o1hnlTsypo0qgdDSxT-sGcMblKciIat0bKVv-96lnZ9qxsdAEPqF-5Od3ihSIGwv9sYCJHOIMWj4-Si3HuDXZIBlSP4IKuWEa3OWSn8bGhoy-ppUkx6lo5_7tbsnKNfimBw8wzNTuiHVFTKUgHCJL"
+      },
+      {
+        "photo_reference": "AVoNoXTVqdPZA_Z2uXaDOGR4Ju4kUUfyQtaZrPrXndnnCiQbVuVdjKhNIhZnoP4G2Pnfdh8UhynAuKc2TubMvSGS94ieFI89GHRoMeo8PneN0XM0WL4pm1-g-BODDLrI5tQw8BjKJ8jjFNGjCkyoKIwMTNz2GavHOiNUxOyzDr75jiYYJlXaTcsmoSS6OujAsnvqZfpm1LzKzNE36wt9dwbGq7mAtdgz53ohKdn-JG_B_DXkNeYnw5zcB639e6sMi9k-TcBKqNQEdyjliEiobKOP3D8sQmfZxb8p7R9DHKW8eiiOvxzelN8V1nMYPG3nwiLhPLoIl3WaGTW1nIvyTtFR0I96qJqiCDP793CvLUBWTvMWB5uBB9-0VZVx1jNT7EFeqXK50CEkiDmwTW-jaYyXcQH1R4n3F4h3KGExuZRmjyhHbMJabpyu-C5yuNvd0g",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTVqdPZA_Z2uXaDOGR4Ju4kUUfyQtaZrPrXndnnCiQbVuVdjKhNIhZnoP4G2Pnfdh8UhynAuKc2TubMvSGS94ieFI89GHRoMeo8PneN0XM0WL4pm1-g-BODDLrI5tQw8BjKJ8jjFNGjCkyoKIwMTNz2GavHOiNUxOyzDr75jiYYJlXaTcsmoSS6OujAsnvqZfpm1LzKzNE36wt9dwbGq7mAtdgz53ohKdn-JG_B_DXkNeYnw5zcB639e6sMi9k-TcBKqNQEdyjliEiobKOP3D8sQmfZxb8p7R9DHKW8eiiOvxzelN8V1nMYPG3nwiLhPLoIl3WaGTW1nIvyTtFR0I96qJqiCDP793CvLUBWTvMWB5uBB9-0VZVx1jNT7EFeqXK50CEkiDmwTW-jaYyXcQH1R4n3F4h3KGExuZRmjyhHbMJabpyu-C5yuNvd0g"
+      },
+      {
+        "photo_reference": "AVoNoXS-SuoD4ZGgaPk2QtZtUZqMwRzsNzYOGquwT5JbFacGRQTGAaDuNdPszFQGaKtlHBZrwfCruHY3OHWqm6vqdp8WaRgkVixOi-CdYpqkj60HwBUw8VgMos3cblSFFhFUtEvXKJbtWutrh5jEPFcaTwFPg1Gi6AWflHkr9SQSNubQoeANIOpyHpZK3pQUfUeudGuKElVCX909yC9KWJfJ2EEY-GpitdmjTBkhtOOyO-MJ8zSgAx--Pj-26fxfBv-Xwy9jYQTIj0Qy6aL4WkiNcS-M0c18rsKEJgo9EFjHeamUYOYV1CGZUmwYGOMxnikhgN2rWbIj5kspLsDon_QOyK87QRnTNkmN7btWJ74Zz03jHBwedLD8zYdKq2_rXMMi6bdhNSKNrzOODzrB4FCtwQyadjHtuxktuwXqizWxF0p2jQ",
+        "height": 4080,
+        "width": 3060,
+        "proxy_url": "/api/places/photo?ref=AVoNoXS-SuoD4ZGgaPk2QtZtUZqMwRzsNzYOGquwT5JbFacGRQTGAaDuNdPszFQGaKtlHBZrwfCruHY3OHWqm6vqdp8WaRgkVixOi-CdYpqkj60HwBUw8VgMos3cblSFFhFUtEvXKJbtWutrh5jEPFcaTwFPg1Gi6AWflHkr9SQSNubQoeANIOpyHpZK3pQUfUeudGuKElVCX909yC9KWJfJ2EEY-GpitdmjTBkhtOOyO-MJ8zSgAx--Pj-26fxfBv-Xwy9jYQTIj0Qy6aL4WkiNcS-M0c18rsKEJgo9EFjHeamUYOYV1CGZUmwYGOMxnikhgN2rWbIj5kspLsDon_QOyK87QRnTNkmN7btWJ74Zz03jHBwedLD8zYdKq2_rXMMi6bdhNSKNrzOODzrB4FCtwQyadjHtuxktuwXqizWxF0p2jQ"
+      },
+      {
+        "photo_reference": "AVoNoXTDpgZoZ0cmvaRjjFA44gXG8r8djAOmPrTUEPaQNiW5Y2ILN4nq-DPIO8YeNfy-mg8zwGoWSqNbyCw480n1w85EqKYgsGZaOxJ6pMEIfeSVQJbYAq8lcOPZRg7aXxvYxOhjr-iACvcCEX44qlxxHI8fyf8B2NoLHUXoCLRskBzJbfFWGlCnJmcH-7MKlsnJWQymbWkwoeEGT4fEN1D-rsyamog1e3TGwr8QQLcM0PbO0eKfsB3OhwuYhC_zS169blfO8ZDnW6PRP9U1k1I7g0lyfHUsJJ6yJhX2q8oKJuHXYj1P43RxNZvuuQmdl-ZJsD4Z3Udi2RFnyNI0Kn-EQB1Zw6NILjkSNyU80tgKMU43qp10o7WOpE7U6diTxXAcM3Uyu-TfbYk9dGQMuF-GpptrpmaApz8XD1vM9rFHAPLOjW8",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=AVoNoXTDpgZoZ0cmvaRjjFA44gXG8r8djAOmPrTUEPaQNiW5Y2ILN4nq-DPIO8YeNfy-mg8zwGoWSqNbyCw480n1w85EqKYgsGZaOxJ6pMEIfeSVQJbYAq8lcOPZRg7aXxvYxOhjr-iACvcCEX44qlxxHI8fyf8B2NoLHUXoCLRskBzJbfFWGlCnJmcH-7MKlsnJWQymbWkwoeEGT4fEN1D-rsyamog1e3TGwr8QQLcM0PbO0eKfsB3OhwuYhC_zS169blfO8ZDnW6PRP9U1k1I7g0lyfHUsJJ6yJhX2q8oKJuHXYj1P43RxNZvuuQmdl-ZJsD4Z3Udi2RFnyNI0Kn-EQB1Zw6NILjkSNyU80tgKMU43qp10o7WOpE7U6diTxXAcM3Uyu-TfbYk9dGQMuF-GpptrpmaApz8XD1vM9rFHAPLOjW8"
+      }
+    ],
+    "place_id": "ChIJF9hKy23n3JQRwtmM2-iEG-Y",
+    "rating": 4.7,
+    "types": [
+      "establishment",
+      "museum",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=16580992588745333186",
+    "user_ratings_total": 11908,
+    "website": "https://museuegipcioerosacruz.org.br/",
+    "added_at": "2026-08-26T19:00:04.118Z"
   }
 ]
