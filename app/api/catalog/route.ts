@@ -102,3 +102,68 @@ export async function POST(req: NextRequest) {
     );
   }
 }
+
+// DELETE /api/catalog - Remove um lugar do catálogo no GitHub
+export async function DELETE(req: NextRequest) {
+  try {
+    const { searchParams } = new URL(req.url);
+    let placeId = searchParams.get("place_id");
+
+    if (!placeId) {
+      try {
+        const body = await req.json();
+        placeId = body?.place_id;
+      } catch {
+        // body opcional
+      }
+    }
+
+    if (!placeId) {
+      return NextResponse.json(
+        { error: "place_id é obrigatório para remover do catálogo." },
+        { status: 400 }
+      );
+    }
+
+    const customToken = req.headers.get("x-github-token");
+
+    // 1. Obter o catálogo atual do GitHub
+    const currentCatalog = await fetchCatalogFromGitHub(customToken);
+
+    // 2. Verificar se o item existe no catálogo
+    const itemToRemove = currentCatalog.items.find((item) => item.place_id === placeId);
+    if (!itemToRemove) {
+      return NextResponse.json(
+        { error: "Lugar não encontrado no catálogo." },
+        { status: 404 }
+      );
+    }
+
+    // 3. Filtrar e remover o item
+    const updatedItems = currentCatalog.items.filter((item) => item.place_id !== placeId);
+
+    // 4. Salvar / Fazer commit no GitHub
+    const commitMessage = `Remove "${itemToRemove.name}" do catálogo de lugares`;
+    const commitResult = await commitCatalogToGitHub(
+      updatedItems,
+      currentCatalog.sha,
+      commitMessage,
+      customToken
+    );
+
+    return NextResponse.json({
+      success: true,
+      message: `"${itemToRemove.name}" foi removido do catálogo com sucesso!`,
+      removedPlaceId: placeId,
+      totalItems: updatedItems.length,
+      commitSha: commitResult.commitSha,
+      fileUrl: commitResult.fileUrl,
+    });
+  } catch (error) {
+    console.error("Erro na rota DELETE /api/catalog:", error);
+    return NextResponse.json(
+      { error: (error as Error).message || "Erro ao remover lugar do GitHub." },
+      { status: 500 }
+    );
+  }
+}

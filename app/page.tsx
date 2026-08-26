@@ -19,6 +19,7 @@ import {
   Compass,
   Download,
   CheckCircle,
+  Trash2,
 } from "lucide-react";
 import { CatalogItem, PlaceDetails, PlaceSearchResult } from "@/lib/types";
 
@@ -96,10 +97,14 @@ export default function Home() {
   const [selectedPlaceDetails, setSelectedPlaceDetails] = useState<PlaceDetails | null>(null);
   const [detailsError, setDetailsError] = useState<string | null>(null);
 
-  // Ação de Salvar
+  // Ação de Salvar / Excluir
   const [savingToGitHub, setSavingToGitHub] = useState(false);
-  const [saveSuccess, setSaveSuccess] = useState<{ message: string; fileUrl?: string } | null>(null);
-  const [saveError, setSaveError] = useState<string | null>(null);
+  const [deletingPlaceId, setDeletingPlaceId] = useState<string | null>(null);
+  const [actionSuccess, setActionSuccess] = useState<{ message: string; fileUrl?: string } | null>(null);
+  const [actionError, setActionError] = useState<string | null>(null);
+
+  // Modal de Confirmação de Exclusão
+  const [itemToDelete, setItemToDelete] = useState<{ place_id: string; name: string } | null>(null);
 
   // Filtro do Catálogo & Cópia
   const [catalogFilter, setCatalogFilter] = useState("");
@@ -143,8 +148,8 @@ export default function Home() {
     setSearchResults([]);
     setSelectedPlaceId(null);
     setSelectedPlaceDetails(null);
-    setSaveSuccess(null);
-    setSaveError(null);
+    setActionSuccess(null);
+    setActionError(null);
 
     try {
       const res = await fetch("/api/places/search", {
@@ -174,8 +179,8 @@ export default function Home() {
     setLoadingDetails(true);
     setDetailsError(null);
     setSelectedPlaceDetails(null);
-    setSaveSuccess(null);
-    setSaveError(null);
+    setActionSuccess(null);
+    setActionError(null);
 
     try {
       const headers: Record<string, string> = {};
@@ -200,8 +205,8 @@ export default function Home() {
     if (!selectedPlaceDetails) return;
 
     setSavingToGitHub(true);
-    setSaveError(null);
-    setSaveSuccess(null);
+    setActionError(null);
+    setActionSuccess(null);
 
     try {
       const res = await fetch("/api/catalog", {
@@ -216,13 +221,13 @@ export default function Home() {
       const data = await res.json();
 
       if (res.status === 409) {
-        setSaveError("Esse lugar já está salvo no catálogo!");
+        setActionError("Esse lugar já está salvo no catálogo!");
         return;
       }
 
       if (!res.ok) throw new Error(data.error || "Erro ao salvar no GitHub.");
 
-      setSaveSuccess({
+      setActionSuccess({
         message: data.message || "Lugar salvo com sucesso!",
         fileUrl: data.fileUrl,
       });
@@ -233,9 +238,45 @@ export default function Home() {
 
       loadCatalog();
     } catch (err) {
-      setSaveError((err as Error).message);
+      setActionError((err as Error).message);
     } finally {
       setSavingToGitHub(false);
+    }
+  };
+
+  // Excluir do GitHub
+  const handleDeletePlace = async (placeId: string) => {
+    setDeletingPlaceId(placeId);
+    setActionError(null);
+    setActionSuccess(null);
+
+    try {
+      const res = await fetch(`/api/catalog?place_id=${encodeURIComponent(placeId)}`, {
+        method: "DELETE",
+        headers: getCustomHeaders(),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) throw new Error(data.error || "Erro ao remover lugar do GitHub.");
+
+      setActionSuccess({
+        message: data.message || "Lugar removido com sucesso!",
+        fileUrl: data.fileUrl,
+      });
+
+      setExistingIds((prev) => {
+        const updated = new Set(prev);
+        updated.delete(placeId);
+        return updated;
+      });
+
+      setItemToDelete(null);
+      loadCatalog();
+    } catch (err) {
+      setActionError((err as Error).message);
+    } finally {
+      setDeletingPlaceId(null);
     }
   };
 
@@ -347,6 +388,26 @@ export default function Home() {
             >
               Configurar Token
             </button>
+          </div>
+        )}
+
+        {/* Notificação de Sucesso Global */}
+        {actionSuccess && (
+          <div className="mb-6 p-3.5 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-900 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0" />
+              <span className="font-semibold">{actionSuccess.message}</span>
+            </div>
+            {actionSuccess.fileUrl && (
+              <a
+                href={actionSuccess.fileUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="underline font-mono text-[11px] text-emerald-800"
+              >
+                Ver no GitHub
+              </a>
+            )}
           </div>
         )}
 
@@ -736,45 +797,28 @@ export default function Home() {
                         </div>
                       )}
 
-                      {/* Feedback Sucesso / Erro */}
-                      {saveSuccess && (
-                        <div className="p-3.5 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-900 space-y-1">
-                          <div className="flex items-center gap-1.5 font-bold text-emerald-800">
-                            <CheckCircle className="w-4 h-4 text-emerald-600" />
-                            {saveSuccess.message}
-                          </div>
-                          {saveSuccess.fileUrl && (
-                            <p className="text-emerald-700 text-[11px]">
-                              Ver arquivo no GitHub:{" "}
-                              <a
-                                href={saveSuccess.fileUrl}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="underline font-mono"
-                              >
-                                {catalogPath}
-                              </a>
-                            </p>
-                          )}
-                        </div>
-                      )}
-
-                      {saveError && (
+                      {actionError && (
                         <div className="p-3 bg-red-50 border border-red-200 rounded-xl text-xs text-red-800">
-                          {saveError}
+                          {actionError}
                         </div>
                       )}
 
-                      {/* Action Button */}
+                      {/* Action Buttons */}
                       <div className="pt-2">
                         {isSelectedPlaceAlreadyInCatalog ? (
-                          <div className="p-3 bg-zinc-100 rounded-xl text-xs text-zinc-600 flex items-center justify-between">
-                            <span>Este lugar já consta na lista do GitHub.</span>
+                          <div className="p-3 bg-zinc-100 rounded-xl text-xs text-zinc-600 flex items-center justify-between gap-2">
+                            <span>Este lugar já está salvo no catálogo.</span>
                             <button
-                              disabled
-                              className="px-3 py-1.5 bg-zinc-200 text-zinc-400 font-semibold rounded-lg cursor-not-allowed text-xs"
+                              onClick={() =>
+                                setItemToDelete({
+                                  place_id: selectedPlaceDetails.place_id,
+                                  name: selectedPlaceDetails.name,
+                                })
+                              }
+                              className="px-3 py-1.5 bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 font-semibold rounded-lg text-xs transition flex items-center gap-1.5 cursor-pointer"
                             >
-                              Já Cadastrado
+                              <Trash2 className="w-3.5 h-3.5 text-red-600" />
+                              <span>Remover do Catálogo</span>
                             </button>
                           </div>
                         ) : (
@@ -874,7 +918,7 @@ export default function Home() {
                   >
                     <div>
                       <div className="flex items-start justify-between gap-2">
-                        <h3 className="font-semibold text-zinc-900 text-sm">{item.name}</h3>
+                        <h3 className="font-semibold text-zinc-900 text-sm leading-snug">{item.name}</h3>
                         {item.rating !== undefined && (
                           <div className="flex items-center text-amber-500 font-semibold text-xs shrink-0">
                             <Star className="w-3.5 h-3.5 fill-amber-400 mr-0.5" />
@@ -908,16 +952,33 @@ export default function Home() {
                       <span className="text-[10px]">
                         {item.added_at ? new Date(item.added_at).toLocaleDateString("pt-BR") : ""}
                       </span>
-                      {item.url && (
-                        <a
-                          href={item.url}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-blue-600 hover:underline inline-flex items-center gap-1 font-medium text-xs"
+
+                      <div className="flex items-center gap-3">
+                        {item.url && (
+                          <a
+                            href={item.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-blue-600 hover:underline inline-flex items-center gap-1 font-medium text-xs"
+                          >
+                            Maps <ExternalLink className="w-3 h-3" />
+                          </a>
+                        )}
+
+                        {/* Botão de Excluir */}
+                        <button
+                          onClick={() => setItemToDelete({ place_id: item.place_id, name: item.name })}
+                          disabled={deletingPlaceId === item.place_id}
+                          className="p-1 hover:bg-red-50 hover:text-red-600 rounded text-zinc-400 transition"
+                          title="Remover do catálogo"
                         >
-                          Google Maps <ExternalLink className="w-3 h-3" />
-                        </a>
-                      )}
+                          {deletingPlaceId === item.place_id ? (
+                            <Loader2 className="w-3.5 h-3.5 animate-spin text-red-600" />
+                          ) : (
+                            <Trash2 className="w-3.5 h-3.5" />
+                          )}
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -926,6 +987,42 @@ export default function Home() {
           </div>
         )}
       </main>
+
+      {/* Modal de Confirmação de Exclusão */}
+      {itemToDelete && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-zinc-900/40 backdrop-blur-sm">
+          <div className="bg-white rounded-2xl max-w-sm w-full p-5 shadow-xl border border-zinc-200">
+            <h3 className="font-bold text-zinc-900 text-sm">Remover do Catálogo?</h3>
+            <p className="text-xs text-zinc-600 mt-2 leading-relaxed">
+              Tem certeza que deseja remover <strong>&quot;{itemToDelete.name}&quot;</strong>? Um novo commit será gerado no repositório do GitHub.
+            </p>
+
+            <div className="mt-5 flex justify-end gap-2">
+              <button
+                onClick={() => setItemToDelete(null)}
+                disabled={Boolean(deletingPlaceId)}
+                className="px-3 py-1.5 text-xs font-semibold text-zinc-600 hover:bg-zinc-100 rounded-lg transition"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={() => handleDeletePlace(itemToDelete.place_id)}
+                disabled={Boolean(deletingPlaceId)}
+                className="px-3.5 py-1.5 text-xs font-semibold text-white bg-red-600 hover:bg-red-700 rounded-lg transition flex items-center gap-1.5"
+              >
+                {deletingPlaceId ? (
+                  <>
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    <span>Removendo...</span>
+                  </>
+                ) : (
+                  <span>Confirmar Remoção</span>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Settings Modal */}
       {showSettingsModal && (
