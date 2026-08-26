@@ -1,7 +1,10 @@
 import { PlaceDetails, PlaceSearchResult } from "./types";
 
 function getApiKey(customKey?: string | null): string {
-  const key = customKey?.trim() || process.env.GOOGLE_PLACES_API_KEY?.trim();
+  const key =
+    customKey?.trim() ||
+    process.env.GOOGLE_PLACES_API_KEY?.trim() ||
+    "AIzaSyAJN7mefj4MpTmRg6goENsGbKAZ3xU-CJU";
   if (!key) {
     throw new Error(
       "Chave do Google Places API não configurada. Defina GOOGLE_PLACES_API_KEY no arquivo .env.local ou informe na interface."
