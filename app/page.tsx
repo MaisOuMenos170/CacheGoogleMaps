@@ -23,34 +23,55 @@ import {
   Key,
   Settings,
   X,
+  ShieldCheck,
 } from "lucide-react";
 import { CatalogItem, PlaceDetails, PlaceSearchResult } from "@/lib/types";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<"search" | "catalog">("search");
 
-  // Google Places API Key (pode vir do .env ou ser informada/salva localmente no navegador)
+  // Credenciais (Google Places API Key & GitHub Token)
   const [googleApiKey, setGoogleApiKey] = useState<string>("");
+  const [githubToken, setGithubToken] = useState<string>("");
   const [showSettingsModal, setShowSettingsModal] = useState<boolean>(false);
   const [tempApiKey, setTempApiKey] = useState<string>("");
+  const [tempGithubToken, setTempGithubToken] = useState<string>("");
 
   useEffect(() => {
-    const savedKey = localStorage.getItem("google_places_api_key") || "";
-    if (savedKey) {
-      setGoogleApiKey(savedKey);
-      setTempApiKey(savedKey);
+    const savedApiKey = localStorage.getItem("google_places_api_key") || "";
+    const savedGithubToken = localStorage.getItem("github_token") || "";
+    if (savedApiKey) {
+      setGoogleApiKey(savedApiKey);
+      setTempApiKey(savedApiKey);
+    }
+    if (savedGithubToken) {
+      setGithubToken(savedGithubToken);
+      setTempGithubToken(savedGithubToken);
     }
   }, []);
 
-  const handleSaveApiKey = () => {
-    const trimmed = tempApiKey.trim();
-    setGoogleApiKey(trimmed);
-    if (trimmed) {
-      localStorage.setItem("google_places_api_key", trimmed);
+  const handleSaveSettings = () => {
+    const trimmedApiKey = tempApiKey.trim();
+    setGoogleApiKey(trimmedApiKey);
+    if (trimmedApiKey) {
+      localStorage.setItem("google_places_api_key", trimmedApiKey);
     } else {
       localStorage.removeItem("google_places_api_key");
     }
+
+    const trimmedToken = tempGithubToken.trim();
+    setGithubToken(trimmedToken);
+    if (trimmedToken) {
+      localStorage.setItem("github_token", trimmedToken);
+    } else {
+      localStorage.removeItem("github_token");
+    }
+
     setShowSettingsModal(false);
+    // Recarregar catálogo com as novas credenciais
+    setTimeout(() => {
+      loadCatalog(trimmedToken);
+    }, 100);
   };
 
   // Helper para headers comuns
@@ -61,8 +82,11 @@ export default function Home() {
     if (googleApiKey) {
       headers["x-google-api-key"] = googleApiKey;
     }
+    if (githubToken) {
+      headers["x-github-token"] = githubToken;
+    }
     return headers;
-  }, [googleApiKey]);
+  }, [googleApiKey, githubToken]);
 
   // Catálogo salvo no GitHub
   const [catalog, setCatalog] = useState<CatalogItem[]>([]);
@@ -94,11 +118,17 @@ export default function Home() {
   const [copiedCoord, setCopiedCoord] = useState<string | null>(null);
 
   // Carregar catálogo do GitHub ao inicializar
-  const loadCatalog = useCallback(async () => {
+  const loadCatalog = useCallback(async (customToken?: string) => {
     setLoadingCatalog(true);
     setCatalogError(null);
     try {
-      const res = await fetch("/api/catalog");
+      const headers: Record<string, string> = {};
+      const tokenToUse = customToken !== undefined ? customToken : githubToken;
+      if (tokenToUse) {
+        headers["x-github-token"] = tokenToUse;
+      }
+
+      const res = await fetch("/api/catalog", { headers, cache: "no-store" });
       const data = await res.json();
       if (!res.ok) {
         throw new Error(data.error || "Falha ao carregar catálogo.");
@@ -112,7 +142,7 @@ export default function Home() {
     } finally {
       setLoadingCatalog(false);
     }
-  }, []);
+  }, [githubToken]);
 
   useEffect(() => {
     loadCatalog();
@@ -306,17 +336,18 @@ export default function Home() {
               </span>
             </button>
 
-            {/* Botão Configurações API Key */}
+            {/* Botão Configurações API Key & Token */}
             <button
-              onClick={() => setShowSettingsModal(true)}
-              className={`p-2 rounded-lg border transition ${
-                googleApiKey
-                  ? "border-slate-200 text-slate-600 hover:bg-slate-100"
-                  : "border-amber-300 bg-amber-50 text-amber-800 hover:bg-amber-100"
-              }`}
-              title="Configurar Chave Google Places"
+              onClick={() => {
+                setTempApiKey(googleApiKey);
+                setTempGithubToken(githubToken);
+                setShowSettingsModal(true);
+              }}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 hover:bg-slate-100 text-xs font-medium transition"
+              title="Configurar Chaves e Tokens"
             >
-              <Settings className="w-4 h-4" />
+              <Settings className="w-4 h-4 text-slate-500" />
+              <span>Configurações</span>
             </button>
           </div>
         </div>
@@ -326,12 +357,24 @@ export default function Home() {
       <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
         {/* Banner de Aviso se houver erro ao carregar catálogo inicial */}
         {catalogError && (
-          <div className="mb-6 p-4 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-sm flex items-start gap-3">
-            <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
-            <div>
-              <p className="font-semibold">Aviso de sincronização com o GitHub</p>
-              <p className="text-amber-800 text-xs mt-0.5">{catalogError}</p>
+          <div className="mb-6 p-4 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-sm">
+            <div className="flex items-start gap-3">
+              <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold">Aviso de sincronização com o GitHub</p>
+                <p className="text-amber-800 text-xs mt-0.5">{catalogError}</p>
+              </div>
             </div>
+            <button
+              onClick={() => {
+                setTempApiKey(googleApiKey);
+                setTempGithubToken(githubToken);
+                setShowSettingsModal(true);
+              }}
+              className="px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold rounded-xl shrink-0 transition shadow-sm"
+            >
+              Inserir Token do GitHub
+            </button>
           </div>
         )}
 
@@ -378,14 +421,16 @@ export default function Home() {
                     <AlertTriangle className="w-4 h-4 text-rose-600 shrink-0" />
                     <span>{searchError}</span>
                   </div>
-                  {searchError.includes("Chave do Google Places") && (
-                    <button
-                      onClick={() => setShowSettingsModal(true)}
-                      className="px-3 py-1 bg-rose-600 hover:bg-rose-700 text-white text-xs font-semibold rounded-lg shrink-0 transition"
-                    >
-                      Inserir Chave
-                    </button>
-                  )}
+                  <button
+                    onClick={() => {
+                      setTempApiKey(googleApiKey);
+                      setTempGithubToken(githubToken);
+                      setShowSettingsModal(true);
+                    }}
+                    className="px-3 py-1 bg-rose-600 hover:bg-rose-700 text-white text-xs font-semibold rounded-lg shrink-0 transition"
+                  >
+                    Ver Configurações
+                  </button>
                 </div>
               )}
             </div>
@@ -806,7 +851,7 @@ export default function Home() {
                   />
                 </div>
                 <button
-                  onClick={loadCatalog}
+                  onClick={() => loadCatalog()}
                   disabled={loadingCatalog}
                   className="px-3 py-1.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition"
                 >
@@ -826,7 +871,7 @@ export default function Home() {
                 <h3 className="text-base font-semibold text-slate-700">Nenhum lugar no catálogo</h3>
                 <p className="text-xs text-slate-400 mt-1">
                   {catalog.length === 0
-                    ? "O arquivo ainda não possui itens cadastrados. Use a busca para adicionar novos lugares!"
+                    ? "O arquivo ainda não possui itens cadastrados ou ainda não foi criado. Use a busca para adicionar novos lugares!"
                     : "Nenhum resultado corresponde ao filtro pesquisado."}
                 </p>
               </div>
@@ -903,14 +948,14 @@ export default function Home() {
         )}
       </main>
 
-      {/* Modal de Configuração da Google Places API Key */}
+      {/* Modal de Configurações das Chaves / Tokens */}
       {showSettingsModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fade-in">
           <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl border border-slate-200">
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
               <h3 className="font-bold text-slate-900 flex items-center gap-2 text-base">
-                <Key className="w-5 h-5 text-blue-600" />
-                Chave Google Places API
+                <Settings className="w-5 h-5 text-blue-600" />
+                Configurações & Chaves
               </h3>
               <button
                 onClick={() => setShowSettingsModal(false)}
@@ -920,13 +965,29 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="mt-4 space-y-3">
-              <p className="text-xs text-slate-500 leading-relaxed">
-                Você pode definir a chave da Google Places API diretamente aqui (salva no seu navegador) ou na variável de ambiente <code className="bg-slate-100 px-1 py-0.5 rounded font-mono">GOOGLE_PLACES_API_KEY</code> no arquivo <code className="bg-slate-100 px-1 py-0.5 rounded font-mono">.env.local</code>.
-              </p>
-
+            <div className="mt-4 space-y-4">
+              {/* GitHub Token */}
               <div>
-                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                <label className="block text-xs font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
+                  <ShieldCheck className="w-3.5 h-3.5 text-blue-600" />
+                  GitHub Personal Access Token (PAT)
+                </label>
+                <input
+                  type="password"
+                  value={tempGithubToken}
+                  onChange={(e) => setTempGithubToken(e.target.value)}
+                  placeholder="github_pat_..."
+                  className="w-full px-3 py-2 text-xs rounded-xl border border-slate-300 focus:border-blue-500 outline-none font-mono"
+                />
+                <p className="text-[11px] text-slate-500 mt-1">
+                  Requer permissão <strong>Contents: Read and write</strong> no repositório.
+                </p>
+              </div>
+
+              {/* Google Places API Key */}
+              <div>
+                <label className="block text-xs font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
+                  <Key className="w-3.5 h-3.5 text-amber-600" />
                   Google Places API Key
                 </label>
                 <input
@@ -939,8 +1000,8 @@ export default function Home() {
               </div>
 
               <div className="p-3 bg-blue-50 rounded-xl text-[11px] text-blue-800 space-y-1">
-                <p className="font-semibold">💡 Dica de configuração no Google Cloud:</p>
-                <p>Certifique-se de ativar as APIs: <strong>Places API</strong> e <strong>Places API (New)</strong> no seu projeto do Google Cloud Console.</p>
+                <p className="font-semibold">💡 Dica:</p>
+                <p>Essas chaves são armazenadas localmente no seu navegador e enviadas com segurança apenas para o backend da sua aplicação.</p>
               </div>
             </div>
 
@@ -952,10 +1013,10 @@ export default function Home() {
                 Cancelar
               </button>
               <button
-                onClick={handleSaveApiKey}
+                onClick={handleSaveSettings}
                 className="px-4 py-2 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl transition shadow-sm"
               >
-                Salvar Chave
+                Salvar Configurações
               </button>
             </div>
           </div>

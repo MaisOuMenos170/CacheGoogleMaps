@@ -8,24 +8,24 @@ interface GitHubConfig {
   filePath: string;
 }
 
-export function getGitHubConfig(): GitHubConfig {
-  const token =
-    process.env.GITHUB_TOKEN?.trim() ||
-    "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";
+export function getGitHubConfig(customToken?: string | null): GitHubConfig {
+  const token = customToken?.trim() || process.env.GITHUB_TOKEN?.trim() || "";
   const owner = process.env.GITHUB_OWNER?.trim() || "MaisOuMenos170";
   const repo = process.env.GITHUB_REPO?.trim() || "CacheGoogleMaps";
   const branch = process.env.GITHUB_BRANCH?.trim() || "main";
   const filePath = (process.env.GITHUB_FILE_PATH?.trim() || "data/lugares.json").replace(/^\//, "");
 
   if (!token) {
-    throw new Error("Variável GITHUB_TOKEN não configurada no ambiente.");
+    throw new Error(
+      "GitHub Personal Access Token não configurado. Defina GITHUB_TOKEN no arquivo .env.local ou informe nas configurações da interface."
+    );
   }
 
   return { token, owner, repo, branch, filePath };
 }
 
-export async function fetchCatalogFromGitHub(): Promise<GitHubCatalogResponse> {
-  const { token, owner, repo, branch, filePath } = getGitHubConfig();
+export async function fetchCatalogFromGitHub(customToken?: string | null): Promise<GitHubCatalogResponse> {
+  const { token, owner, repo, branch, filePath } = getGitHubConfig(customToken);
 
   const url = `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}?ref=${branch}`;
 
@@ -49,6 +49,11 @@ export async function fetchCatalogFromGitHub(): Promise<GitHubCatalogResponse> {
 
   if (!res.ok) {
     const errorBody = await res.text();
+    if (res.status === 401) {
+      throw new Error(
+        "Token do GitHub inválido ou expirado (401 Bad credentials). Gere um novo Personal Access Token (PAT) no GitHub com permissão 'Contents: Read and write' e atualize no .env.local ou no botão de configurações."
+      );
+    }
     throw new Error(
       `Erro ao buscar arquivo do GitHub (${res.status} ${res.statusText}): ${errorBody}`
     );
@@ -76,9 +81,10 @@ export async function fetchCatalogFromGitHub(): Promise<GitHubCatalogResponse> {
 export async function commitCatalogToGitHub(
   items: CatalogItem[],
   sha: string | null,
-  commitMessage?: string
+  commitMessage?: string,
+  customToken?: string | null
 ): Promise<{ commitSha: string; fileUrl: string }> {
-  const { token, owner, repo, branch, filePath } = getGitHubConfig();
+  const { token, owner, repo, branch, filePath } = getGitHubConfig(customToken);
 
   const contentJson = JSON.stringify(items, null, 2) + "\n";
   const base64Content = Buffer.from(contentJson, "utf-8").toString("base64");

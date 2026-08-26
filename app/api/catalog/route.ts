@@ -4,9 +4,10 @@ import { getGooglePlaceDetails } from "@/lib/google-places";
 import { CatalogItem, PlaceDetails } from "@/lib/types";
 
 // GET /api/catalog - Lista todos os lugares do catálogo e metadados
-export async function GET() {
+export async function GET(req: NextRequest) {
   try {
-    const catalog = await fetchCatalogFromGitHub();
+    const customToken = req.headers.get("x-github-token");
+    const catalog = await fetchCatalogFromGitHub(customToken);
     const existingIds = catalog.items.map((item) => item.place_id).filter(Boolean);
 
     return NextResponse.json({
@@ -41,8 +42,10 @@ export async function POST(req: NextRequest) {
 
     const targetPlaceId = place_id || providedPlace.place_id;
 
+    const customToken = req.headers.get("x-github-token");
+
     // 1. Obter o catálogo atual do GitHub
-    const currentCatalog = await fetchCatalogFromGitHub();
+    const currentCatalog = await fetchCatalogFromGitHub(customToken);
 
     // 2. Verificação de duplicidade por place_id
     const existingPlace = currentCatalog.items.find((item) => item.place_id === targetPlaceId);
@@ -79,7 +82,8 @@ export async function POST(req: NextRequest) {
     const commitResult = await commitCatalogToGitHub(
       updatedItems,
       currentCatalog.sha,
-      commitMessage
+      commitMessage,
+      customToken
     );
 
     return NextResponse.json({
