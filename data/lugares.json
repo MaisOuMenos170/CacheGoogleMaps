@@ -6326,5 +6326,236 @@
     "url": "https://maps.google.com/?cid=17048836207897291307",
     "user_ratings_total": 245,
     "added_at": "2026-09-29T17:56:23.206Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "s/n",
+        "short_name": "s/n",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Presidente Carlos Cavalcanti",
+        "short_name": "R. Presidente Carlos Cavalcanti",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Centro",
+        "short_name": "Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80030-010",
+        "short_name": "80030-010",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Com 6,8 hectares, o parque público mais antigo do país tem ciclovia, trilha e um lago com pedalinhos."
+    },
+    "formatted_address": "R. Presidente Carlos Cavalcanti, s/n - Centro, Curitiba - PR, 80030-010, Brasil",
+    "formatted_phone_number": "(41) 3350-9940",
+    "geometry": {
+      "location": {
+        "lat": -25.4253475,
+        "lng": -49.2674245
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4235512,
+          "lng": -49.2652788
+        },
+        "southwest": {
+          "lat": -25.4269299,
+          "lng": -49.2689479
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3350-9940",
+    "name": "Passeio Público",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "0600"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "0600"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "0600"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "0600"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "0600"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "0600"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 06:00 – 20:00",
+        "quarta-feira: 06:00 – 20:00",
+        "quinta-feira: 06:00 – 20:00",
+        "sexta-feira: 06:00 – 20:00",
+        "sábado: 06:00 – 20:00",
+        "domingo: 06:00 – 20:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMYAboNyAVSzVqeOIUBSJOt7R5BfIf3ZFugsVeXjDV_TIocvrH68Dgj4ixBYlKIqtfpZ8zxbN89sthKt9WAzLOGcW9HcpYC85pZxC2qhAEWviQcgl6FR4jP3NhIuq0o2AwC6B5438eCqjm7STw6TNX1G283rUU4fc0ZXEZjQwQQNEd2_2pmqe2iZpZlfeJjioeKVtE9ToHqUY9Q32d94CAvZKdMrPy26ofa12aZXfXOD1gGGM_BLKJ53Elz1cCZgIhJvtud1YwwOMj00ub2I5RAaZixc8uYjnDlAT08nEgZKagzitSjmTdpByK_htE9y-4HlBLsiJ4t3rVvi7BRyrUfyjd0ztdXW-CD_V-WVi6KPgCQrQN2tMs7Sq40ZFKkN4fOCnX_9uqbO2cQY9FhHAwOeqYJCq1TQqmeN34bvwYUDiw",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYAboNyAVSzVqeOIUBSJOt7R5BfIf3ZFugsVeXjDV_TIocvrH68Dgj4ixBYlKIqtfpZ8zxbN89sthKt9WAzLOGcW9HcpYC85pZxC2qhAEWviQcgl6FR4jP3NhIuq0o2AwC6B5438eCqjm7STw6TNX1G283rUU4fc0ZXEZjQwQQNEd2_2pmqe2iZpZlfeJjioeKVtE9ToHqUY9Q32d94CAvZKdMrPy26ofa12aZXfXOD1gGGM_BLKJ53Elz1cCZgIhJvtud1YwwOMj00ub2I5RAaZixc8uYjnDlAT08nEgZKagzitSjmTdpByK_htE9y-4HlBLsiJ4t3rVvi7BRyrUfyjd0ztdXW-CD_V-WVi6KPgCQrQN2tMs7Sq40ZFKkN4fOCnX_9uqbO2cQY9FhHAwOeqYJCq1TQqmeN34bvwYUDiw"
+      },
+      {
+        "photo_reference": "Aa-ngMapvkWlBUkPJD0T-WbbYtpH_EsutvWkUhpCCyQbrXALVh8KHQurg1QHLvZh9E4iuXdZmCwXs0zb8aanXYJnKIFwCqZw3E8aQREmzIMzskEpplUrZjGs2wxs2DQUTNvPbIGM-Q-V0rghJD8dgyLfNbUmpdbgaTE4UR5Hk5NZ1DimJuugFYnL7A_W9uyYcuzya9dNcz-hIq9YDP6-nXGApzQ14YQBEAbqIpnZmEHg5ONjmc0tuEZzvBWp8OSu8OgKxkJim7S5jutj-NtUaNaJ-CbafvjIzl5Esbb42ZumQ1B80-TF-vm8s25O_bB_-c7Snz38tB7tFxDHuo4FZVDmc5owR2L7LT5OdW3XySTHj3uCz3SzrkCkccfwZdpPUnh8lZH8QjP5x8yDCxUKXsrdOXRtSWwuLbWWifnRnGIAveJqTA",
+        "height": 3472,
+        "width": 4624,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMapvkWlBUkPJD0T-WbbYtpH_EsutvWkUhpCCyQbrXALVh8KHQurg1QHLvZh9E4iuXdZmCwXs0zb8aanXYJnKIFwCqZw3E8aQREmzIMzskEpplUrZjGs2wxs2DQUTNvPbIGM-Q-V0rghJD8dgyLfNbUmpdbgaTE4UR5Hk5NZ1DimJuugFYnL7A_W9uyYcuzya9dNcz-hIq9YDP6-nXGApzQ14YQBEAbqIpnZmEHg5ONjmc0tuEZzvBWp8OSu8OgKxkJim7S5jutj-NtUaNaJ-CbafvjIzl5Esbb42ZumQ1B80-TF-vm8s25O_bB_-c7Snz38tB7tFxDHuo4FZVDmc5owR2L7LT5OdW3XySTHj3uCz3SzrkCkccfwZdpPUnh8lZH8QjP5x8yDCxUKXsrdOXRtSWwuLbWWifnRnGIAveJqTA"
+      },
+      {
+        "photo_reference": "Aa-ngMbX9LyFyBpBMt35lDbYggAVCr3liuzkyKAaE8jGFvuMueyQGNGEY5irvgQ0g3MZ9iOnYuzqRUTAtRRCDxXDSlDJq05THR-v6Bnd1nfmqf066-JEWFucqsIAVlR_7qy10SKHkmzw2jJUKrS-GFXs7dpxy8HFjdJQKCD7prIdd_OOloBUNOfniHcPorW0Pch5uVI1Qns9RhPtwiCyj-Pq3mBGq9G9qsPxQU-8BqpS38ggbnpF9pe2W5TjQIrT_Cl8oIJYYOoOO3DhPXUOFIMXxFk5LSjztnzUWe-AzP28M2VMpZ2oBtbA-519yXuyGhpEw_nzWlzdGChFdJ8Ln7s1pWa6TczYb2hAbDtmMXxpZamcdRgUCIJ0c8jxZg6SfHud_1maz4KbWiR6_jNptonlU_yle32J8PLybEhf8mmv7tm1Tlu9",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbX9LyFyBpBMt35lDbYggAVCr3liuzkyKAaE8jGFvuMueyQGNGEY5irvgQ0g3MZ9iOnYuzqRUTAtRRCDxXDSlDJq05THR-v6Bnd1nfmqf066-JEWFucqsIAVlR_7qy10SKHkmzw2jJUKrS-GFXs7dpxy8HFjdJQKCD7prIdd_OOloBUNOfniHcPorW0Pch5uVI1Qns9RhPtwiCyj-Pq3mBGq9G9qsPxQU-8BqpS38ggbnpF9pe2W5TjQIrT_Cl8oIJYYOoOO3DhPXUOFIMXxFk5LSjztnzUWe-AzP28M2VMpZ2oBtbA-519yXuyGhpEw_nzWlzdGChFdJ8Ln7s1pWa6TczYb2hAbDtmMXxpZamcdRgUCIJ0c8jxZg6SfHud_1maz4KbWiR6_jNptonlU_yle32J8PLybEhf8mmv7tm1Tlu9"
+      },
+      {
+        "photo_reference": "Aa-ngMYqytI2XzQlna77uP3k0gHrBWqfvpHcg2eb3zpUGkHYhdSsGuSQtDJDexh4eLv8oabEGJBATjvbCvf_1DbpaU1ru00BSc1prTs4QhGXI3x57EchXbDd3xqwFdGQ6yIWdA7uprqXZa2itABEgYk0vPyDG0RgQe59Ls9f1JaRwOBIhWNvh50MZxaFTPy1P-rEqtbxCFnUOa1UFioD157rQ6pp0A9K_Ze2KyIX0V8qwdKrMUQFJatUdwmIOna7FmgzgtDDW26-qTwnVjYhAX1yVStzQNhvFnx8o4BI0URottnXTzNnBhdPwsVhZPL_DHV2lgz_WDk0gJdxDXKGqS0nWE9HHO51I2x81EqVsYX1MR4LJ8dQ_4uj3i8UL5FDVQiGj5ZlK0SpIzxc5iCcqFxfBHuwlbELREyEqGHl7jnu4uERHIkBEtRDuQlf4LZ10KWo",
+        "height": 4096,
+        "width": 3072,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYqytI2XzQlna77uP3k0gHrBWqfvpHcg2eb3zpUGkHYhdSsGuSQtDJDexh4eLv8oabEGJBATjvbCvf_1DbpaU1ru00BSc1prTs4QhGXI3x57EchXbDd3xqwFdGQ6yIWdA7uprqXZa2itABEgYk0vPyDG0RgQe59Ls9f1JaRwOBIhWNvh50MZxaFTPy1P-rEqtbxCFnUOa1UFioD157rQ6pp0A9K_Ze2KyIX0V8qwdKrMUQFJatUdwmIOna7FmgzgtDDW26-qTwnVjYhAX1yVStzQNhvFnx8o4BI0URottnXTzNnBhdPwsVhZPL_DHV2lgz_WDk0gJdxDXKGqS0nWE9HHO51I2x81EqVsYX1MR4LJ8dQ_4uj3i8UL5FDVQiGj5ZlK0SpIzxc5iCcqFxfBHuwlbELREyEqGHl7jnu4uERHIkBEtRDuQlf4LZ10KWo"
+      },
+      {
+        "photo_reference": "Aa-ngMaKOU6wSmOzMqS7fFBwIAOjIUzo9wjrS8S5APjsm5IuIGq7TDkKeB3zoTBg53hq0e_UmfXU35Uaz21WIqpSY8d8fU58hTNxH7NzxgwsGv03rQFSteOPDaPJKu-kV2B0MussEmJNGDPi06N0-0C9SGY-EPFUrMIBFIzuZYACXOKXtOXHYmZcYGScWMHRI4g6J6RmMlD9NVFNhD3cHfyP1q6l2PaIjtvLqmjyoYDUojctk_pJRSd-lJ28y0o9_kP4Y7trD6aUR8VgwVUjQ9T7FfGjxdtuf6ZEl95vggCF9ab7NeIzRGbVVqJFcD0gUQB3V7oLQyJOu2hE7NQFUVOS4c6jmfCxwLTOUJAnfSFzvC4sCNHAR_PTCr8gpJko-SQylT--M0SQWwCLD4xgcsnhwSj-eDqBCqaqkNHc7UfNNfVIkokt",
+        "height": 3456,
+        "width": 4608,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaKOU6wSmOzMqS7fFBwIAOjIUzo9wjrS8S5APjsm5IuIGq7TDkKeB3zoTBg53hq0e_UmfXU35Uaz21WIqpSY8d8fU58hTNxH7NzxgwsGv03rQFSteOPDaPJKu-kV2B0MussEmJNGDPi06N0-0C9SGY-EPFUrMIBFIzuZYACXOKXtOXHYmZcYGScWMHRI4g6J6RmMlD9NVFNhD3cHfyP1q6l2PaIjtvLqmjyoYDUojctk_pJRSd-lJ28y0o9_kP4Y7trD6aUR8VgwVUjQ9T7FfGjxdtuf6ZEl95vggCF9ab7NeIzRGbVVqJFcD0gUQB3V7oLQyJOu2hE7NQFUVOS4c6jmfCxwLTOUJAnfSFzvC4sCNHAR_PTCr8gpJko-SQylT--M0SQWwCLD4xgcsnhwSj-eDqBCqaqkNHc7UfNNfVIkokt"
+      },
+      {
+        "photo_reference": "Aa-ngMb9dSISd42t-vKvgvxErYjuRfwScCyA9dMMhORgmXaHqSD6FPOOhMG2GEW73aw2wnCCCQOu69_O9dTOoGFh2E3j3Rky11O8Qje12v78JYHhKeqcq7ylt2Fm8d_ssivKgsP7E6-kaKz66omcbsowJ6jedspoWaDS892xtMYXUU_91nz3H70KX5dpmwIRSZb4a0emQE40hbbR-lmZ35OgLoTy7GwD46DfkCWT1UyfgQpiF6oEnoEPl3CdE_nEh2BfM61P80KGFeid7wxzfH5wYoZGATi-TuqaQaXjG4unwICgk19jF5J2UxXmN3oxoVbkn-AJyH2nlLyYcX9qxgx9jn03BJoWs6BBoFGQVxdEOeOI2qt86tiJImsLQKhhnfSTgpz93nfOysPDrvQa4mdYLzHNxNX1hkv-tljXbyx0d2Xisg",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMb9dSISd42t-vKvgvxErYjuRfwScCyA9dMMhORgmXaHqSD6FPOOhMG2GEW73aw2wnCCCQOu69_O9dTOoGFh2E3j3Rky11O8Qje12v78JYHhKeqcq7ylt2Fm8d_ssivKgsP7E6-kaKz66omcbsowJ6jedspoWaDS892xtMYXUU_91nz3H70KX5dpmwIRSZb4a0emQE40hbbR-lmZ35OgLoTy7GwD46DfkCWT1UyfgQpiF6oEnoEPl3CdE_nEh2BfM61P80KGFeid7wxzfH5wYoZGATi-TuqaQaXjG4unwICgk19jF5J2UxXmN3oxoVbkn-AJyH2nlLyYcX9qxgx9jn03BJoWs6BBoFGQVxdEOeOI2qt86tiJImsLQKhhnfSTgpz93nfOysPDrvQa4mdYLzHNxNX1hkv-tljXbyx0d2Xisg"
+      },
+      {
+        "photo_reference": "Aa-ngMZofAa1CFinBrS1RYdtmfZ0mBDYSzmCYrkSe6lKvIk3O5cDEbUP2u2MSLfUf6g7pqJF-KbCPQ4t0VGsHVvXiSOQoM-vpDDFXdBCGiqY4ssxk1T-C_j_1Wrb6IQGn_agJDtCo600sWWAZc5V1IiuaGSEsWsNzCO1jZpbtyD_FRsa8WUTZ84Yggs2s83wEv-inf5RrYSxUvoRgPFNS6FbkuBF-gj2qGF66LOx_iAsfZV9FJiWRdOF_Zz-JuyjmbpqyG63Xcgqh2uhcLLVqw-VcwtK9DkLzthV-g3iAymjLrL02ZvukE1ytL5efxasaLBCt_joRLkwXLF-3QzaT22GcCNjg74sXumJYqfpbt00W_l6v88lLUr2QVqILUZNXneef9QYsQ4XwkCMn2695-tgO4bcBpUWIJENQg2vJKh1KlE",
+        "height": 2250,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZofAa1CFinBrS1RYdtmfZ0mBDYSzmCYrkSe6lKvIk3O5cDEbUP2u2MSLfUf6g7pqJF-KbCPQ4t0VGsHVvXiSOQoM-vpDDFXdBCGiqY4ssxk1T-C_j_1Wrb6IQGn_agJDtCo600sWWAZc5V1IiuaGSEsWsNzCO1jZpbtyD_FRsa8WUTZ84Yggs2s83wEv-inf5RrYSxUvoRgPFNS6FbkuBF-gj2qGF66LOx_iAsfZV9FJiWRdOF_Zz-JuyjmbpqyG63Xcgqh2uhcLLVqw-VcwtK9DkLzthV-g3iAymjLrL02ZvukE1ytL5efxasaLBCt_joRLkwXLF-3QzaT22GcCNjg74sXumJYqfpbt00W_l6v88lLUr2QVqILUZNXneef9QYsQ4XwkCMn2695-tgO4bcBpUWIJENQg2vJKh1KlE"
+      },
+      {
+        "photo_reference": "Aa-ngMY04o2viFYc_Ss7hDqI9Eb8aXJcaYtWntqH7q7ZAmItSGmRIkKKqoQXFieB7gYI2ZXruJllPa61Dy8i9gUSk520f9kMurg_1RPmtVqT8dsLPGi5eaW_gMTI36Rg6W3f4CpBX-Rba67Hv5E0fSTCZ4wYmHJ1NJTsWRXZj7MoyAmKOrwE9r7Sq3BQDNho6xOukaxlQtUlATI3Pf-lmCG6eoEmDvOuktFKZ6Z_rVp_iiPxmRvV122AhrUGe7_ti-kFHQMh68_RcStXHN4fCHoBdgI4MmaiPxdgNLFbrpsXXdGayMKFlhCWUNMw4MP95YXpZ7HdjeU9Fb4FZVdRBHnsJDXrwJ1fVdDhTj9x8ztSjGBqU-iBzozIX9UW56-hfd5fABk-smZFaN8XBsHH0Ez_5SfyB7YM3_VazuX-xnJLJafVR8SvDOB1ygeZPdQyWCAh",
+        "height": 3472,
+        "width": 4624,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMY04o2viFYc_Ss7hDqI9Eb8aXJcaYtWntqH7q7ZAmItSGmRIkKKqoQXFieB7gYI2ZXruJllPa61Dy8i9gUSk520f9kMurg_1RPmtVqT8dsLPGi5eaW_gMTI36Rg6W3f4CpBX-Rba67Hv5E0fSTCZ4wYmHJ1NJTsWRXZj7MoyAmKOrwE9r7Sq3BQDNho6xOukaxlQtUlATI3Pf-lmCG6eoEmDvOuktFKZ6Z_rVp_iiPxmRvV122AhrUGe7_ti-kFHQMh68_RcStXHN4fCHoBdgI4MmaiPxdgNLFbrpsXXdGayMKFlhCWUNMw4MP95YXpZ7HdjeU9Fb4FZVdRBHnsJDXrwJ1fVdDhTj9x8ztSjGBqU-iBzozIX9UW56-hfd5fABk-smZFaN8XBsHH0Ez_5SfyB7YM3_VazuX-xnJLJafVR8SvDOB1ygeZPdQyWCAh"
+      },
+      {
+        "photo_reference": "Aa-ngMbeH9SGeAPlwP5tOTeispcfXkIOEuClgOEZCbnMzspOiou0LS_1XG7EfIx6qDVtglqxakiTjeA8ngQojQghd3bO1HaUXL_N1KI_fxsAI9XJZgX3Mt7JcVczn5GX5K-DExwrknT7tJLQnTaEjjzR3jZahA_1B1f0Vh9n5wVJo9F8UkfQzdX0ijcjSF7zE0pwH_GiugX_dNp7CYfAtwUuRxt2LSomdWwXxDufK2EmLIDvaFxJlrptAdtXANUXnMEcF7s-zeLUE8DXcBkka97_ViLmCB7_KXyXRLyD_UJ3qb8jddnaauklyjir1LonbvOc5RSPG90i9dJEQq2e1wnnxiZQnxwHeELfGl996peifALqoeVvBgk8ZIE3OmpMPfn39peIoV9doUNF_8JCNh-7k7MWdqcA3yDea20e4A",
+        "height": 3120,
+        "width": 4160,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbeH9SGeAPlwP5tOTeispcfXkIOEuClgOEZCbnMzspOiou0LS_1XG7EfIx6qDVtglqxakiTjeA8ngQojQghd3bO1HaUXL_N1KI_fxsAI9XJZgX3Mt7JcVczn5GX5K-DExwrknT7tJLQnTaEjjzR3jZahA_1B1f0Vh9n5wVJo9F8UkfQzdX0ijcjSF7zE0pwH_GiugX_dNp7CYfAtwUuRxt2LSomdWwXxDufK2EmLIDvaFxJlrptAdtXANUXnMEcF7s-zeLUE8DXcBkka97_ViLmCB7_KXyXRLyD_UJ3qb8jddnaauklyjir1LonbvOc5RSPG90i9dJEQq2e1wnnxiZQnxwHeELfGl996peifALqoeVvBgk8ZIE3OmpMPfn39peIoV9doUNF_8JCNh-7k7MWdqcA3yDea20e4A"
+      },
+      {
+        "photo_reference": "Aa-ngMbx2QOiWwA2Dth_dU3pI67QEOCdtTzHe_RPO_N0roa9kjrlgEOoSAMMwpL0eVhdRHQjhkUMNrAKqjh3p4VA5YJYDrk0gIniOBOlDRqT79wusxQrS1MbcOkAqeGV3b1z_c6lbSTF1A3JcX5l5oBTw3PP-dho9lnTB73wvLw585s0c5T7K3c_zG7IndZJBQGUigdrUx8bZU8ZpMPFjDRXz0cz1chsqUxDMd-T4Lj_CmYuRGGfXignZcW0UiecFjV-copjtc4_SDhXdDIhPXw9sdYlHw0zIZD23CId4WzGXeSZd-9zjEhBVaeaZO8oE2k7J1woq-VVjc9RFtLWtpT0T6RBBqSPHxO3IdjNnTUPAq__UCC4znT3xddj57KERZtjoZALOt7YOibCTIiTv_qFgBxOIbyWNcUo59PeOD7bJaPEgJxV",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbx2QOiWwA2Dth_dU3pI67QEOCdtTzHe_RPO_N0roa9kjrlgEOoSAMMwpL0eVhdRHQjhkUMNrAKqjh3p4VA5YJYDrk0gIniOBOlDRqT79wusxQrS1MbcOkAqeGV3b1z_c6lbSTF1A3JcX5l5oBTw3PP-dho9lnTB73wvLw585s0c5T7K3c_zG7IndZJBQGUigdrUx8bZU8ZpMPFjDRXz0cz1chsqUxDMd-T4Lj_CmYuRGGfXignZcW0UiecFjV-copjtc4_SDhXdDIhPXw9sdYlHw0zIZD23CId4WzGXeSZd-9zjEhBVaeaZO8oE2k7J1woq-VVjc9RFtLWtpT0T6RBBqSPHxO3IdjNnTUPAq__UCC4znT3xddj57KERZtjoZALOt7YOibCTIiTv_qFgBxOIbyWNcUo59PeOD7bJaPEgJxV"
+      }
+    ],
+    "place_id": "ChIJVbyydhTk3JQR3rEscng0WJ4",
+    "rating": 4.6,
+    "types": [
+      "establishment",
+      "park",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=11409927347859403230",
+    "user_ratings_total": 42589,
+    "website": "http://www.curitiba.pr.gov.br/conteudo/parques-e-bosques-passeio-publico/324",
+    "added_at": "2026-09-29T17:56:50.504Z"
   }
 ]
