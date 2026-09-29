@@ -3,6 +3,11 @@ import { fetchCatalogFromGitHub, commitCatalogToGitHub } from "@/lib/github";
 import { getGooglePlaceDetails } from "@/lib/google-places";
 import { CatalogItem, PlaceDetails } from "@/lib/types";
 
+function normalizeTags(tags: unknown): string[] {
+  if (!Array.isArray(tags)) return [];
+  return [...new Set(tags.map((tag) => String(tag).trim()).filter(Boolean))];
+}
+
 // GET /api/catalog - Lista todos os lugares do catálogo e metadados
 export async function GET(req: NextRequest) {
   try {
@@ -31,7 +36,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { place_id, place: providedPlace, nickname } = body;
+    const { place_id, place: providedPlace, nickname, tags } = body;
 
     if (!place_id && !providedPlace?.place_id) {
       return NextResponse.json(
@@ -69,9 +74,12 @@ export async function POST(req: NextRequest) {
     }
 
     // 4. Montar o novo item do catálogo
+    const normalizedTags = normalizeTags(tags);
+
     const newItem: CatalogItem = {
       ...fullDetails,
       ...(nickname?.trim() ? { nickname: nickname.trim() } : {}),
+      ...(normalizedTags.length > 0 ? { tags: normalizedTags } : {}),
       added_at: new Date().toISOString(),
     };
 
@@ -104,15 +112,25 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// PATCH /api/catalog - Atualiza o nickname/nome customizado de um lugar no catálogo
+// PATCH /api/catalog - Atualiza nickname e/ou tags de um lugar no catálogo
 export async function PATCH(req: NextRequest) {
   try {
     const body = await req.json();
-    const { place_id, nickname } = body;
+    const { place_id, nickname, tags, add_tags, remove_tags } = body;
 
     if (!place_id) {
       return NextResponse.json(
         { error: "place_id é obrigatório para atualizar o lugar." },
+        { status: 400 }
+      );
+    }
+
+    const hasNicknameUpdate = nickname !== undefined;
+    const hasTagsUpdate = tags !== undefined || add_tags !== undefined || remove_tags !== undefined;
+
+    if (!hasNicknameUpdate && !hasTagsUpdate) {
+      return NextResponse.json(
+        { error: "Informe nickname, tags, add_tags ou remove_tags para atualizar." },
         { status: 400 }
       );
     }
@@ -132,12 +150,27 @@ export async function PATCH(req: NextRequest) {
     }
 
     const targetItem = currentCatalog.items[itemIndex];
-    const cleanNickname = typeof nickname === "string" ? nickname.trim() : "";
+    const cleanNickname = typeof nickname === "string" ? nickname.trim() : undefined;
+
+    let nextTags = normalizeTags(targetItem.tags);
+
+    if (tags !== undefined) {
+      nextTags = normalizeTags(tags);
+    } else {
+      if (add_tags !== undefined) {
+        nextTags = normalizeTags([...nextTags, ...normalizeTags(add_tags)]);
+      }
+      if (remove_tags !== undefined) {
+        const toRemove = new Set(normalizeTags(remove_tags).map((tag) => tag.toLowerCase()));
+        nextTags = nextTags.filter((tag) => !toRemove.has(tag.toLowerCase()));
+      }
+    }
 
     // 3. Atualizar o item
     const updatedItem: CatalogItem = {
       ...targetItem,
-      nickname: cleanNickname || undefined,
+      ...(hasNicknameUpdate ? { nickname: cleanNickname || undefined } : {}),
+      ...(hasTagsUpdate ? { tags: nextTags.length > 0 ? nextTags : undefined } : {}),
       updated_at: new Date().toISOString(),
     };
 
@@ -145,9 +178,20 @@ export async function PATCH(req: NextRequest) {
     updatedItems[itemIndex] = updatedItem;
 
     // 4. Salvar / Fazer commit no GitHub
-    const commitMessage = cleanNickname
-      ? `Atualiza apelido de "${targetItem.name}" para "${cleanNickname}"`
-      : `Remove apelido de "${targetItem.name}"`;
+    const displayName = updatedItem.nickname || updatedItem.name;
+    let commitMessage = `Atualiza "${displayName}" no catálogo`;
+
+    if (hasNicknameUpdate && hasTagsUpdate) {
+      commitMessage = `Atualiza apelido e tags de "${displayName}"`;
+    } else if (hasNicknameUpdate) {
+      commitMessage = cleanNickname
+        ? `Atualiza apelido de "${targetItem.name}" para "${cleanNickname}"`
+        : `Remove apelido de "${targetItem.name}"`;
+    } else if (hasTagsUpdate) {
+      commitMessage = nextTags.length > 0
+        ? `Atualiza tags de "${displayName}" (${nextTags.join(", ")})`
+        : `Remove tags de "${displayName}"`;
+    }
 
     const commitResult = await commitCatalogToGitHub(
       updatedItems,
@@ -156,11 +200,22 @@ export async function PATCH(req: NextRequest) {
       customToken
     );
 
+    let message = "Lugar atualizado com sucesso!";
+    if (hasNicknameUpdate && hasTagsUpdate) {
+      message = "Apelido e tags atualizados com sucesso!";
+    } else if (hasNicknameUpdate) {
+      message = cleanNickname
+        ? `Apelido definido para "${cleanNickname}" com sucesso!`
+        : `Apelido de "${targetItem.name}" removido com sucesso!`;
+    } else if (hasTagsUpdate) {
+      message = nextTags.length > 0
+        ? `Tags atualizadas: ${nextTags.join(", ")}`
+        : "Todas as tags foram removidas.";
+    }
+
     return NextResponse.json({
       success: true,
-      message: cleanNickname
-        ? `Apelido definido para "${cleanNickname}" com sucesso!`
-        : `Apelido de "${targetItem.name}" removido com sucesso!`,
+      message,
       item: updatedItem,
       totalItems: updatedItems.length,
       commitSha: commitResult.commitSha,

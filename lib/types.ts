@@ -46,6 +46,7 @@ export interface PlaceDetails {
     overview?: string;
   };
   nickname?: string;
+  tags?: string[];
   added_at?: string;
   updated_at?: string;
   [key: string]: unknown;
@@ -54,6 +55,7 @@ export interface PlaceDetails {
 export interface CatalogItem extends PlaceDetails {
   added_at: string;
   nickname?: string;
+  tags?: string[];
   updated_at?: string;
 }
 
