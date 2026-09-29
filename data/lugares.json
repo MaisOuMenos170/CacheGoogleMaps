@@ -11437,5 +11437,90 @@
     "user_ratings_total": 3760,
     "website": "https://www.facebook.com/Sementedegirassol/",
     "added_at": "2026-09-29T18:08:01.656Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "171",
+        "short_name": "171",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua São Francisco",
+        "short_name": "R. São Francisco",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Centro",
+        "short_name": "Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80020-190",
+        "short_name": "80020-190",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "R. São Francisco, 171 - Centro, Curitiba - PR, 80020-190, Brasil",
+    "geometry": {
+      "location": {
+        "lat": -25.4281764,
+        "lng": -49.27015910000001
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4268012197085,
+          "lng": -49.26880221970851
+        },
+        "southwest": {
+          "lat": -25.4294991802915,
+          "lng": -49.27150018029151
+        }
+      }
+    },
+    "name": "R. São Francisco, 171",
+    "place_id": "ChIJrRZVCxPk3JQRklihwPYGiJM",
+    "types": [
+      "street_address",
+      "subpremise"
+    ],
+    "url": "https://maps.google.com/?cid=10630754577271576722",
+    "photos": [],
+    "nickname": "Último estacionamento de cavalo de Curitiba",
+    "added_at": "2026-09-29T18:12:05.028Z"
   }
 ]
