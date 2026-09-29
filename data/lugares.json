@@ -12132,5 +12132,157 @@
     "url": "https://maps.google.com/?cid=13971449541288320831",
     "user_ratings_total": 10,
     "added_at": "2026-09-29T18:14:03.139Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "3165",
+        "short_name": "3165",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Sete de Setembro",
+        "short_name": "Av. Sete de Setembro",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Rebouças",
+        "short_name": "Rebouças",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80230-901",
+        "short_name": "80230-901",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Av. Sete de Setembro, 3165 - Rebouças, Curitiba - PR, 80230-901, Brasil",
+    "formatted_phone_number": "(41) 3310-4545",
+    "geometry": {
+      "location": {
+        "lat": -25.4392751,
+        "lng": -49.2688248
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4382837697085,
+          "lng": -49.2674879197085
+        },
+        "southwest": {
+          "lat": -25.4409817302915,
+          "lng": -49.2701858802915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3310-4545",
+    "name": "Universidade Tecnológica Federal do Paraná | Campus Curitiba - Sede Centro",
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMaKHDlrBJI48Wwc8ATBsbvviZaIaCq65zQ6GXZ-cSYmxAvKaJPy9VFxwHtlSJt5XwItIxKL11U5ulS4G-Xxxb04a4N4eR8UH3MJCdvXvAtqlvILK4pWWkAVRY5FzqY6GBFeKq1OUDSWzdWeGR8eB-abWPEESMJXeSiyERYehxQftv-MUC22mryGqJRsNwWdVtQYslo_mRaJ-rczRjJBo8zem50kxGnIGa_uKhuopYHtThlHwelFyIXJR3wcFJFJhBkdI2RM9xWuV97FEUkSZ_VUvmHFQF28O96Kn5aflhTuga4zc3KrCktYPLgo5CIeOSKQw0PUz4PSaOgDMiQR50abV8-KL_M-5zUOuWvmxuSspqy62wiCmlBxl-VbK4t0G6IdTgCV0qTwmd0bura4-BAf2N79aM5qFxBXTDpCzBk",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaKHDlrBJI48Wwc8ATBsbvviZaIaCq65zQ6GXZ-cSYmxAvKaJPy9VFxwHtlSJt5XwItIxKL11U5ulS4G-Xxxb04a4N4eR8UH3MJCdvXvAtqlvILK4pWWkAVRY5FzqY6GBFeKq1OUDSWzdWeGR8eB-abWPEESMJXeSiyERYehxQftv-MUC22mryGqJRsNwWdVtQYslo_mRaJ-rczRjJBo8zem50kxGnIGa_uKhuopYHtThlHwelFyIXJR3wcFJFJhBkdI2RM9xWuV97FEUkSZ_VUvmHFQF28O96Kn5aflhTuga4zc3KrCktYPLgo5CIeOSKQw0PUz4PSaOgDMiQR50abV8-KL_M-5zUOuWvmxuSspqy62wiCmlBxl-VbK4t0G6IdTgCV0qTwmd0bura4-BAf2N79aM5qFxBXTDpCzBk"
+      },
+      {
+        "photo_reference": "Aa-ngMa6MPUUJRHJkflpF5na4dKXD1X9OhzDv9g8uf9e2GzIeDIv2rz9gQHvrlvyqp4d3GoT6OnrMmm2yglZCesENWH_LiyQTW2HxcX2YqA1MjMJ2r4fpTWiQiecLWJwLs7-CKYZS6HAA4CfL2cpzsFWLUHXgWqRQTbOnmoII_spMcBGJhK1kT2BxN_u2VqN13uHU0v8AFslHKf_Z1iQwx5Rb-mDl0JOlD-H7Sq-mDrD97NghU3G5ii09kndmmmOSFJF7Ab-T-tJOWpn_LE7LfvTnTB87zFYCzsl5XXG7x07-F1Veceu-MpVNKOjVNyIbnw0tQFVciUpelhON336rIs30qOmt7g2KgvJZTFnujYDnzSWplv5anDGbHW1YQkjNuflK5WpkKphF1mGQT6uP2EOWBA1mvPQB9cL37A5_d84uYQojNM",
+        "height": 2268,
+        "width": 3023,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMa6MPUUJRHJkflpF5na4dKXD1X9OhzDv9g8uf9e2GzIeDIv2rz9gQHvrlvyqp4d3GoT6OnrMmm2yglZCesENWH_LiyQTW2HxcX2YqA1MjMJ2r4fpTWiQiecLWJwLs7-CKYZS6HAA4CfL2cpzsFWLUHXgWqRQTbOnmoII_spMcBGJhK1kT2BxN_u2VqN13uHU0v8AFslHKf_Z1iQwx5Rb-mDl0JOlD-H7Sq-mDrD97NghU3G5ii09kndmmmOSFJF7Ab-T-tJOWpn_LE7LfvTnTB87zFYCzsl5XXG7x07-F1Veceu-MpVNKOjVNyIbnw0tQFVciUpelhON336rIs30qOmt7g2KgvJZTFnujYDnzSWplv5anDGbHW1YQkjNuflK5WpkKphF1mGQT6uP2EOWBA1mvPQB9cL37A5_d84uYQojNM"
+      },
+      {
+        "photo_reference": "Aa-ngMZEEtqt18fSREba8v9N0eO7HuciV3p5DN53WuicZ-KLrm5VbWaGEcpLjXmwKe5Ztqs-nDyTZug-L3gZwgraydQ8b9i1gAo8P5VBzWRZSw6EswBp2gYtQ_H1FIKQG3RU1oJhh2AWoOvE-o36Vi4ya6rsHlNtdrEe_lIDw7Sp2mC8msv2cJi6xW8_78L7DZWZ2VMqY8nqGw5nU3-ozLNHc4f5bex_zIimwn19VAZhqPUKUk9rInAAHzXXowOLk4VRmQHa2XkBVVZoqQvgoPH9We-PS3Rt6SJr3XG1CUHFlLELFeEqI8FA0OISlg-FfhgbarN3Zt8fx-VRlVG162ORg-E4L0dp-TRjA4lbVzWdTyAwKU_vKKrMiJzwjGEHSruczFL1R_xnO2HGrTahmbKKyKjzgLeDNYbmhWu3maEJ0Ig",
+        "height": 4800,
+        "width": 3600,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZEEtqt18fSREba8v9N0eO7HuciV3p5DN53WuicZ-KLrm5VbWaGEcpLjXmwKe5Ztqs-nDyTZug-L3gZwgraydQ8b9i1gAo8P5VBzWRZSw6EswBp2gYtQ_H1FIKQG3RU1oJhh2AWoOvE-o36Vi4ya6rsHlNtdrEe_lIDw7Sp2mC8msv2cJi6xW8_78L7DZWZ2VMqY8nqGw5nU3-ozLNHc4f5bex_zIimwn19VAZhqPUKUk9rInAAHzXXowOLk4VRmQHa2XkBVVZoqQvgoPH9We-PS3Rt6SJr3XG1CUHFlLELFeEqI8FA0OISlg-FfhgbarN3Zt8fx-VRlVG162ORg-E4L0dp-TRjA4lbVzWdTyAwKU_vKKrMiJzwjGEHSruczFL1R_xnO2HGrTahmbKKyKjzgLeDNYbmhWu3maEJ0Ig"
+      },
+      {
+        "photo_reference": "Aa-ngMZh3UGCKWUFjUEuFDpUgN33FvDB1T1d7SZWJwxUB812YpS4Gqow7ig9ZbnAfOfgUaIE74hzwi0461zQqndfDWDs8RSmgl9dBOmy67qvICkzARgJoVcbzUy-EXcCROGeJkmy9cVm0BptnN2T7CvrCipgqSj5FHekM-iSMLaKO9kA3X1xec0y4x0q0fhE7_7wpK_AKY7s1gfk7UrrX5poXAUcHVLHTCaGPrlO6QB1Asa1bFLdXeOKDyDHNcioXYN_5yznF5n8lIjRixyw5X9XB4URAX7EkiWSu1qxj4cA3YkODHHpDUydib9ANejgGNqcodab8B-bpiBpNDhzK_1eRPKZir2LV6JOrxZvXtUpMLQVysN6tStrPHqch5icpJF9-VtWj91WWB8Y_SLd5yoOZILLzAkixnhpArHM6Fx-M73TkGMJ",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZh3UGCKWUFjUEuFDpUgN33FvDB1T1d7SZWJwxUB812YpS4Gqow7ig9ZbnAfOfgUaIE74hzwi0461zQqndfDWDs8RSmgl9dBOmy67qvICkzARgJoVcbzUy-EXcCROGeJkmy9cVm0BptnN2T7CvrCipgqSj5FHekM-iSMLaKO9kA3X1xec0y4x0q0fhE7_7wpK_AKY7s1gfk7UrrX5poXAUcHVLHTCaGPrlO6QB1Asa1bFLdXeOKDyDHNcioXYN_5yznF5n8lIjRixyw5X9XB4URAX7EkiWSu1qxj4cA3YkODHHpDUydib9ANejgGNqcodab8B-bpiBpNDhzK_1eRPKZir2LV6JOrxZvXtUpMLQVysN6tStrPHqch5icpJF9-VtWj91WWB8Y_SLd5yoOZILLzAkixnhpArHM6Fx-M73TkGMJ"
+      },
+      {
+        "photo_reference": "Aa-ngMYZtZCf7_yBvVg1gszoNmF-OpvfP81F7gdiqBvoimGGNscvxo1nIJCYNMHVh_ajrzStbWw4mg3Phg9Da0T-f9cy5BoMZ1qgXE76S0LY1zzawdnNbBc2w0QoaTO29GrlLJxtdKbCmXOCbf1e1-NrZXDyObiv5l6aic1lP5sJcVa_GLTsJF5GwaW0cnMJaZ3Zt8EVN0y-kKuOYwvf4KpBgIM9VdBeIXGNWsD67vud8clPvv9qU2QCAdq69iljqoPZzvJ5yIzHR6mnzZmjotl0kzykMAZtaJCmj1r3dC-XLDSsXl_2m91E4dlMObnDmSfEm0p2NqhOR-Zg1Ch9_QS2JAzTRZ0Kug3Vzq3lBV7B0neNKRrr0aw5CvsefDIENhe8FJwjhoKuQHZTMDqp449WhMX8oNAoN1pl7fY_EOCq-gVLEQ",
+        "height": 4000,
+        "width": 1800,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYZtZCf7_yBvVg1gszoNmF-OpvfP81F7gdiqBvoimGGNscvxo1nIJCYNMHVh_ajrzStbWw4mg3Phg9Da0T-f9cy5BoMZ1qgXE76S0LY1zzawdnNbBc2w0QoaTO29GrlLJxtdKbCmXOCbf1e1-NrZXDyObiv5l6aic1lP5sJcVa_GLTsJF5GwaW0cnMJaZ3Zt8EVN0y-kKuOYwvf4KpBgIM9VdBeIXGNWsD67vud8clPvv9qU2QCAdq69iljqoPZzvJ5yIzHR6mnzZmjotl0kzykMAZtaJCmj1r3dC-XLDSsXl_2m91E4dlMObnDmSfEm0p2NqhOR-Zg1Ch9_QS2JAzTRZ0Kug3Vzq3lBV7B0neNKRrr0aw5CvsefDIENhe8FJwjhoKuQHZTMDqp449WhMX8oNAoN1pl7fY_EOCq-gVLEQ"
+      },
+      {
+        "photo_reference": "Aa-ngMbfIVvtEiE8FLw2FkEks3GfpMFJCGK6Z1i7VKAeOmQkp26OX07vjZ2ZK2ymwITr5FkaFTniWkXCDb11Ctg_1E-IyC-4QFeqhpvVi2OYYfT-MUvYMXbkaKBgmnI0Wl-bCX4CQjIJgbaVDEvoxekmNh6Yps-wBUXeJfLubQjLyc_3_uYH2knyQqUwdFcruzsnv4mwEVvGY4-JugtbcsepaoAId08jRj_bPWYtI-2pfLCSmzbmAskhHeg1CDfBiCUPlvgwZfLkrJXuutKaCN95ucigS8xD5y7pPhlkucok1LbQLPpF6WCFamjAwENIoRdHgDpI-Bh0-wodPHdt7z2ffHuMPtfvob4psGtN1-m3PwysE8uZTISYgSN1uVuVjJX_P23d2I7SbdiClJ6d4CcyhLOFFWUxxQ3s0Eth0MtxCu99ig",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbfIVvtEiE8FLw2FkEks3GfpMFJCGK6Z1i7VKAeOmQkp26OX07vjZ2ZK2ymwITr5FkaFTniWkXCDb11Ctg_1E-IyC-4QFeqhpvVi2OYYfT-MUvYMXbkaKBgmnI0Wl-bCX4CQjIJgbaVDEvoxekmNh6Yps-wBUXeJfLubQjLyc_3_uYH2knyQqUwdFcruzsnv4mwEVvGY4-JugtbcsepaoAId08jRj_bPWYtI-2pfLCSmzbmAskhHeg1CDfBiCUPlvgwZfLkrJXuutKaCN95ucigS8xD5y7pPhlkucok1LbQLPpF6WCFamjAwENIoRdHgDpI-Bh0-wodPHdt7z2ffHuMPtfvob4psGtN1-m3PwysE8uZTISYgSN1uVuVjJX_P23d2I7SbdiClJ6d4CcyhLOFFWUxxQ3s0Eth0MtxCu99ig"
+      },
+      {
+        "photo_reference": "Aa-ngMaZGgpYxYzsmQc0Bo3WDvAePcO9UwHlzUYOINFLdwAs5ULsY38HJLrPCK4zgs-8Az7BlOLM_nt4oZGAPmmRNKkyikjJKV-WO_qTdcY0d-Dxr0WO5zS5EX_EzC0g7g6U2Ttsru6WhNhyEqF459FZZkKNH768C7FwvAzxk_ydtwWpbR47Nhl6ecsOhbcrZjQngoGi0GrgE_ipTfWA8foUlqpHI87V8r3ipfD-6ooKITI-hTuRPZTZ2jSpUbGoCk23pfkAKK5oPih00-dkNz9cZuthA3OIqgGtDBGah72lV15wdBFoLLvke0k-DDd79p_7cZPFddMT6E-VBbKrkocPaIS6k_TFzq-F0T6G-b9MDmn1s-Mm0rKyPg9c7iptTFM2JSbIMxQurjCa0OoLt1GrqrIMplsoVVPDTYXVbOKFfrnZklv5ThPQP9AE1dUzhQ",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaZGgpYxYzsmQc0Bo3WDvAePcO9UwHlzUYOINFLdwAs5ULsY38HJLrPCK4zgs-8Az7BlOLM_nt4oZGAPmmRNKkyikjJKV-WO_qTdcY0d-Dxr0WO5zS5EX_EzC0g7g6U2Ttsru6WhNhyEqF459FZZkKNH768C7FwvAzxk_ydtwWpbR47Nhl6ecsOhbcrZjQngoGi0GrgE_ipTfWA8foUlqpHI87V8r3ipfD-6ooKITI-hTuRPZTZ2jSpUbGoCk23pfkAKK5oPih00-dkNz9cZuthA3OIqgGtDBGah72lV15wdBFoLLvke0k-DDd79p_7cZPFddMT6E-VBbKrkocPaIS6k_TFzq-F0T6G-b9MDmn1s-Mm0rKyPg9c7iptTFM2JSbIMxQurjCa0OoLt1GrqrIMplsoVVPDTYXVbOKFfrnZklv5ThPQP9AE1dUzhQ"
+      },
+      {
+        "photo_reference": "Aa-ngMYx8ew-eqHwFbG-QLasVYY2UIQAdwgNW1ZVnDMiskIwq-dtudAR8iwhj_oSvxCAK3kQlcbKx8mpwbPlPgWo8DkE2Bmr3Y0Zgox1A_kZc24CJ6HwCsTWUM28v7lFDirEq4ni8QXoPda8xkg3OWJPEPMR8dCWDrqaLt5ReGyzunjMgecBUj_Uwy1xOaO2FRSmKQCqkGAXc2OE-D5vV21TkafxyDMQPtYSK1sKAN3Brh-woOO1Sav7-uwfg9tJFImr_HCW6NPFHHH_VLj3yYcIZjzL4r741lexKESQiE4GenvIOXo2B7y3MkwHLoRZ7nO4pHMYNoGohBpW0jfez6XJ4YNJZj1NYvim2UceqiEw_O-Jg__hkzAbQdwv5Tvc7d9TcRuilltqoNxlBFwKdrtF63TH7nMWAtfyHfYNxP_AV_hBkg",
+        "height": 3072,
+        "width": 4096,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYx8ew-eqHwFbG-QLasVYY2UIQAdwgNW1ZVnDMiskIwq-dtudAR8iwhj_oSvxCAK3kQlcbKx8mpwbPlPgWo8DkE2Bmr3Y0Zgox1A_kZc24CJ6HwCsTWUM28v7lFDirEq4ni8QXoPda8xkg3OWJPEPMR8dCWDrqaLt5ReGyzunjMgecBUj_Uwy1xOaO2FRSmKQCqkGAXc2OE-D5vV21TkafxyDMQPtYSK1sKAN3Brh-woOO1Sav7-uwfg9tJFImr_HCW6NPFHHH_VLj3yYcIZjzL4r741lexKESQiE4GenvIOXo2B7y3MkwHLoRZ7nO4pHMYNoGohBpW0jfez6XJ4YNJZj1NYvim2UceqiEw_O-Jg__hkzAbQdwv5Tvc7d9TcRuilltqoNxlBFwKdrtF63TH7nMWAtfyHfYNxP_AV_hBkg"
+      },
+      {
+        "photo_reference": "Aa-ngMZNYd6Wq1zENT0u8z70yuF0kZAFFVXvJIQN8Hy7X4tclafX8Lk1u6a574TigyrZsSqfbrKDxpZvWG3TG4WU89cM6xN9CS-WR5BrksUopsmMWiEBB3ahHpxzbxNOJnV7Buq0FQs41vRv1pGhswwtPpUbaRah86k-fjMz7kygzxN8pzYPKeTRVdWw4mIE8K3pGDwp4st7bTvIO4D-rSdGFjXSmvad5CTfirUfYjgxrFT4a9C0w5_wFK1srWAbQZ4WWO__n1eJMjeFZ8hGhXQKrMJ3FozwdSzZj7xLE-NxcKCoCqtoSAQO-zZxTRAMPwedi-RsL5JUP47Oy0swvRNq1FnN460Ulk6CPBZK7tyW6hW_s8T1O1B9YpAuKktk6LOrSa69e_q2or2tid9G-z2pko-G5SeItKY6y1ogYC0I4xomlA",
+        "height": 2250,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZNYd6Wq1zENT0u8z70yuF0kZAFFVXvJIQN8Hy7X4tclafX8Lk1u6a574TigyrZsSqfbrKDxpZvWG3TG4WU89cM6xN9CS-WR5BrksUopsmMWiEBB3ahHpxzbxNOJnV7Buq0FQs41vRv1pGhswwtPpUbaRah86k-fjMz7kygzxN8pzYPKeTRVdWw4mIE8K3pGDwp4st7bTvIO4D-rSdGFjXSmvad5CTfirUfYjgxrFT4a9C0w5_wFK1srWAbQZ4WWO__n1eJMjeFZ8hGhXQKrMJ3FozwdSzZj7xLE-NxcKCoCqtoSAQO-zZxTRAMPwedi-RsL5JUP47Oy0swvRNq1FnN460Ulk6CPBZK7tyW6hW_s8T1O1B9YpAuKktk6LOrSa69e_q2or2tid9G-z2pko-G5SeItKY6y1ogYC0I4xomlA"
+      },
+      {
+        "photo_reference": "Aa-ngMaUDNO7NlJgxaEsFEsRjv_pWDp_o61r0v0A5MR_KNTeDdWy2x2IlfO0049VJY72H6Q2jdV-jlS6JWb-0-Bke_HSV94xQbBXqMfsc303yxr13piKccoimWzr62h3ekvCluy7sd3ZbqbGp2IbW6k8FjFj_FxlRAuG-BBg2kTJ3Z3VgTnR6foeZqo4aJIvoTi4v705cijV3UkuA3eA7bv2wmkP-vWbNe6RaFjBCe7UtonEGjvB4BC9XlZvKxQRDgqXZQO-dhZhkPWrNJzB_8mTdo96c5l8n-ITgSLAjBrt7sRP5kopGqp85pHq6ngSTa34YuDXgP97wpk0KRcxb1CZ__hUDvxnQWEKbbC0a5-Q3rTJX2qPM1VNIs0kDYLASs2h4sIQx7j9BNDF95ww_hvRl08HzUIkvixfgtZqgAeeu9aar6Q",
+        "height": 2560,
+        "width": 1440,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaUDNO7NlJgxaEsFEsRjv_pWDp_o61r0v0A5MR_KNTeDdWy2x2IlfO0049VJY72H6Q2jdV-jlS6JWb-0-Bke_HSV94xQbBXqMfsc303yxr13piKccoimWzr62h3ekvCluy7sd3ZbqbGp2IbW6k8FjFj_FxlRAuG-BBg2kTJ3Z3VgTnR6foeZqo4aJIvoTi4v705cijV3UkuA3eA7bv2wmkP-vWbNe6RaFjBCe7UtonEGjvB4BC9XlZvKxQRDgqXZQO-dhZhkPWrNJzB_8mTdo96c5l8n-ITgSLAjBrt7sRP5kopGqp85pHq6ngSTa34YuDXgP97wpk0KRcxb1CZ__hUDvxnQWEKbbC0a5-Q3rTJX2qPM1VNIs0kDYLASs2h4sIQx7j9BNDF95ww_hvRl08HzUIkvixfgtZqgAeeu9aar6Q"
+      }
+    ],
+    "place_id": "ChIJVciw-WXk3JQREi-fISnUIto",
+    "rating": 4.8,
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "university"
+    ],
+    "url": "https://maps.google.com/?cid=15718358922599280402",
+    "user_ratings_total": 769,
+    "website": "http://www.utfpr.edu.br/campus/curitiba",
+    "added_at": "2026-09-29T18:15:11.047Z"
   }
 ]
