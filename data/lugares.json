@@ -9302,5 +9302,256 @@
     "user_ratings_total": 1000,
     "website": "http://www.mis.pr.gov.br/",
     "added_at": "2026-09-29T18:02:37.469Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "248",
+        "short_name": "248",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Coronel Agostinho Macedo",
+        "short_name": "R. Cel. Agostinho Macedo",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bom Retiro",
+        "short_name": "Bom Retiro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80520-100",
+        "short_name": "80520-100",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Museu do Holocausto com objetos e lembranças de sobreviventes que tinham vínculos com o Brasil."
+    },
+    "formatted_address": "R. Cel. Agostinho Macedo, 248 - Bom Retiro, Curitiba - PR, 80520-100, Brasil",
+    "formatted_phone_number": "(41) 3093-7461",
+    "geometry": {
+      "location": {
+        "lat": -25.4151222,
+        "lng": -49.2725739
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4137915697085,
+          "lng": -49.2711542197085
+        },
+        "southwest": {
+          "lat": -25.4164895302915,
+          "lng": -49.27385218029149
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3093-7461",
+    "name": "Museu do Holocausto",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1130"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1430"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1130"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1430"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1130"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1430"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1130"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: 08:30 – 11:30, 14:30 – 17:30",
+        "terça-feira: 08:30 – 11:30, 14:30 – 17:30",
+        "quarta-feira: 08:30 – 11:30, 14:30 – 17:30",
+        "quinta-feira: Fechado",
+        "sexta-feira: 08:30 – 11:30",
+        "sábado: Fechado",
+        "domingo: 09:00 – 12:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMYzooeVgY6QWDe2ERVA8rR8FQr0jUlfCX9TC96Sfx_b7Ku_u52KflIqyzDdJo7IO4scIju8mstCxx8bXcdD-G9R6qiK6MVKwINq02Sbn3NNwZEdSwAzBn7PqHV_0naK2bVZlqGoibNlHCXjREziet6c6U_YHSLqHIJCAlmdnuNuNEaDmJIwLVrRk1b74m5bs30Hp0jh5JWXOdIE-bCvaedS9u06H0cBC2Elb0MKkFrM8aqJzr-6pu-8Z4My2QWdoVmqJ8PFyaw3iL5MxdvTswPVAfm1ddvRXWIuf3WN8imNixv776o7XRaH-3X0TNk17Iup54E27dhnEIaKqhRWqnU7kVJB2Qxlv9sV4HtO_3P3ryK7a7_oImhoYr3OiaVH4zykJ_7fOSspx-kJOmHxyqewfs-2JnrlMOMPf24GcAMlTA",
+        "height": 1320,
+        "width": 2000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYzooeVgY6QWDe2ERVA8rR8FQr0jUlfCX9TC96Sfx_b7Ku_u52KflIqyzDdJo7IO4scIju8mstCxx8bXcdD-G9R6qiK6MVKwINq02Sbn3NNwZEdSwAzBn7PqHV_0naK2bVZlqGoibNlHCXjREziet6c6U_YHSLqHIJCAlmdnuNuNEaDmJIwLVrRk1b74m5bs30Hp0jh5JWXOdIE-bCvaedS9u06H0cBC2Elb0MKkFrM8aqJzr-6pu-8Z4My2QWdoVmqJ8PFyaw3iL5MxdvTswPVAfm1ddvRXWIuf3WN8imNixv776o7XRaH-3X0TNk17Iup54E27dhnEIaKqhRWqnU7kVJB2Qxlv9sV4HtO_3P3ryK7a7_oImhoYr3OiaVH4zykJ_7fOSspx-kJOmHxyqewfs-2JnrlMOMPf24GcAMlTA"
+      },
+      {
+        "photo_reference": "Aa-ngMYZH7m9gPOpiA6R4CONbJcDBMkm8j44gEWoeEO9TYHO_YELlVgXFvrQoORVY-s--GNP9R4TCE-6KId4aWljGIipHZG_9Ji1byrbkBtJWd7KurSc9hWuaytxi6HDBHGKumW-qRzlfCV06gfu33XZqoQzFgYOu8kWpe_v_qq7J8Tm_d1Q3J8iltu6pougPdmFn5R1zlBivGGClAt3b_cjJi4-vxCj7ooyJRMPRugcUD9k8RPDrHOEdUGf86__0sszRvNYLzO4M8dRyVGhVnrWcJEl_0EPB_OJgC5OleUGEYbjPUF71bVHe4afrLXKwX3y8FCil2XQyNGMsArzYIxE05NDkKo2JRAjk7hnQpCFV1df_fMUP8flaFB5exHaJratm0wWMhswniKzrm_Vv57WMTC6b5YFK_eD2cK1atYSazksPA",
+        "height": 666,
+        "width": 1133,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYZH7m9gPOpiA6R4CONbJcDBMkm8j44gEWoeEO9TYHO_YELlVgXFvrQoORVY-s--GNP9R4TCE-6KId4aWljGIipHZG_9Ji1byrbkBtJWd7KurSc9hWuaytxi6HDBHGKumW-qRzlfCV06gfu33XZqoQzFgYOu8kWpe_v_qq7J8Tm_d1Q3J8iltu6pougPdmFn5R1zlBivGGClAt3b_cjJi4-vxCj7ooyJRMPRugcUD9k8RPDrHOEdUGf86__0sszRvNYLzO4M8dRyVGhVnrWcJEl_0EPB_OJgC5OleUGEYbjPUF71bVHe4afrLXKwX3y8FCil2XQyNGMsArzYIxE05NDkKo2JRAjk7hnQpCFV1df_fMUP8flaFB5exHaJratm0wWMhswniKzrm_Vv57WMTC6b5YFK_eD2cK1atYSazksPA"
+      },
+      {
+        "photo_reference": "Aa-ngMYE5G0_baL4QOce2lFuckjcRFD3sixSNPKRlJB7-NT6g3jLPBRH9opcR8PrDWeIsR-9Zf-vZEpJ6nY4KLc1yi-_wSWYdXFmB71UI1TI_3yMh-358qiJ-M096AqSjrRW0HT7OTu3YkAv6oH034ILoiKdzD9zVQqvQ3hJNoaT2QmlmJwBZiodqrH-mjLdHSvi5VJ8I3IGUt5JBh3yZuLbRXtts0MsCgi-dLlqDGK_5qREiEl1HkxQoloolcpEPRXVgVfMC5ixTCpH-7zjzFDmHfNrQViHZY1IgPNYv1QF6NimAGNWBG8o2Ju9t7p45IK0unYOXt-rJUzFnIZ1IP3C0Pwpek4q1lK9AC78ALZI2Amjlw5-8T99aXe6-DjzYoUNYCAntzXWb1jY8tVcnQOi78BQ3P9miLSZ3KA0BalmuHVpbA",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYE5G0_baL4QOce2lFuckjcRFD3sixSNPKRlJB7-NT6g3jLPBRH9opcR8PrDWeIsR-9Zf-vZEpJ6nY4KLc1yi-_wSWYdXFmB71UI1TI_3yMh-358qiJ-M096AqSjrRW0HT7OTu3YkAv6oH034ILoiKdzD9zVQqvQ3hJNoaT2QmlmJwBZiodqrH-mjLdHSvi5VJ8I3IGUt5JBh3yZuLbRXtts0MsCgi-dLlqDGK_5qREiEl1HkxQoloolcpEPRXVgVfMC5ixTCpH-7zjzFDmHfNrQViHZY1IgPNYv1QF6NimAGNWBG8o2Ju9t7p45IK0unYOXt-rJUzFnIZ1IP3C0Pwpek4q1lK9AC78ALZI2Amjlw5-8T99aXe6-DjzYoUNYCAntzXWb1jY8tVcnQOi78BQ3P9miLSZ3KA0BalmuHVpbA"
+      },
+      {
+        "photo_reference": "Aa-ngMY8P4BuXU02Rf6rpuDkLb21O7P7p3JxzHE3dNoMHbGaqj9UHzOnB3gayAwXHX67ZrGn3L7kCBbyZcjAXlF_nNe56A1-zv_gin_Eb-L07G4yOR4FLEo55wUfoIdASf2HKaN2NS_AxrnlpXoUK2-nZKURJ1dBFy03SqSicfxTIvWdioCTNJgECdOgB-g0fFdvXANILEd5ac7DF_5NynACz3rDlO6AGcY7p5mwnG2RG63EwBiYsATn6HhSsW01TP6zzzhZZT9YnhlYi_uemRC7FcTovmn4O9M21OfINKiePLyDSvnnWU5eGhx_YiSg07SBxa9pHX4o4xuADYyEL4d9pzRCCj7O7z92usQVk8vqvdt6jt1lQDtZCSrG6NYCeZYAHbvdhh8TJwMjPnJFRuj1kesbMDSZkM3hOaz9lo3i34fwZVg",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMY8P4BuXU02Rf6rpuDkLb21O7P7p3JxzHE3dNoMHbGaqj9UHzOnB3gayAwXHX67ZrGn3L7kCBbyZcjAXlF_nNe56A1-zv_gin_Eb-L07G4yOR4FLEo55wUfoIdASf2HKaN2NS_AxrnlpXoUK2-nZKURJ1dBFy03SqSicfxTIvWdioCTNJgECdOgB-g0fFdvXANILEd5ac7DF_5NynACz3rDlO6AGcY7p5mwnG2RG63EwBiYsATn6HhSsW01TP6zzzhZZT9YnhlYi_uemRC7FcTovmn4O9M21OfINKiePLyDSvnnWU5eGhx_YiSg07SBxa9pHX4o4xuADYyEL4d9pzRCCj7O7z92usQVk8vqvdt6jt1lQDtZCSrG6NYCeZYAHbvdhh8TJwMjPnJFRuj1kesbMDSZkM3hOaz9lo3i34fwZVg"
+      },
+      {
+        "photo_reference": "Aa-ngMbxPHiXp3GU6QOa06JU_tRrbMV0JEK6O9WEecUy481XJtrUEk1G4XkLaFzyEgumr-USN6tnqhy2yFLoIy4RCyDU7WMPYz_1Ug_Z_oC3SyVFq7zzoZvYpln6jbNJT5_snXmk6OnSIUVBdDU-A0bN1jGtYiRtwRmeS2iJ-jZ_SCFCpLOtR2grTkrASMV4MFaCaPn2rS55I2fAOnCsfrs2iIeg52vh3NGxe65AYjbsLyQzfBveHzPMV3aGJRxcUNGE7iBkx69YMHwdzUYEv2cATFSzv53QVdKpVHF4Ymzbsbx1L8NGC2-VV8A06ao_tWKzDVRns4T7LQoe5Zlmf08AzOiNUr4NXFaffzcCz-Tf6ZmBWzWhne71JuoIzUbr8hWC6R9EOCF2uH0QBEO3Mi-Rs1XZ72EAUzCguJlj0rEKJOogaeUcZt1kLwpDK0tycA",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbxPHiXp3GU6QOa06JU_tRrbMV0JEK6O9WEecUy481XJtrUEk1G4XkLaFzyEgumr-USN6tnqhy2yFLoIy4RCyDU7WMPYz_1Ug_Z_oC3SyVFq7zzoZvYpln6jbNJT5_snXmk6OnSIUVBdDU-A0bN1jGtYiRtwRmeS2iJ-jZ_SCFCpLOtR2grTkrASMV4MFaCaPn2rS55I2fAOnCsfrs2iIeg52vh3NGxe65AYjbsLyQzfBveHzPMV3aGJRxcUNGE7iBkx69YMHwdzUYEv2cATFSzv53QVdKpVHF4Ymzbsbx1L8NGC2-VV8A06ao_tWKzDVRns4T7LQoe5Zlmf08AzOiNUr4NXFaffzcCz-Tf6ZmBWzWhne71JuoIzUbr8hWC6R9EOCF2uH0QBEO3Mi-Rs1XZ72EAUzCguJlj0rEKJOogaeUcZt1kLwpDK0tycA"
+      },
+      {
+        "photo_reference": "Aa-ngMY4N63P9V1YccXqec73PgHdNrQDoXf6-6BKc8rb3aPdkHttXsU5ZI8yiFXhPLkwLKxfSlfp3MQUc9E8v4-wT5ksUZeCq689_TGOHuj7uI67FxQMoG6MR2G1411iCuipZzWWtdjPPnBp-KWWAfOZvFxk_gZkQkxDEjlk-eKyLYBmX5C47nCsjkjy6WpQ0CkfHrLAIgUtR4Hy-6cMXNOLka8LmzIV4N3gDctbBcybOUr6l5WFC3ArafXxTJFy_MAjmOEZMmjlAafoD4DH2VrBsu3rYzb4s0AzlKswxK8l_WcuD10kXWBAnGTvBViVORDjtGho__zjdki9HlJh-Swtytae_XM3OM07nCqmMpbxQUEdP61ISnKDWyaHi1oFxJB-m0yCo-FJgR4UkyzFbd_kDvLjthEk_LGCzIGGgYTK7QaANw",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMY4N63P9V1YccXqec73PgHdNrQDoXf6-6BKc8rb3aPdkHttXsU5ZI8yiFXhPLkwLKxfSlfp3MQUc9E8v4-wT5ksUZeCq689_TGOHuj7uI67FxQMoG6MR2G1411iCuipZzWWtdjPPnBp-KWWAfOZvFxk_gZkQkxDEjlk-eKyLYBmX5C47nCsjkjy6WpQ0CkfHrLAIgUtR4Hy-6cMXNOLka8LmzIV4N3gDctbBcybOUr6l5WFC3ArafXxTJFy_MAjmOEZMmjlAafoD4DH2VrBsu3rYzb4s0AzlKswxK8l_WcuD10kXWBAnGTvBViVORDjtGho__zjdki9HlJh-Swtytae_XM3OM07nCqmMpbxQUEdP61ISnKDWyaHi1oFxJB-m0yCo-FJgR4UkyzFbd_kDvLjthEk_LGCzIGGgYTK7QaANw"
+      },
+      {
+        "photo_reference": "Aa-ngMa1F0rVMKenkLtL0h65y9DWdZ3WlQsPiXTq8qYGEqBhRucGYba5jQe8cVMvYLeRRpetMn9DgGKMLpsXBtZvaK0-NkJ8K2X_5Od56KBKjmz2-aPLaSUu5AF-2yeFFOSO8IhcywNWDIrsFOMhBZfhn_E35GTUWVyEpK6lvIlqw6DMJ99Fm_CzPW8ptC7BL2x9Qgu7XOmKDszCRa9cm5p1efpCyurEfL2mkFqGg7lcqMK2m9yQfv1ivEKuE5pLWEVIPj1mHONvLuoCYdu5CydIxZNdbTrN5XcD9cozIPCIPtWGReux0UH4eWf0coqokSsOilCu6XvMzF4CgOcQz0crM64yINStmc807bEAAbUPufy1LMFQdCIOKC6JLJb36K2nXCMt0Yho1G7TKzjNt7gvIukSDQiCFVPej-47O3ifjq76i36N",
+        "height": 4608,
+        "width": 3456,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMa1F0rVMKenkLtL0h65y9DWdZ3WlQsPiXTq8qYGEqBhRucGYba5jQe8cVMvYLeRRpetMn9DgGKMLpsXBtZvaK0-NkJ8K2X_5Od56KBKjmz2-aPLaSUu5AF-2yeFFOSO8IhcywNWDIrsFOMhBZfhn_E35GTUWVyEpK6lvIlqw6DMJ99Fm_CzPW8ptC7BL2x9Qgu7XOmKDszCRa9cm5p1efpCyurEfL2mkFqGg7lcqMK2m9yQfv1ivEKuE5pLWEVIPj1mHONvLuoCYdu5CydIxZNdbTrN5XcD9cozIPCIPtWGReux0UH4eWf0coqokSsOilCu6XvMzF4CgOcQz0crM64yINStmc807bEAAbUPufy1LMFQdCIOKC6JLJb36K2nXCMt0Yho1G7TKzjNt7gvIukSDQiCFVPej-47O3ifjq76i36N"
+      },
+      {
+        "photo_reference": "Aa-ngMayb3flOelb4T2dnAGxklVSkbVV8nflskQ_UziMhXEDyEzlgT17bUSFWFCenNoHUINz_BNZI9uxf8PFNvIkuw9M2JxhGUTVDNbTN7EzbGVv_u4-QTEH2eeEkLxloITRlCk0kwjth2G-99peWHILstBfPVsVmn5wBkqamFFssil6TqEjB5X4wZ6W5tY7DKE4SBTXqk27Kk757N_8TCiiHAu68PzjbsvCngROkFoH93Hqyhhys3F5JvheGqg4UsSWWc0eEfvVFqhQhc_geN0q6But8XDbCZDs05Tn0Tl3_eRnDYQ8OiBvwmCpQ99AXIY3On37hWbrqWAmZMR6knnTyCwCpDBRtz91D6h0bhjCZSrFDFVcE8Fz0drEgp3DaVEVngv3fa2ZYea7dMftup2d3KEIeCcxaoChHK3IwVkcD4r0Ag",
+        "height": 3096,
+        "width": 4128,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMayb3flOelb4T2dnAGxklVSkbVV8nflskQ_UziMhXEDyEzlgT17bUSFWFCenNoHUINz_BNZI9uxf8PFNvIkuw9M2JxhGUTVDNbTN7EzbGVv_u4-QTEH2eeEkLxloITRlCk0kwjth2G-99peWHILstBfPVsVmn5wBkqamFFssil6TqEjB5X4wZ6W5tY7DKE4SBTXqk27Kk757N_8TCiiHAu68PzjbsvCngROkFoH93Hqyhhys3F5JvheGqg4UsSWWc0eEfvVFqhQhc_geN0q6But8XDbCZDs05Tn0Tl3_eRnDYQ8OiBvwmCpQ99AXIY3On37hWbrqWAmZMR6knnTyCwCpDBRtz91D6h0bhjCZSrFDFVcE8Fz0drEgp3DaVEVngv3fa2ZYea7dMftup2d3KEIeCcxaoChHK3IwVkcD4r0Ag"
+      },
+      {
+        "photo_reference": "Aa-ngMZ97P61hLBEUgq2G1TPkfh4fq_xVkcgzd16bsqwAcVeHx3ox_rQAX4uFA-mLK2K63L5XweJ-PseWazVAYwBpHV8XkpCplYZW6z3pkoUehrx4f0DTHxQFiGFnevnLsrqtS9VwaWSue048hsMIILi6oL-nNJAjy9TCsAqurI9RRROtfP7ySfASDZPCbhey_ZJSZXHrsVYu4lRw1pvaY0Wo4mTo-Pzj84dFY7XJjS7KFuOeOFFG9qGzxHw7PVuq628kxOhUpmzCiWbAPVBx2V9li4EkEEaRUjZQWXfgAqEBIynSEDxsH88v8yZDhuXWSmjerunNpkMrYAYUsjy0T-xPW6Z8wcygrk98TQPTMOZnNYISnMLmrOj5vRXREVJQVF43dsia1wvyBPMmPPzyZTk952AXRhQtaYXTaoQpUgYIiPA9VPI",
+        "height": 1186,
+        "width": 1049,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZ97P61hLBEUgq2G1TPkfh4fq_xVkcgzd16bsqwAcVeHx3ox_rQAX4uFA-mLK2K63L5XweJ-PseWazVAYwBpHV8XkpCplYZW6z3pkoUehrx4f0DTHxQFiGFnevnLsrqtS9VwaWSue048hsMIILi6oL-nNJAjy9TCsAqurI9RRROtfP7ySfASDZPCbhey_ZJSZXHrsVYu4lRw1pvaY0Wo4mTo-Pzj84dFY7XJjS7KFuOeOFFG9qGzxHw7PVuq628kxOhUpmzCiWbAPVBx2V9li4EkEEaRUjZQWXfgAqEBIynSEDxsH88v8yZDhuXWSmjerunNpkMrYAYUsjy0T-xPW6Z8wcygrk98TQPTMOZnNYISnMLmrOj5vRXREVJQVF43dsia1wvyBPMmPPzyZTk952AXRhQtaYXTaoQpUgYIiPA9VPI"
+      },
+      {
+        "photo_reference": "Aa-ngMaJwTlNq77Fle8etKLbyiub_1R6QeJfhQoAI1wGpni-CRzDHfR0mi7kRmVW6xVcsoxUFCku2nKwrREMAymTYGFqmDn7YU9WtyHXOkqqfYaLaOOClF5bXePgz206cnoPJND7JBWteQNK_8O5NbVvBQHbhrlurbP-Ya7F7JKi1KvXg399EnJl5fFzBwnGLFVarYUP9RImRPrKg7TPatuoFULluMI5cc9A-JtPSbl6SVcPHS-I9gAuIc6jQ84ANQQ31TSa2UZDllV5aOigc1BIlP4zN7kKfT-ohtWMc-y-gwymTo1N7kshThuX38M7T8-GQylk2MFTSj3Pp1DC8WOU1VjGs7Gc9N-08f4uIKC6GesAG7QrXriisbOlfX610tTrXlBAW_wLrT3p3xqUYRleVCfbne8G4iwsOkcOVLGZdeAVhDch",
+        "height": 4800,
+        "width": 3600,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaJwTlNq77Fle8etKLbyiub_1R6QeJfhQoAI1wGpni-CRzDHfR0mi7kRmVW6xVcsoxUFCku2nKwrREMAymTYGFqmDn7YU9WtyHXOkqqfYaLaOOClF5bXePgz206cnoPJND7JBWteQNK_8O5NbVvBQHbhrlurbP-Ya7F7JKi1KvXg399EnJl5fFzBwnGLFVarYUP9RImRPrKg7TPatuoFULluMI5cc9A-JtPSbl6SVcPHS-I9gAuIc6jQ84ANQQ31TSa2UZDllV5aOigc1BIlP4zN7kKfT-ohtWMc-y-gwymTo1N7kshThuX38M7T8-GQylk2MFTSj3Pp1DC8WOU1VjGs7Gc9N-08f4uIKC6GesAG7QrXriisbOlfX610tTrXlBAW_wLrT3p3xqUYRleVCfbne8G4iwsOkcOVLGZdeAVhDch"
+      }
+    ],
+    "place_id": "ChIJa4YmlBzk3JQRS4OdSageFLA",
+    "rating": 4.5,
+    "types": [
+      "establishment",
+      "museum",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=12687799758347928395",
+    "user_ratings_total": 3038,
+    "website": "http://www.museudoholocausto.org.br/",
+    "added_at": "2026-09-29T18:02:54.436Z"
   }
 ]
