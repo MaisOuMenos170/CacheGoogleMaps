@@ -10252,5 +10252,256 @@
     "user_ratings_total": 7343,
     "website": "https://shoppingestacao.com.br/lazer/#museu-ferroviario",
     "added_at": "2026-09-29T18:03:14.798Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "2300",
+        "short_name": "2300",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Cândido Hartmann",
+        "short_name": "Avenida Cândido Hartmann",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mercês",
+        "short_name": "Mercês",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80710-570",
+        "short_name": "80710-570",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Museu automotivo com uma coleção de veículos motorizados antigos e vintage."
+    },
+    "formatted_address": "Av. Cândido Hartmann, 2300 - Mercês, Curitiba - PR, 80710-570, Brasil",
+    "formatted_phone_number": "(41) 3335-1440",
+    "geometry": {
+      "location": {
+        "lat": -25.4228699,
+        "lng": -49.3061553
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4215395197085,
+          "lng": -49.3047991697085
+        },
+        "southwest": {
+          "lat": -25.4242374802915,
+          "lng": -49.3074971302915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3335-1440",
+    "name": "Museu do Automóvel de Curitiba",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1145"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "1745"
+          },
+          "open": {
+            "day": 0,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1645"
+          },
+          "open": {
+            "day": 2,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1645"
+          },
+          "open": {
+            "day": 3,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1645"
+          },
+          "open": {
+            "day": 4,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1645"
+          },
+          "open": {
+            "day": 5,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1145"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1745"
+          },
+          "open": {
+            "day": 6,
+            "time": "1330"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 13:30 – 16:45",
+        "quarta-feira: 13:30 – 16:45",
+        "quinta-feira: 13:30 – 16:45",
+        "sexta-feira: 13:30 – 16:45",
+        "sábado: 10:00 – 11:45, 13:30 – 17:45",
+        "domingo: 10:00 – 11:45, 13:30 – 17:45"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMa_u9rbeXxgMy4siyYDgY3MF8Xx3gT3F4qenw5cEpqRsUL5_JGwafRLAGESHKl1rBe2uH3QjSe48iQbgcs0ejJENZ10pWXpOcftQglfL-k4FX5Oh8th2TV85BwNVXt6mw5nAH3ZqbpRxfBQ3u14sLd2xxh-7RFBH0YhfZ6yvJzg9H5gtdjonMLbjLWb4SW-sZ_3QVAigSpBQVXNh8YZ64jJnHcQST2qG_9nnTt68QIv5fMhy4J36zsLVBdR8aFFMThl2g9_5_7qUtYVXzG3C7rLb_kKXjKIscMjchY9ihaA_HZoKu20aqhU-CueqjSQJzGBLm7HSHvaHiPxSV0gYkbr-P5SQ7f3U37j-3_qHDFr5sPNO8XYzAKs6hQrKO9nefi5UeDxeo3Fh3z_M7Hrc4Ay_dE",
+        "height": 2368,
+        "width": 3608,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMa_u9rbeXxgMy4siyYDgY3MF8Xx3gT3F4qenw5cEpqRsUL5_JGwafRLAGESHKl1rBe2uH3QjSe48iQbgcs0ejJENZ10pWXpOcftQglfL-k4FX5Oh8th2TV85BwNVXt6mw5nAH3ZqbpRxfBQ3u14sLd2xxh-7RFBH0YhfZ6yvJzg9H5gtdjonMLbjLWb4SW-sZ_3QVAigSpBQVXNh8YZ64jJnHcQST2qG_9nnTt68QIv5fMhy4J36zsLVBdR8aFFMThl2g9_5_7qUtYVXzG3C7rLb_kKXjKIscMjchY9ihaA_HZoKu20aqhU-CueqjSQJzGBLm7HSHvaHiPxSV0gYkbr-P5SQ7f3U37j-3_qHDFr5sPNO8XYzAKs6hQrKO9nefi5UeDxeo3Fh3z_M7Hrc4Ay_dE"
+      },
+      {
+        "photo_reference": "Aa-ngMYIXKVltqouyei5XL_Bc575p_YyS3iUVQmrw9muRh1iSCIQBiBRjNIrKR4dazZIESPiIMVJcgtu38ZHrLUW1yd_i3xRasGCT4jlp6-_AfJ9ksl1rJbxr7m_qF-mcWqgCrNYVWjwUjRbcRg5WS6368fW5dWmiDsRjFSgpGdePvq6ACNVhBy6AU2CCfREwgVNRwqyYk3XtabDoZb7rtreVdH4KI7hH1vMlmsBENjvQXMVsegUnPzOb5yLfV54qNtN3gC88991LkaClm4_YhzR6ryEYXfrlgVhLemvhk3sfNmgsG82RdHVtU8l5lMSp5byuk7mTrMknGRPOb1LHCr06uQJ7MgsHsJqWcGFJClpWkNPrFPzkpP5WVj2Snpxu3os1NUq128p0G1eksN9mFZ2vOah5wVd1FM",
+        "height": 2340,
+        "width": 4160,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYIXKVltqouyei5XL_Bc575p_YyS3iUVQmrw9muRh1iSCIQBiBRjNIrKR4dazZIESPiIMVJcgtu38ZHrLUW1yd_i3xRasGCT4jlp6-_AfJ9ksl1rJbxr7m_qF-mcWqgCrNYVWjwUjRbcRg5WS6368fW5dWmiDsRjFSgpGdePvq6ACNVhBy6AU2CCfREwgVNRwqyYk3XtabDoZb7rtreVdH4KI7hH1vMlmsBENjvQXMVsegUnPzOb5yLfV54qNtN3gC88991LkaClm4_YhzR6ryEYXfrlgVhLemvhk3sfNmgsG82RdHVtU8l5lMSp5byuk7mTrMknGRPOb1LHCr06uQJ7MgsHsJqWcGFJClpWkNPrFPzkpP5WVj2Snpxu3os1NUq128p0G1eksN9mFZ2vOah5wVd1FM"
+      },
+      {
+        "photo_reference": "Aa-ngMb9zE7XCystGwLBRcguRT3_7YngkidGFagxTvQrkzehXdAXV986d_WneHb-v6ZF3h9Z1j6hnLCza38ub7TTiuXSUhaksuQfXEOHS_4QRZYnQp0lROiAc5A7lOQ943KgtUpdEcy_91Cw53QVR5PWMw39OcvL19COf2VbYHsRrdxi0DkRWLffkIOSP4dQcaKdfDcwgZuvHrHYzgPPsbx3yyKYMkNpcLhOocU_T87_cW8wHJwQwmaqs41RyPcl-VerRGe3IcEDx4F5qBFiOYe5fmfuCHLdyISOj8-U6EPDb0X0sG-BHcFCqc2LiMrto6AWiRN9m8-EZQnCDo5G7e7lDIQckSpVeLcXgHdOaGhJnYeUYE6152Rs1xrbx-i5XhlgRCz4i7d-A2QZJZ6_qk8RoiyEcwR2",
+        "height": 3072,
+        "width": 4096,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMb9zE7XCystGwLBRcguRT3_7YngkidGFagxTvQrkzehXdAXV986d_WneHb-v6ZF3h9Z1j6hnLCza38ub7TTiuXSUhaksuQfXEOHS_4QRZYnQp0lROiAc5A7lOQ943KgtUpdEcy_91Cw53QVR5PWMw39OcvL19COf2VbYHsRrdxi0DkRWLffkIOSP4dQcaKdfDcwgZuvHrHYzgPPsbx3yyKYMkNpcLhOocU_T87_cW8wHJwQwmaqs41RyPcl-VerRGe3IcEDx4F5qBFiOYe5fmfuCHLdyISOj8-U6EPDb0X0sG-BHcFCqc2LiMrto6AWiRN9m8-EZQnCDo5G7e7lDIQckSpVeLcXgHdOaGhJnYeUYE6152Rs1xrbx-i5XhlgRCz4i7d-A2QZJZ6_qk8RoiyEcwR2"
+      },
+      {
+        "photo_reference": "Aa-ngMYKnxkrdHymWdu5MtIST0lblUcOpM3Ng_-7BwWT2ZQv4Nqf8IqkfM0I_5gh2NRtVRamgvMJssULCrwThB_I2gh29fUrZoVOgU8C0U2Po9e7ya-GxFHc_bq31vOgcDwBkiugqk3zwbP-S6LrpfLndzTnc6MTMemfZE4D0DX-BvGzC0zU1GD1crlG_bL68U5PzBYodeO7tcrpOTDbB8uiL6Xn9JBp-C29wGcI5vEMqLOaoy2S2SdYPiC-tQw10lN2bevm9r_oC1M8UZHcnoOqsZgy1TkRVWfLkARkkLHQuXYs8zSR9n8YT5yVvCt75LCZuguzXU8QqU8khlUIwRbejHgzdC-P2K58WCGu_GcMW0I4VS1MgfQuWAYT_uFoL1KhBaDocjef2wHVRRwgKrhZ00Wjxx-M",
+        "height": 3474,
+        "width": 4632,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYKnxkrdHymWdu5MtIST0lblUcOpM3Ng_-7BwWT2ZQv4Nqf8IqkfM0I_5gh2NRtVRamgvMJssULCrwThB_I2gh29fUrZoVOgU8C0U2Po9e7ya-GxFHc_bq31vOgcDwBkiugqk3zwbP-S6LrpfLndzTnc6MTMemfZE4D0DX-BvGzC0zU1GD1crlG_bL68U5PzBYodeO7tcrpOTDbB8uiL6Xn9JBp-C29wGcI5vEMqLOaoy2S2SdYPiC-tQw10lN2bevm9r_oC1M8UZHcnoOqsZgy1TkRVWfLkARkkLHQuXYs8zSR9n8YT5yVvCt75LCZuguzXU8QqU8khlUIwRbejHgzdC-P2K58WCGu_GcMW0I4VS1MgfQuWAYT_uFoL1KhBaDocjef2wHVRRwgKrhZ00Wjxx-M"
+      },
+      {
+        "photo_reference": "Aa-ngMac2Bs2Wyoj_HnJQlsMr3122FGbrxHWMqN_m8t_ZIJJqQS5fib1dMb8aq2VUCSjdg5C9hHHt_BrlC2xzOUWGGdoLQYb6ZYJDgtSjSpG9S_x0mIsGrvNRwf2W275TooBP67noaKZBf5B8IqZZhs3pMIxrl338xnMgbmbdUrKwaQJ_OHDcVeN5efDzSJJ6sHy2EFUUTLA1ZpNvzwbsTUSe096IG1V84zZ8g8CMZjBvAH9HVc2Q-lugrsQ2t5M7RsS4nNhjBNkqt56Q2AloSBKaKGH2oInZRcHb4M__lPeSjjxH3mamrep9Xi8xAR7Q82KCV1cDYbEZ-TiEmLY8QU2udG0MTcO694G8RqHRWGS-r2uRAT5rzRjedqbw4k8FkeuCIa6u1fH3we53zGk1wSHRquZGeE",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMac2Bs2Wyoj_HnJQlsMr3122FGbrxHWMqN_m8t_ZIJJqQS5fib1dMb8aq2VUCSjdg5C9hHHt_BrlC2xzOUWGGdoLQYb6ZYJDgtSjSpG9S_x0mIsGrvNRwf2W275TooBP67noaKZBf5B8IqZZhs3pMIxrl338xnMgbmbdUrKwaQJ_OHDcVeN5efDzSJJ6sHy2EFUUTLA1ZpNvzwbsTUSe096IG1V84zZ8g8CMZjBvAH9HVc2Q-lugrsQ2t5M7RsS4nNhjBNkqt56Q2AloSBKaKGH2oInZRcHb4M__lPeSjjxH3mamrep9Xi8xAR7Q82KCV1cDYbEZ-TiEmLY8QU2udG0MTcO694G8RqHRWGS-r2uRAT5rzRjedqbw4k8FkeuCIa6u1fH3we53zGk1wSHRquZGeE"
+      },
+      {
+        "photo_reference": "Aa-ngMbJAei7rNn8drouGlRhw5SUE2LicRKbNJAdpm1XK7UiEOTmd-77_tuVTi7Gs3A5vMUOs_yPBl5Zt-l4uGmkPngksZgtCT0maRp43wT_uPyDTLZvXwom1rxo6DSDUOEDeZ4VhVByE1z1lOAlxanPynRZfqFXtvaM_c_hj0Gwmf3Z6idqCuGwFuAfHcuHUeOvfTyGrXQ4Kb2SPfEE6O4XcLpVs_WNPvYfnImWfbs0_ndXe_w2d80A-1cL8YwVrG38o9oFbclBSLslq1fLi36Z0YC-j9y91SpBy-XyHDgpUVjFWYdWpuXqPdXoxDkYnSmTu-Pc0AEUEo283HeHgtH0DiFJP-SALS3mbVZ4DQ9qfE6lf1aF3EAzideFBOxiaAnpEPkDI9ObHe9_du6WExf-r0O9KrE",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbJAei7rNn8drouGlRhw5SUE2LicRKbNJAdpm1XK7UiEOTmd-77_tuVTi7Gs3A5vMUOs_yPBl5Zt-l4uGmkPngksZgtCT0maRp43wT_uPyDTLZvXwom1rxo6DSDUOEDeZ4VhVByE1z1lOAlxanPynRZfqFXtvaM_c_hj0Gwmf3Z6idqCuGwFuAfHcuHUeOvfTyGrXQ4Kb2SPfEE6O4XcLpVs_WNPvYfnImWfbs0_ndXe_w2d80A-1cL8YwVrG38o9oFbclBSLslq1fLi36Z0YC-j9y91SpBy-XyHDgpUVjFWYdWpuXqPdXoxDkYnSmTu-Pc0AEUEo283HeHgtH0DiFJP-SALS3mbVZ4DQ9qfE6lf1aF3EAzideFBOxiaAnpEPkDI9ObHe9_du6WExf-r0O9KrE"
+      },
+      {
+        "photo_reference": "Aa-ngMZWg1RfFtJe1_bMfldboM31ZsoHpwJ9TMRnzPONbajUrkgIqF_NWQB4VlQt1XxTolsrlghhDPWRTARSCEkTKyS3miHjtUAjIh0YNGvPECYwlcg4Jqwh4I-VjMJQrCL3NtK5GPCVfGhXLQNz3wsZJLF71vIzsPec18TMdgjc0KUWI3di2Nw0oOOh5SjCHDXeEP3T7644Q6g8d-mkbzvIKojpxjEhoWENOuXSirNlJ9q4HZ6GAZedTL10n1s-0_D_qYTeW8FsVBlG55nUtkRZ8Iqgop3d-Joo1cXFks7N3EqtbbAjGQBajOYS5aOWMH6DuLXdAgroxmcNFpJDbdSoeBilYBYUojh0izSa3433pE4HTTJ-i2DMgrc5uieVOeQd-u749RCpJRxCN48C4nYN-pnpvV0",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZWg1RfFtJe1_bMfldboM31ZsoHpwJ9TMRnzPONbajUrkgIqF_NWQB4VlQt1XxTolsrlghhDPWRTARSCEkTKyS3miHjtUAjIh0YNGvPECYwlcg4Jqwh4I-VjMJQrCL3NtK5GPCVfGhXLQNz3wsZJLF71vIzsPec18TMdgjc0KUWI3di2Nw0oOOh5SjCHDXeEP3T7644Q6g8d-mkbzvIKojpxjEhoWENOuXSirNlJ9q4HZ6GAZedTL10n1s-0_D_qYTeW8FsVBlG55nUtkRZ8Iqgop3d-Joo1cXFks7N3EqtbbAjGQBajOYS5aOWMH6DuLXdAgroxmcNFpJDbdSoeBilYBYUojh0izSa3433pE4HTTJ-i2DMgrc5uieVOeQd-u749RCpJRxCN48C4nYN-pnpvV0"
+      },
+      {
+        "photo_reference": "Aa-ngMYMAW5yWRsvbTQiGiVe3ue-a8lrUASgH5kYmGZ-hWrnzvX6n2XgxC7riuFu__m_cVw4h4RjMMQBGOziyYJ14rigJwKCFJxn2QTjvTNszbt7xt5_pGB9L7J7O8xjp5_2d21cDRnag0PCO1gw7SAuN3R8wCYSzHBOhQ5Nc-j5k5dNcaFnyCx6Iq_sQ5cpYZmLsFQm1z8xDVhyMOlZExRO7u-OVatakwMkTSgZ3z4O-gOTCGN7z8R8fR2h9DpOpE19QDl-glIJrm6FvXJN1d31BK7QhIuxo9HXpfB0t4aQYewtbfmYc3Z9kzbJ3qro4jAXScTofYJK59bBsARdKEMcETiQEvRaP9LRA3opYmXZd4gEzjAtuEcVm1GKs4CamJYJpL75bBZ9GIq1O19_QdBoGz2R9dUm5Rc",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYMAW5yWRsvbTQiGiVe3ue-a8lrUASgH5kYmGZ-hWrnzvX6n2XgxC7riuFu__m_cVw4h4RjMMQBGOziyYJ14rigJwKCFJxn2QTjvTNszbt7xt5_pGB9L7J7O8xjp5_2d21cDRnag0PCO1gw7SAuN3R8wCYSzHBOhQ5Nc-j5k5dNcaFnyCx6Iq_sQ5cpYZmLsFQm1z8xDVhyMOlZExRO7u-OVatakwMkTSgZ3z4O-gOTCGN7z8R8fR2h9DpOpE19QDl-glIJrm6FvXJN1d31BK7QhIuxo9HXpfB0t4aQYewtbfmYc3Z9kzbJ3qro4jAXScTofYJK59bBsARdKEMcETiQEvRaP9LRA3opYmXZd4gEzjAtuEcVm1GKs4CamJYJpL75bBZ9GIq1O19_QdBoGz2R9dUm5Rc"
+      },
+      {
+        "photo_reference": "Aa-ngMbNShhigRn_ibKQhWYocMW-pSypgrhYzYYudZg1dMPWdbM2cqc-LyA-5_9uUp_DiVTrkJtVWCdN7vneiWZGpLE-xKcjoniTJZpMdP3-4iGScHF7fHxT48zTnJswUQuDmiy843IeQQlZ5ny3uwDHkRj1eJO8V0-zkyq4o4KFWmekRqBbiI3IrIWweiATpPNKryL9-r6iRvgdwA2K4RtJwjNm9FDnjmWNGZyE2Rv326CsqyXik9xwZ8jsfcHDGBu4Wwy3CG5w7CeOqUroUv0RZESO1qy9AI8fSBMeGYqfae6EZuGXuPpomDVRDGsJqkZqDJRIwlYrTrGfHC3bGajSzkXbalv7Hl7N5ANym1LnimN1A7CGRutDi6BSR9QzEUV5tQARSectW77eVyWSFoujT2gC3aI",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbNShhigRn_ibKQhWYocMW-pSypgrhYzYYudZg1dMPWdbM2cqc-LyA-5_9uUp_DiVTrkJtVWCdN7vneiWZGpLE-xKcjoniTJZpMdP3-4iGScHF7fHxT48zTnJswUQuDmiy843IeQQlZ5ny3uwDHkRj1eJO8V0-zkyq4o4KFWmekRqBbiI3IrIWweiATpPNKryL9-r6iRvgdwA2K4RtJwjNm9FDnjmWNGZyE2Rv326CsqyXik9xwZ8jsfcHDGBu4Wwy3CG5w7CeOqUroUv0RZESO1qy9AI8fSBMeGYqfae6EZuGXuPpomDVRDGsJqkZqDJRIwlYrTrGfHC3bGajSzkXbalv7Hl7N5ANym1LnimN1A7CGRutDi6BSR9QzEUV5tQARSectW77eVyWSFoujT2gC3aI"
+      },
+      {
+        "photo_reference": "Aa-ngMax91HVMnaC4Kdtuam5l617r66Y65rm5zVkj9vdF9gH0FjR64cYjchXsEdskuaQb1tlaQmvVM2IZ-ySrJu4cJIKfipAPteBD9UbZETXyHJ_hPkmmW0bqJpnnEQ5avW2svrG_PUXPko_Y6omeOIBemx2ATlsB9iVnm9Qpk3jJVkNoL-pyb4iPM1xm8BxMVqaBEPDYgpvuHiAy7AIPEg7Hv_i0NUIhl097wfJcUTXcS6tsxX9wqmye-7pDJY29E66yOPsVAY64nlXwQHqua2cWHCPIlcB04zkTvbTFmfquJRJyfd-PCa8S7pgFyBUipoh4K3pxPOEaaYIUZlK_sPvbwg_fKKZGsGjV34p5JdFU1PqRjZadqmmI8D2pGUuIq2WXc-3j-dZ7Tzj6--MA53uAHu_iRg",
+        "height": 3468,
+        "width": 4624,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMax91HVMnaC4Kdtuam5l617r66Y65rm5zVkj9vdF9gH0FjR64cYjchXsEdskuaQb1tlaQmvVM2IZ-ySrJu4cJIKfipAPteBD9UbZETXyHJ_hPkmmW0bqJpnnEQ5avW2svrG_PUXPko_Y6omeOIBemx2ATlsB9iVnm9Qpk3jJVkNoL-pyb4iPM1xm8BxMVqaBEPDYgpvuHiAy7AIPEg7Hv_i0NUIhl097wfJcUTXcS6tsxX9wqmye-7pDJY29E66yOPsVAY64nlXwQHqua2cWHCPIlcB04zkTvbTFmfquJRJyfd-PCa8S7pgFyBUipoh4K3pxPOEaaYIUZlK_sPvbwg_fKKZGsGjV34p5JdFU1PqRjZadqmmI8D2pGUuIq2WXc-3j-dZ7Tzj6--MA53uAHu_iRg"
+      }
+    ],
+    "place_id": "ChIJcXlQj9_j3JQRmEmD99mVLCE",
+    "rating": 4.6,
+    "types": [
+      "establishment",
+      "museum",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=2390450265619909016",
+    "user_ratings_total": 2331,
+    "website": "http://www.museuautomovel.com.br/",
+    "added_at": "2026-09-29T18:03:28.111Z"
   }
 ]
