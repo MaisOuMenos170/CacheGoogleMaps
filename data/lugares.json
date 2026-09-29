@@ -3881,5 +3881,235 @@
     "user_ratings_total": 178,
     "website": "http://www.arcadialivraria.com.br/",
     "added_at": "2026-09-29T17:51:10.761Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "79",
+        "short_name": "79",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Doutor Claudino dos Santos",
+        "short_name": "R. Dr. Claudino dos Santos",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "São Francisco",
+        "short_name": "São Francisco",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80020-170",
+        "short_name": "80020-170",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Instalação moderna e espaçosa aberta desde 1996 para exposições, concertos e espetáculos teatrais."
+    },
+    "formatted_address": "R. Dr. Claudino dos Santos, 79 - São Francisco, Curitiba - PR, 80020-170, Brasil",
+    "formatted_phone_number": "(41) 3321-3313",
+    "geometry": {
+      "location": {
+        "lat": -25.4277132,
+        "lng": -49.2727152
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4262003697085,
+          "lng": -49.2718095197085
+        },
+        "southwest": {
+          "lat": -25.4288983302915,
+          "lng": -49.2745074802915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3321-3313",
+    "name": "Memorial de Curitiba",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 09:00 – 18:00",
+        "quarta-feira: 09:00 – 18:00",
+        "quinta-feira: 09:00 – 18:00",
+        "sexta-feira: 09:00 – 18:00",
+        "sábado: 09:00 – 15:00",
+        "domingo: 09:00 – 15:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMZtcY7uLFKRrTFnT21tro7WhbG6AIuYBDtrnihXlaGE8DcCjnt_jcH6zl33righMddYPG1blUlszJEQZDNyNnRodoO6ZY7VPEIcaYqiXZCUBLYwh6vME2_YSGLLrGswe7VURudazADKIbfmd1T2Yf5eaanUzmiHSRwfK9f7aPzH0JLzOt3iubr8bHUyBTAfm89_ijEF4javrb362SA4wwpvuMQNxxX4cV3-iHVg_ZFL4eW3-cJPF1RHBVgBx-0b7NZSP_eriHdn5Z_FQgncGQlPdKU9nzJ2gdE1l-CYiWWDMZY3qBagfJhbChjBtip0bSsindDGiHsq6hotqGIfSUtYV0NuGUYnQzPKfphtH5qrlrxjZjxuJn4JmUzVvLlY6L_D2pIh026sigq5AFp6Hx3ISEndGTTXfU54g2Bp_ro",
+        "height": 3096,
+        "width": 4128,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZtcY7uLFKRrTFnT21tro7WhbG6AIuYBDtrnihXlaGE8DcCjnt_jcH6zl33righMddYPG1blUlszJEQZDNyNnRodoO6ZY7VPEIcaYqiXZCUBLYwh6vME2_YSGLLrGswe7VURudazADKIbfmd1T2Yf5eaanUzmiHSRwfK9f7aPzH0JLzOt3iubr8bHUyBTAfm89_ijEF4javrb362SA4wwpvuMQNxxX4cV3-iHVg_ZFL4eW3-cJPF1RHBVgBx-0b7NZSP_eriHdn5Z_FQgncGQlPdKU9nzJ2gdE1l-CYiWWDMZY3qBagfJhbChjBtip0bSsindDGiHsq6hotqGIfSUtYV0NuGUYnQzPKfphtH5qrlrxjZjxuJn4JmUzVvLlY6L_D2pIh026sigq5AFp6Hx3ISEndGTTXfU54g2Bp_ro"
+      },
+      {
+        "photo_reference": "Aa-ngMaY3w3oNAwTcsShbiQx1NUu-hwsWEKJ6NKQUjiMd3XVZIG7Agq_9f56VygtAttOq8csW8cgn1vEdlmXD4Z-yrGquiwnX_CZPTPeKp-HGAoRO8MUB7lWmBMR0NO1ZfD7arXajsKviNHLPKW2lNx11OGCYguWqJA8DKVow5x0QEOyvd9OAM01rDvID-bL4rmazDNoN4KIGmO-_YTlZOVPHx80hSs22WEo9Q3tGHnVQSPhPLxSu-z-d5f0ad1e1bKyZk7SwTwm8edrbYaj1wxV28F1Str8uYesvbkYa7nuQN_Bf00q9IMCkhXe6tZ84DvA45OVf31FGZtDeXss5JMw-0NLW8K9PGgKcpsO8Of01QjcVO1qBSHUHURPzo3pvAV7ndi_7IzWUHh6gtCVQZQoN_Kz8-BLv0CCpNxgwA3OTpA",
+        "height": 3120,
+        "width": 4160,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaY3w3oNAwTcsShbiQx1NUu-hwsWEKJ6NKQUjiMd3XVZIG7Agq_9f56VygtAttOq8csW8cgn1vEdlmXD4Z-yrGquiwnX_CZPTPeKp-HGAoRO8MUB7lWmBMR0NO1ZfD7arXajsKviNHLPKW2lNx11OGCYguWqJA8DKVow5x0QEOyvd9OAM01rDvID-bL4rmazDNoN4KIGmO-_YTlZOVPHx80hSs22WEo9Q3tGHnVQSPhPLxSu-z-d5f0ad1e1bKyZk7SwTwm8edrbYaj1wxV28F1Str8uYesvbkYa7nuQN_Bf00q9IMCkhXe6tZ84DvA45OVf31FGZtDeXss5JMw-0NLW8K9PGgKcpsO8Of01QjcVO1qBSHUHURPzo3pvAV7ndi_7IzWUHh6gtCVQZQoN_Kz8-BLv0CCpNxgwA3OTpA"
+      },
+      {
+        "photo_reference": "Aa-ngMaVywPp6SP14mbbUxPPKJndB11R8muK3PiuzyRCiP1KYKSdo3KCirVsZaGUjIQ2C7p1Oz7s7WC4K6XPVNVOE8WpixCJpLVJXCaz0H00CEfZChiJo2iBuecxwW2q8dEz23xD-AJOFu5KmQ0sWR6VKSgI5BcEuHkpbiAv75OfeBanJIMyZEI2Bdperz5O3aaLu5Ow3QdT-UjVR8Xjb-UXY4HpcBR9alODpQcmrj3j91_r3SM4-BNjn8MYE3pxbWBgz3r6SWsRpc9ygsG3cBCdcElkbjW3coPNcyADcUGXgifMjj25NtQa6cZ0afqP9Lf53wPBQLCbxoh92KVLlnVpgna92PsR3ZhXgNk6MlArugWQENDHkn_T5r6bRbrT37iWYo6W14dhDrq_WaRNGWPuU0y6Pn5NxO5WyARcr0wyzVEYyK1K",
+        "height": 4032,
+        "width": 2268,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaVywPp6SP14mbbUxPPKJndB11R8muK3PiuzyRCiP1KYKSdo3KCirVsZaGUjIQ2C7p1Oz7s7WC4K6XPVNVOE8WpixCJpLVJXCaz0H00CEfZChiJo2iBuecxwW2q8dEz23xD-AJOFu5KmQ0sWR6VKSgI5BcEuHkpbiAv75OfeBanJIMyZEI2Bdperz5O3aaLu5Ow3QdT-UjVR8Xjb-UXY4HpcBR9alODpQcmrj3j91_r3SM4-BNjn8MYE3pxbWBgz3r6SWsRpc9ygsG3cBCdcElkbjW3coPNcyADcUGXgifMjj25NtQa6cZ0afqP9Lf53wPBQLCbxoh92KVLlnVpgna92PsR3ZhXgNk6MlArugWQENDHkn_T5r6bRbrT37iWYo6W14dhDrq_WaRNGWPuU0y6Pn5NxO5WyARcr0wyzVEYyK1K"
+      },
+      {
+        "photo_reference": "Aa-ngMaMMuAfDZeWUycLXkR3wOO4lUjufFjNrtYzACy7go24ufxvnQxKegV5LLkWEo80uehdPwEZE_THhcMgfTANEdLrj1Ob2N4Ca0C_6nCEA1qS-MA4EFh7Y3TwtqzGcjTspjpvsFVjS-zQWtcDwzZERB0wEUDM3rq2uB8D0AhWtb3ra7hGKblecoQVvoxWfHgsg28U5cuVwv_F4RAddltAxYZcayZwzhg24r8xc2Y5sTOehVyWNhjhzdwLBRhcJiygVuXCPsj1rz7lAhcLvJnPUQCfOKoY4bKs0jrJWQC2J2zDX7QELs_pOvwRyu3Ru7S38ijc1C9v-vsBT7I8Oi9hV-RDVhVv_oOiB2TWBXe5FdRMSGkbTZr7fTVQBoO9BgO-Rp5v3tcYedAJVS_y_FAGsFUslU8G4SMdbgN61g39G8yaoQ",
+        "height": 4096,
+        "width": 3072,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaMMuAfDZeWUycLXkR3wOO4lUjufFjNrtYzACy7go24ufxvnQxKegV5LLkWEo80uehdPwEZE_THhcMgfTANEdLrj1Ob2N4Ca0C_6nCEA1qS-MA4EFh7Y3TwtqzGcjTspjpvsFVjS-zQWtcDwzZERB0wEUDM3rq2uB8D0AhWtb3ra7hGKblecoQVvoxWfHgsg28U5cuVwv_F4RAddltAxYZcayZwzhg24r8xc2Y5sTOehVyWNhjhzdwLBRhcJiygVuXCPsj1rz7lAhcLvJnPUQCfOKoY4bKs0jrJWQC2J2zDX7QELs_pOvwRyu3Ru7S38ijc1C9v-vsBT7I8Oi9hV-RDVhVv_oOiB2TWBXe5FdRMSGkbTZr7fTVQBoO9BgO-Rp5v3tcYedAJVS_y_FAGsFUslU8G4SMdbgN61g39G8yaoQ"
+      },
+      {
+        "photo_reference": "Aa-ngMbkcr4E6Epmv-3CeQrSLtS_X09a8PR4pSlknD9Rl98bnwZ2N759uiJYJ2atJD2AJ7ADnM-H9aQKlQem_6nRLFmzIFEfXNxXtiCmxaChn3Sotq9ZIkEFFYomnhX6yQHbbl0M1KMyVCxd9ZiqYvKWkyoB2U7EkkLvgMAQKw85W_JAgxc5B3uPacnpyusWZm60e1Ghga56IKCpJmdGl2dkj2as21WyUK4uaNfQtpG-rKmlN61UkGX7VNxosYQX5HBRPwXGg9_rhlqi15D56KhiFp1KhtLNKh17Kg7aKj7uHcS8h4nuxM7M73czr12H2Ii03-rPSIRu0MTwVbIhmRkGJV13Ct6RZtLwznL1P1oOXdahoFhHR93weMnRLI58b596mXbqlVgQnUtlR00L3lvdLEqFx7jzMkIcEOoRbqfSTBdI-pQE",
+        "height": 4608,
+        "width": 3456,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbkcr4E6Epmv-3CeQrSLtS_X09a8PR4pSlknD9Rl98bnwZ2N759uiJYJ2atJD2AJ7ADnM-H9aQKlQem_6nRLFmzIFEfXNxXtiCmxaChn3Sotq9ZIkEFFYomnhX6yQHbbl0M1KMyVCxd9ZiqYvKWkyoB2U7EkkLvgMAQKw85W_JAgxc5B3uPacnpyusWZm60e1Ghga56IKCpJmdGl2dkj2as21WyUK4uaNfQtpG-rKmlN61UkGX7VNxosYQX5HBRPwXGg9_rhlqi15D56KhiFp1KhtLNKh17Kg7aKj7uHcS8h4nuxM7M73czr12H2Ii03-rPSIRu0MTwVbIhmRkGJV13Ct6RZtLwznL1P1oOXdahoFhHR93weMnRLI58b596mXbqlVgQnUtlR00L3lvdLEqFx7jzMkIcEOoRbqfSTBdI-pQE"
+      },
+      {
+        "photo_reference": "Aa-ngMbnqLX5KTj_8Uzy7Oa-GQkteWn9Q8U9Sax8iLGA8LdLm1k6ETgRAKWqQdLvEw9ogyfHNfaVu2_ccgP2ZE39aOc7yOd0IxdH73VwoeUSuYHMNvWcKIkODC4oWYY2s_pK_iQjzScWm-shs8QmzFEUE2xGmFG2hi0KHyB7TeTraxDiz7ywmlOz94kT5tLiXzNWcV6xe0BXP-RJFtIgr4efY5WyTC9p1_a4j__MpxT9y2vUE2HtS-MNoFefwMnEPAWXYvYRfHvZ90u1cfki7wCQi_79sfIBSyYB66yq_nKwmHnseaVc8oaG1sWij0UiV7lLiOkaLY3IU9sb6impldiaz8oQ_qrkzHoO6B4Xd0TtnoJoUMTVmEvNbwbs193LNl2C5DhPbTFC4SP0RxQ7RrFIw1bbyNjTZS3IhvXOTD9n7jdoMg",
+        "height": 3200,
+        "width": 4800,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbnqLX5KTj_8Uzy7Oa-GQkteWn9Q8U9Sax8iLGA8LdLm1k6ETgRAKWqQdLvEw9ogyfHNfaVu2_ccgP2ZE39aOc7yOd0IxdH73VwoeUSuYHMNvWcKIkODC4oWYY2s_pK_iQjzScWm-shs8QmzFEUE2xGmFG2hi0KHyB7TeTraxDiz7ywmlOz94kT5tLiXzNWcV6xe0BXP-RJFtIgr4efY5WyTC9p1_a4j__MpxT9y2vUE2HtS-MNoFefwMnEPAWXYvYRfHvZ90u1cfki7wCQi_79sfIBSyYB66yq_nKwmHnseaVc8oaG1sWij0UiV7lLiOkaLY3IU9sb6impldiaz8oQ_qrkzHoO6B4Xd0TtnoJoUMTVmEvNbwbs193LNl2C5DhPbTFC4SP0RxQ7RrFIw1bbyNjTZS3IhvXOTD9n7jdoMg"
+      },
+      {
+        "photo_reference": "Aa-ngMa6Dn0AaNJBYeK-l64MlLFjW3B01Zu4JD0n8OIw9HVzlj6K0cz_Ee_yJYgv-NaFYqTEeiLqpDX3uXV-3osdE4g7TPOv-ts1MA6adJG2TSDtDQMDJQ7sw8bmywQaX-e_R4hQ47fjRAr5BujH4o6NSVmIo6ij6YCidDt31O-sTZceKWRHZL_EPyPBe5M8dHQLr9FGz4OK0bfiXQSmCxGZytdNM7HTl6qTLD7lwp_L0JbOZjI2RkZVI5tpbFRR7Vhe0-ffits8kcYUU_MoCANgNEh68lepKherH3xT8sGL9s7okcdn7fG-ky_3ddcV1Y7GA7oG6IVMaDzuhvtXr760Ac7SaqrjcHKBh4U4AYhG4vlFAsXz7TBUkqZzdFRYDYBnjDFg2-lIK0naQajefKYilrCtsDdZagsFt3HSW-MIw56Fbw",
+        "height": 2689,
+        "width": 2636,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMa6Dn0AaNJBYeK-l64MlLFjW3B01Zu4JD0n8OIw9HVzlj6K0cz_Ee_yJYgv-NaFYqTEeiLqpDX3uXV-3osdE4g7TPOv-ts1MA6adJG2TSDtDQMDJQ7sw8bmywQaX-e_R4hQ47fjRAr5BujH4o6NSVmIo6ij6YCidDt31O-sTZceKWRHZL_EPyPBe5M8dHQLr9FGz4OK0bfiXQSmCxGZytdNM7HTl6qTLD7lwp_L0JbOZjI2RkZVI5tpbFRR7Vhe0-ffits8kcYUU_MoCANgNEh68lepKherH3xT8sGL9s7okcdn7fG-ky_3ddcV1Y7GA7oG6IVMaDzuhvtXr760Ac7SaqrjcHKBh4U4AYhG4vlFAsXz7TBUkqZzdFRYDYBnjDFg2-lIK0naQajefKYilrCtsDdZagsFt3HSW-MIw56Fbw"
+      },
+      {
+        "photo_reference": "Aa-ngMbX7Vh7sYDvR1CUXAAmjVRCq3WUjCeUYkBcMQT9SrWpgkEDbQrhN-SddxDVxiTlE_yjYCqYqYvb95uyLVnk4XyohoSOdiTXIPJKzRHUSl5N7eaoSfzM11zXV2j9kyAIl8CngeggqH3NELa5v2UnfRzXeGEylEyf_lP3UkqnFcbPw24UEOaLniyaIwly0l1GtwOvoIfnlSHvTm2w2jyccNNQjrlOMvGChLbRjrvVw8qPikBJ0zsTMvo3HBlw_0haQfekZxmkRtapkOXpwRsbSviQsh792KiriG9c9sT6_mpkkqcAwRHKEZU1rL-1CSFYnHK4dFUtBETU8vgjL-EttjM-DVa26oIeJIAgNVzkNJbN81xwrAJA397OcI99d3mjfWpSQ2lD9dL5jjU4hBb1mvOCJzyI-4MHMqI0k03ApNv5BFfB",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbX7Vh7sYDvR1CUXAAmjVRCq3WUjCeUYkBcMQT9SrWpgkEDbQrhN-SddxDVxiTlE_yjYCqYqYvb95uyLVnk4XyohoSOdiTXIPJKzRHUSl5N7eaoSfzM11zXV2j9kyAIl8CngeggqH3NELa5v2UnfRzXeGEylEyf_lP3UkqnFcbPw24UEOaLniyaIwly0l1GtwOvoIfnlSHvTm2w2jyccNNQjrlOMvGChLbRjrvVw8qPikBJ0zsTMvo3HBlw_0haQfekZxmkRtapkOXpwRsbSviQsh792KiriG9c9sT6_mpkkqcAwRHKEZU1rL-1CSFYnHK4dFUtBETU8vgjL-EttjM-DVa26oIeJIAgNVzkNJbN81xwrAJA397OcI99d3mjfWpSQ2lD9dL5jjU4hBb1mvOCJzyI-4MHMqI0k03ApNv5BFfB"
+      },
+      {
+        "photo_reference": "Aa-ngMZTohiJHj8IW41gf9DUSOtekFEr_1hM_M4NZHfHCrhq__ftEx4ik9fClT8ORMa-xSir0stZGKL5W-LEcR2lEsxu91fJtXfrzgg07meBVDvGcWlyKEiStmu5YqLnw93OPf7XQ2i5SgioZA6WcuR8n2mKrNHzQFifKOUelIG4pqCso0ow60y7t_TVe0gH4QHP6n3stj5HsfB07cCbmmoenuPaL6trO-kUf9UYQxQCyCn-H-tZus0Am6s-B50ZKtbLVb6BL-GG8ha8J6n_xR8zJy2EpY5wEtOZJ9oht5T0IS7j3iwsVWF0gMgbn5ncQrWQoi6ksYpHzY8UCtmv5UFhzOnDkhM77LFM7Fmdgz4uXhcRBDWoZL7B8WRlX1Ok2bs8rhQwh0CbiDy0V31RQSILcclI-KLg4GdT5fSku4GdYSueHg",
+        "height": 3072,
+        "width": 4096,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZTohiJHj8IW41gf9DUSOtekFEr_1hM_M4NZHfHCrhq__ftEx4ik9fClT8ORMa-xSir0stZGKL5W-LEcR2lEsxu91fJtXfrzgg07meBVDvGcWlyKEiStmu5YqLnw93OPf7XQ2i5SgioZA6WcuR8n2mKrNHzQFifKOUelIG4pqCso0ow60y7t_TVe0gH4QHP6n3stj5HsfB07cCbmmoenuPaL6trO-kUf9UYQxQCyCn-H-tZus0Am6s-B50ZKtbLVb6BL-GG8ha8J6n_xR8zJy2EpY5wEtOZJ9oht5T0IS7j3iwsVWF0gMgbn5ncQrWQoi6ksYpHzY8UCtmv5UFhzOnDkhM77LFM7Fmdgz4uXhcRBDWoZL7B8WRlX1Ok2bs8rhQwh0CbiDy0V31RQSILcclI-KLg4GdT5fSku4GdYSueHg"
+      },
+      {
+        "photo_reference": "Aa-ngMbOGkDziNP-Is1HDn3oIIIHvZiBd7XnSvx5QFnKLdyIZBC7Vj5BcPZE2xJdjm-kBVfFASI_JSlFaQI4VqKP1qubfB4JannIlIwqGG-q0DAuLnNXrXGVaM_w93o4KytP3-Vy40d30W0rgFV1zJUKsFLwyqF_2SP25fl1aW3lhXYSTwfYZRG0Q-2TOD4eMlNcxXjXCh-61BkiqjtrucW6M-RCFFnqOuo5j58ILlUi8HfJ7bXdZnKU29Ag49QSp4UNtHNZvRgE30e0EQM_LksNdBjWgcNuMTstt9NrIxOlF8X4b9mywOM7u9pWvWi8dT-RlA1ezaebAzsINTatR6mcVuOyrS9MqEXLx4czS-GO5stEWCZUxEVSYAgAN6FhVNynYhggrzZYyypYEOZbzrJtfxz-WwaJAJMO69PnccrOcnklGoLqNfRmCsnmErGe6mkN",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbOGkDziNP-Is1HDn3oIIIHvZiBd7XnSvx5QFnKLdyIZBC7Vj5BcPZE2xJdjm-kBVfFASI_JSlFaQI4VqKP1qubfB4JannIlIwqGG-q0DAuLnNXrXGVaM_w93o4KytP3-Vy40d30W0rgFV1zJUKsFLwyqF_2SP25fl1aW3lhXYSTwfYZRG0Q-2TOD4eMlNcxXjXCh-61BkiqjtrucW6M-RCFFnqOuo5j58ILlUi8HfJ7bXdZnKU29Ag49QSp4UNtHNZvRgE30e0EQM_LksNdBjWgcNuMTstt9NrIxOlF8X4b9mywOM7u9pWvWi8dT-RlA1ezaebAzsINTatR6mcVuOyrS9MqEXLx4czS-GO5stEWCZUxEVSYAgAN6FhVNynYhggrzZYyypYEOZbzrJtfxz-WwaJAJMO69PnccrOcnklGoLqNfRmCsnmErGe6mkN"
+      }
+    ],
+    "place_id": "ChIJKWpDaRLk3JQRSaxCYmuUspc",
+    "rating": 4.7,
+    "types": [
+      "establishment",
+      "museum",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=10930962434512563273",
+    "user_ratings_total": 3127,
+    "website": "http://www.fundacaoculturaldecuritiba.com.br/espacos-culturais/memorial-de-curitiba/",
+    "added_at": "2026-09-29T17:51:49.411Z"
   }
 ]
