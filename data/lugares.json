@@ -9780,5 +9780,236 @@
     "user_ratings_total": 3165,
     "website": "https://www.curitiba.pr.gov.br/conteudo/museu-de-historia-natural-do-capao-da-imbuia-bosque-municipal-capao-da-imbuia/332",
     "added_at": "2026-09-29T18:03:03.879Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "999",
+        "short_name": "999",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Marechal Hermes",
+        "short_name": "Rua Marechal Hermes",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Centro Cívico",
+        "short_name": "Centro Cívico",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80530-230",
+        "short_name": "80530-230",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Pinturas, esculturas e outros trabalhos de artistas locais ficam expostos em uma construção da década de 1920."
+    },
+    "formatted_address": "R. Mal. Hermes, 999 - Centro Cívico, Curitiba - PR, 80530-230, Brasil",
+    "formatted_phone_number": "(41) 3222-5172",
+    "geometry": {
+      "location": {
+        "lat": -25.4095111,
+        "lng": -49.2668125
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4081590197085,
+          "lng": -49.2651346197085
+        },
+        "southwest": {
+          "lat": -25.4108569802915,
+          "lng": -49.26783258029149
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3222-5172",
+    "name": "MAC - Museu de Arte Contemporânea do Paraná",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 10:00 – 18:00",
+        "quarta-feira: 10:00 – 18:00",
+        "quinta-feira: 10:00 – 18:00",
+        "sexta-feira: 10:00 – 18:00",
+        "sábado: 10:00 – 18:00",
+        "domingo: 10:00 – 18:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMYkoPSc_cAPw5TzDRG-xEuCYZKVUu0NwLPlgLW70Nv_DWSjvFhroqvD7cSdbmG4jgTzWrTTPHBbxY73B4qQinCJUFwiTegNe7N2pezBvHmoDfgASzW7oHv8evDGHzg6z8mKdLwGwwIf3p4CVHA9HKNe3itk7LtV0FRZIyqppcyiF4gTJzVy_VfzAyMLBL7zYrSgzHJwp0gi2FUpEg9vfcx7bdAz94tZo2pkh357Vh76h7pVQlbU38jmSB23abAww-HJPs6CMm2wjnEM3kMTZ84qfpaTl95qTUieSOBuKs2Mk-S3HKFal5CMiYjqANM4taGKdjEDaCd5dFCCUQRjOv_BA4HdygasxRtlOlwpFapNHaau0F1Oa22LSoKWHQtuaq_Ex8MrXFXO0GqrvvxdC6ILeGX3kU8Xlodfj0KIyEL7EllR",
+        "height": 4096,
+        "width": 2304,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYkoPSc_cAPw5TzDRG-xEuCYZKVUu0NwLPlgLW70Nv_DWSjvFhroqvD7cSdbmG4jgTzWrTTPHBbxY73B4qQinCJUFwiTegNe7N2pezBvHmoDfgASzW7oHv8evDGHzg6z8mKdLwGwwIf3p4CVHA9HKNe3itk7LtV0FRZIyqppcyiF4gTJzVy_VfzAyMLBL7zYrSgzHJwp0gi2FUpEg9vfcx7bdAz94tZo2pkh357Vh76h7pVQlbU38jmSB23abAww-HJPs6CMm2wjnEM3kMTZ84qfpaTl95qTUieSOBuKs2Mk-S3HKFal5CMiYjqANM4taGKdjEDaCd5dFCCUQRjOv_BA4HdygasxRtlOlwpFapNHaau0F1Oa22LSoKWHQtuaq_Ex8MrXFXO0GqrvvxdC6ILeGX3kU8Xlodfj0KIyEL7EllR"
+      },
+      {
+        "photo_reference": "Aa-ngMZGPV-v-qZwv4BQq5baagcwBJAG16ET7IFnH7dlxL-DsHqW6-HXWehz9uJW1D787MzPkWVAwLs4Ci5tYq9He19YWtbny977sGoylawngqles7F7vt2skQ3GAHTaW-iisslhGNqDPTX0uTWMBMfr_9T28IeQDpKaATkk5LPn58FEDEQvmEFaMA8cFWsfy11fWR-9P31spfwDSXEyYrVU117yWiO3JzwKk3TPNc-3k1KJSm37F5NESLRiuP_uWQwc_tt-jF0wwDwlCjrs0ZEfbNsNh7o6eGALFfZPVb-YfmZWhdE26m7oDsUjs2W9tLYlycZoXPb5Qqn0roVSbg-gmRy0jRY8GQvhdq5qH0HtyStv74J-8Tv5IOlnN2bKn_7fFo4M4AWTXOMucVvV3On2WKKj_gatIrMqgRL1DFah3ve9aQ",
+        "height": 2700,
+        "width": 4800,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZGPV-v-qZwv4BQq5baagcwBJAG16ET7IFnH7dlxL-DsHqW6-HXWehz9uJW1D787MzPkWVAwLs4Ci5tYq9He19YWtbny977sGoylawngqles7F7vt2skQ3GAHTaW-iisslhGNqDPTX0uTWMBMfr_9T28IeQDpKaATkk5LPn58FEDEQvmEFaMA8cFWsfy11fWR-9P31spfwDSXEyYrVU117yWiO3JzwKk3TPNc-3k1KJSm37F5NESLRiuP_uWQwc_tt-jF0wwDwlCjrs0ZEfbNsNh7o6eGALFfZPVb-YfmZWhdE26m7oDsUjs2W9tLYlycZoXPb5Qqn0roVSbg-gmRy0jRY8GQvhdq5qH0HtyStv74J-8Tv5IOlnN2bKn_7fFo4M4AWTXOMucVvV3On2WKKj_gatIrMqgRL1DFah3ve9aQ"
+      },
+      {
+        "photo_reference": "Aa-ngMa_RvErcRZL07kdrkeZokYKs_1LJZIW7ZjRtp4eG2dKcEBLbp9bWAefuvMIFG755nSoFNZBLVFL15heoleIrWHsMKWN4Hf7kyo0Iplxb2RCCpIAvQz0Ws2dIXlEhaX__QJ1wRonYczflMSm6PCAksYze4FYjnkdU4wOFVmp-U1pDYZCC9b_kXlxw74w-Plv_BbXJQCnoxmFZ-YW9k8mSgIXsQs2SEQDgsEJtLfPFxk31bcXpvGwmp8wK6RiddbTihww_zfkuL-gg-y6z5_Du3wWk5bDgwNR4iwOGLIa3RupvZQ2UEFEPRU1ffnG1rdpd3Tsp0wZcxKKfxUtFS92Di9LfYsNVQ6j4AWKJcIErHipDr12ylEPJnp8EfeAViybQRhBLMj48SR9c2rzVK1hRNkQlYm5NiUp5Pt4hQsqoQ9paoNo",
+        "height": 3120,
+        "width": 4160,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMa_RvErcRZL07kdrkeZokYKs_1LJZIW7ZjRtp4eG2dKcEBLbp9bWAefuvMIFG755nSoFNZBLVFL15heoleIrWHsMKWN4Hf7kyo0Iplxb2RCCpIAvQz0Ws2dIXlEhaX__QJ1wRonYczflMSm6PCAksYze4FYjnkdU4wOFVmp-U1pDYZCC9b_kXlxw74w-Plv_BbXJQCnoxmFZ-YW9k8mSgIXsQs2SEQDgsEJtLfPFxk31bcXpvGwmp8wK6RiddbTihww_zfkuL-gg-y6z5_Du3wWk5bDgwNR4iwOGLIa3RupvZQ2UEFEPRU1ffnG1rdpd3Tsp0wZcxKKfxUtFS92Di9LfYsNVQ6j4AWKJcIErHipDr12ylEPJnp8EfeAViybQRhBLMj48SR9c2rzVK1hRNkQlYm5NiUp5Pt4hQsqoQ9paoNo"
+      },
+      {
+        "photo_reference": "Aa-ngMZ84buI1zODRRoL8bS8GRAI1sZHKsjNBVgqvDwc3y2OD02w70DG-jENrvPNt-z3YysNaQnGGK6JGlcfutFUO5Z8nrjUr_0jQLq5IQJUNWF9Si7c0nvYGBaPSfyJqTtnRo9VkBylDlc8Vr8zyVgmqyPjues42aQeB1ZPYfMP3SzRmReRaablvnsB9kG0EzTsUh28I5DQgMI9b9e_n91bFgJ3mHf7khsubp-ovRr5RkxWH7SmSqHoInW9x4GKNypYCf_asGj-yJ_E9KYmpi2dKKdcJtd5nGCPzo9NIYLxYAHADlT7qIHIqO8I4AeAvTY_0emoo736CkuLdmcsj0ZkwYy8K1TKnez88GlixBZaL4ClRtjzet5FkZjSr1iQncPKm-Nj9fmj7mr_y_w3gMP8cxmpvjPzm1fFEsy5XpbBpiqnWpd-",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZ84buI1zODRRoL8bS8GRAI1sZHKsjNBVgqvDwc3y2OD02w70DG-jENrvPNt-z3YysNaQnGGK6JGlcfutFUO5Z8nrjUr_0jQLq5IQJUNWF9Si7c0nvYGBaPSfyJqTtnRo9VkBylDlc8Vr8zyVgmqyPjues42aQeB1ZPYfMP3SzRmReRaablvnsB9kG0EzTsUh28I5DQgMI9b9e_n91bFgJ3mHf7khsubp-ovRr5RkxWH7SmSqHoInW9x4GKNypYCf_asGj-yJ_E9KYmpi2dKKdcJtd5nGCPzo9NIYLxYAHADlT7qIHIqO8I4AeAvTY_0emoo736CkuLdmcsj0ZkwYy8K1TKnez88GlixBZaL4ClRtjzet5FkZjSr1iQncPKm-Nj9fmj7mr_y_w3gMP8cxmpvjPzm1fFEsy5XpbBpiqnWpd-"
+      },
+      {
+        "photo_reference": "Aa-ngMZRuy8Kr704DMzy8oMBB1f5QnIujb9kebuX_XcdHLcd_z9Tmk1NUXSR3De9sQpFxyXU6-fp3uG2NuX066dB1d_EqU1iLZb3b3tYf7qjqpDKkwhZxNnb77U_oLwQ3p5D2EYlX2rXW3KYseIyQpdiMsgH1Ekz9MFRqgZBHTVs5yIIACOz44sr69Ym5Rtn3jj54ZH9-u7qnzafkXv4hdpsfg7XLhoyrHxNBWleAVsBEJo-_5m6hRnZCTFwEp-dysXDpeTD0UCD_3mlJ7SKcWILrplOI8BoYw6J70Dc1OX9PSiMihK2LNNdvIwGvjURACaumTX0rdt_bz6k-FsMSfXL8TxexSouwYCavmCEf1uJF4qxdc6vYn7yADBASm8Vvvmqr9Gm2FCWX5Ia2gw4ajJYfBKrmuQFdrD4tA2D5Gu5wb05-g",
+        "height": 4800,
+        "width": 2700,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZRuy8Kr704DMzy8oMBB1f5QnIujb9kebuX_XcdHLcd_z9Tmk1NUXSR3De9sQpFxyXU6-fp3uG2NuX066dB1d_EqU1iLZb3b3tYf7qjqpDKkwhZxNnb77U_oLwQ3p5D2EYlX2rXW3KYseIyQpdiMsgH1Ekz9MFRqgZBHTVs5yIIACOz44sr69Ym5Rtn3jj54ZH9-u7qnzafkXv4hdpsfg7XLhoyrHxNBWleAVsBEJo-_5m6hRnZCTFwEp-dysXDpeTD0UCD_3mlJ7SKcWILrplOI8BoYw6J70Dc1OX9PSiMihK2LNNdvIwGvjURACaumTX0rdt_bz6k-FsMSfXL8TxexSouwYCavmCEf1uJF4qxdc6vYn7yADBASm8Vvvmqr9Gm2FCWX5Ia2gw4ajJYfBKrmuQFdrD4tA2D5Gu5wb05-g"
+      },
+      {
+        "photo_reference": "Aa-ngMazuhfApqaE41C00n7jD-ju_w4fu5nRr2Q1D75D8VkSHliG8L8Oayn9gMnavq_dKWY2H9yUo1MT827KGoWbcwR-Me9HtX89GGiLM1r-2ImmyIUPHtOfyjpxMqLqy10fkRCdaXB-RjZ6OfGhvThL7QWE7H2wmhcuIZZZNjjvZi3pfN3eR5aGSMzZa5CLwvY66zzX_YGtjGsPF9h98Tnq3misRwU0Y6L7EBCbukMbhd2c88jZ7do98Rjkia9bTcdr1Ehilu5M3m9uEVZ4Mhkw58Vc2CaLjbxR5dROj-VnaOELCkfJ19b1hisPqibIqEMFkY0PF6lK4kWdb8mPpF4TSy2xriCXvMjwurS1vqOBskqToqbTfDUxguErxphb8NSGFdFILLeVK-wHGGRFY_dX9XeBfjK-p9i1NzEWbJ0AoDxEmm1N",
+        "height": 3120,
+        "width": 4160,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMazuhfApqaE41C00n7jD-ju_w4fu5nRr2Q1D75D8VkSHliG8L8Oayn9gMnavq_dKWY2H9yUo1MT827KGoWbcwR-Me9HtX89GGiLM1r-2ImmyIUPHtOfyjpxMqLqy10fkRCdaXB-RjZ6OfGhvThL7QWE7H2wmhcuIZZZNjjvZi3pfN3eR5aGSMzZa5CLwvY66zzX_YGtjGsPF9h98Tnq3misRwU0Y6L7EBCbukMbhd2c88jZ7do98Rjkia9bTcdr1Ehilu5M3m9uEVZ4Mhkw58Vc2CaLjbxR5dROj-VnaOELCkfJ19b1hisPqibIqEMFkY0PF6lK4kWdb8mPpF4TSy2xriCXvMjwurS1vqOBskqToqbTfDUxguErxphb8NSGFdFILLeVK-wHGGRFY_dX9XeBfjK-p9i1NzEWbJ0AoDxEmm1N"
+      },
+      {
+        "photo_reference": "Aa-ngMZgNyABGTcm2akrMAs66CVnxezenNVKIsBiSX0TmaRXXkL3ifel7__SlphCrhEs99iHAq1IC9T5uU_jRQZ1_xVFWZhA3zooWm3ImmRyJH9y0APzw4QGyHJDhcq5XYQe3aBIPGym0YKDxC03s6o0C7izrXUnbT_6s9O7tFRezNjpmEfJS4EJE9XVzkNjRiyXfai-W_P5qMo45F-P4dRM_d76gxJym8qR9qjaainlh7SUzKWeVYCWrXMByT1rvPMF3-YZPLnxBIpjnEbdC2uVJdTqJwMg_N_KYB5e2b0uu9p1g_-RN_4ugfx_obMbQRv_JAYmyXqIhqjagK3hx4ybFoOBb9vAqO0dU-95Xe0X7QAFeinGMe9dXvz4vGyka1FL5b45Ek8Vj3UpBD-opYe4t8AqqBtV7loizDyEuw35iF6gbA",
+        "height": 1836,
+        "width": 3264,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZgNyABGTcm2akrMAs66CVnxezenNVKIsBiSX0TmaRXXkL3ifel7__SlphCrhEs99iHAq1IC9T5uU_jRQZ1_xVFWZhA3zooWm3ImmRyJH9y0APzw4QGyHJDhcq5XYQe3aBIPGym0YKDxC03s6o0C7izrXUnbT_6s9O7tFRezNjpmEfJS4EJE9XVzkNjRiyXfai-W_P5qMo45F-P4dRM_d76gxJym8qR9qjaainlh7SUzKWeVYCWrXMByT1rvPMF3-YZPLnxBIpjnEbdC2uVJdTqJwMg_N_KYB5e2b0uu9p1g_-RN_4ugfx_obMbQRv_JAYmyXqIhqjagK3hx4ybFoOBb9vAqO0dU-95Xe0X7QAFeinGMe9dXvz4vGyka1FL5b45Ek8Vj3UpBD-opYe4t8AqqBtV7loizDyEuw35iF6gbA"
+      },
+      {
+        "photo_reference": "Aa-ngMbZxqv-mG0D4aG_sxaagnYIRsCDmgmqp1K6ydT1svNA6eXUnoD_Hcrfn78WrFg6yjckydylXcMuk1K1iTp8e5ehuR5OGXzZI6szqa_PwdOI2IqZcoYDSAxqtoA_T-F3n-yfgTtHnf6mnST2kGsu8oIWbeyuP1F0nCtH0cCJIgqAy1YobL2g-0ZuwrrIWXv2FXJEZPYBdboCuReZkOY_sXIvl2jmleUXaFZL0XPFWoQfc0xZ9iTQJ7qXblOFq-ayvu8EzO38hfu5xb5XAGj0p5m23nbedw-DA-iqhioTPwxZGdCb2sG7M6EjaZt2QuYPXhAqBuJn2zBFRNrkBobhGdByR8epqKVMc393-q9DeLUXoplz9QDhXRtjfZgS-BJjixhebpu3d6OQHST-s_lA-qqBoUSV9GAFvtK242axb5D5LA",
+        "height": 3600,
+        "width": 4800,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbZxqv-mG0D4aG_sxaagnYIRsCDmgmqp1K6ydT1svNA6eXUnoD_Hcrfn78WrFg6yjckydylXcMuk1K1iTp8e5ehuR5OGXzZI6szqa_PwdOI2IqZcoYDSAxqtoA_T-F3n-yfgTtHnf6mnST2kGsu8oIWbeyuP1F0nCtH0cCJIgqAy1YobL2g-0ZuwrrIWXv2FXJEZPYBdboCuReZkOY_sXIvl2jmleUXaFZL0XPFWoQfc0xZ9iTQJ7qXblOFq-ayvu8EzO38hfu5xb5XAGj0p5m23nbedw-DA-iqhioTPwxZGdCb2sG7M6EjaZt2QuYPXhAqBuJn2zBFRNrkBobhGdByR8epqKVMc393-q9DeLUXoplz9QDhXRtjfZgS-BJjixhebpu3d6OQHST-s_lA-qqBoUSV9GAFvtK242axb5D5LA"
+      },
+      {
+        "photo_reference": "Aa-ngMbmSvGb6YHC5Jf-x6EEeOTbJZGsZ-onNNiOhYWdc6v_ekpbXjwPtKO8CPmn0jTI9_aT4UubfX5Z95BDwSZ2bVxzYPoH2YsS9lKr87aEBzS9eTAXM4XQHufCVcrDgN3mJUYDONB13Gn1eJwIa4KYroWIe0j0KI3lOEbrZBwtGELQTuFRVVry_khEOTo4jxmWZtQAnuU2f0MApFqCniDzDhPbi4U8XywsosRPc01ppRKD92XEZSE9bFs9pSf4mlMMUosPuWT2ixDdYifUfwJYxGNlYWu3GI9RV7ot8sRwxV1f2zLidiIkRFezh6ba9ui3GT6poJOtJlIiEnTIfD-8WmUA5W0zQIDZtTIZAjmPS4dN50-PlbkZUuAlSX84tGvLO0bWkyQDZ8bdkCS4iAGprp8nveZBhLKm3ivRrsz4kJWKaw",
+        "height": 2340,
+        "width": 4160,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbmSvGb6YHC5Jf-x6EEeOTbJZGsZ-onNNiOhYWdc6v_ekpbXjwPtKO8CPmn0jTI9_aT4UubfX5Z95BDwSZ2bVxzYPoH2YsS9lKr87aEBzS9eTAXM4XQHufCVcrDgN3mJUYDONB13Gn1eJwIa4KYroWIe0j0KI3lOEbrZBwtGELQTuFRVVry_khEOTo4jxmWZtQAnuU2f0MApFqCniDzDhPbi4U8XywsosRPc01ppRKD92XEZSE9bFs9pSf4mlMMUosPuWT2ixDdYifUfwJYxGNlYWu3GI9RV7ot8sRwxV1f2zLidiIkRFezh6ba9ui3GT6poJOtJlIiEnTIfD-8WmUA5W0zQIDZtTIZAjmPS4dN50-PlbkZUuAlSX84tGvLO0bWkyQDZ8bdkCS4iAGprp8nveZBhLKm3ivRrsz4kJWKaw"
+      },
+      {
+        "photo_reference": "Aa-ngMYF2gkHem-rEH8q3oQlGmcCQufM1p_N_qEu3Z8WOA1XF58uGz1L-rU1fv8Y5_yZo2xdc_r5q0uvUXR_V7QOXkX-dGOtXHOwnV8REW1na-R0DFFMrPhtv5z9W61IMiRv-bkzZU1l27Na09bdgCLtbc31PmebjRKHPMqYIyROUw16nMoVbYCGFq9Tt4ZUJ-7soMy7jGR4xBCaBq9iUkl6LpBG78L5DH4zho-GnUTiGQ_6So7y0uPMIIG3_KDS9ulrlnhLlsaxNwDHLPCYqoGnp7C81pEx0SJIBFx2wx_BZUCZK0WxT_HfIq3EMg4XQUkuKon7kkwJPXBPVQonGT7bE8fsZMU0Ob_bmjmtH8rRqwylpxrdRbkfMXxYkdR4EJo908VxOduKPlvePf1DgvDIT5WGdgX_kn4Ww5mhuhDIW1Zd_Hdh",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYF2gkHem-rEH8q3oQlGmcCQufM1p_N_qEu3Z8WOA1XF58uGz1L-rU1fv8Y5_yZo2xdc_r5q0uvUXR_V7QOXkX-dGOtXHOwnV8REW1na-R0DFFMrPhtv5z9W61IMiRv-bkzZU1l27Na09bdgCLtbc31PmebjRKHPMqYIyROUw16nMoVbYCGFq9Tt4ZUJ-7soMy7jGR4xBCaBq9iUkl6LpBG78L5DH4zho-GnUTiGQ_6So7y0uPMIIG3_KDS9ulrlnhLlsaxNwDHLPCYqoGnp7C81pEx0SJIBFx2wx_BZUCZK0WxT_HfIq3EMg4XQUkuKon7kkwJPXBPVQonGT7bE8fsZMU0Ob_bmjmtH8rRqwylpxrdRbkfMXxYkdR4EJo908VxOduKPlvePf1DgvDIT5WGdgX_kn4Ww5mhuhDIW1Zd_Hdh"
+      }
+    ],
+    "place_id": "ChIJtznvcm3k3JQRvfi2FTbDewA",
+    "rating": 4.7,
+    "types": [
+      "establishment",
+      "museum",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=34836059195373757",
+    "user_ratings_total": 659,
+    "website": "http://www.mac.pr.gov.br/",
+    "added_at": "2026-09-29T18:03:09.555Z"
   }
 ]
