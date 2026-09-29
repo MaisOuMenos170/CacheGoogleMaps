@@ -7687,5 +7687,236 @@
     "user_ratings_total": 1087,
     "website": "https://www.royaltyqualitycoffee.com/",
     "added_at": "2026-09-29T17:58:45.990Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "452",
+        "short_name": "452",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Carlos Pioli",
+        "short_name": "R. Carlos Pioli",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bom Retiro",
+        "short_name": "Bom Retiro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80520-170",
+        "short_name": "80520-170",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Carlos Pioli, 452 - Bom Retiro, Curitiba - PR, 80520-170, Brasil",
+    "formatted_phone_number": "(41) 99985-5999",
+    "geometry": {
+      "location": {
+        "lat": -25.4101703,
+        "lng": -49.276032
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4089147697085,
+          "lng": -49.2746723697085
+        },
+        "southwest": {
+          "lat": -25.4116127302915,
+          "lng": -49.2773703302915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 99985-5999",
+    "name": "Meguro Café メグロカフェ",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 09:00 – 20:00",
+        "quarta-feira: 09:00 – 20:00",
+        "quinta-feira: 09:00 – 20:00",
+        "sexta-feira: 09:00 – 20:00",
+        "sábado: 09:00 – 20:00",
+        "domingo: 09:00 – 16:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMaEa1cFtHTzMBaWkg5ANpgwEsDiGeFbruQZCRaN8dgnJCwQ3AdIbsZBMfK9Wzg_hpEfoqlagFz0Q3UWzHm82W-_8ZLiaOPfCbRfgfUdGYJE9PcN2QpJUsN2HLFV1smTgi0sy9SOvlzvcNWZPiL-RpK3wbLnpz-5RiBnKX8g6aTQ_hrA95gKrmdEm081yE3Dxc3LxtdbOX-K-P8FsmSgzhYq2KKhZmM6WXPADmIJMFp-jDle1mdLaYgoLSczHc88diyTxe-TlTjl5txOsZdLgfqu1Qc6A950cTfYaP_4HKcNkTvQdq-Ei8RHq4kWU3tMkNXdW-8HOq7CdjjZ6DWuh2KPlKKg72o2mOtIvju_PeA4oAOjDh9SqK2TXO6iTYjI9h-GXVKKfUSRRWm_BZs16C2UJNdb9_rrMhbkXyhnPAVgLfnAg9iBAycoGi6p5g",
+        "height": 1789,
+        "width": 2675,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaEa1cFtHTzMBaWkg5ANpgwEsDiGeFbruQZCRaN8dgnJCwQ3AdIbsZBMfK9Wzg_hpEfoqlagFz0Q3UWzHm82W-_8ZLiaOPfCbRfgfUdGYJE9PcN2QpJUsN2HLFV1smTgi0sy9SOvlzvcNWZPiL-RpK3wbLnpz-5RiBnKX8g6aTQ_hrA95gKrmdEm081yE3Dxc3LxtdbOX-K-P8FsmSgzhYq2KKhZmM6WXPADmIJMFp-jDle1mdLaYgoLSczHc88diyTxe-TlTjl5txOsZdLgfqu1Qc6A950cTfYaP_4HKcNkTvQdq-Ei8RHq4kWU3tMkNXdW-8HOq7CdjjZ6DWuh2KPlKKg72o2mOtIvju_PeA4oAOjDh9SqK2TXO6iTYjI9h-GXVKKfUSRRWm_BZs16C2UJNdb9_rrMhbkXyhnPAVgLfnAg9iBAycoGi6p5g"
+      },
+      {
+        "photo_reference": "Aa-ngMaYDcQBnhjYMRKPx8yVjAbHIGf5vcyywRUgv7pBGqa8D0zepaETiBMOZfnh6TiECYD7Gd-mEkU-s35WXYSeSzZafHvjRFjb46jn9igxJXyOrbul53gVYGpDXDuUui652_q6PZEzZr1Tmnpjv2ws2g_ghp1VJIOsc6K7dSj62juT_81itKtUPOsUgyqSsuUi2uAH7oOzO-vT4i3nwgHx6pKd1d9SdFdvuxwWzQRziXWPpQqZszFcG2OdyKz13suZdaCKd5BiOcBx5yKLfbZgNNPWArGg1Sp2OfNxzYkaq-5pApUo4ugLfN3fD8aYe3nlKhAgezE6-ueWUnqg-rEVMmdwNITDjJpi7vfWudiESQTTR6Q8aBCTKtrAVbVfOx9Hz_0egjVjseDlpts6C1i5tq_X_GcNwC3um2n370Bk1OZn3AJADesQ0a1_mmGGnSy7",
+        "height": 2736,
+        "width": 2736,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaYDcQBnhjYMRKPx8yVjAbHIGf5vcyywRUgv7pBGqa8D0zepaETiBMOZfnh6TiECYD7Gd-mEkU-s35WXYSeSzZafHvjRFjb46jn9igxJXyOrbul53gVYGpDXDuUui652_q6PZEzZr1Tmnpjv2ws2g_ghp1VJIOsc6K7dSj62juT_81itKtUPOsUgyqSsuUi2uAH7oOzO-vT4i3nwgHx6pKd1d9SdFdvuxwWzQRziXWPpQqZszFcG2OdyKz13suZdaCKd5BiOcBx5yKLfbZgNNPWArGg1Sp2OfNxzYkaq-5pApUo4ugLfN3fD8aYe3nlKhAgezE6-ueWUnqg-rEVMmdwNITDjJpi7vfWudiESQTTR6Q8aBCTKtrAVbVfOx9Hz_0egjVjseDlpts6C1i5tq_X_GcNwC3um2n370Bk1OZn3AJADesQ0a1_mmGGnSy7"
+      },
+      {
+        "photo_reference": "Aa-ngMZCPOhH_6SGsXCEDmFZNLd7y22ALyi-J0XqA2tj2DLiBXQaskWZPSZ_wfFrwT5d8c8kjiyzFOePmIqspdR4cEiqwlHADk3QoHVE-rnNO3-NR4YqNLnanw0XeK5tNv4SK_49sfQPVfqxr9TL0bXpdqabY3E5P6-LIRicVQ8-fgU9RBk4J2yWXRpqYdI6KlyXqtYwVvw4ICU90l6vGKN9hSCAMhf_eH45MyeBIq8trxOGp01T7l6M_SBJWcDWnor0MX7hWoPdA2cVl-T6yZuptfbDMyVhKJe5SLcVuYtL_Mf84gzqxaNcUF-pN5URojoA4bgxZcI820AUC3q_Ymwj40SHKWrBJQZemSZ_k2lN92wz8n919kR5x07dZStl_u1nIba4vdWaOqtQXZ14OPmDMSBnhDjS3vFSpab76FTa5zuskFxc1jmRWTky1ekwfslr",
+        "height": 1333,
+        "width": 1333,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZCPOhH_6SGsXCEDmFZNLd7y22ALyi-J0XqA2tj2DLiBXQaskWZPSZ_wfFrwT5d8c8kjiyzFOePmIqspdR4cEiqwlHADk3QoHVE-rnNO3-NR4YqNLnanw0XeK5tNv4SK_49sfQPVfqxr9TL0bXpdqabY3E5P6-LIRicVQ8-fgU9RBk4J2yWXRpqYdI6KlyXqtYwVvw4ICU90l6vGKN9hSCAMhf_eH45MyeBIq8trxOGp01T7l6M_SBJWcDWnor0MX7hWoPdA2cVl-T6yZuptfbDMyVhKJe5SLcVuYtL_Mf84gzqxaNcUF-pN5URojoA4bgxZcI820AUC3q_Ymwj40SHKWrBJQZemSZ_k2lN92wz8n919kR5x07dZStl_u1nIba4vdWaOqtQXZ14OPmDMSBnhDjS3vFSpab76FTa5zuskFxc1jmRWTky1ekwfslr"
+      },
+      {
+        "photo_reference": "Aa-ngMZLIZZ6A62ZkOxG5vVgniTMZT3GpKHl_MwURCQwHDkvskr0DJnoaUZLgrAkwEar060-_8ajC18SnKNbdvS10YslzQM1sZHWsbAVX2rupUkdHoL1qbFTCv_uGoIvNKYbpsZ0_1puoKxQFZ2vBWjp4dJ9-VvydqfFcHm27MEazsvCXh7oPdHbBIqchJOFcQ4DRcdcDxqJRl8vA7MlW08nr9YOB86JEAlHjP0PaVd_3XPUmlowHzKpBBMnQBSnp6SqSXIZJeazs0slLlN0wUgbcQ_2EWHU_RiWJEYuAuydH-Al-6AgM2eujElkKchqVER16Tt99TCmQD1tmY3BhwACqiD86itWkU0mLkTFl9gazYWK_6BnYBXDod_sICBF47RRV_BMz5-aapDl5_Prn_S7M4ezvah40c76xK2J0ykA7U_rXl4JxwtyjvxBqmuk3g",
+        "height": 2688,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZLIZZ6A62ZkOxG5vVgniTMZT3GpKHl_MwURCQwHDkvskr0DJnoaUZLgrAkwEar060-_8ajC18SnKNbdvS10YslzQM1sZHWsbAVX2rupUkdHoL1qbFTCv_uGoIvNKYbpsZ0_1puoKxQFZ2vBWjp4dJ9-VvydqfFcHm27MEazsvCXh7oPdHbBIqchJOFcQ4DRcdcDxqJRl8vA7MlW08nr9YOB86JEAlHjP0PaVd_3XPUmlowHzKpBBMnQBSnp6SqSXIZJeazs0slLlN0wUgbcQ_2EWHU_RiWJEYuAuydH-Al-6AgM2eujElkKchqVER16Tt99TCmQD1tmY3BhwACqiD86itWkU0mLkTFl9gazYWK_6BnYBXDod_sICBF47RRV_BMz5-aapDl5_Prn_S7M4ezvah40c76xK2J0ykA7U_rXl4JxwtyjvxBqmuk3g"
+      },
+      {
+        "photo_reference": "Aa-ngMZb0rkYT6tBhOL3mvfF9l5HiP_TIR32SFE14tjZRie6BUIOvkLI42-blpvEH0MmNEiueBpmBYYAmUIWgIjzEl81vySB0AIAzMbH9tHwuBpjUShpRDO6HNGeT4biZB-VkisEqt-AaLb1_05qm77jOn8V-GDyPAAp808tbTL1wjCZRKPoxlfIKW1Nw1ro6uPsJK6UYr39o8Oc5kTg2QrTRMwk7C5MTr-hsg7jI0B5umL3WfwGBBJOTFx8OewgfUiIv6UtJlz0kcWoumE82Co_bftU2DXj-Q5vzVZ8ivqdiZeFyjHjjMlb-df0XxXsN7J_A6CUXKANhOTLbE8f2OgJ5lYsQwbQ-51q1I0qUf-9a84dzvNpgPkzydl4qbsAP7ByjhopPp41NONg4AxANC9ppkp9BlCpRKBRODwP-LCkt7PBTiCSOrHKG3W4JJaonsuH",
+        "height": 4800,
+        "width": 3600,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZb0rkYT6tBhOL3mvfF9l5HiP_TIR32SFE14tjZRie6BUIOvkLI42-blpvEH0MmNEiueBpmBYYAmUIWgIjzEl81vySB0AIAzMbH9tHwuBpjUShpRDO6HNGeT4biZB-VkisEqt-AaLb1_05qm77jOn8V-GDyPAAp808tbTL1wjCZRKPoxlfIKW1Nw1ro6uPsJK6UYr39o8Oc5kTg2QrTRMwk7C5MTr-hsg7jI0B5umL3WfwGBBJOTFx8OewgfUiIv6UtJlz0kcWoumE82Co_bftU2DXj-Q5vzVZ8ivqdiZeFyjHjjMlb-df0XxXsN7J_A6CUXKANhOTLbE8f2OgJ5lYsQwbQ-51q1I0qUf-9a84dzvNpgPkzydl4qbsAP7ByjhopPp41NONg4AxANC9ppkp9BlCpRKBRODwP-LCkt7PBTiCSOrHKG3W4JJaonsuH"
+      },
+      {
+        "photo_reference": "Aa-ngMa_xdYrpbesmqLJTDfaxV1BM1DeJq904kVOjpb7yCDQiJBG5Rg8NaQPiPKHV26nVXDH68_4-qgkugRFgAwpPmruKnnWvNSnrqZj_lb5z6dKsudB7eJIAprdpS41pslgNd8A9OJLgnovRltCxAeTkuSViNVVV45XyywJSeNbhhGp2MIBNPzTIrf7o8-wKsC7cnnN58GzJXigEHe2p77BEw5LZaX7IhqA6KKqfqfKC6Wb318ZIXugQAWHEyhll3jPzUNrYqAOYHeJnEYdeAe7Akhl7GId-Wt2zIRcf4NmDUXedHOPWWju5ceXR3J4n1WpJMV5py-uA5BaHYFOvJ4OsJvdnKmCCQFAcjpM0IyyXWLdXfd3e4z2kXuJSCC9P97JqW5N0O8ZCgnQIHYv_B5EbSKBKhHAtKVkWhyPLRT_J05wOnfClmjguLJsLp5tig",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMa_xdYrpbesmqLJTDfaxV1BM1DeJq904kVOjpb7yCDQiJBG5Rg8NaQPiPKHV26nVXDH68_4-qgkugRFgAwpPmruKnnWvNSnrqZj_lb5z6dKsudB7eJIAprdpS41pslgNd8A9OJLgnovRltCxAeTkuSViNVVV45XyywJSeNbhhGp2MIBNPzTIrf7o8-wKsC7cnnN58GzJXigEHe2p77BEw5LZaX7IhqA6KKqfqfKC6Wb318ZIXugQAWHEyhll3jPzUNrYqAOYHeJnEYdeAe7Akhl7GId-Wt2zIRcf4NmDUXedHOPWWju5ceXR3J4n1WpJMV5py-uA5BaHYFOvJ4OsJvdnKmCCQFAcjpM0IyyXWLdXfd3e4z2kXuJSCC9P97JqW5N0O8ZCgnQIHYv_B5EbSKBKhHAtKVkWhyPLRT_J05wOnfClmjguLJsLp5tig"
+      },
+      {
+        "photo_reference": "Aa-ngMagX5-U7fWlV3X7bPs_nvc3wrJhV8kXkCH-rXOAn4m404J7tzURSx7AFmTaXaTlGdd6aKdBBqLSSXphKlqFf9nfTpbe_oSCetVDoCchVfTbrl96hdW97KrSt4EF8vLrlSjY_UEKdrFk5YGwi87j_LdUAUtNXXrLahQyP21NxjnvL6dH7AKwFxbj23RcVPUIwF-GBNz0XprdUunej2buav9sKXWeP-V32YEzpHqkLRBDxT10pAGuF31vveTYbF8zi1S6XBPh0Tmjc0zECWna5bLiYE0BkcgLVGjGT3FQ5TIeN7tUQ1HP87drsV_BVl04YVUd021HkytiwUHdhUmf32jc_NbNLKok_52BGILmJPUb_YBDDxFj9s4iHHQPAUrwbNRkrftKrbVS9AWH8bj8ehIJ8HDX2B3de279JtGrIEsJc9VB_GMD4_iJgU-LJw",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMagX5-U7fWlV3X7bPs_nvc3wrJhV8kXkCH-rXOAn4m404J7tzURSx7AFmTaXaTlGdd6aKdBBqLSSXphKlqFf9nfTpbe_oSCetVDoCchVfTbrl96hdW97KrSt4EF8vLrlSjY_UEKdrFk5YGwi87j_LdUAUtNXXrLahQyP21NxjnvL6dH7AKwFxbj23RcVPUIwF-GBNz0XprdUunej2buav9sKXWeP-V32YEzpHqkLRBDxT10pAGuF31vveTYbF8zi1S6XBPh0Tmjc0zECWna5bLiYE0BkcgLVGjGT3FQ5TIeN7tUQ1HP87drsV_BVl04YVUd021HkytiwUHdhUmf32jc_NbNLKok_52BGILmJPUb_YBDDxFj9s4iHHQPAUrwbNRkrftKrbVS9AWH8bj8ehIJ8HDX2B3de279JtGrIEsJc9VB_GMD4_iJgU-LJw"
+      },
+      {
+        "photo_reference": "Aa-ngMbHNGztoAbzYshfadN_Tg27equCq3mwUGoE7d3PKZZzcU_jHeyvWAXi_gXI13j4e4YwUjilFzubdqGOu6gYv1TOGSwyq6yxPdpvtTeXoOfUOpOFDS2o3l533ko4AhvAhsU6JCqXcskp9j6A96o9ouqbXIF45NBCihb4Ev33oBRIybAUFaMFUgG9wrsw9ZWPO93DSkjLQS8oEpXRkljVPx5gnXqw8_VdLNikkHnbnVAAwOwWSkV8GzHUbgTm0xlS0jpEcyvduCAatDtmTR6euIoFslRz-Lgw76znN2vHsAHNzruYHKIvsGGC5oYeVP-giDCACSFU6TyNHFlFmfdqr3CwPfxw5XZm_QSVwZQ8dLcF2iC_qJ42DKE2XzS396zbah-JvW3JRRCl58dLvTfl4Hjn7cNRXyna01_gAjLtRA1wl8I8Vl9_F7gSkOxTEefh",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbHNGztoAbzYshfadN_Tg27equCq3mwUGoE7d3PKZZzcU_jHeyvWAXi_gXI13j4e4YwUjilFzubdqGOu6gYv1TOGSwyq6yxPdpvtTeXoOfUOpOFDS2o3l533ko4AhvAhsU6JCqXcskp9j6A96o9ouqbXIF45NBCihb4Ev33oBRIybAUFaMFUgG9wrsw9ZWPO93DSkjLQS8oEpXRkljVPx5gnXqw8_VdLNikkHnbnVAAwOwWSkV8GzHUbgTm0xlS0jpEcyvduCAatDtmTR6euIoFslRz-Lgw76znN2vHsAHNzruYHKIvsGGC5oYeVP-giDCACSFU6TyNHFlFmfdqr3CwPfxw5XZm_QSVwZQ8dLcF2iC_qJ42DKE2XzS396zbah-JvW3JRRCl58dLvTfl4Hjn7cNRXyna01_gAjLtRA1wl8I8Vl9_F7gSkOxTEefh"
+      },
+      {
+        "photo_reference": "Aa-ngMbuGLNAwFkXhlQ59z2_YzHVMipZBRrOt07hTeKnV6Hi31dfUBTTMwy9buG00Zd2gpvLGLz7pzuwPnmulRQ_W47i2F7BgjrZvw6y4EJJm4Jdcjjjy86_dwcdc-fNww1rXFmUHT0OxtAjsDXVZWiao2m2oGAOqQpDwotYMrFLqNE1mR4ZGuSaOZ-3Jy4-48GQIAsHpm2pGk39RexZ3Mq33hWLJZ9exlWa_OUgtKpu8vdq8GJvfCPmCKoB7_EBVjt2E7MNp039YfbRsV3fCg_MAYZST3b5dkOvwizFu9vZ0ZR8TMKmDbs94lyl3C2-Z1dM4lKhc00rYzL-9nds55QoY8xOZ4eYZ4TMULUJsKfArM2FD1vRSOD-fk0OxwaPJufFXSkwtBmHuXxuwAqctwglUzwq0sqhLV5qp4XGa0HVJXX1xLRI5EBlQfWXpmarsg",
+        "height": 1600,
+        "width": 1200,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbuGLNAwFkXhlQ59z2_YzHVMipZBRrOt07hTeKnV6Hi31dfUBTTMwy9buG00Zd2gpvLGLz7pzuwPnmulRQ_W47i2F7BgjrZvw6y4EJJm4Jdcjjjy86_dwcdc-fNww1rXFmUHT0OxtAjsDXVZWiao2m2oGAOqQpDwotYMrFLqNE1mR4ZGuSaOZ-3Jy4-48GQIAsHpm2pGk39RexZ3Mq33hWLJZ9exlWa_OUgtKpu8vdq8GJvfCPmCKoB7_EBVjt2E7MNp039YfbRsV3fCg_MAYZST3b5dkOvwizFu9vZ0ZR8TMKmDbs94lyl3C2-Z1dM4lKhc00rYzL-9nds55QoY8xOZ4eYZ4TMULUJsKfArM2FD1vRSOD-fk0OxwaPJufFXSkwtBmHuXxuwAqctwglUzwq0sqhLV5qp4XGa0HVJXX1xLRI5EBlQfWXpmarsg"
+      },
+      {
+        "photo_reference": "Aa-ngMYzcyUkrTSyYMyAPNTVmsFnpRO9qJI48GeSiUXQpQNdZiuy3Aw7r6OuC0yjBHX2u1LwfklOhCoJmX7fSdXc1T6p_VY2S2Td-GtRirmWJR0O6cFa6AGjJKOJyB93ek6QXoEwzvIpKyfnauY342dQgb4YqS1ee0ZRxq5ew5kXdlRw9yTlvA91hUbWvhBLwYB_MZrtcKxJpAYwsaKhG5ls2t5wkdHalTYgVxDZDMrjoTACRh2MAf76PuP3FEd4MyAyJTHV8B3jFUiEXUiDfwnXE3fM-RvDBRL6XXehP078JOU4j0M2A2s5sh6htrSV8uz_Exfa2aPbFlBKnEmgA9AFFLA1EmMXrc2Ti0L1v9ueKknN2cHgtu1fphTI8SNtTcigR8B_IvbjIW6VTv_tHJIGypHi-t8toCbe4LVFDNIagkLdzIKDVKdZvOWTiqvUVZcm",
+        "height": 4032,
+        "width": 2688,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYzcyUkrTSyYMyAPNTVmsFnpRO9qJI48GeSiUXQpQNdZiuy3Aw7r6OuC0yjBHX2u1LwfklOhCoJmX7fSdXc1T6p_VY2S2Td-GtRirmWJR0O6cFa6AGjJKOJyB93ek6QXoEwzvIpKyfnauY342dQgb4YqS1ee0ZRxq5ew5kXdlRw9yTlvA91hUbWvhBLwYB_MZrtcKxJpAYwsaKhG5ls2t5wkdHalTYgVxDZDMrjoTACRh2MAf76PuP3FEd4MyAyJTHV8B3jFUiEXUiDfwnXE3fM-RvDBRL6XXehP078JOU4j0M2A2s5sh6htrSV8uz_Exfa2aPbFlBKnEmgA9AFFLA1EmMXrc2Ti0L1v9ueKknN2cHgtu1fphTI8SNtTcigR8B_IvbjIW6VTv_tHJIGypHi-t8toCbe4LVFDNIagkLdzIKDVKdZvOWTiqvUVZcm"
+      }
+    ],
+    "place_id": "ChIJJ2IExOXn3JQRJhbl1XdVu2c",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "bakery",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=7474661979729499686",
+    "user_ratings_total": 188,
+    "website": "https://megurocafe.supersal.com.br/bio",
+    "added_at": "2026-09-29T17:58:55.107Z"
   }
 ]
