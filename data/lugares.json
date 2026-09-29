@@ -9553,5 +9553,232 @@
     "user_ratings_total": 3038,
     "website": "http://www.museudoholocausto.org.br/",
     "added_at": "2026-09-29T18:02:54.436Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "407",
+        "short_name": "407",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Professor Benedito Conceição",
+        "short_name": "R. Prof. Benedito Conceição",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Capão da Imbuia",
+        "short_name": "Capão da Imbuia",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "82810-000",
+        "short_name": "82810-000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. Prof. Benedito Conceição, 407 - Capão da Imbuia, Curitiba - PR, 82810-000, Brasil",
+    "formatted_phone_number": "(41) 3313-5481",
+    "geometry": {
+      "location": {
+        "lat": -25.4370188,
+        "lng": -49.2197768
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4357097197085,
+          "lng": -49.2184508197085
+        },
+        "southwest": {
+          "lat": -25.4384076802915,
+          "lng": -49.2211487802915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3313-5481",
+    "name": "Museu de História Natural Capão da Imbuia",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1645"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1645"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1645"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1645"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1645"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1645"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 09:00 – 16:45",
+        "quarta-feira: 09:00 – 16:45",
+        "quinta-feira: 09:00 – 16:45",
+        "sexta-feira: 09:00 – 16:45",
+        "sábado: 09:00 – 16:45",
+        "domingo: 09:00 – 16:45"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMYLAD5-OyFmXZpMXt9k-AAvEoINAjveRitaCcPGfHfWqmuKdbs67IxZ3OZiF60BZgEpnAGSRQ0aXlVO0pqJZQaFq0D5gx1z8GAuoiII9ByB_YnlvZTCEunpkGK1coPSQ7FIgOX_qadLDJQ0mzYIK2oXWX1m7osF1OAQggaiAep0xbbsBFKUwbO2sK-0R-GSONkSDhSr1Hok3dmoQJNZUAYiD7NHEv-rfKLoTqnOsCafv2ccykXolnkNrosvwMGYbr5ZBOovZYjguEbqCDQdxxnXvRXPoxOjR61an-8MBFNpXJEw3tFp-luQINy9xOpgOWx_VrwzoPB1tq06ywrDXLNStSeuMQJYawsKx_hrlZVyHZ0oZuXwq9IRP2XBNffbwnnl0p23ehNLzkkRzBAuOJcWljlApi0",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYLAD5-OyFmXZpMXt9k-AAvEoINAjveRitaCcPGfHfWqmuKdbs67IxZ3OZiF60BZgEpnAGSRQ0aXlVO0pqJZQaFq0D5gx1z8GAuoiII9ByB_YnlvZTCEunpkGK1coPSQ7FIgOX_qadLDJQ0mzYIK2oXWX1m7osF1OAQggaiAep0xbbsBFKUwbO2sK-0R-GSONkSDhSr1Hok3dmoQJNZUAYiD7NHEv-rfKLoTqnOsCafv2ccykXolnkNrosvwMGYbr5ZBOovZYjguEbqCDQdxxnXvRXPoxOjR61an-8MBFNpXJEw3tFp-luQINy9xOpgOWx_VrwzoPB1tq06ywrDXLNStSeuMQJYawsKx_hrlZVyHZ0oZuXwq9IRP2XBNffbwnnl0p23ehNLzkkRzBAuOJcWljlApi0"
+      },
+      {
+        "photo_reference": "Aa-ngMaXJ4ymnHP_-qqhmykhOYg0fC43RBk8QNtRXnZQ3GSAS9gNV0XoIPTE0R3WyaSuuRuRYAguEsvIVO7wJuVJnGC6Dn1G1SHnAw1fQqP71lkxLokhOeOuQkgmXsRjqAEq3BeN-NtmtoM-USmbyEaOb9jKKGxf4_QkiZM_t0ceIQCRQXCOD-fXDyGXzlJYsX3gK8Cnww6LiEuf6kJa4YBkuiDG7W0zM8NhK45CocFRPY8YGFGYAJpHPg7Aslsk-oLYRLrb_BKpJPSd1Z8eexgKhHi3nlAcV9dC66RhYDXi2D2uLP9HYJdOy5Lpfl8ZqD1ZOd1rgGsMNG6LSt_40GDetwetruVaBJOmgFDBa49vCbrWpuw4QCGvtSRNQ5xtjlkB581xoNXWseTgbCtYw3o1NB5jQvA",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaXJ4ymnHP_-qqhmykhOYg0fC43RBk8QNtRXnZQ3GSAS9gNV0XoIPTE0R3WyaSuuRuRYAguEsvIVO7wJuVJnGC6Dn1G1SHnAw1fQqP71lkxLokhOeOuQkgmXsRjqAEq3BeN-NtmtoM-USmbyEaOb9jKKGxf4_QkiZM_t0ceIQCRQXCOD-fXDyGXzlJYsX3gK8Cnww6LiEuf6kJa4YBkuiDG7W0zM8NhK45CocFRPY8YGFGYAJpHPg7Aslsk-oLYRLrb_BKpJPSd1Z8eexgKhHi3nlAcV9dC66RhYDXi2D2uLP9HYJdOy5Lpfl8ZqD1ZOd1rgGsMNG6LSt_40GDetwetruVaBJOmgFDBa49vCbrWpuw4QCGvtSRNQ5xtjlkB581xoNXWseTgbCtYw3o1NB5jQvA"
+      },
+      {
+        "photo_reference": "Aa-ngMaVC5yHhWT_jKQI1ij4-kqgI6D_2KqtsyJSADrh5DRgYMB7ZEU5ka9y-8eKUXLTzY5zUzy_DLkbTl7XkE3hMYo7faTrBm0wm44RjbMqXxwUTgHZ0C8QphIlzQuI_6KD1omMtXHPbtZ2ltt297EqTW71_rPKmL0f7k-kPUcIK_RhgY659whouZxHj7kWO2CJfr2bDSb8_-uEf37_DrxL9yOwB9o2xbYGJdMAeMOALwKUniXM_4ti83JbZhEPXUaYOgiNHrRYSgPaEscLFpcka25GSpY4iDYn1yOn2rBjBZVg6uvG8efOISIW15bd4REiCq3N2j-OX0MXPLlMSeg7u-lP88QttBanFMbiEA1zbEP4jwu9lDLqq44SNEks4H9W9tXi5_TsVAe7QQtqYwim12rgs7Aa",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaVC5yHhWT_jKQI1ij4-kqgI6D_2KqtsyJSADrh5DRgYMB7ZEU5ka9y-8eKUXLTzY5zUzy_DLkbTl7XkE3hMYo7faTrBm0wm44RjbMqXxwUTgHZ0C8QphIlzQuI_6KD1omMtXHPbtZ2ltt297EqTW71_rPKmL0f7k-kPUcIK_RhgY659whouZxHj7kWO2CJfr2bDSb8_-uEf37_DrxL9yOwB9o2xbYGJdMAeMOALwKUniXM_4ti83JbZhEPXUaYOgiNHrRYSgPaEscLFpcka25GSpY4iDYn1yOn2rBjBZVg6uvG8efOISIW15bd4REiCq3N2j-OX0MXPLlMSeg7u-lP88QttBanFMbiEA1zbEP4jwu9lDLqq44SNEks4H9W9tXi5_TsVAe7QQtqYwim12rgs7Aa"
+      },
+      {
+        "photo_reference": "Aa-ngMbT2NPf0HxGGX8kuBPIoBqjNh5TgPFqOZaRiMYmJX3Vr6dbsn72IkVQSd96IbPnAZgCWdFSmY_Qnq9ouMPk1C8tSgeVe3cpkeawBYgI-70uJcMZSwz3MPceKtdmm76oKRI2Vf5wVY0HwpQRfxofhi7PM6gyyYaNRttOpgtghAqRBf1Ab7UQHSHGfT3yXhUrSWLJQy9XQiCpfSuHcpMqsnXXH5hIUvNQxJ2aySVx8ahHkAGwDuiZd-Lt7gNZupMxFfjduz0Sw8gKdwMHUUP0FaKxKTgU9YFqd08oo9p_gpmJhjGR_Ldtmv2QZ_E2P50-2z4a_55kiLhpgS7HseKKAgjHH1ubKjInmh-JcnWtSEoHYkcHy0M8erXZ8CL7n2p4AOLGmRxjbkzsXibmaKX7u_6WMfQ",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbT2NPf0HxGGX8kuBPIoBqjNh5TgPFqOZaRiMYmJX3Vr6dbsn72IkVQSd96IbPnAZgCWdFSmY_Qnq9ouMPk1C8tSgeVe3cpkeawBYgI-70uJcMZSwz3MPceKtdmm76oKRI2Vf5wVY0HwpQRfxofhi7PM6gyyYaNRttOpgtghAqRBf1Ab7UQHSHGfT3yXhUrSWLJQy9XQiCpfSuHcpMqsnXXH5hIUvNQxJ2aySVx8ahHkAGwDuiZd-Lt7gNZupMxFfjduz0Sw8gKdwMHUUP0FaKxKTgU9YFqd08oo9p_gpmJhjGR_Ldtmv2QZ_E2P50-2z4a_55kiLhpgS7HseKKAgjHH1ubKjInmh-JcnWtSEoHYkcHy0M8erXZ8CL7n2p4AOLGmRxjbkzsXibmaKX7u_6WMfQ"
+      },
+      {
+        "photo_reference": "Aa-ngMY_j-hi8fiuGNuS2futX3lUGT6Izpi0cX0L0naYCj9WFDzYsysQRjoDN1UOOmoCWBabsVtJolaVAvtu9VZMUry6lX_F-lYtmEtyILI1xHuiSRxh8RaELKHiDlPLe_Z6rfqNz4xJ0cww5JA6UwOtsh_PaX2bs8hf6i5XNQ1XoPsAT0atlzskS_MtCclFrZ-hRnRiULdMiQrzRoG0SL8f5CK-OSNUy6vZUgBXQaqliEZa4qyTSDISyr-lOddV_dka-46iwy_3fT8hq_e0McrAEfS7-uKKrTYZ5veJnP2vFWWk-L_GDIWhssGDg1fgHARZTWaBRTaU7TyNM-ejbrV6dARa7J66INUTFjl0vMuk9TX5KjFePdzKldu8rgRMmItOR_TCP1KhKbTrzNZNlnVBT144cQqx",
+        "height": 3464,
+        "width": 4618,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMY_j-hi8fiuGNuS2futX3lUGT6Izpi0cX0L0naYCj9WFDzYsysQRjoDN1UOOmoCWBabsVtJolaVAvtu9VZMUry6lX_F-lYtmEtyILI1xHuiSRxh8RaELKHiDlPLe_Z6rfqNz4xJ0cww5JA6UwOtsh_PaX2bs8hf6i5XNQ1XoPsAT0atlzskS_MtCclFrZ-hRnRiULdMiQrzRoG0SL8f5CK-OSNUy6vZUgBXQaqliEZa4qyTSDISyr-lOddV_dka-46iwy_3fT8hq_e0McrAEfS7-uKKrTYZ5veJnP2vFWWk-L_GDIWhssGDg1fgHARZTWaBRTaU7TyNM-ejbrV6dARa7J66INUTFjl0vMuk9TX5KjFePdzKldu8rgRMmItOR_TCP1KhKbTrzNZNlnVBT144cQqx"
+      },
+      {
+        "photo_reference": "Aa-ngMaeRO7vvbMZ7XX2IvrqHz1MBESYapupGL10mNikOGqkNEPnoeAjAQgIb8a184mrFN6OjYBVRqTuXqxxy_vG-SXqopfI5vZPT5UFm2B-vRB6EA4nbYE_Jodbf1tiAV9rQ-foSv8UrPd-SVmT-oLIeOPKfndMEAeMkPjGitgKmBf36KHHOaEqqPR0TfTcvYVwrmPHG7wbSRGB0wT-g_dgeqCax-sreOxMaLbh7QCY-I9HFceT_eC6vOBPtu62Y4EEAx1sFNtxfShI6oF8s62QRrPYJZ1cVNtdKv008NCQgm9VVJupne-IPV9p1UUJ0Xk4iTIEu2-b2eXuL_f_cU5JR6r2eMrp0E7B5Vgads8UcXwERhCUsrxcCVCWXqxEiRsDbTYA3sW-Kdz8TrJouHxT6H_zY6cIAU6iG250WlVnJ-pPFg",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaeRO7vvbMZ7XX2IvrqHz1MBESYapupGL10mNikOGqkNEPnoeAjAQgIb8a184mrFN6OjYBVRqTuXqxxy_vG-SXqopfI5vZPT5UFm2B-vRB6EA4nbYE_Jodbf1tiAV9rQ-foSv8UrPd-SVmT-oLIeOPKfndMEAeMkPjGitgKmBf36KHHOaEqqPR0TfTcvYVwrmPHG7wbSRGB0wT-g_dgeqCax-sreOxMaLbh7QCY-I9HFceT_eC6vOBPtu62Y4EEAx1sFNtxfShI6oF8s62QRrPYJZ1cVNtdKv008NCQgm9VVJupne-IPV9p1UUJ0Xk4iTIEu2-b2eXuL_f_cU5JR6r2eMrp0E7B5Vgads8UcXwERhCUsrxcCVCWXqxEiRsDbTYA3sW-Kdz8TrJouHxT6H_zY6cIAU6iG250WlVnJ-pPFg"
+      },
+      {
+        "photo_reference": "Aa-ngMbZ6vKCFb3tSgY4quNDTowgsRFcp19BUwpryubJj-2x7A_9cTxAyR_oM3sNRUwUcPAwMtpRd8um1Ne1bH6TUSaiBuPg6Np1abxWrN0EzjNj83zDtursAv37Q3i4YjBlH1y4-WcbpG0uE5RrXZyzP_yZkk9T-28nhGCt_-DrwaJVDXWmhKjAeVzzgndSCI7qy7-piwpRXhZvn-pkM2r6LzWLRGmcf9l1AeYoMdySTsqASEIB_pNfbl2NZHqknc0DvAu8N_vGMtW7ce9l-MPzilpXmNgjYaBB3up8PqELjLxWrFcfgSzhzR6gLEzmJzypIP5yO_pjfBgShXJcK2VKlHsQ_rE_ilrDyrVDdr6YLWQyLiWpiyrD4GlKe3aYsU__vBAVf6n4epWshZYq_47RJasnCV7hZfnDID8X1nko_TuaSw",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbZ6vKCFb3tSgY4quNDTowgsRFcp19BUwpryubJj-2x7A_9cTxAyR_oM3sNRUwUcPAwMtpRd8um1Ne1bH6TUSaiBuPg6Np1abxWrN0EzjNj83zDtursAv37Q3i4YjBlH1y4-WcbpG0uE5RrXZyzP_yZkk9T-28nhGCt_-DrwaJVDXWmhKjAeVzzgndSCI7qy7-piwpRXhZvn-pkM2r6LzWLRGmcf9l1AeYoMdySTsqASEIB_pNfbl2NZHqknc0DvAu8N_vGMtW7ce9l-MPzilpXmNgjYaBB3up8PqELjLxWrFcfgSzhzR6gLEzmJzypIP5yO_pjfBgShXJcK2VKlHsQ_rE_ilrDyrVDdr6YLWQyLiWpiyrD4GlKe3aYsU__vBAVf6n4epWshZYq_47RJasnCV7hZfnDID8X1nko_TuaSw"
+      },
+      {
+        "photo_reference": "Aa-ngMZd4cm9Xe6QZlX3sKjdD_M0JsAIc5SvPoylkbZlH5ItJowGqMHmx037vCNMXzUWYIi36yV0hQHWAxcMjpk8Y9cqfr26b10RfFMaNNzT7W7vFV0BniDFOK_aLIOZI4IOEd5oHnwcvXF0fcyrMA_2Tmd28w0R72tKreFHO83F1ciRgahGM_W7eqWnruucgemARN5Y8YSsusjF_KEq_QmGc9Jy9Upn6NtSqugk5C3QIbbMsVYuV6QZxTZLZiwdrJS4KeQdt2-7UxE_1MMP2QUPwEZuYowwr8rWN_JkNrn83FikCih8_u7LeTFv7Dr_vyftZsR4aGTmq_Q3VAzwP3sD7Vyks3fUOhI04k6T5Ajb1vY1cphX2v5kzK84pvW6UkH5Jnr2zdg9bVhqKnA-0NIlIK1nqgA2bZM0ArT1sgkFunw_2g",
+        "height": 3072,
+        "width": 4096,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZd4cm9Xe6QZlX3sKjdD_M0JsAIc5SvPoylkbZlH5ItJowGqMHmx037vCNMXzUWYIi36yV0hQHWAxcMjpk8Y9cqfr26b10RfFMaNNzT7W7vFV0BniDFOK_aLIOZI4IOEd5oHnwcvXF0fcyrMA_2Tmd28w0R72tKreFHO83F1ciRgahGM_W7eqWnruucgemARN5Y8YSsusjF_KEq_QmGc9Jy9Upn6NtSqugk5C3QIbbMsVYuV6QZxTZLZiwdrJS4KeQdt2-7UxE_1MMP2QUPwEZuYowwr8rWN_JkNrn83FikCih8_u7LeTFv7Dr_vyftZsR4aGTmq_Q3VAzwP3sD7Vyks3fUOhI04k6T5Ajb1vY1cphX2v5kzK84pvW6UkH5Jnr2zdg9bVhqKnA-0NIlIK1nqgA2bZM0ArT1sgkFunw_2g"
+      },
+      {
+        "photo_reference": "Aa-ngMbP1v_OiJbqQwL3TuG6dnHObOzTmgcXBBavhE23bIY0qArIFPIxDt39O6je4yDYz-uc8KftAA0lad_r2PlGR3EaFMrrBeCQUwRSrMZ8QDPCIksdzGhwnnIeHi56U_qoOA7VhRBA3hucUWwyLgreGWo5qRTRH-bF11rmSDwbrePFb9c3OHSk0K0smGsV-wwD0dqVpmVHKk8DPt2lF5L5bBERO75MBXwf6j34jWtUBDbhEqZMgLtBVxVIIO8UpEyoLeZVmzIk6g2y119qni7MJbEwa00_mysFs4daun50FPEf32umB_cZJyNHdBZZ3-EeEqe21iCC4dc0indbt9SnoXGFUBTgvzdKKP0PSdus-uou8AlMSQymgAlfM4tr8TpEiOsB3bc9naTJe7UPLfzhmM9840U",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbP1v_OiJbqQwL3TuG6dnHObOzTmgcXBBavhE23bIY0qArIFPIxDt39O6je4yDYz-uc8KftAA0lad_r2PlGR3EaFMrrBeCQUwRSrMZ8QDPCIksdzGhwnnIeHi56U_qoOA7VhRBA3hucUWwyLgreGWo5qRTRH-bF11rmSDwbrePFb9c3OHSk0K0smGsV-wwD0dqVpmVHKk8DPt2lF5L5bBERO75MBXwf6j34jWtUBDbhEqZMgLtBVxVIIO8UpEyoLeZVmzIk6g2y119qni7MJbEwa00_mysFs4daun50FPEf32umB_cZJyNHdBZZ3-EeEqe21iCC4dc0indbt9SnoXGFUBTgvzdKKP0PSdus-uou8AlMSQymgAlfM4tr8TpEiOsB3bc9naTJe7UPLfzhmM9840U"
+      },
+      {
+        "photo_reference": "Aa-ngMYji8lOQR4VBpUDuWCk0jg65ukABTcG15aUK7v38hiwXbRrF2LdUaVcwU16xharFuUXLoX9rTuYurteuXKmVJ2O03gyQVf6CQsVAErrWNbGEdhU9YE4xI2YTOriltZEVgI6M3_De1M7gcH775gaFZdxN4DjBV7dBXtHwrbr4h1JFlz4xYb9Dp2hdYs9b7p9vTnmAJiswNBs7BpfGMO4aoiGJGuA0cjeEqdQN4NxLcfxRvUjrm0KNfBuLH9a0AYpeb66h9fp7yRDQrM5Ne7HgwcQHNPsF1x8MOL0mN7e2yBQGo6hQSu5sPxE2N_YBBWeuh_Oy48OxhPXGW8b--XzYkbfJOlMV0RK3JkzbHrXi6x_EiwfpmkbQanoQKzTeoIHX6ssbnq7BRjxkUgqPPQ3K2gjhgA",
+        "height": 4608,
+        "width": 3456,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYji8lOQR4VBpUDuWCk0jg65ukABTcG15aUK7v38hiwXbRrF2LdUaVcwU16xharFuUXLoX9rTuYurteuXKmVJ2O03gyQVf6CQsVAErrWNbGEdhU9YE4xI2YTOriltZEVgI6M3_De1M7gcH775gaFZdxN4DjBV7dBXtHwrbr4h1JFlz4xYb9Dp2hdYs9b7p9vTnmAJiswNBs7BpfGMO4aoiGJGuA0cjeEqdQN4NxLcfxRvUjrm0KNfBuLH9a0AYpeb66h9fp7yRDQrM5Ne7HgwcQHNPsF1x8MOL0mN7e2yBQGo6hQSu5sPxE2N_YBBWeuh_Oy48OxhPXGW8b--XzYkbfJOlMV0RK3JkzbHrXi6x_EiwfpmkbQanoQKzTeoIHX6ssbnq7BRjxkUgqPPQ3K2gjhgA"
+      }
+    ],
+    "place_id": "ChIJI5jNWHTl3JQR7j4xPuFl97o",
+    "rating": 4.7,
+    "types": [
+      "establishment",
+      "museum",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=13472348828387589870",
+    "user_ratings_total": 3165,
+    "website": "https://www.curitiba.pr.gov.br/conteudo/museu-de-historia-natural-do-capao-da-imbuia-bosque-municipal-capao-da-imbuia/332",
+    "added_at": "2026-09-29T18:03:03.879Z"
   }
 ]
