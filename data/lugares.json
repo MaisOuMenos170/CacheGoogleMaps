@@ -4281,5 +4281,182 @@
     "url": "https://maps.google.com/?cid=7413821067247893130",
     "user_ratings_total": 7452,
     "added_at": "2026-09-29T17:52:27.057Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "S/N",
+        "short_name": "S/N",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Cândido Hartmann",
+        "short_name": "Avenida Cândido Hartmann",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bigorrilho",
+        "short_name": "Bigorrilho",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "82025-160",
+        "short_name": "82025-160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Parque urbano com quadras esportivas, trilhas para caminhada/ciclismo, pista de patinação e churrasqueiras."
+    },
+    "formatted_address": "Av. Cândido Hartmann, S/N - Bigorrilho, Curitiba - PR, 82025-160, Brasil",
+    "formatted_phone_number": "(41) 3350-9891",
+    "geometry": {
+      "location": {
+        "lat": -25.4262654,
+        "lng": -49.30723
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.42290909999999,
+          "lng": -49.3052703
+        },
+        "southwest": {
+          "lat": -25.4271833,
+          "lng": -49.3093796
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3350-9891",
+    "name": "Parque Barigui",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Atendimento 24 horas",
+        "terça-feira: Atendimento 24 horas",
+        "quarta-feira: Atendimento 24 horas",
+        "quinta-feira: Atendimento 24 horas",
+        "sexta-feira: Atendimento 24 horas",
+        "sábado: Atendimento 24 horas",
+        "domingo: Atendimento 24 horas"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMbBsFE8EqKDHMcHcE5q5tdPnuRCAg58Mt13R_Jv7ePoGlEPXlOsfWw-bj4r8wBW9knXtTdOt_RsWhI7-YgTTxtpIhR8H7Se9xZTJHMdD8Lu44Sr39QvRVAHvD-T6SwXq2Z3nH5DjcRB45foy6GFXELYn8KCf3ei22LHvrOkYK2ulqj7wFP_Ml0Xyil8U7XuhbQ8M4lowTCgWB1VztI4Z-cv8UOgSWkYJk5IkefIMw2m6BrAEmCujfDXUouPGC0_uslQGXg0dnb_E6ibno_tzCrHJP1WM2hgNkNYj8M4A9NsRFguisti6AnAEhl6vcPHWXENjgJOupVCThlMhYJ8pD-gKyxikFgeQXAnPOeyh-04aOGO4aaNkwFmP4UPrFtQs5wGqEu_2v8wH7iYneeKF7K3MSc",
+        "height": 960,
+        "width": 1280,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbBsFE8EqKDHMcHcE5q5tdPnuRCAg58Mt13R_Jv7ePoGlEPXlOsfWw-bj4r8wBW9knXtTdOt_RsWhI7-YgTTxtpIhR8H7Se9xZTJHMdD8Lu44Sr39QvRVAHvD-T6SwXq2Z3nH5DjcRB45foy6GFXELYn8KCf3ei22LHvrOkYK2ulqj7wFP_Ml0Xyil8U7XuhbQ8M4lowTCgWB1VztI4Z-cv8UOgSWkYJk5IkefIMw2m6BrAEmCujfDXUouPGC0_uslQGXg0dnb_E6ibno_tzCrHJP1WM2hgNkNYj8M4A9NsRFguisti6AnAEhl6vcPHWXENjgJOupVCThlMhYJ8pD-gKyxikFgeQXAnPOeyh-04aOGO4aaNkwFmP4UPrFtQs5wGqEu_2v8wH7iYneeKF7K3MSc"
+      },
+      {
+        "photo_reference": "Aa-ngMbsI_TO8yskgLG1x35EdyufcrrB02QfOqLVdShHLq01UgogmGxXc4oqWHrqJTzqnJ73pvLNR3QUGzRtnOaJh1oZxz2e9aJo5HMUbRmZV0Ef8aE1aU1QQENsa3GC8Jto2KBmjb-wKXmbmrdhHYyR6KWjbcnllLdYE_I91O7Bvxg2-_yldVjXjUQOEPgE69z-4YbMlNsdd53TUi3saU25lVMgDWiwzAcpZLjYKsVq88C0C0o7eP8ao5D1Kcr7wG0SkHR95rxPo0AJDKszaLslweMxJ3xkVQN_m5fiV3qTmi-kdOP-eqJ_tbj-7KInH5-JKhuSF2ffMf4ggfMcQbwpq2TlhK_VAyt62l6XHGNEtjh01CrAjNQ85GyNMLNwsB1dLnx7sL1kFo7KIbKGxIhAlINOMwrJjX1o-K7RZ4ddwXz0",
+        "height": 3072,
+        "width": 4096,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbsI_TO8yskgLG1x35EdyufcrrB02QfOqLVdShHLq01UgogmGxXc4oqWHrqJTzqnJ73pvLNR3QUGzRtnOaJh1oZxz2e9aJo5HMUbRmZV0Ef8aE1aU1QQENsa3GC8Jto2KBmjb-wKXmbmrdhHYyR6KWjbcnllLdYE_I91O7Bvxg2-_yldVjXjUQOEPgE69z-4YbMlNsdd53TUi3saU25lVMgDWiwzAcpZLjYKsVq88C0C0o7eP8ao5D1Kcr7wG0SkHR95rxPo0AJDKszaLslweMxJ3xkVQN_m5fiV3qTmi-kdOP-eqJ_tbj-7KInH5-JKhuSF2ffMf4ggfMcQbwpq2TlhK_VAyt62l6XHGNEtjh01CrAjNQ85GyNMLNwsB1dLnx7sL1kFo7KIbKGxIhAlINOMwrJjX1o-K7RZ4ddwXz0"
+      },
+      {
+        "photo_reference": "Aa-ngMalqLS2fS59nPZD6TaiSNeItSwukQXC2zavqHz43GKGI2Ax4ckusNPdsE1J4SLyiuyRIz6Jo1hjm8jF5L8cFWQQhlN65-Da9vPVWJylO4JoYXZ4qStVukDLMLIW3S6KsmURcgANpUJcxSblEZFz7uteeQnOQPLyDuUDBpE135KwMBhT9kazX2LYSXghjtirSOJ3ou0b1e-hP2Fb37gFAbgJ187g0UYpQtWaHpAc_txuIywTKMFSTGh11LcZdtmXU1rurDoz99ILiiMtGFiEH2lmcyrvO5gvG2P68G4LyIuEoZBuGR-2JJxZcVTotyZCoi9Y7NE_bOJvyRQRzpMAsc_l_wyEfTJBj5q8PD_oygr85MUL7KORbvDEBuoSiB61440a6mWi78b9BwJGkyLcYd6ZSDE",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMalqLS2fS59nPZD6TaiSNeItSwukQXC2zavqHz43GKGI2Ax4ckusNPdsE1J4SLyiuyRIz6Jo1hjm8jF5L8cFWQQhlN65-Da9vPVWJylO4JoYXZ4qStVukDLMLIW3S6KsmURcgANpUJcxSblEZFz7uteeQnOQPLyDuUDBpE135KwMBhT9kazX2LYSXghjtirSOJ3ou0b1e-hP2Fb37gFAbgJ187g0UYpQtWaHpAc_txuIywTKMFSTGh11LcZdtmXU1rurDoz99ILiiMtGFiEH2lmcyrvO5gvG2P68G4LyIuEoZBuGR-2JJxZcVTotyZCoi9Y7NE_bOJvyRQRzpMAsc_l_wyEfTJBj5q8PD_oygr85MUL7KORbvDEBuoSiB61440a6mWi78b9BwJGkyLcYd6ZSDE"
+      },
+      {
+        "photo_reference": "Aa-ngMY2dOhRZpQwfypwcFKrVNRZitsmBGuNyFV5wsbKKlj9DkF9UmSy0RZ3D2ZcIoJhA-r2TMrYpQ8pNEhSbcEm5DTEONbz19vtmBlQMVmbG6B8Ym4B_Ys6X_joTiiPK8254Z4hqwYHLlFtQCBdnc6AjiooF7Ly1cJd4GTSk8x0XrGkEE1jc6scv0ACbyilaFiu50cY9IqtQ62Ft1fa6VM6BNtt1iZAA1rS4cOFw8r8h5kTZ7TAPkFaOZuQLPkQRpL4FLkDkcToAykwZwX5jkrS-64Q8POPfVvJN8BAr56bzeueRDPvKPQ4bRO7rSS3yHUVE2lHjmrNB23XNY-LYNz8N4SsJxA14XwHGFCfvU6uGrLLjLlQBwCHEOIa-KgeiairIRXe0Q6ZrOnBQS63pzNoMXdlkaQ3W70W1V8BeQ-FzBDNkA",
+        "height": 3060,
+        "width": 4080,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMY2dOhRZpQwfypwcFKrVNRZitsmBGuNyFV5wsbKKlj9DkF9UmSy0RZ3D2ZcIoJhA-r2TMrYpQ8pNEhSbcEm5DTEONbz19vtmBlQMVmbG6B8Ym4B_Ys6X_joTiiPK8254Z4hqwYHLlFtQCBdnc6AjiooF7Ly1cJd4GTSk8x0XrGkEE1jc6scv0ACbyilaFiu50cY9IqtQ62Ft1fa6VM6BNtt1iZAA1rS4cOFw8r8h5kTZ7TAPkFaOZuQLPkQRpL4FLkDkcToAykwZwX5jkrS-64Q8POPfVvJN8BAr56bzeueRDPvKPQ4bRO7rSS3yHUVE2lHjmrNB23XNY-LYNz8N4SsJxA14XwHGFCfvU6uGrLLjLlQBwCHEOIa-KgeiairIRXe0Q6ZrOnBQS63pzNoMXdlkaQ3W70W1V8BeQ-FzBDNkA"
+      },
+      {
+        "photo_reference": "Aa-ngMZvizww2YoVkVx4KSBt-33RYFtIBdOptGn-Ar5Coq-8ptmoy3sBKe9oN4jkEQEa-UsnZ7dxduESwOgU2Cvkon2YEDeFYLnEkZth4L3V7pZ3ayr9uYpwAUjgpbR-1_UHWiyJl76ePOTr9jB2c6SZ631Kjhrh4kdWzD2X5_RM2YnBEkuZ8Zff3846ySsSKsDncpOYWPF9vm7pfeJ6-5qq860pcQnBu7cePRuha26knv7tkb7XELe5ofR6glyoEe9CrO484AZXCqdYqT_Kd1oDctPyVJ_v8g5PTVbFB5Y-BsVwEFIIMkJcGF-EAJxoz2CXDXC2bWJbbWeAUQmL8MTw4Aq36HZimjfyju8dJUmv6BnVMpLCM96eE4pQV_CyInJGTbmnPRbmhcv0CC27xz4cdRfG3xE",
+        "height": 3024,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZvizww2YoVkVx4KSBt-33RYFtIBdOptGn-Ar5Coq-8ptmoy3sBKe9oN4jkEQEa-UsnZ7dxduESwOgU2Cvkon2YEDeFYLnEkZth4L3V7pZ3ayr9uYpwAUjgpbR-1_UHWiyJl76ePOTr9jB2c6SZ631Kjhrh4kdWzD2X5_RM2YnBEkuZ8Zff3846ySsSKsDncpOYWPF9vm7pfeJ6-5qq860pcQnBu7cePRuha26knv7tkb7XELe5ofR6glyoEe9CrO484AZXCqdYqT_Kd1oDctPyVJ_v8g5PTVbFB5Y-BsVwEFIIMkJcGF-EAJxoz2CXDXC2bWJbbWeAUQmL8MTw4Aq36HZimjfyju8dJUmv6BnVMpLCM96eE4pQV_CyInJGTbmnPRbmhcv0CC27xz4cdRfG3xE"
+      },
+      {
+        "photo_reference": "Aa-ngMYbO-1UKjQ1AlafYq6SGKJVFGMxshQlBIB5pLx_gHdC7HkwUcf_yztaSd0AI1_P_tPhQiL9OtmLl9oekknab5rsBpO3datB1DZgFfJO83duoNx5nZgpTR3OFbCYBrEEI48xe85pFY7yJ2n98jZSZFmbZ0UXC0LPqCrYr5DY6sXprBf6qDHbRZ3LSMq8MFg0MUeT5qr-77kVIORMT62jz-xjXBNbgDMoM8l-hoJ410NfyMqmZJicxcGQL5-LOobSbLbDBPSuZCVU-bGNt0mLBL5EHH-yqhpv8_YMhIYY9pQaCE5V9hFWAQ_dhnGWYIrPMNgQg-Jtcbr3y0LCuiCwN5p69X-T9ww8__ozu6yXRNTwcee7OPmU5v1WTmRSGGbV-kBlefGtpGXZrL_rZxKrisVkmSGIYMXklGEk5sl1fFaAMw",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYbO-1UKjQ1AlafYq6SGKJVFGMxshQlBIB5pLx_gHdC7HkwUcf_yztaSd0AI1_P_tPhQiL9OtmLl9oekknab5rsBpO3datB1DZgFfJO83duoNx5nZgpTR3OFbCYBrEEI48xe85pFY7yJ2n98jZSZFmbZ0UXC0LPqCrYr5DY6sXprBf6qDHbRZ3LSMq8MFg0MUeT5qr-77kVIORMT62jz-xjXBNbgDMoM8l-hoJ410NfyMqmZJicxcGQL5-LOobSbLbDBPSuZCVU-bGNt0mLBL5EHH-yqhpv8_YMhIYY9pQaCE5V9hFWAQ_dhnGWYIrPMNgQg-Jtcbr3y0LCuiCwN5p69X-T9ww8__ozu6yXRNTwcee7OPmU5v1WTmRSGGbV-kBlefGtpGXZrL_rZxKrisVkmSGIYMXklGEk5sl1fFaAMw"
+      },
+      {
+        "photo_reference": "Aa-ngMaRiPHUVnYAx-VHV4SUejIc3c_sYYkbM-gbg-pmlgNO0FSlWsiUtXspbqLBCEuGYNl9jLqrpWpyyJHl0g58WYBtJfKh6sv8eoC0CwJwq0pCqVQ62UcwRfpSS80i1s76XdYGq8N4Jj1dour1OQHr0BoUvEJpVpDDzIyp5OYJVpAhSAzpNZVGFKfK4kLGa6fEryLn541OurB-a4o1eA8yfS2XSAomIiCNTwLYbX2dJhR13o0xWd04E8W4t2TkhvMvm-SxAOEe_Mi1E7VxMhNL4PRJPoYOYNH4xBdBfDHebPOkSS_1xnCRalL1oRIKM-hnMPNKsMyTKK2yIlMUh0I_PRq-JbFg6VDFhuSXFsOVz6qZvuhD9j3IjFqkFbr08pLrs2cXB_BS5_nl4qy2EIj21ECDoR4",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaRiPHUVnYAx-VHV4SUejIc3c_sYYkbM-gbg-pmlgNO0FSlWsiUtXspbqLBCEuGYNl9jLqrpWpyyJHl0g58WYBtJfKh6sv8eoC0CwJwq0pCqVQ62UcwRfpSS80i1s76XdYGq8N4Jj1dour1OQHr0BoUvEJpVpDDzIyp5OYJVpAhSAzpNZVGFKfK4kLGa6fEryLn541OurB-a4o1eA8yfS2XSAomIiCNTwLYbX2dJhR13o0xWd04E8W4t2TkhvMvm-SxAOEe_Mi1E7VxMhNL4PRJPoYOYNH4xBdBfDHebPOkSS_1xnCRalL1oRIKM-hnMPNKsMyTKK2yIlMUh0I_PRq-JbFg6VDFhuSXFsOVz6qZvuhD9j3IjFqkFbr08pLrs2cXB_BS5_nl4qy2EIj21ECDoR4"
+      },
+      {
+        "photo_reference": "Aa-ngMZORgFzc-OyDDhMI27UqfD-Xmjcc4OgG9d6GJAa8sYzUJ8_cDPTVLz7Ae1Z_rzcAEsGja6uPqJy3PGcIf8LlonNy7HN6zHCL0QJ-OjE0VjhkfzuOIBFkLj47GgVRf-9c4OsG5NJOHfRvu5iseo5f3LT2C8u_SNwXRrzBXH8fzRey3UsIiOpnxkbyNd4PcWiFFiW9N-x2KuEIuBxzA3thHoEw2CJMEOkPm0QxxXAQqEg5hqNyRHcA4JdxoVK9rkwOivotVnuI74bg6s5UZA2wyiZkj4W6vxY2q0Gh2LPvuUJadcbTujZc9JjPTdSwRzBQD1ExwArAkW0rohLOyFwmxm-vO0rDmLEuaunSWcS3SeD7s8uEZ027VwczXOgwTvmS07Uf3nWZVq8C5dXmdK4qs1Va2OkScvBor2Gtfl45f0z",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZORgFzc-OyDDhMI27UqfD-Xmjcc4OgG9d6GJAa8sYzUJ8_cDPTVLz7Ae1Z_rzcAEsGja6uPqJy3PGcIf8LlonNy7HN6zHCL0QJ-OjE0VjhkfzuOIBFkLj47GgVRf-9c4OsG5NJOHfRvu5iseo5f3LT2C8u_SNwXRrzBXH8fzRey3UsIiOpnxkbyNd4PcWiFFiW9N-x2KuEIuBxzA3thHoEw2CJMEOkPm0QxxXAQqEg5hqNyRHcA4JdxoVK9rkwOivotVnuI74bg6s5UZA2wyiZkj4W6vxY2q0Gh2LPvuUJadcbTujZc9JjPTdSwRzBQD1ExwArAkW0rohLOyFwmxm-vO0rDmLEuaunSWcS3SeD7s8uEZ027VwczXOgwTvmS07Uf3nWZVq8C5dXmdK4qs1Va2OkScvBor2Gtfl45f0z"
+      },
+      {
+        "photo_reference": "Aa-ngMYw1V3TGQhr_B_uak8ndIhdMaGo2N7QHzBWsW8oYspzXqp2gE3kZQ4LFGK9yM5y6Gi2lfi_Se8YHaiCKpVR-L68_4CYVg2UFQ28Iwh39Hknq4Gr6TZNFfZxtRYW8DC639IPbnZcO_v9oIr1NkueT2TbHp6Nx5YkofnVAFZZR54ZETuLJRqkIOYlnun8EVk7ypaqdylRGa02TXKibO74hZtLIrdVYQeseXx7HCUBjL0dGxRmESFkeQhv7Hj9E3UgHEOCf4YUIOT7KNGBOfTwpXBDeQRcGqGcKmXt75Wd_S0EeWgXW-M2DkzPFHPWkeX87_OHo5_GCykb28ELTIZeRb84fCqXWR0bFdjpqF-D9RCAALY_dviMTmZ4ryXtQ1g9JUuiKbaF7o28IhO9wtc-8mUDNaVJDxCsJiCepTLdKT8OkA",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYw1V3TGQhr_B_uak8ndIhdMaGo2N7QHzBWsW8oYspzXqp2gE3kZQ4LFGK9yM5y6Gi2lfi_Se8YHaiCKpVR-L68_4CYVg2UFQ28Iwh39Hknq4Gr6TZNFfZxtRYW8DC639IPbnZcO_v9oIr1NkueT2TbHp6Nx5YkofnVAFZZR54ZETuLJRqkIOYlnun8EVk7ypaqdylRGa02TXKibO74hZtLIrdVYQeseXx7HCUBjL0dGxRmESFkeQhv7Hj9E3UgHEOCf4YUIOT7KNGBOfTwpXBDeQRcGqGcKmXt75Wd_S0EeWgXW-M2DkzPFHPWkeX87_OHo5_GCykb28ELTIZeRb84fCqXWR0bFdjpqF-D9RCAALY_dviMTmZ4ryXtQ1g9JUuiKbaF7o28IhO9wtc-8mUDNaVJDxCsJiCepTLdKT8OkA"
+      },
+      {
+        "photo_reference": "Aa-ngMa4yO_ZwLkIEW5MkeMRSAS7ZRw_tbh3cbGAXbSCR6GPnBHH92o_V8LbAPa0jHz_DyO3QRBVtIAOlkE-edZNdF1sZsG2MaiS67V0QX9dEOYkIAYYyZdcRAmRXl7s5TBy5XKeVE9HLJYFWR7cKsTM-sPE2r42ZrTFwrksLq0eRZh3IFIROMf-15pUqxYADINyMJyQLZlcNV4jhKVcDf3GvqY9GIvYJqRCsi_q7ByzajiA9yaFySxkXEaqk_wAoh_v3XkNsEX7UEqhgWQ_o6hBwnnlmn2zISm7ZW_X6UC-YHFd55t3HYr1qpqquY1JOY-8gG11HI21_xT1ifuzt5gEGpgz6HagBuXJnpYP3IhUWrtJQZx1FpeIvD1kfaRafWx2mZLQMUyxvAG_dQmYnY-a0XmHCge-V5L8I-lTA7M1iVfh",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMa4yO_ZwLkIEW5MkeMRSAS7ZRw_tbh3cbGAXbSCR6GPnBHH92o_V8LbAPa0jHz_DyO3QRBVtIAOlkE-edZNdF1sZsG2MaiS67V0QX9dEOYkIAYYyZdcRAmRXl7s5TBy5XKeVE9HLJYFWR7cKsTM-sPE2r42ZrTFwrksLq0eRZh3IFIROMf-15pUqxYADINyMJyQLZlcNV4jhKVcDf3GvqY9GIvYJqRCsi_q7ByzajiA9yaFySxkXEaqk_wAoh_v3XkNsEX7UEqhgWQ_o6hBwnnlmn2zISm7ZW_X6UC-YHFd55t3HYr1qpqquY1JOY-8gG11HI21_xT1ifuzt5gEGpgz6HagBuXJnpYP3IhUWrtJQZx1FpeIvD1kfaRafWx2mZLQMUyxvAG_dQmYnY-a0XmHCge-V5L8I-lTA7M1iVfh"
+      }
+    ],
+    "place_id": "ChIJp1_LiN_j3JQRUx7PRRpC7WQ",
+    "rating": 4.8,
+    "types": [
+      "establishment",
+      "park",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=7272541653881003603",
+    "user_ratings_total": 77243,
+    "website": "http://www.curitiba.pr.gov.br/conteudo/parques-e-bosques-parque-barigui/292",
+    "added_at": "2026-09-29T17:52:47.441Z"
   }
 ]
