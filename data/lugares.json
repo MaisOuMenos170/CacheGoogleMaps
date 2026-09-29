@@ -8159,5 +8159,202 @@
     "user_ratings_total": 19153,
     "website": "http://www.bardoalemaocuritiba.com.br/",
     "added_at": "2026-09-29T17:59:07.617Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "664",
+        "short_name": "664",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Vicente Machado",
+        "short_name": "Av. Vicente Machado",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Batel",
+        "short_name": "Batel",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80420-010",
+        "short_name": "80420-010",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Av. Vicente Machado, 664 - Batel, Curitiba - PR, 80420-010, Brasil",
+    "formatted_phone_number": "(41) 3891-1125",
+    "geometry": {
+      "location": {
+        "lat": -25.4355811,
+        "lng": -49.2831075
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4342824697085,
+          "lng": -49.2817343697085
+        },
+        "southwest": {
+          "lat": -25.43698043029151,
+          "lng": -49.28443233029149
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3891-1125",
+    "name": "Olga Speakeasy",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 5,
+            "time": "0100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: Fechado",
+        "quarta-feira: Fechado",
+        "quinta-feira: 19:00 – 01:00",
+        "sexta-feira: 19:00 – 01:00",
+        "sábado: 19:00 – 00:00",
+        "domingo: Fechado"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMZFe0ssrz6jZIN6_pBxPsv0eKdred_eXd3-_BSJoUA4VAYTzTexBz4DGGgmXn6_SjXuA_-fnduJuISWPMvrjNo-tuJPaBzhdG8hTQRHuDpxSKt4BafLda8l3Uwz1NtDCmBZiPqwyTfBcjBIBOip6AHNNmG-d_X-tDTpuXKIvYT0S4t3CO_5XJ-L9gi_Ki01fSv0f6qL9LLjJMEww8Tlcf0PF96HP1jUbvlby_MRU2RHU3f2uS9Gj1Y6rYQQjLlnfkj2wmimmWm9gezzDw4zryxR31bGBiQ5FZ3pKlE-V-wM0YskVxUmI1BtF7iNuW4Ro2Z73T80PZYPHZEv1gPIeShWuPhrnP9r04tCXMx9hd_bd5FW9uNn21Mq6jqQjac-qDmr3jjcm1Mx33-6QplwHlLHrdp36Mc-H9qgEilsW_gWzY2K_FbRMcCl1UY8qg",
+        "height": 1350,
+        "width": 1080,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZFe0ssrz6jZIN6_pBxPsv0eKdred_eXd3-_BSJoUA4VAYTzTexBz4DGGgmXn6_SjXuA_-fnduJuISWPMvrjNo-tuJPaBzhdG8hTQRHuDpxSKt4BafLda8l3Uwz1NtDCmBZiPqwyTfBcjBIBOip6AHNNmG-d_X-tDTpuXKIvYT0S4t3CO_5XJ-L9gi_Ki01fSv0f6qL9LLjJMEww8Tlcf0PF96HP1jUbvlby_MRU2RHU3f2uS9Gj1Y6rYQQjLlnfkj2wmimmWm9gezzDw4zryxR31bGBiQ5FZ3pKlE-V-wM0YskVxUmI1BtF7iNuW4Ro2Z73T80PZYPHZEv1gPIeShWuPhrnP9r04tCXMx9hd_bd5FW9uNn21Mq6jqQjac-qDmr3jjcm1Mx33-6QplwHlLHrdp36Mc-H9qgEilsW_gWzY2K_FbRMcCl1UY8qg"
+      },
+      {
+        "photo_reference": "Aa-ngMbh7IaO-fZrP51ofvF8GYtmXn96H7RN_pb5mE-C_6AN1Mg3RagnlILOMmmMxtMnHp-eUpbreFYY4aVObDhe_HK00KfmzdczGOQr9MwlzFXUF_oqQFGRaPo6Yd2jSdViwweTAWcc_rFM2GPlaJNIrYd-GILMs-vt25OwjyAZw7hrEIZL56T2WxjdrhYQRnOI19ADbjCut4nBmFC3vXN5x1kLOcKKkPGtIk7WVTZ3XwwP9P0dPr9hJzdXALv44SpzzOm0Bq2PvOs-tcLpvilUJHVlu2bi5YzG0J7vQwtZw5TZaJpL7eoMZE2ZRZLAQPXHsrW2gVLHnUHEuTMhhN5ACNTtpsOmWNfGfJo2BAv60sULI4lbdZSi_gW9WSV2jbGpllfj-ud6lCpRJtthtLpayjnp42iLGYz8cpoGVpd14Da262QrF_eUY-6wKPycvt4H",
+        "height": 1600,
+        "width": 1200,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbh7IaO-fZrP51ofvF8GYtmXn96H7RN_pb5mE-C_6AN1Mg3RagnlILOMmmMxtMnHp-eUpbreFYY4aVObDhe_HK00KfmzdczGOQr9MwlzFXUF_oqQFGRaPo6Yd2jSdViwweTAWcc_rFM2GPlaJNIrYd-GILMs-vt25OwjyAZw7hrEIZL56T2WxjdrhYQRnOI19ADbjCut4nBmFC3vXN5x1kLOcKKkPGtIk7WVTZ3XwwP9P0dPr9hJzdXALv44SpzzOm0Bq2PvOs-tcLpvilUJHVlu2bi5YzG0J7vQwtZw5TZaJpL7eoMZE2ZRZLAQPXHsrW2gVLHnUHEuTMhhN5ACNTtpsOmWNfGfJo2BAv60sULI4lbdZSi_gW9WSV2jbGpllfj-ud6lCpRJtthtLpayjnp42iLGYz8cpoGVpd14Da262QrF_eUY-6wKPycvt4H"
+      },
+      {
+        "photo_reference": "Aa-ngMYng0i8V9G-ur9gUEX8Ai-JFT-wOd6RumTyvVBM9oPsYQfa5AcJ3H2wLBY8kVQaabLuJAZYuFgZeToORT98YBvLx_ulFSzF2aG2mNuWdA5hNVObUu-aq_5qNyhT_rsgKNbAS0ZTo78qHYvQyvEAvpWHfHCbWV92Fm5VVlZlC0zcwQUj5vlSjzObPuIunl6I5zKGu8E26x5sOac1F8uKKL4yeHTRC3tK-yqnPvkVugisnew3hGw-gxvCeSx8o5BtO4jlJmlOXwMbbnvMe8qguVEpVZwPIlLUk3jQzm0PzaWnnd27Ge06Oi6nI7L0ak81VdOJJOeR9llMaXMvcTA47qxqym3aItln0rbQEIy3m0SDTw5aMRaHsh_BR0xO5wUo5WgoL77eFgkXA9iXLcYEJhJ8sLxqifLh1oCNCJMYq6ZVTGqVcmlasWF3TJl55g",
+        "height": 1536,
+        "width": 1024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYng0i8V9G-ur9gUEX8Ai-JFT-wOd6RumTyvVBM9oPsYQfa5AcJ3H2wLBY8kVQaabLuJAZYuFgZeToORT98YBvLx_ulFSzF2aG2mNuWdA5hNVObUu-aq_5qNyhT_rsgKNbAS0ZTo78qHYvQyvEAvpWHfHCbWV92Fm5VVlZlC0zcwQUj5vlSjzObPuIunl6I5zKGu8E26x5sOac1F8uKKL4yeHTRC3tK-yqnPvkVugisnew3hGw-gxvCeSx8o5BtO4jlJmlOXwMbbnvMe8qguVEpVZwPIlLUk3jQzm0PzaWnnd27Ge06Oi6nI7L0ak81VdOJJOeR9llMaXMvcTA47qxqym3aItln0rbQEIy3m0SDTw5aMRaHsh_BR0xO5wUo5WgoL77eFgkXA9iXLcYEJhJ8sLxqifLh1oCNCJMYq6ZVTGqVcmlasWF3TJl55g"
+      },
+      {
+        "photo_reference": "Aa-ngMYFY6FcRehrO-83Xmz0Y9VJVwhkX1DLxc1-0bBeL2hJa1kxqGbWJRfmD1uItYXgmpldeO-YTGevF0Q04uDBZ8KFieDonQ_KGDqp6acTfdXs5DCqpdR5G8uS0udtFwmvqkHFkdEwZB6o1lnRe5958oxc-O350tcCwR9dLcozT0Nzg9gbqUmZfLolzBk8jzEO--HoKlmnVS6L8QDPM9i5LiTcFVUccjt9hnn9jpPArX067SDUak2CBV8tMrhCk3b88iJxawBdblsKmT-JAzqAex2XiGXL2FFZXZsEQM06sKt_gGDmlqrOnBC8n0jYC4KDaHt-HqbK5Vot8eNNciTL-GOfbTStVme8C6nmP9hqMZvTgUDwxDxg_al0OUTXdRT6HSDbQMd1D_qP25cxZBVGiv3EBXFhriqsAbqXfRtPKZ07sqlkkPhAocwI5Ce5vORa",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYFY6FcRehrO-83Xmz0Y9VJVwhkX1DLxc1-0bBeL2hJa1kxqGbWJRfmD1uItYXgmpldeO-YTGevF0Q04uDBZ8KFieDonQ_KGDqp6acTfdXs5DCqpdR5G8uS0udtFwmvqkHFkdEwZB6o1lnRe5958oxc-O350tcCwR9dLcozT0Nzg9gbqUmZfLolzBk8jzEO--HoKlmnVS6L8QDPM9i5LiTcFVUccjt9hnn9jpPArX067SDUak2CBV8tMrhCk3b88iJxawBdblsKmT-JAzqAex2XiGXL2FFZXZsEQM06sKt_gGDmlqrOnBC8n0jYC4KDaHt-HqbK5Vot8eNNciTL-GOfbTStVme8C6nmP9hqMZvTgUDwxDxg_al0OUTXdRT6HSDbQMd1D_qP25cxZBVGiv3EBXFhriqsAbqXfRtPKZ07sqlkkPhAocwI5Ce5vORa"
+      },
+      {
+        "photo_reference": "Aa-ngMYlVzc_c23NEk-0aR16mC3UADEU-SnF25VKW5DlVg3fm1tsMTh0JaiTaCP9UXnOYovZzJrkUcnNsME5LtJ9NVmpN-ZVwc6_oqB2WmT5OkYc1p9HCerZO2pjn77-4Hi9EzVjPiUtA_7hgiBKDsTXKGZnw4Avgb2Vr2y9lu9DLIDSyCjuPP0Tv6B1xRCOKQ-ys3-d31Mkfx-h-ZUmppg8c6AW-4bl5yrcmcb28u8KdTVtKYIGm66EB-_m5VKBhQRRgroyIbGFYJm33_FFI4T2H-crxVQrJV2EctdMu7IVBzCcx1vMEB_LeIgYuOC-W_sGY0edmZq-C9IpWBwNczJ47CKSmF0EYi30K9mHyONoqGMGjMj1-zkEbdhzxNgz7N7Hne6yNMJ8JQ_8_69FcWBjykTPlQbtj6UonfEAymFa7vQOvwbdoDzLi3HvlKWcx5Y6",
+        "height": 1252,
+        "width": 830,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYlVzc_c23NEk-0aR16mC3UADEU-SnF25VKW5DlVg3fm1tsMTh0JaiTaCP9UXnOYovZzJrkUcnNsME5LtJ9NVmpN-ZVwc6_oqB2WmT5OkYc1p9HCerZO2pjn77-4Hi9EzVjPiUtA_7hgiBKDsTXKGZnw4Avgb2Vr2y9lu9DLIDSyCjuPP0Tv6B1xRCOKQ-ys3-d31Mkfx-h-ZUmppg8c6AW-4bl5yrcmcb28u8KdTVtKYIGm66EB-_m5VKBhQRRgroyIbGFYJm33_FFI4T2H-crxVQrJV2EctdMu7IVBzCcx1vMEB_LeIgYuOC-W_sGY0edmZq-C9IpWBwNczJ47CKSmF0EYi30K9mHyONoqGMGjMj1-zkEbdhzxNgz7N7Hne6yNMJ8JQ_8_69FcWBjykTPlQbtj6UonfEAymFa7vQOvwbdoDzLi3HvlKWcx5Y6"
+      },
+      {
+        "photo_reference": "Aa-ngMZFyI0oeq4CcyYg1z8R8Svv888ozE1cyOa-6sH_EDCsBu01rAYPAnRUILWkRLekywU1e49Kq9m7Dwbp0CipjWwLLfDAtSoqRxnY9S6gerIxMCXEftuKU96zfKsutrhDUEeoaWraGTPN-ifzQUuT7pn2kl3hnCl7pXtAyhUpldlF5DcgxlsOLopmTXJXXjGLxIy1v5ud2T9I2lbiZOFqZt3dLoyVM9-U2U3e5NdUbmllNaZJcEaHl87SXyWXgtouYz-JJfXO6QT_s7j5b0S9SkvlpRJaVyRDytQRl6oXaZU-EZJZwM7nLcbjcOG6CIO7lDnAzrp404bO9TLflz9xPfV_nLXvv8uQjAqjqavqYz4UQvFtEJP1d80d3OM9WPIOvZ5meAmHpo-91DDS7mDEfr98ePx4EycfTXbidzZggd8RPI6Dl1RVGXSD4A6DAWMh",
+        "height": 3892,
+        "width": 2919,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZFyI0oeq4CcyYg1z8R8Svv888ozE1cyOa-6sH_EDCsBu01rAYPAnRUILWkRLekywU1e49Kq9m7Dwbp0CipjWwLLfDAtSoqRxnY9S6gerIxMCXEftuKU96zfKsutrhDUEeoaWraGTPN-ifzQUuT7pn2kl3hnCl7pXtAyhUpldlF5DcgxlsOLopmTXJXXjGLxIy1v5ud2T9I2lbiZOFqZt3dLoyVM9-U2U3e5NdUbmllNaZJcEaHl87SXyWXgtouYz-JJfXO6QT_s7j5b0S9SkvlpRJaVyRDytQRl6oXaZU-EZJZwM7nLcbjcOG6CIO7lDnAzrp404bO9TLflz9xPfV_nLXvv8uQjAqjqavqYz4UQvFtEJP1d80d3OM9WPIOvZ5meAmHpo-91DDS7mDEfr98ePx4EycfTXbidzZggd8RPI6Dl1RVGXSD4A6DAWMh"
+      },
+      {
+        "photo_reference": "Aa-ngMaLK843X-ZgyG9-VtZFl5CSv5eAbWSZT3_njlqhgyLbu69nchwHQyQ71YpblOy8JZ7suMUWBqymCvuDCpA61qNiKKQy7dnmrq3oxben9InFJCcHZfhOI_PwLpxVWlZPu3FQBI6VKRNdOcEY9NvL4pXw14SQ1bRUZaoYBuR0zz_ASDvL0j6n3gYV0VG6pnK7RU3c_R12z8shfI2qsWcn_-oLk4OwTu18Xc3iC0Oc60YP0sQaqow6dm2sGkkTz1tZWmTYSWeCNgHeVLn7_wymtXtO8qqtjYE2InL0a0lYuTaykU0-rykzA1_W5AK9SWigeKwJUsLJYwjiNtpU-J573q6Fo57PPxE3UtjHBwzTr2Fnqj9101ciP55J4rDkn_Ulut9M0kwh6RWHzzsuE9332IeaTJi8wrlrCGiGuFU0iDgLQvuMho1853NpwNAcrOlP",
+        "height": 4080,
+        "width": 3060,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaLK843X-ZgyG9-VtZFl5CSv5eAbWSZT3_njlqhgyLbu69nchwHQyQ71YpblOy8JZ7suMUWBqymCvuDCpA61qNiKKQy7dnmrq3oxben9InFJCcHZfhOI_PwLpxVWlZPu3FQBI6VKRNdOcEY9NvL4pXw14SQ1bRUZaoYBuR0zz_ASDvL0j6n3gYV0VG6pnK7RU3c_R12z8shfI2qsWcn_-oLk4OwTu18Xc3iC0Oc60YP0sQaqow6dm2sGkkTz1tZWmTYSWeCNgHeVLn7_wymtXtO8qqtjYE2InL0a0lYuTaykU0-rykzA1_W5AK9SWigeKwJUsLJYwjiNtpU-J573q6Fo57PPxE3UtjHBwzTr2Fnqj9101ciP55J4rDkn_Ulut9M0kwh6RWHzzsuE9332IeaTJi8wrlrCGiGuFU0iDgLQvuMho1853NpwNAcrOlP"
+      },
+      {
+        "photo_reference": "Aa-ngMbcdVs4OoxPgevMx9fHyZ9ovEpdCBf9WCWXKCI5-n-r6drhRt6IDZybg86v6-Y6hqKncpS_Fj2z3JWvhZ8Q_FW3hr-QtQb84Rkt_AdSftvx9pePpcIwdHvMT1A-ZEGz3R4p1BElMe0xZYG7stm3wRNy8Tcf7ec0GscL5j1CkE3vDtNVNHHLWcdPXr8qAw1wc79VGle-cXjBmf1Cdde7EXnC4vSr9InC9lD1aCQvOiaxhxRRdrtrgfyg4iT-z0gfdQa1d5n8dDSANBMhbIDocOyUUPaTM2HGxAjW3gjktFgT_5YlYLVFa4hfNvVPLPnmxkS8nIqnt9OChUA6vz1KZI5DH3sNAIPV9OoAgxnc4t7vxSNE71beF2gxjExL_IO-MckyBkNSyXelhpTETotIf8SdFRE8JtJXruScqiHmr-AC_wfLEdUYr8LwYd0EFZKc",
+        "height": 4800,
+        "width": 2701,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbcdVs4OoxPgevMx9fHyZ9ovEpdCBf9WCWXKCI5-n-r6drhRt6IDZybg86v6-Y6hqKncpS_Fj2z3JWvhZ8Q_FW3hr-QtQb84Rkt_AdSftvx9pePpcIwdHvMT1A-ZEGz3R4p1BElMe0xZYG7stm3wRNy8Tcf7ec0GscL5j1CkE3vDtNVNHHLWcdPXr8qAw1wc79VGle-cXjBmf1Cdde7EXnC4vSr9InC9lD1aCQvOiaxhxRRdrtrgfyg4iT-z0gfdQa1d5n8dDSANBMhbIDocOyUUPaTM2HGxAjW3gjktFgT_5YlYLVFa4hfNvVPLPnmxkS8nIqnt9OChUA6vz1KZI5DH3sNAIPV9OoAgxnc4t7vxSNE71beF2gxjExL_IO-MckyBkNSyXelhpTETotIf8SdFRE8JtJXruScqiHmr-AC_wfLEdUYr8LwYd0EFZKc"
+      },
+      {
+        "photo_reference": "Aa-ngMYtVualBx7oblw9Qq8hun__ZIx-_1W_AJ5oMPgM9VC0mbsVDGGaybm8BOaa42TgjQsWbxrCeYDUs5OV96202dimc-9xnFDwSuNtwam-L5lioSkNVsWoArbG0C5HPvT1PE3ZShlUwoJ4SZi-FNODeIyxNEa2rR4Y_jLCDH1fUL5x88EV7jGRxdtqYoFv1Vpq7cRMbTgzUnxEOnmCXHX0akk65Rb_2bcLX3NdkTU5kcFNbw4lIS-J8LAUs5Hk6IoCY5V64QAGRqSsygIciFaKJL_z459bXpBmY0I6tY9I-Bm5vefv8GTs3QDWOoxmQ1NdxpbG4rX_LfUr6oZDdhuENNTiWth1aDEa1rvC9VpCxxcQHeotO9VvGwQOvKFSOy4Y-SWCac_0QLV-ddkakY5XUjhuR-U5rYdvdBTOb0XBaxdLflytrBSyqgpHMO9m9UE6",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYtVualBx7oblw9Qq8hun__ZIx-_1W_AJ5oMPgM9VC0mbsVDGGaybm8BOaa42TgjQsWbxrCeYDUs5OV96202dimc-9xnFDwSuNtwam-L5lioSkNVsWoArbG0C5HPvT1PE3ZShlUwoJ4SZi-FNODeIyxNEa2rR4Y_jLCDH1fUL5x88EV7jGRxdtqYoFv1Vpq7cRMbTgzUnxEOnmCXHX0akk65Rb_2bcLX3NdkTU5kcFNbw4lIS-J8LAUs5Hk6IoCY5V64QAGRqSsygIciFaKJL_z459bXpBmY0I6tY9I-Bm5vefv8GTs3QDWOoxmQ1NdxpbG4rX_LfUr6oZDdhuENNTiWth1aDEa1rvC9VpCxxcQHeotO9VvGwQOvKFSOy4Y-SWCac_0QLV-ddkakY5XUjhuR-U5rYdvdBTOb0XBaxdLflytrBSyqgpHMO9m9UE6"
+      },
+      {
+        "photo_reference": "Aa-ngMbsxt5_okFYYMgDlhF3WhpG0LT5SNQ6KaWTf_65BGEP3v9Za_Sj8YXdWHvmKL4iLd0lfsbCG_zhwkanWnhWkQlElRO7R1DYO78ho49-Tk8hilqPGCLek6NyUsp3gJNsKjlM5NiNkxerIaGDIZv402boOD0IikjIdZzI4YEMFrRr6IfyJFaCYleBt-Hm5eBzkhl57TZgvqmPgAAeDn27iw96gdSMkikwab1l0fm8sbWRfFVfTG6rlT637q98T6Ch5_SaVitetZQ6E0lSetS5PL3eUI1O0BQn0dU-UsRu4d9wHVlMw_QRn39i46e2ghdWJj5h1DNaNMfobeaWfPVs2YW0DhKgHvfs3lze0DA7AElF7313GNzjbzZOsOb7Ze-TIqlT-Dic7-r8svNZEsMhfbF7xDXplV9WCPWgeZJA3oHvDNyERPFqke_cqRSmMpDn",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbsxt5_okFYYMgDlhF3WhpG0LT5SNQ6KaWTf_65BGEP3v9Za_Sj8YXdWHvmKL4iLd0lfsbCG_zhwkanWnhWkQlElRO7R1DYO78ho49-Tk8hilqPGCLek6NyUsp3gJNsKjlM5NiNkxerIaGDIZv402boOD0IikjIdZzI4YEMFrRr6IfyJFaCYleBt-Hm5eBzkhl57TZgvqmPgAAeDn27iw96gdSMkikwab1l0fm8sbWRfFVfTG6rlT637q98T6Ch5_SaVitetZQ6E0lSetS5PL3eUI1O0BQn0dU-UsRu4d9wHVlMw_QRn39i46e2ghdWJj5h1DNaNMfobeaWfPVs2YW0DhKgHvfs3lze0DA7AElF7313GNzjbzZOsOb7Ze-TIqlT-Dic7-r8svNZEsMhfbF7xDXplV9WCPWgeZJA3oHvDNyERPFqke_cqRSmMpDn"
+      }
+    ],
+    "place_id": "ChIJ0z5BbQjl3JQRG7f6PdRCb2U",
+    "price_level": 2,
+    "rating": 4.1,
+    "types": [
+      "bar",
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=7309134199585945371",
+    "user_ratings_total": 90,
+    "website": "https://olgaspeakeasy.com.br/",
+    "added_at": "2026-09-29T17:59:35.653Z"
   }
 ]
