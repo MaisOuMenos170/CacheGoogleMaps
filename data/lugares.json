@@ -2544,7 +2544,11 @@
     "url": "https://maps.google.com/?cid=7140144948476227522",
     "user_ratings_total": 2309,
     "website": "https://linktr.ee/beksbar",
-    "added_at": "2026-08-26T18:58:26.275Z"
+    "added_at": "2026-08-26T18:58:26.275Z",
+    "tags": [
+      "bar"
+    ],
+    "updated_at": "2026-09-30T18:19:40.375Z"
   },
   {
     "address_components": [
