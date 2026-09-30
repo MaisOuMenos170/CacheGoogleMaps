@@ -8063,7 +8063,11 @@
     "url": "https://maps.google.com/?cid=10963473080264202689",
     "user_ratings_total": 19153,
     "website": "http://www.bardoalemaocuritiba.com.br/",
-    "added_at": "2026-09-29T17:59:07.617Z"
+    "added_at": "2026-09-29T17:59:07.617Z",
+    "tags": [
+      "bar"
+    ],
+    "updated_at": "2026-09-30T18:31:34.363Z"
   },
   {
     "address_components": [
