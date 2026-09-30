@@ -12550,7 +12550,12 @@
     "url": "https://maps.google.com/?cid=4552257494739236511",
     "user_ratings_total": 1464,
     "website": "https://curitibasunset.com.br/",
-    "added_at": "2026-09-30T18:10:20.944Z"
+    "added_at": "2026-09-30T18:10:20.944Z",
+    "tags": [
+      "restaurante",
+      "bar"
+    ],
+    "updated_at": "2026-09-30T18:28:10.761Z"
   },
   {
     "address_components": [
