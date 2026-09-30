@@ -5873,7 +5873,11 @@
     "url": "https://maps.google.com/?cid=10201460762224362352",
     "user_ratings_total": 2633,
     "website": "http://www.curitiba.pr.gov.br/",
-    "added_at": "2026-09-29T17:55:30.971Z"
+    "added_at": "2026-09-29T17:55:30.971Z",
+    "tags": [
+      "ponto turístico"
+    ],
+    "updated_at": "2026-09-30T18:27:57.475Z"
   },
   {
     "address_components": [
