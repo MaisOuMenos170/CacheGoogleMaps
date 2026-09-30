@@ -6434,7 +6434,11 @@
     "url": "https://maps.google.com/?cid=11409927347859403230",
     "user_ratings_total": 42589,
     "website": "http://www.curitiba.pr.gov.br/conteudo/parques-e-bosques-passeio-publico/324",
-    "added_at": "2026-09-29T17:56:50.504Z"
+    "added_at": "2026-09-29T17:56:50.504Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:28:26.567Z"
   },
   {
     "address_components": [
