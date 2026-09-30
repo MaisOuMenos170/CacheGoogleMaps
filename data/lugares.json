@@ -11662,7 +11662,11 @@
     "url": "https://maps.google.com/?cid=691238639420289507",
     "user_ratings_total": 2787,
     "website": "https://www.instagram.com/flordelaranjeiracafe/",
-    "added_at": "2026-09-29T18:13:00.212Z"
+    "added_at": "2026-09-29T18:13:00.212Z",
+    "tags": [
+      "café"
+    ],
+    "updated_at": "2026-09-30T18:31:10.800Z"
   },
   {
     "address_components": [
