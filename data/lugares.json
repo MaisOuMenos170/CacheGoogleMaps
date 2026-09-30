@@ -962,7 +962,11 @@
     "url": "https://maps.google.com/?cid=6984592243597706448",
     "user_ratings_total": 21523,
     "website": "https://turismo.curitiba.pr.gov.br/conteudo/bosque-alemao/1099",
-    "added_at": "2026-08-26T18:49:54.728Z"
+    "added_at": "2026-08-26T18:49:54.728Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:13:43.567Z"
   },
   {
     "address_components": [
