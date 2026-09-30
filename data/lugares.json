@@ -1826,7 +1826,11 @@
     "url": "https://maps.google.com/?cid=1725393225524836428",
     "user_ratings_total": 1552,
     "website": "https://www.curitiba.pr.gov.br/conteudo/bosque-municipal-zaninelli-escola-municipal-de-sustentabilidade/285",
-    "added_at": "2026-08-26T18:55:43.469Z"
+    "added_at": "2026-08-26T18:55:43.469Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:17:41.444Z"
   },
   {
     "address_components": [
