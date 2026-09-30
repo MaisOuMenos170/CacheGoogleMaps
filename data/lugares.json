@@ -12757,7 +12757,11 @@
     ],
     "url": "https://maps.google.com/?cid=8055733996251626583",
     "user_ratings_total": 1485,
-    "added_at": "2026-09-30T18:24:17.359Z"
+    "added_at": "2026-09-30T18:24:17.359Z",
+    "tags": [
+      "restaurante"
+    ],
+    "updated_at": "2026-09-30T18:26:42.631Z"
   },
   {
     "address_components": [
