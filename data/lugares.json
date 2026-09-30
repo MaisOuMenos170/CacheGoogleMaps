@@ -9226,7 +9226,11 @@
     "url": "https://maps.google.com/?cid=4217017236864653829",
     "user_ratings_total": 1000,
     "website": "http://www.mis.pr.gov.br/",
-    "added_at": "2026-09-29T18:02:37.469Z"
+    "added_at": "2026-09-29T18:02:37.469Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:32:53.781Z"
   },
   {
     "address_components": [
