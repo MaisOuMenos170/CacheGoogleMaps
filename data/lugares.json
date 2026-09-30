@@ -7104,7 +7104,11 @@
     "url": "https://maps.google.com/?cid=11708955381635407512",
     "user_ratings_total": 10775,
     "website": "https://www.curitiba.pr.gov.br/conteudo/parque-bacacheriparque-municipal-gal-ibere-de-matos/291",
-    "added_at": "2026-09-29T17:58:22.311Z"
+    "added_at": "2026-09-29T17:58:22.311Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:29:38.971Z"
   },
   {
     "address_components": [
