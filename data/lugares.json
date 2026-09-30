@@ -3951,7 +3951,11 @@
     "url": "https://maps.google.com/?cid=7247049982434273268",
     "user_ratings_total": 178,
     "website": "http://www.arcadialivraria.com.br/",
-    "added_at": "2026-09-29T17:51:10.761Z"
+    "added_at": "2026-09-29T17:51:10.761Z",
+    "tags": [
+      "café"
+    ],
+    "updated_at": "2026-09-30T18:21:54.631Z"
   },
   {
     "address_components": [
