@@ -10701,7 +10701,11 @@
     "url": "https://maps.google.com/?cid=9897417236219909455",
     "user_ratings_total": 312,
     "website": "http://www.fundacaoculturaldecuritiba.com.br/artes-visuais/espacos-culturais/museu-da-fotografia-cidade-de-curitiba",
-    "added_at": "2026-09-29T18:03:35.409Z"
+    "added_at": "2026-09-29T18:03:35.409Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:34:24.804Z"
   },
   {
     "address_components": [
