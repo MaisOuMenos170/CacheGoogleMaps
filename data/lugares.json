@@ -8995,7 +8995,11 @@
     "url": "https://maps.google.com/?cid=3315704408692906880",
     "user_ratings_total": 3476,
     "website": "http://www.museuparanaense.pr.gov.br/",
-    "added_at": "2026-09-29T18:02:19.225Z"
+    "added_at": "2026-09-29T18:02:19.225Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:32:44.640Z"
   },
   {
     "address_components": [
