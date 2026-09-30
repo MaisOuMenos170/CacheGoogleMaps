@@ -2317,7 +2317,11 @@
     "url": "https://maps.google.com/?cid=11557589252676540081",
     "user_ratings_total": 3131,
     "website": "https://www.restaurantegatopreto.com/",
-    "added_at": "2026-08-26T18:57:55.293Z"
+    "added_at": "2026-08-26T18:57:55.293Z",
+    "tags": [
+      "restaurante"
+    ],
+    "updated_at": "2026-09-30T18:19:31.222Z"
   },
   {
     "address_components": [
