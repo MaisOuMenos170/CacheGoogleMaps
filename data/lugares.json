@@ -6047,7 +6047,11 @@
     "url": "https://maps.google.com/?cid=2145427212149499247",
     "user_ratings_total": 1064,
     "website": "https://www.curitiba.pr.gov.br/conteudo/parque-municipal-tingui-memorial-ucraniano/321",
-    "added_at": "2026-09-29T17:55:42.031Z"
+    "added_at": "2026-09-29T17:55:42.031Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:28:06.662Z"
   },
   {
     "address_components": [
