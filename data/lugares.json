@@ -6860,7 +6860,11 @@
     "url": "https://maps.google.com/?cid=10308787643571596691",
     "user_ratings_total": 12334,
     "website": "https://www.curitiba.pr.gov.br/",
-    "added_at": "2026-09-29T17:57:48.487Z"
+    "added_at": "2026-09-29T17:57:48.487Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:28:46.287Z"
   },
   {
     "address_components": [
