@@ -5635,7 +5635,11 @@
     "url": "https://maps.google.com/?cid=3829585987684607458",
     "user_ratings_total": 467,
     "website": "https://www.curitiba.pr.gov.br/memorialparanista/",
-    "added_at": "2026-09-29T17:54:41.704Z"
+    "added_at": "2026-09-29T17:54:41.704Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:27:23.264Z"
   },
   {
     "address_components": [
