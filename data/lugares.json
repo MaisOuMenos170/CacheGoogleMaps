@@ -10439,7 +10439,11 @@
     "url": "https://maps.google.com/?cid=2390450265619909016",
     "user_ratings_total": 2331,
     "website": "http://www.museuautomovel.com.br/",
-    "added_at": "2026-09-29T18:03:28.111Z"
+    "added_at": "2026-09-29T18:03:28.111Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:34:55.471Z"
   },
   {
     "address_components": [
