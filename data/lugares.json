@@ -6680,7 +6680,10 @@
     "website": "http://www.curitiba.pr.gov.br/servicos/cidadao/equipamento/bosque-de-portugal/1247",
     "added_at": "2026-09-29T17:57:10.606Z",
     "nickname": "Bosque de Portugal",
-    "updated_at": "2026-09-29T17:57:20.502Z"
+    "updated_at": "2026-09-30T18:28:36.743Z",
+    "tags": [
+      "parque"
+    ]
   },
   {
     "address_components": [
