@@ -11333,7 +11333,11 @@
     "url": "https://maps.google.com/?cid=14236657364008851272",
     "user_ratings_total": 3760,
     "website": "https://www.facebook.com/Sementedegirassol/",
-    "added_at": "2026-09-29T18:08:01.656Z"
+    "added_at": "2026-09-29T18:08:01.656Z",
+    "tags": [
+      "restaurante"
+    ],
+    "updated_at": "2026-09-30T18:30:52.743Z"
   },
   {
     "address_components": [
