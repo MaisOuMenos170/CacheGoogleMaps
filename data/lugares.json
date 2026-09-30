@@ -3344,7 +3344,11 @@
     "url": "https://maps.google.com/?cid=11252755619039174429",
     "user_ratings_total": 6544,
     "nickname": "Costelão 24h",
-    "added_at": "2026-08-31T15:36:21.318Z"
+    "added_at": "2026-08-31T15:36:21.318Z",
+    "tags": [
+      "restaurante"
+    ],
+    "updated_at": "2026-09-30T18:21:13.344Z"
   },
   {
     "address_components": [
