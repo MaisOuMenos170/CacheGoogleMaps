@@ -228,7 +228,11 @@
     "url": "https://maps.google.com/?cid=17722311454565219310",
     "user_ratings_total": 64108,
     "website": "http://www.museuoscarniemeyer.org.br/",
-    "added_at": "2026-08-26T18:29:30.874Z"
+    "added_at": "2026-08-26T18:29:30.874Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:13:18.207Z"
   },
   {
     "address_components": [
