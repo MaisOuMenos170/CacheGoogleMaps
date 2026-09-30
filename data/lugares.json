@@ -7818,7 +7818,11 @@
     "url": "https://maps.google.com/?cid=7474661979729499686",
     "user_ratings_total": 188,
     "website": "https://megurocafe.supersal.com.br/bio",
-    "added_at": "2026-09-29T17:58:55.107Z"
+    "added_at": "2026-09-29T17:58:55.107Z",
+    "tags": [
+      "café"
+    ],
+    "updated_at": "2026-09-30T18:31:19.715Z"
   },
   {
     "address_components": [
