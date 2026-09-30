@@ -9712,7 +9712,11 @@
     "url": "https://maps.google.com/?cid=13472348828387589870",
     "user_ratings_total": 3165,
     "website": "https://www.curitiba.pr.gov.br/conteudo/museu-de-historia-natural-do-capao-da-imbuia-bosque-municipal-capao-da-imbuia/332",
-    "added_at": "2026-09-29T18:03:03.879Z"
+    "added_at": "2026-09-29T18:03:03.879Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:33:41.017Z"
   },
   {
     "address_components": [
