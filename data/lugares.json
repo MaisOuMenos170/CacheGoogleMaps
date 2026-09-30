@@ -4185,7 +4185,11 @@
     "url": "https://maps.google.com/?cid=10930962434512563273",
     "user_ratings_total": 3127,
     "website": "http://www.fundacaoculturaldecuritiba.com.br/espacos-culturais/memorial-de-curitiba/",
-    "added_at": "2026-09-29T17:51:49.411Z"
+    "added_at": "2026-09-29T17:51:49.411Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:22:53.853Z"
   },
   {
     "address_components": [
