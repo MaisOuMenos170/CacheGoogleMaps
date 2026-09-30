@@ -2069,7 +2069,11 @@
     "url": "https://maps.google.com/?cid=15943865177457933168",
     "user_ratings_total": 2163,
     "website": "http://www.costelaobrasilia.com.br/",
-    "added_at": "2026-08-26T18:57:37.053Z"
+    "added_at": "2026-08-26T18:57:37.053Z",
+    "tags": [
+      "restaurante"
+    ],
+    "updated_at": "2026-09-30T18:17:53.688Z"
   },
   {
     "address_components": [
