@@ -9481,7 +9481,11 @@
     "url": "https://maps.google.com/?cid=12687799758347928395",
     "user_ratings_total": 3038,
     "website": "http://www.museudoholocausto.org.br/",
-    "added_at": "2026-09-29T18:02:54.436Z"
+    "added_at": "2026-09-29T18:02:54.436Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:33:05.638Z"
   },
   {
     "address_components": [
