@@ -8264,7 +8264,11 @@
     "url": "https://maps.google.com/?cid=7309134199585945371",
     "user_ratings_total": 90,
     "website": "https://olgaspeakeasy.com.br/",
-    "added_at": "2026-09-29T17:59:35.653Z"
+    "added_at": "2026-09-29T17:59:35.653Z",
+    "tags": [
+      "bar"
+    ],
+    "updated_at": "2026-09-30T18:31:48.186Z"
   },
   {
     "address_components": [
