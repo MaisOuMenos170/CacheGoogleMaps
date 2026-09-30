@@ -7338,7 +7338,11 @@
     "url": "https://maps.google.com/?cid=8221578352217963669",
     "user_ratings_total": 7991,
     "website": "https://www.sescpr.com.br/unidade/sesc-paco-da-liberdade/",
-    "added_at": "2026-09-29T17:58:34.208Z"
+    "added_at": "2026-09-29T17:58:34.208Z",
+    "tags": [
+      "histórico"
+    ],
+    "updated_at": "2026-09-30T18:30:50.084Z"
   },
   {
     "address_components": [
