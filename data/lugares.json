@@ -5405,7 +5405,11 @@
     "url": "https://maps.google.com/?cid=16147552447376290462",
     "user_ratings_total": 19472,
     "website": "http://www.curitiba.pr.gov.br/conteudo/parques-e-bosques-parque-sao-lourenco/317",
-    "added_at": "2026-09-29T17:54:28.303Z"
+    "added_at": "2026-09-29T17:54:28.303Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:27:07.626Z"
   },
   {
     "address_components": [
