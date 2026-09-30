@@ -8530,7 +8530,11 @@
     "url": "https://maps.google.com/?cid=2798933706617442333",
     "user_ratings_total": 1729,
     "website": "http://www.cantinabaviera.com.br/",
-    "added_at": "2026-09-29T18:01:04.288Z"
+    "added_at": "2026-09-29T18:01:04.288Z",
+    "tags": [
+      "restaurante"
+    ],
+    "updated_at": "2026-09-30T18:32:21.105Z"
   },
   {
     "address_components": [
