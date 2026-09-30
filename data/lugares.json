@@ -11111,7 +11111,12 @@
     "url": "https://maps.google.com/?cid=9470748735827838960",
     "user_ratings_total": 1217,
     "website": "https://www.museuplanetaagua.org.br/",
-    "added_at": "2026-09-29T18:05:14.166Z"
+    "added_at": "2026-09-29T18:05:14.166Z",
+    "tags": [
+      "museu",
+      "histórico"
+    ],
+    "updated_at": "2026-09-30T18:32:29.679Z"
   },
   {
     "address_components": [
