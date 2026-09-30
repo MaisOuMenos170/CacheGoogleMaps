@@ -1581,7 +1581,11 @@
     "url": "https://maps.google.com/?cid=6708582474104359218",
     "user_ratings_total": 1085,
     "website": "https://m.facebook.com/pages/Schnaps-Bar/158212900956003",
-    "added_at": "2026-08-26T18:55:25.275Z"
+    "added_at": "2026-08-26T18:55:25.275Z",
+    "tags": [
+      "bar"
+    ],
+    "updated_at": "2026-09-30T18:17:30.866Z"
   },
   {
     "address_components": [
