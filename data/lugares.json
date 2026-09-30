@@ -1108,7 +1108,11 @@
     ],
     "url": "https://maps.google.com/?cid=16712019685001207292",
     "user_ratings_total": 97,
-    "added_at": "2026-08-26T18:52:02.807Z"
+    "added_at": "2026-08-26T18:52:02.807Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:13:52.370Z"
   },
   {
     "address_components": [
