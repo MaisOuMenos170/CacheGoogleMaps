@@ -2920,7 +2920,11 @@
     "url": "https://maps.google.com/?cid=16580992588745333186",
     "user_ratings_total": 11908,
     "website": "https://museuegipcioerosacruz.org.br/",
-    "added_at": "2026-08-26T19:00:04.118Z"
+    "added_at": "2026-08-26T19:00:04.118Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:20:36.175Z"
   },
   {
     "address_components": [
