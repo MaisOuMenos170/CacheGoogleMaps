@@ -5160,7 +5160,11 @@
     "url": "https://maps.google.com/?cid=9711169022601236110",
     "user_ratings_total": 13750,
     "website": "http://www.curitiba.pr.gov.br/local/bosque-joao-paulo-ii/1533",
-    "added_at": "2026-09-29T17:54:07.526Z"
+    "added_at": "2026-09-29T17:54:07.526Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:26:57.543Z"
   },
   {
     "address_components": [
