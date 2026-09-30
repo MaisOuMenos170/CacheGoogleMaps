@@ -4540,7 +4540,11 @@
     "url": "https://maps.google.com/?cid=7272541653881003603",
     "user_ratings_total": 77243,
     "website": "http://www.curitiba.pr.gov.br/conteudo/parques-e-bosques-parque-barigui/292",
-    "added_at": "2026-09-29T17:52:47.441Z"
+    "added_at": "2026-09-29T17:52:47.441Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:23:38.385Z"
   },
   {
     "address_components": [
