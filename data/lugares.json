@@ -12330,7 +12330,11 @@
     ],
     "url": "https://maps.google.com/?cid=16999442050934551998",
     "user_ratings_total": 30,
-    "added_at": "2026-09-30T18:01:08.208Z"
+    "added_at": "2026-09-30T18:01:08.208Z",
+    "tags": [
+      "restaurante"
+    ],
+    "updated_at": "2026-09-30T18:28:50.023Z"
   },
   {
     "address_components": [
