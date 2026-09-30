@@ -1326,7 +1326,11 @@
     "url": "https://maps.google.com/?cid=11083383108659046402",
     "user_ratings_total": 219,
     "website": "https://pt-br.facebook.com/burekgrillrestaurante/",
-    "added_at": "2026-08-26T18:55:08.636Z"
+    "added_at": "2026-08-26T18:55:08.636Z",
+    "tags": [
+      "restaurante"
+    ],
+    "updated_at": "2026-09-30T18:14:11.549Z"
   },
   {
     "address_components": [
