@@ -2685,7 +2685,11 @@
       "route"
     ],
     "url": "https://maps.google.com/?cid=12039559149293840011",
-    "added_at": "2026-08-26T18:59:25.060Z"
+    "added_at": "2026-08-26T18:59:25.060Z",
+    "tags": [
+      "curiosidade"
+    ],
+    "updated_at": "2026-09-30T18:19:58.629Z"
   },
   {
     "address_components": [
