@@ -6199,7 +6199,11 @@
     ],
     "url": "https://maps.google.com/?cid=17048836207897291307",
     "user_ratings_total": 245,
-    "added_at": "2026-09-29T17:56:23.206Z"
+    "added_at": "2026-09-29T17:56:23.206Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:28:16.630Z"
   },
   {
     "address_components": [
