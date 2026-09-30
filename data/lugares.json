@@ -10188,7 +10188,11 @@
     "url": "https://maps.google.com/?cid=5038155789161321347",
     "user_ratings_total": 7343,
     "website": "https://shoppingestacao.com.br/lazer/#museu-ferroviario",
-    "added_at": "2026-09-29T18:03:14.798Z"
+    "added_at": "2026-09-29T18:03:14.798Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:35:08.693Z"
   },
   {
     "address_components": [
