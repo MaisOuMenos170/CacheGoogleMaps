@@ -10917,7 +10917,11 @@
     "url": "https://maps.google.com/?cid=1570453793751926003",
     "user_ratings_total": 684,
     "website": "http://www.maimuseu.com.br/",
-    "added_at": "2026-09-29T18:03:47.508Z"
+    "added_at": "2026-09-29T18:03:47.508Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:34:14.880Z"
   },
   {
     "address_components": [
