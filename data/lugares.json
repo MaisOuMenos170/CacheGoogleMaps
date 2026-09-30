@@ -9947,7 +9947,11 @@
     "url": "https://maps.google.com/?cid=34836059195373757",
     "user_ratings_total": 659,
     "website": "http://www.mac.pr.gov.br/",
-    "added_at": "2026-09-29T18:03:09.555Z"
+    "added_at": "2026-09-29T18:03:09.555Z",
+    "tags": [
+      "museu"
+    ],
+    "updated_at": "2026-09-30T18:35:16.089Z"
   },
   {
     "address_components": [
