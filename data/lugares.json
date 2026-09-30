@@ -472,7 +472,11 @@
     "url": "https://maps.google.com/?cid=7607871038609375452",
     "user_ratings_total": 50940,
     "website": "https://www.curitiba.pr.gov.br/conteudo/parque-municipal-tangua/318",
-    "added_at": "2026-08-26T18:49:10.772Z"
+    "added_at": "2026-08-26T18:49:10.772Z",
+    "tags": [
+      "parque"
+    ],
+    "updated_at": "2026-09-30T18:13:28.532Z"
   },
   {
     "address_components": [
