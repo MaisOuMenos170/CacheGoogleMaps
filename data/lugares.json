@@ -12252,7 +12252,11 @@
     "url": "https://maps.google.com/?cid=15718358922599280402",
     "user_ratings_total": 769,
     "website": "http://www.utfpr.edu.br/campus/curitiba",
-    "added_at": "2026-09-29T18:15:11.047Z"
+    "added_at": "2026-09-29T18:15:11.047Z",
+    "tags": [
+      "histórico"
+    ],
+    "updated_at": "2026-09-30T18:34:44.798Z"
   },
   {
     "address_components": [
