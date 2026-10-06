@@ -14098,5 +14098,253 @@
       "café"
     ],
     "updated_at": "2026-10-06T17:44:58.596Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "loja a",
+        "short_name": "loja a",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "37",
+        "short_name": "37",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua Trajano Reis",
+        "short_name": "R. Trajano Reis",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "São Francisco",
+        "short_name": "São Francisco",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80510-220",
+        "short_name": "80510-220",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-BR",
+      "overview": "Cervejas, tira-gostos e música ao vivo, em ponto de encontro informal e alternativo com mesinhas na calçada."
+    },
+    "formatted_address": "R. Trajano Reis, 37 - loja a - São Francisco, Curitiba - PR, 80510-220, Brasil",
+    "formatted_phone_number": "(41) 3022-5200",
+    "geometry": {
+      "location": {
+        "lat": -25.427014,
+        "lng": -49.2739917
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4257463697085,
+          "lng": -49.27258996970851
+        },
+        "southwest": {
+          "lat": -25.42844433029151,
+          "lng": -49.2752879302915
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3022-5200",
+    "name": "Matias Bar",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "0200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "0200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "0200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "0200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: 17:00 – 02:00",
+        "terça-feira: 17:00 – 02:00",
+        "quarta-feira: 17:00 – 02:00",
+        "quinta-feira: 17:00 – 02:00",
+        "sexta-feira: 17:00 – 02:00",
+        "sábado: 17:00 – 02:00",
+        "domingo: 17:00 – 02:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMYMK8wH6NU_IPqLyy3ot3LSJKriuhucyFI6D3QQP7acJk7dEsncTv7dok59_-bQE32zLwa7Twdgto9qaROXlLaAJdZY0qdvYaua_fASMuaMLG-DS2pvvMnSp-st1oCI768Jjs7oDWJdS9dHRWfKRe3l5AcVoERWR8h-otk4kZhOt1HMpuGrtBDb4Ej7S4Lm41BncMx_asQeKuvNZgAAG4JrdZd0yubnYCBGpbeZAEt50GQ67NuUee4H1_pGyHPH5lFBQVmWm_cRHDiGPFHNEuoaZ9vqnmrOz2Z2mqaH4AOeoNvnuuNlKK2egoGKP5oVhnvPDXKXM-EeZFHejkRaMy23-qFAUyfqcPx8g3rLzPeaFJDvVSdt9gXPPIlssJJsJ9lDKeYFjMmKxPGv299BzfYZkkXQX9Q",
+        "height": 2160,
+        "width": 2635,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYMK8wH6NU_IPqLyy3ot3LSJKriuhucyFI6D3QQP7acJk7dEsncTv7dok59_-bQE32zLwa7Twdgto9qaROXlLaAJdZY0qdvYaua_fASMuaMLG-DS2pvvMnSp-st1oCI768Jjs7oDWJdS9dHRWfKRe3l5AcVoERWR8h-otk4kZhOt1HMpuGrtBDb4Ej7S4Lm41BncMx_asQeKuvNZgAAG4JrdZd0yubnYCBGpbeZAEt50GQ67NuUee4H1_pGyHPH5lFBQVmWm_cRHDiGPFHNEuoaZ9vqnmrOz2Z2mqaH4AOeoNvnuuNlKK2egoGKP5oVhnvPDXKXM-EeZFHejkRaMy23-qFAUyfqcPx8g3rLzPeaFJDvVSdt9gXPPIlssJJsJ9lDKeYFjMmKxPGv299BzfYZkkXQX9Q"
+      },
+      {
+        "photo_reference": "Aa-ngMZ15or996ZrtBwx0-eXnhTLZLVfRvXxJp8r037X5WpcEarI_Kk_aB4g3ejOHN38a__WeUp1oQUwylxt65tkFhSZXsWJjLj0RL8c_iq0RNXIDN5v9rqLqANRthPLsdVi9e3l5kmlymKUca6rayYvE0Jzdv2Q-sDBQ0E9vQQRrkSdCn8YdvV9xoYmI_TUJW7qP62WtUXZGQEBN5BtnGzTQKvMvYn4qZ3D4i5Gof0DVXHIs82rG7wl4fralZZXMNAS9lRsAqnjbu-NzAl_cU6gKlhVoSN1ZT6b3hbJgynuk3YqCBqI9D0pzOj0qY5aFO6ad_XW6FsiUonUusR8Jk4PNKCTegSpbYTomiKfyquwKNjSpIC6xykbzb05YmCqtxBj87wlbccAZLRIzJOKIqCoWT_MQOfxyQY",
+        "height": 720,
+        "width": 1161,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZ15or996ZrtBwx0-eXnhTLZLVfRvXxJp8r037X5WpcEarI_Kk_aB4g3ejOHN38a__WeUp1oQUwylxt65tkFhSZXsWJjLj0RL8c_iq0RNXIDN5v9rqLqANRthPLsdVi9e3l5kmlymKUca6rayYvE0Jzdv2Q-sDBQ0E9vQQRrkSdCn8YdvV9xoYmI_TUJW7qP62WtUXZGQEBN5BtnGzTQKvMvYn4qZ3D4i5Gof0DVXHIs82rG7wl4fralZZXMNAS9lRsAqnjbu-NzAl_cU6gKlhVoSN1ZT6b3hbJgynuk3YqCBqI9D0pzOj0qY5aFO6ad_XW6FsiUonUusR8Jk4PNKCTegSpbYTomiKfyquwKNjSpIC6xykbzb05YmCqtxBj87wlbccAZLRIzJOKIqCoWT_MQOfxyQY"
+      },
+      {
+        "photo_reference": "Aa-ngMZbP7dxtuntNod0fSfkt4WXC5oFsr85_w6oV93iLLsDJRUI2LCUwx1_OjBXvwLL04sdksMsY_X8C9U-4x2Fg5JFij1qUtOLk4ExxdqBcJ5pbub1ckCdCz-q2tYWgoJg2d58GHFYySWFangXu24MpV4MwY3i_EXgjeEh_xVMO-4kIHeS4_UTx2i1l6MaFQ1luQJH7pV3HRjyH3-Afrb6wyHZP2x3Pl2UYKqCncP9hPQkfTpZpY0FPLLT7SFbJE7TLqzorKUZwFIsp0uA3fN42qHm2pByMWWrmicJpNjLT64qygqWZrkMT0pIopcMJodf4GcsB1dgPItBQAGI7_HYYi1WBzuC7JUQ4VdrCUL7E_l3zGeyb2E7RFsMhAaeMFAJT1qK-x35TthO2f2k-77jsICapw",
+        "height": 4000,
+        "width": 3000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZbP7dxtuntNod0fSfkt4WXC5oFsr85_w6oV93iLLsDJRUI2LCUwx1_OjBXvwLL04sdksMsY_X8C9U-4x2Fg5JFij1qUtOLk4ExxdqBcJ5pbub1ckCdCz-q2tYWgoJg2d58GHFYySWFangXu24MpV4MwY3i_EXgjeEh_xVMO-4kIHeS4_UTx2i1l6MaFQ1luQJH7pV3HRjyH3-Afrb6wyHZP2x3Pl2UYKqCncP9hPQkfTpZpY0FPLLT7SFbJE7TLqzorKUZwFIsp0uA3fN42qHm2pByMWWrmicJpNjLT64qygqWZrkMT0pIopcMJodf4GcsB1dgPItBQAGI7_HYYi1WBzuC7JUQ4VdrCUL7E_l3zGeyb2E7RFsMhAaeMFAJT1qK-x35TthO2f2k-77jsICapw"
+      },
+      {
+        "photo_reference": "Aa-ngMbu8-KftfAv4dPK4ZV7moVafW8RIUV1rTi6FFY2MJdvejVUsUDk21WImvelhLWSy9crgY0BaWfK8bkrGs-AgNvQGtZOwI80iW8KkOOhBTtpcULUVzKoaMe_H_vTZhiUl99QompSYtVpzyB-jtXK1lzuOisPf7xVV1QpHybPSUyWOWuUVgyqnav1NszL0jhdHBJpb-Is7q-unnlWQL8c6Afa3pYpHVIBDIwQ70HnZzy40b8C-kWZo7I7-6Y8FzLsbqmhmqSZ0k4ffMcfXwQuGee0jQRwPXIKdr4LxYuzBoGxZRqRa8sGqPe2JIMyK32jHLCP3rCFY50ME1rKVTwWfspZb6z2qZxjp28Qk8Wd8_6_KbFVOaCCPZdRKygFArUaxpsChSNIBBVw2TwsPMNlht9v5RMOU0tPIN4Dgc_tyFBYfQ",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbu8-KftfAv4dPK4ZV7moVafW8RIUV1rTi6FFY2MJdvejVUsUDk21WImvelhLWSy9crgY0BaWfK8bkrGs-AgNvQGtZOwI80iW8KkOOhBTtpcULUVzKoaMe_H_vTZhiUl99QompSYtVpzyB-jtXK1lzuOisPf7xVV1QpHybPSUyWOWuUVgyqnav1NszL0jhdHBJpb-Is7q-unnlWQL8c6Afa3pYpHVIBDIwQ70HnZzy40b8C-kWZo7I7-6Y8FzLsbqmhmqSZ0k4ffMcfXwQuGee0jQRwPXIKdr4LxYuzBoGxZRqRa8sGqPe2JIMyK32jHLCP3rCFY50ME1rKVTwWfspZb6z2qZxjp28Qk8Wd8_6_KbFVOaCCPZdRKygFArUaxpsChSNIBBVw2TwsPMNlht9v5RMOU0tPIN4Dgc_tyFBYfQ"
+      },
+      {
+        "photo_reference": "Aa-ngMbBNJJJ3RR5FRtKcuy_KWvYa0rzCLFbxBxHjSMTv3sPMB8Tam9-7jx5Q_ATEsHjTF1V1bneqdXdFZnGqWCt4JDohcsHnvqLBNKrHuhsbVuqkm2SNJ4L4KUVItavZIB2MvCWjTk8lUwmKtN0nAb1vvnSBjT7ISlZNbTGc4HpxZd_yCL-cSCoOnsj2M637hJ5ME3X5AC7u8nNmuqbu0-G7Kha7xLqRS-NDVLNzRu8_SKtckI7Bzr2z_pl4hUOHZ1lWV--ggsyT2-sPmPmn-Zgn-29_5YofBGETkHtwX_DYsbl2hU4uMdfYAAD5jPIk-CBcXWIgu4CbH440LHHxIgBL4UaD_cUhytvzVpjAJ_OPERoJyK_iDxMa-mGcusTcfGy-zqNbZCQ_EBsXf-lMhgCgLEznpM",
+        "height": 4128,
+        "width": 3096,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbBNJJJ3RR5FRtKcuy_KWvYa0rzCLFbxBxHjSMTv3sPMB8Tam9-7jx5Q_ATEsHjTF1V1bneqdXdFZnGqWCt4JDohcsHnvqLBNKrHuhsbVuqkm2SNJ4L4KUVItavZIB2MvCWjTk8lUwmKtN0nAb1vvnSBjT7ISlZNbTGc4HpxZd_yCL-cSCoOnsj2M637hJ5ME3X5AC7u8nNmuqbu0-G7Kha7xLqRS-NDVLNzRu8_SKtckI7Bzr2z_pl4hUOHZ1lWV--ggsyT2-sPmPmn-Zgn-29_5YofBGETkHtwX_DYsbl2hU4uMdfYAAD5jPIk-CBcXWIgu4CbH440LHHxIgBL4UaD_cUhytvzVpjAJ_OPERoJyK_iDxMa-mGcusTcfGy-zqNbZCQ_EBsXf-lMhgCgLEznpM"
+      },
+      {
+        "photo_reference": "Aa-ngMbtoQoqLZdm5VU_8a_FggwM09HSK00ZEGkqi0bh6CXtrKlVqwU0sc638GmrcRmf1qF_JzVYzfpQPxVTCpSI75iI2_ZfbCdv4UXZOVwPxevQoZFZYfmKxLv8M_8VidsgTcroi0jmqaLb8TAL6sPmN72OgJNjfT7QKoeG0isZukX_0MfaLoFhwao4bpYxmlp1GDtR50yXGFSke1OdU343R8SCsCSENRkLG-36iv_wwwtX9fmzvht0fvk6u0Ub0xwdH0rPxA4wtNQIYgViC_5F9w8EUcY47CMUQ0EiHyreI8OPuV_eUD-6naz4w8LJMkMnaeoiCv081SGZBQ61xb7uUTGhEEmdOQe_YmHLkLAsXXxb4Nsx5FlGmWN5OFcya68jyRXZKtRigrzRwrKXEzCzFVlUTlSG",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbtoQoqLZdm5VU_8a_FggwM09HSK00ZEGkqi0bh6CXtrKlVqwU0sc638GmrcRmf1qF_JzVYzfpQPxVTCpSI75iI2_ZfbCdv4UXZOVwPxevQoZFZYfmKxLv8M_8VidsgTcroi0jmqaLb8TAL6sPmN72OgJNjfT7QKoeG0isZukX_0MfaLoFhwao4bpYxmlp1GDtR50yXGFSke1OdU343R8SCsCSENRkLG-36iv_wwwtX9fmzvht0fvk6u0Ub0xwdH0rPxA4wtNQIYgViC_5F9w8EUcY47CMUQ0EiHyreI8OPuV_eUD-6naz4w8LJMkMnaeoiCv081SGZBQ61xb7uUTGhEEmdOQe_YmHLkLAsXXxb4Nsx5FlGmWN5OFcya68jyRXZKtRigrzRwrKXEzCzFVlUTlSG"
+      },
+      {
+        "photo_reference": "Aa-ngMaQFNmBfhFXvI2B-4wLuI4L7yNvxgx6MRcgDhraoSbDOox4JjyigtcG_NutNuCJABJd4jANYJMirbL3bz7ppQS1vrxjzWgCgbkipl7YmCdV6X6Stz1wpH4OphZRMUIn-40KYAbX9ouqNcy2HZCohID2Ywar076DMbCCYmo_27O6pj3F-35aGTECrjgkPOfOkI5nW13jpcqv4LyIPhTV09tuzOvr5wTX3CQSZ2EBb0SncxLAiNWKfJTAMyYNXoHwdS1KQ_5l3ynoPIVdpBNzvccI5nMiAxJTPUpxK2zQgg_hRlszbF17bwm6aaC5HcGpX2OxziPxqt6cUI1phYhI8cQVy-i3XMhC0Qm5itD9srZClFnEYhFdjpny2liqKbcHi2FyFk_bEIO2M6HuEqc-2fSgcuY",
+        "height": 4128,
+        "width": 1908,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaQFNmBfhFXvI2B-4wLuI4L7yNvxgx6MRcgDhraoSbDOox4JjyigtcG_NutNuCJABJd4jANYJMirbL3bz7ppQS1vrxjzWgCgbkipl7YmCdV6X6Stz1wpH4OphZRMUIn-40KYAbX9ouqNcy2HZCohID2Ywar076DMbCCYmo_27O6pj3F-35aGTECrjgkPOfOkI5nW13jpcqv4LyIPhTV09tuzOvr5wTX3CQSZ2EBb0SncxLAiNWKfJTAMyYNXoHwdS1KQ_5l3ynoPIVdpBNzvccI5nMiAxJTPUpxK2zQgg_hRlszbF17bwm6aaC5HcGpX2OxziPxqt6cUI1phYhI8cQVy-i3XMhC0Qm5itD9srZClFnEYhFdjpny2liqKbcHi2FyFk_bEIO2M6HuEqc-2fSgcuY"
+      },
+      {
+        "photo_reference": "Aa-ngMb1yHCK1GKrc90ntasTq2GM1JMpy_qxmL7c_mI_e3bSoBTxOjdt-EyQqsHbYFvNJ_BujiVzH-KcJPuFY6n_MIuG-J4nfdHbkfP6Heg3qIrb3TuMBWir-290y5lQWY7hZ9xuSHDmewzU-L9k0K2Na3pWbA_k_aRbYF2obx02C_EHy8K4olw1cPk0Dab_0HE7hB6fe4S3hPLhXwWlDkYSZzCShgZcSscBnNIFhyA0-lK4azcOM1mFK6Qe8WZfBefjWfcX1UUocOWVReo9V8kB86rkzb2KhVmBHOtdhG7Gg3de97iYz_Nyy0dOsNGs4c6iiHNtzG2G6DUs8MxI-DykDtBEnt4NA-p08jd7EgU-QyrsKv3eRoXRd3miDREoPqkLbaZdvedZ7ay7TGkZLM1lXFXA-wo-",
+        "height": 3096,
+        "width": 4128,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMb1yHCK1GKrc90ntasTq2GM1JMpy_qxmL7c_mI_e3bSoBTxOjdt-EyQqsHbYFvNJ_BujiVzH-KcJPuFY6n_MIuG-J4nfdHbkfP6Heg3qIrb3TuMBWir-290y5lQWY7hZ9xuSHDmewzU-L9k0K2Na3pWbA_k_aRbYF2obx02C_EHy8K4olw1cPk0Dab_0HE7hB6fe4S3hPLhXwWlDkYSZzCShgZcSscBnNIFhyA0-lK4azcOM1mFK6Qe8WZfBefjWfcX1UUocOWVReo9V8kB86rkzb2KhVmBHOtdhG7Gg3de97iYz_Nyy0dOsNGs4c6iiHNtzG2G6DUs8MxI-DykDtBEnt4NA-p08jd7EgU-QyrsKv3eRoXRd3miDREoPqkLbaZdvedZ7ay7TGkZLM1lXFXA-wo-"
+      },
+      {
+        "photo_reference": "Aa-ngMZNTj5OU-6cqtO_A9I9BD60wDhiQr-473Tz7VA3C5xKCuApFspG2bVt09UceVuTeqYOkHmg-q9TGjUu7lDIYmqvxi51wpUnvifEk57OZ9JAMkY2uCnCYzl0vnNBM5-2xQznpPUHmvJexwbJE-wltE8tEoCHIDggKpTsSKrrEt7CLRRvgv-x5NhkB0Rtmad1ZS8vzY7I01Hy6ao0Dez-zvhb3Vfdg6tT_C6yDJIK516lPPaGZ3XoeVwT-AOf2z6j4ygkmdAHm9hhJAQ0AywYzfL_ByM7iwAl1WT2G2DDSVMqhHJJ9ddXmlN-aCFGHQYi0Ui15BdXRP0J0qC0BOYUPx2k6mQoJVQCO7vMur7f1iVPNhdNprjpu8t6C7hna3F8YNh6QJSYnjb1KhkTFmFR-d4AL2E",
+        "height": 4000,
+        "width": 2256,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZNTj5OU-6cqtO_A9I9BD60wDhiQr-473Tz7VA3C5xKCuApFspG2bVt09UceVuTeqYOkHmg-q9TGjUu7lDIYmqvxi51wpUnvifEk57OZ9JAMkY2uCnCYzl0vnNBM5-2xQznpPUHmvJexwbJE-wltE8tEoCHIDggKpTsSKrrEt7CLRRvgv-x5NhkB0Rtmad1ZS8vzY7I01Hy6ao0Dez-zvhb3Vfdg6tT_C6yDJIK516lPPaGZ3XoeVwT-AOf2z6j4ygkmdAHm9hhJAQ0AywYzfL_ByM7iwAl1WT2G2DDSVMqhHJJ9ddXmlN-aCFGHQYi0Ui15BdXRP0J0qC0BOYUPx2k6mQoJVQCO7vMur7f1iVPNhdNprjpu8t6C7hna3F8YNh6QJSYnjb1KhkTFmFR-d4AL2E"
+      },
+      {
+        "photo_reference": "Aa-ngMZIO6KTR6GK6BLHIGrM8-b60vz91QHP9WsyUVV_F3C6w5Zgd8by2ulROF-jTJRevbdnyIgXm2nTQzltImJA371YhSrL9LdAWXJgPBje1SxSrChl17SbwoV0hMbx3wECwTtOPfwWO8iD3t6A6vCeFCEHMZua6JR8orNMWbV-CeCKQs7ydm7QmmaRz2IopkpDbsw7MVgzIpnjkH5mwv3WrTPpSbfAEN5o0JaTn3Tbs_mySCXcjUSvHegbNKeHXYcdxsVoG1Ia5ilUDMpodUvLW1VDy-l9nWGL2dFCBmGkrFXcpKqd5R_yKefEoF0UU_TKssIEkbCzsKQKjzDZBDSkrQ7neeMgZnmpX444xrfFEf4UBCwRcBjYqGx0V0MF93KrultLQgUJQtxq9E_MwdJc3xZhB-c",
+        "height": 3096,
+        "width": 4128,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZIO6KTR6GK6BLHIGrM8-b60vz91QHP9WsyUVV_F3C6w5Zgd8by2ulROF-jTJRevbdnyIgXm2nTQzltImJA371YhSrL9LdAWXJgPBje1SxSrChl17SbwoV0hMbx3wECwTtOPfwWO8iD3t6A6vCeFCEHMZua6JR8orNMWbV-CeCKQs7ydm7QmmaRz2IopkpDbsw7MVgzIpnjkH5mwv3WrTPpSbfAEN5o0JaTn3Tbs_mySCXcjUSvHegbNKeHXYcdxsVoG1Ia5ilUDMpodUvLW1VDy-l9nWGL2dFCBmGkrFXcpKqd5R_yKefEoF0UU_TKssIEkbCzsKQKjzDZBDSkrQ7neeMgZnmpX444xrfFEf4UBCwRcBjYqGx0V0MF93KrultLQgUJQtxq9E_MwdJc3xZhB-c"
+      }
+    ],
+    "place_id": "ChIJHWw9BxLk3JQRlgEqD_1u3Uw",
+    "price_level": 1,
+    "rating": 3.7,
+    "types": [
+      "bar",
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=5538705149895770518",
+    "user_ratings_total": 175,
+    "website": "https://www.facebook.com/bardomatiascwb/",
+    "added_at": "2026-10-06T17:50:01.320Z"
   }
 ]
