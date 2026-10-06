@@ -13553,5 +13553,316 @@
       "festa"
     ],
     "updated_at": "2026-09-30T18:37:13.417Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "1848",
+        "short_name": "1848",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Iguaçu",
+        "short_name": "Av. Iguaçu",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Água Verde",
+        "short_name": "Água Verde",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80250-190",
+        "short_name": "80250-190",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "editorial_summary": {
+      "language": "pt-br",
+      "overview": "Restaurante japonês rodízio ou à la carte, com cerveja artesanal e arte asiática em ambiente moderno."
+    },
+    "formatted_address": "Av. Iguaçu, 1848 - Água Verde, Curitiba - PR, 80250-190, Brasil",
+    "formatted_phone_number": "(41) 3244-1129",
+    "geometry": {
+      "location": {
+        "lat": -25.4458038,
+        "lng": -49.2792815
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4445350697085,
+          "lng": -49.27789686970849
+        },
+        "southwest": {
+          "lat": -25.44723303029151,
+          "lng": -49.28059483029149
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3244-1129",
+    "name": "Taisho Sushi",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1430"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1430"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1430"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1430"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1430"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: 11:30 – 14:30, 18:00 – 22:00",
+        "terça-feira: 11:30 – 14:30, 18:00 – 22:00",
+        "quarta-feira: 11:30 – 14:30, 18:00 – 22:00",
+        "quinta-feira: 11:30 – 14:30, 18:00 – 22:00",
+        "sexta-feira: 11:30 – 14:30, 18:00 – 22:00",
+        "sábado: 11:30 – 15:00, 18:00 – 22:00",
+        "domingo: 11:30 – 15:00, 18:00 – 22:00"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMbYV2oUzsQXxczv9-7FBXzrQhGXLvltgWTEUR2ktzSdIb4CjsmOJUqcLFs_yPxOac8lSWBcuszF2XAZxcTCVO_NhXDxMqXkR3zg65kuDKF35ljHdHAgN8p0eW9fsjFimho1_9eou5LbkwpBhACiJ4LX5w8an3bNpZ1dj7I2h5EMD6ssebxFNZG87ZdTi2Kgn2O_ci5OjDIA44py4mJVZb0eVQS1GQ_ULysHc96930o7icvu_tsRKtYGopc4hijP_Uae_sb2xDoWythRyKTw72HEZ0tCn0Cpn2RaHBAxR89quYIDBv1Inu75cVi6iXbIULZVNWVo0PV8Fs-Vjf24A_5aGljN0eBH_YUwFZNFAOunNvnbbLm6NUpWAZa5f1COAm5DBxIGF0OE5GzlaXYYNkcf23I",
+        "height": 1080,
+        "width": 1920,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbYV2oUzsQXxczv9-7FBXzrQhGXLvltgWTEUR2ktzSdIb4CjsmOJUqcLFs_yPxOac8lSWBcuszF2XAZxcTCVO_NhXDxMqXkR3zg65kuDKF35ljHdHAgN8p0eW9fsjFimho1_9eou5LbkwpBhACiJ4LX5w8an3bNpZ1dj7I2h5EMD6ssebxFNZG87ZdTi2Kgn2O_ci5OjDIA44py4mJVZb0eVQS1GQ_ULysHc96930o7icvu_tsRKtYGopc4hijP_Uae_sb2xDoWythRyKTw72HEZ0tCn0Cpn2RaHBAxR89quYIDBv1Inu75cVi6iXbIULZVNWVo0PV8Fs-Vjf24A_5aGljN0eBH_YUwFZNFAOunNvnbbLm6NUpWAZa5f1COAm5DBxIGF0OE5GzlaXYYNkcf23I"
+      },
+      {
+        "photo_reference": "Aa-ngMaeUaOZyyrcJz5zd-2oHjSuaF7S6n_rwkGAsLHnpLcKsS-_aUHUfWR0SGh63QFhwNXdy5fV24TR9rz8lkEyuwtTTjACEGyypTKJp7Tu1YrmWCGyH1qDPX7vmGKwOoUBZO6KC3dMeimD6H2aKibrp9bmlR_knb9o3wSQEcvaAxoT7qIrNLiE2RxbnJSNrb7L3IiZzHay6VYgoDoMuu_9lt2blJgdrnYpfJFdIvLPz9TSClZeNNjOK7ySX1Cxlrec5hzRnN9ERZiuhdBzLRFT1f89_XUJ0Fhfi-FQeTHUSWiNVFzaPkzPZ4zeCxHzTKklU39itovTVNXsMYQGXaBBUKWQt5pDGjD8GPtjM7DRXujUh1ojP4y_xJeQi5-t6p9EhhFI2qkalGKqsiOWhw8mg0Bnuw",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaeUaOZyyrcJz5zd-2oHjSuaF7S6n_rwkGAsLHnpLcKsS-_aUHUfWR0SGh63QFhwNXdy5fV24TR9rz8lkEyuwtTTjACEGyypTKJp7Tu1YrmWCGyH1qDPX7vmGKwOoUBZO6KC3dMeimD6H2aKibrp9bmlR_knb9o3wSQEcvaAxoT7qIrNLiE2RxbnJSNrb7L3IiZzHay6VYgoDoMuu_9lt2blJgdrnYpfJFdIvLPz9TSClZeNNjOK7ySX1Cxlrec5hzRnN9ERZiuhdBzLRFT1f89_XUJ0Fhfi-FQeTHUSWiNVFzaPkzPZ4zeCxHzTKklU39itovTVNXsMYQGXaBBUKWQt5pDGjD8GPtjM7DRXujUh1ojP4y_xJeQi5-t6p9EhhFI2qkalGKqsiOWhw8mg0Bnuw"
+      },
+      {
+        "photo_reference": "Aa-ngMZ2vYoCG1WJupWFf8TvX_yr699uepXTuFF3FXGoMxsLBUgVa06gWi4OjMrF3IyzA8Oca3nDRf9j9Zb_9cS8LSWp8vTqxJeRhVHzPWpVS9bangKFsTVBsgCU9LAZ06S9s9uJirWOZUAt0h-IFyaI2It25ZehUQ1Z4B3Wm2jNfyXFaCunq-Um-z5E4j_IckTmK-FEJITaQh_6lLMUPAONvIvR4L8hgExJ_8CGbV9XX_5xcEeyByBCw0gvVwasXLkij15dLsT_m1b78S8zTu5KEh8qYtP2OQCDfQK6eHz1h2eOsQOm_oCZfglxFT-jZy4hL2Q1kYvSgcC9zqG8pmSf9s71CiaTzzXCaD-TCbCkUnygkq81fpBQifoJuHCJ6O947whCavVx-loTLcHgOGl7mSRAvxqn5WoUaTeCgEGtDy5O",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZ2vYoCG1WJupWFf8TvX_yr699uepXTuFF3FXGoMxsLBUgVa06gWi4OjMrF3IyzA8Oca3nDRf9j9Zb_9cS8LSWp8vTqxJeRhVHzPWpVS9bangKFsTVBsgCU9LAZ06S9s9uJirWOZUAt0h-IFyaI2It25ZehUQ1Z4B3Wm2jNfyXFaCunq-Um-z5E4j_IckTmK-FEJITaQh_6lLMUPAONvIvR4L8hgExJ_8CGbV9XX_5xcEeyByBCw0gvVwasXLkij15dLsT_m1b78S8zTu5KEh8qYtP2OQCDfQK6eHz1h2eOsQOm_oCZfglxFT-jZy4hL2Q1kYvSgcC9zqG8pmSf9s71CiaTzzXCaD-TCbCkUnygkq81fpBQifoJuHCJ6O947whCavVx-loTLcHgOGl7mSRAvxqn5WoUaTeCgEGtDy5O"
+      },
+      {
+        "photo_reference": "Aa-ngMbTPpnzG3WsgwpoWxVbV_hCcgIHPiUxe57nHXyOTe39Yc4bhr7lnWIxSjvaVdBUnDnV14R9S8CZlSTHaDJZzze2kqwqzwjVxYw2Re-r_yyD3wVlX-1Qra549Y-BkwHCkE1p8E6nLWiWinbe2alpPHz5quK9rD78tJVVCIR0suRPnYWDkuAPYsCMryQ2-KGCUWftPpTIWCBmLJteSWVtq9pGl4Nr7UlzpqkrlaaL5aIbOW1pPnEa7kEWdSE3zkafZiOltxaW0QUOmU4na-s4gn-UpkHfvJsDLK3xmG5HkJiZGjyCf5uxhcN6r8AHjVXxZvZtfGWG3jdlUUPlQtsZEwdbvoIbJEpRX4WGNPeq-waFkaZgsQqVDPX8outu9kcNKRz6WPz93KN4kIdZbG_6M-QnuBxPf4xv1Fqdn-21wiSDXQ",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbTPpnzG3WsgwpoWxVbV_hCcgIHPiUxe57nHXyOTe39Yc4bhr7lnWIxSjvaVdBUnDnV14R9S8CZlSTHaDJZzze2kqwqzwjVxYw2Re-r_yyD3wVlX-1Qra549Y-BkwHCkE1p8E6nLWiWinbe2alpPHz5quK9rD78tJVVCIR0suRPnYWDkuAPYsCMryQ2-KGCUWftPpTIWCBmLJteSWVtq9pGl4Nr7UlzpqkrlaaL5aIbOW1pPnEa7kEWdSE3zkafZiOltxaW0QUOmU4na-s4gn-UpkHfvJsDLK3xmG5HkJiZGjyCf5uxhcN6r8AHjVXxZvZtfGWG3jdlUUPlQtsZEwdbvoIbJEpRX4WGNPeq-waFkaZgsQqVDPX8outu9kcNKRz6WPz93KN4kIdZbG_6M-QnuBxPf4xv1Fqdn-21wiSDXQ"
+      },
+      {
+        "photo_reference": "Aa-ngMaXp1c9tUuAP2vhR8oM6MOM2ba3yJc6BHaUToZ3Yduj9eSLemx7bsUBaUUuB8N-ASQlYhaZLDbIz2zLeopmWcOBQyCR1n7byNPuqFRpg-A1bGqX4o9ZNqdvV2R4W62KkAGp_nNYTFsN13ZeDAApMQ5H0Lq5O6rqdQqVzPUTCJQ_anGsdUBPzE1ZND7BFjIdDkeBKocyPTaewkcmdWjrxGs2QxfcbLdKBuXtXNCOT2j1ejCm-3r02yj_rpSwjKmnxeELMbZHKe2u5lRTOGVYy03CgMwoEzaRWrjZ6OAEpzWbayLfsSiXgjsyvnLFmtCWuGdRmn3W0dOue6t99TbZrdGC4UW9AxSUMnHal-oe5HNgiZ_9ZgT3B2TVx0WQAXi-789y2YCV_X8DuehXmp3DWWiQ-4RPm1rVg5b-HWc25SJgXA",
+        "height": 4800,
+        "width": 2700,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaXp1c9tUuAP2vhR8oM6MOM2ba3yJc6BHaUToZ3Yduj9eSLemx7bsUBaUUuB8N-ASQlYhaZLDbIz2zLeopmWcOBQyCR1n7byNPuqFRpg-A1bGqX4o9ZNqdvV2R4W62KkAGp_nNYTFsN13ZeDAApMQ5H0Lq5O6rqdQqVzPUTCJQ_anGsdUBPzE1ZND7BFjIdDkeBKocyPTaewkcmdWjrxGs2QxfcbLdKBuXtXNCOT2j1ejCm-3r02yj_rpSwjKmnxeELMbZHKe2u5lRTOGVYy03CgMwoEzaRWrjZ6OAEpzWbayLfsSiXgjsyvnLFmtCWuGdRmn3W0dOue6t99TbZrdGC4UW9AxSUMnHal-oe5HNgiZ_9ZgT3B2TVx0WQAXi-789y2YCV_X8DuehXmp3DWWiQ-4RPm1rVg5b-HWc25SJgXA"
+      },
+      {
+        "photo_reference": "Aa-ngMZNjpIFIHq6dXdiBnZ4DOkSkcYLUqkNfUBsnrfsynDfDNa3h4IbYQdoA6rKkumVP0pUwgfOc6F_8T4Vrhp9lXOusNK68NDScVmzTKhxaXEKeEio1vD26kZD3A0qs0ut41oNZxrQbzwQ1VXBKUJTKXAfH7m_j_aqkc--kbeapklo4RGJbgHeEheM3hVM-Fe2yi2wlM0BfSXYfce2JzG_-sBkoRTNV-tPuq9SiYQWgiT5jK_0HkVPxnCdUm8ilVVcslgvdg31BlNLnRY6fbRLN24CnoIpi7QmLhRVQCtsA_Rq8NBLAnxPmrfrQp3c9653oFG_XWdwjikHU-PIaM3PbSCARTBe1jfvFajzzaScZPsktL0nsMR7cwOpswmdV_dKiv5PQw7MSUPp69bDgMLK_36qloBFh87XT8SDfzMw5AKu3A",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZNjpIFIHq6dXdiBnZ4DOkSkcYLUqkNfUBsnrfsynDfDNa3h4IbYQdoA6rKkumVP0pUwgfOc6F_8T4Vrhp9lXOusNK68NDScVmzTKhxaXEKeEio1vD26kZD3A0qs0ut41oNZxrQbzwQ1VXBKUJTKXAfH7m_j_aqkc--kbeapklo4RGJbgHeEheM3hVM-Fe2yi2wlM0BfSXYfce2JzG_-sBkoRTNV-tPuq9SiYQWgiT5jK_0HkVPxnCdUm8ilVVcslgvdg31BlNLnRY6fbRLN24CnoIpi7QmLhRVQCtsA_Rq8NBLAnxPmrfrQp3c9653oFG_XWdwjikHU-PIaM3PbSCARTBe1jfvFajzzaScZPsktL0nsMR7cwOpswmdV_dKiv5PQw7MSUPp69bDgMLK_36qloBFh87XT8SDfzMw5AKu3A"
+      },
+      {
+        "photo_reference": "Aa-ngMa4lsJ975fhpWOv_p4gZQ9j2XxddaZsffK4Z49uSjbRjVTKSNZR3OURLAnoBUwHCVLclUNCB5JlrA8ICQO1g3Ml47NhknmodmdYi6lODfIKtsLsrFEmrWLM1cyY-kS32CtrqMwzff2KiV-jQWp4XGw8KvQGBZzfwV2IcHpIshi9Oo7bT732bOxSpGEPH33RA9rNsIq0f8Sl7JYn3qAG6JEqjBdUzjDob2HZNaybu2Yo5_vbzuy89Xw2F42TSRyy5_WgqEOccHDKtsdMoiTQFT7PdxE-iMxtyFH-zMj-LLp8SnSf1sf8-K91z7Iwr1edZ5m8rSsiUJrvyPmrNzd31IPcYuTcjfNzkKnoaAB7cTIIypbofsHM6Zx7ENs-gi8LtQ7wtClbWs0nimkj6f-TjV2YokND5uY",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMa4lsJ975fhpWOv_p4gZQ9j2XxddaZsffK4Z49uSjbRjVTKSNZR3OURLAnoBUwHCVLclUNCB5JlrA8ICQO1g3Ml47NhknmodmdYi6lODfIKtsLsrFEmrWLM1cyY-kS32CtrqMwzff2KiV-jQWp4XGw8KvQGBZzfwV2IcHpIshi9Oo7bT732bOxSpGEPH33RA9rNsIq0f8Sl7JYn3qAG6JEqjBdUzjDob2HZNaybu2Yo5_vbzuy89Xw2F42TSRyy5_WgqEOccHDKtsdMoiTQFT7PdxE-iMxtyFH-zMj-LLp8SnSf1sf8-K91z7Iwr1edZ5m8rSsiUJrvyPmrNzd31IPcYuTcjfNzkKnoaAB7cTIIypbofsHM6Zx7ENs-gi8LtQ7wtClbWs0nimkj6f-TjV2YokND5uY"
+      },
+      {
+        "photo_reference": "Aa-ngMaSmsni0ziqFop2ovFJ8ISisx6__-wtokuIEnlTVrcRdfKAh-tpGWkLIfJvWAAN26Rn6jowpr6AcNnRg3qpjsyPjEzu3mdKB7uDsZY6RfUGe1xqZAvd16iyZdVco1G8iI7fOkt7jXN3hTxQ_7ik_qwlnEuTiEiiS-e2hMnMt1m8HvBKqoPIXsuGa9k9cJs17iG8YCG6eOxMwtaoxwyPd2GFX3jhnGkNgB26OMQWle0QYVOlItaH3o70R9hGqPAl8Muz8HaV0qeJXbPIp5EYyekreH3qN7dg4Od6NKrWGTYe6ZcjuFH-kNsQG02Z0BgHfXVWIER7TnznuBZoV-VfPHoUT2kL11C2I_Dm8N5KGX7M3DrBOsCgusrlqUPYMU-gOcTOwxuEuB1_EdbWAzCln99claOsJvk",
+        "height": 1080,
+        "width": 1920,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaSmsni0ziqFop2ovFJ8ISisx6__-wtokuIEnlTVrcRdfKAh-tpGWkLIfJvWAAN26Rn6jowpr6AcNnRg3qpjsyPjEzu3mdKB7uDsZY6RfUGe1xqZAvd16iyZdVco1G8iI7fOkt7jXN3hTxQ_7ik_qwlnEuTiEiiS-e2hMnMt1m8HvBKqoPIXsuGa9k9cJs17iG8YCG6eOxMwtaoxwyPd2GFX3jhnGkNgB26OMQWle0QYVOlItaH3o70R9hGqPAl8Muz8HaV0qeJXbPIp5EYyekreH3qN7dg4Od6NKrWGTYe6ZcjuFH-kNsQG02Z0BgHfXVWIER7TnznuBZoV-VfPHoUT2kL11C2I_Dm8N5KGX7M3DrBOsCgusrlqUPYMU-gOcTOwxuEuB1_EdbWAzCln99claOsJvk"
+      },
+      {
+        "photo_reference": "Aa-ngMaTuESZWvl-cLiFyB3HXRg_4-b5jg7Mp1HNLPzhCy3-0g1H9yATRkFlBxy1iFDErS2derOqXAyhgS777HFWZlgSh956sLnCcmv-6VXHl0S3lULRJmh6snOfZotoTdWoLC6lTmGvOhRcwY6hZFtvBvP4eTwp6t8PfzCubnM83wUc-HZJ3fXCY5FZHP5g3pGcYzoY1rWIFKsuUmj6UtEvyW0zMjIhs2OS0iQwcmMAyU_5-paYXp6p2E_E8sJ9CqMSyH5WZEHFPcEkqNiKwb9mP4Xfkm8vgudDCzrffiHir81sShamvoqPRvQjzJrix0H12B1Z6cUFZ6q6JxncfcqZsOloIcOeyi0bmPZ9PbCC_jdkjrPFTHmY5oGOQxogYFHKmihsrw6XzYx56cMu3sL24TuxgYI",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaTuESZWvl-cLiFyB3HXRg_4-b5jg7Mp1HNLPzhCy3-0g1H9yATRkFlBxy1iFDErS2derOqXAyhgS777HFWZlgSh956sLnCcmv-6VXHl0S3lULRJmh6snOfZotoTdWoLC6lTmGvOhRcwY6hZFtvBvP4eTwp6t8PfzCubnM83wUc-HZJ3fXCY5FZHP5g3pGcYzoY1rWIFKsuUmj6UtEvyW0zMjIhs2OS0iQwcmMAyU_5-paYXp6p2E_E8sJ9CqMSyH5WZEHFPcEkqNiKwb9mP4Xfkm8vgudDCzrffiHir81sShamvoqPRvQjzJrix0H12B1Z6cUFZ6q6JxncfcqZsOloIcOeyi0bmPZ9PbCC_jdkjrPFTHmY5oGOQxogYFHKmihsrw6XzYx56cMu3sL24TuxgYI"
+      },
+      {
+        "photo_reference": "Aa-ngMZegIQfMig7ocdiIY9gIC0V6-Mm08VU2_5Llq5wMp0YtmOkvIEx6mEQUfulAvWedcrJ5LRBTWvan0gOgoqiVgnCjQ8j_A34v4FFD-DeDhNlIhyfe3FhslsCuV8y1wWwroYdwRfNbbAztHP2EYyQanspPpjPeP2nluWkJGOdA-QDbS6gUG_20jvF9jnPAO4NhPxlWNL_qq49tserG8Nyn6QrS0fwbk5MH4SkVTx0lDfg68qKlmX9gWrqoGP_gk4cKDYnJf9y9ZJ22hy-bpHT-A9y_GlGZPhJxQJTpbibj-g92wcj3BLH0MUiBdiXdUpe_Mt1xajcoVRWv6q0E1PwT3EJt2D6N81Hr7Zmk9ZXnchHCmfX_EXSZaS6ws2WaSpYdUPaTR3lKcsOl3S_PKVLOpmATJuKhbXaAg0Cyf2O89tPCw",
+        "height": 3000,
+        "width": 4000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZegIQfMig7ocdiIY9gIC0V6-Mm08VU2_5Llq5wMp0YtmOkvIEx6mEQUfulAvWedcrJ5LRBTWvan0gOgoqiVgnCjQ8j_A34v4FFD-DeDhNlIhyfe3FhslsCuV8y1wWwroYdwRfNbbAztHP2EYyQanspPpjPeP2nluWkJGOdA-QDbS6gUG_20jvF9jnPAO4NhPxlWNL_qq49tserG8Nyn6QrS0fwbk5MH4SkVTx0lDfg68qKlmX9gWrqoGP_gk4cKDYnJf9y9ZJ22hy-bpHT-A9y_GlGZPhJxQJTpbibj-g92wcj3BLH0MUiBdiXdUpe_Mt1xajcoVRWv6q0E1PwT3EJt2D6N81Hr7Zmk9ZXnchHCmfX_EXSZaS6ws2WaSpYdUPaTR3lKcsOl3S_PKVLOpmATJuKhbXaAg0Cyf2O89tPCw"
+      }
+    ],
+    "place_id": "ChIJmaC9fXnk3JQRfxMJQrRcpdA",
+    "rating": 4.7,
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "url": "https://maps.google.com/?cid=15034524860318028671",
+    "user_ratings_total": 11608,
+    "website": "http://www.taisho.com.br/",
+    "added_at": "2026-10-06T17:44:13.794Z"
   }
 ]
