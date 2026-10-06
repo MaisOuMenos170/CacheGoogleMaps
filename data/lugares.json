@@ -14561,5 +14561,126 @@
       "bar"
     ],
     "updated_at": "2026-10-06T17:51:19.288Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "50",
+        "short_name": "50",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rua São Francisco",
+        "short_name": "R. São Francisco",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Centro",
+        "short_name": "Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80020-190",
+        "short_name": "80020-190",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "R. São Francisco, 50 - Centro, Curitiba - PR, 80020-190, Brasil",
+    "geometry": {
+      "location": {
+        "lat": -25.4282707,
+        "lng": -49.2688778
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4269579197085,
+          "lng": -49.26752836970849
+        },
+        "southwest": {
+          "lat": -25.42965588029151,
+          "lng": -49.27022633029149
+        }
+      }
+    },
+    "name": "É Dino Cultural",
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMbGFaPUBiHMhRhDIIzZU3SKtaIJ6wRXV6N2PjAIZ0RfNZrbZnpwRnwsei7l2qYiQn_XBJJzpIui9fjHuQPNLSYhbiIADDaSdoKU6EZlXYeFT2JPXfIbsiPPNXYSzDQ75FBC6bWGTKpiqTWu4Ik2xQ26_Ha7zcFHfCs2QnfR2qlSpLlYxilUn2NRCCtPptddneIW9ZoPNAco-QRTNKrFa64HI2SQhXkNdcbCJTgXuOuHXDDCmcLApoS-7MmYW-Pbz4n8WWcuJY7pnUn3LE5FpR_c_0WkZ2ngv_2yBpsMcLFm2Zu1lfNWjc26OqIz_3dzRZ9mD1nGWyr0H-vIWuIHqIV_nObNStsJvMltmTKoR-5PxyQqZpOsaO99EthV72qGtgnUkjcKm0TY2ED1ZVrCL3CjdIE1rL1Fca_FmnfH_-snWw",
+        "height": 1600,
+        "width": 900,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbGFaPUBiHMhRhDIIzZU3SKtaIJ6wRXV6N2PjAIZ0RfNZrbZnpwRnwsei7l2qYiQn_XBJJzpIui9fjHuQPNLSYhbiIADDaSdoKU6EZlXYeFT2JPXfIbsiPPNXYSzDQ75FBC6bWGTKpiqTWu4Ik2xQ26_Ha7zcFHfCs2QnfR2qlSpLlYxilUn2NRCCtPptddneIW9ZoPNAco-QRTNKrFa64HI2SQhXkNdcbCJTgXuOuHXDDCmcLApoS-7MmYW-Pbz4n8WWcuJY7pnUn3LE5FpR_c_0WkZ2ngv_2yBpsMcLFm2Zu1lfNWjc26OqIz_3dzRZ9mD1nGWyr0H-vIWuIHqIV_nObNStsJvMltmTKoR-5PxyQqZpOsaO99EthV72qGtgnUkjcKm0TY2ED1ZVrCL3CjdIE1rL1Fca_FmnfH_-snWw"
+      },
+      {
+        "photo_reference": "Aa-ngMZ2mMrlaV2-ZAm4kwoz9GPA-Cca4grPxZtoFW7Y2YJTLeZJ5zV1tdMR_fpQVsoyYT7evqRk2R6iFAXkz-HQtD4ak49CbZK-8J62qkNsS_qPcxP10VHWbqIENHhlTOO6XLo8lpfPuSC3wcPs6_3AEQXx2ypZB6C4xtUxTZApBYeFDXlUAK8nwuJB-3gSt3PnCexBb4-DZz2BEpzWtS2ji_bXAt1_ZsoQaiYvRVn-zzn0SbqDDKYpi-oO4CgTBVVDlYpo0oWOoOen-24vAjVrEJdE5HUJEDdBPaFhsw8pXse7BYP7dLNok2_StRkks1mWuVGElc1kK4cHg6MK7RGnCSL5rP1m7Ss8mj_atJslOACK71rNknBmFNDVy6fJV5-9UpdO9D4-4NU6WhotUVcF9mwm54g",
+        "height": 4080,
+        "width": 3072,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZ2mMrlaV2-ZAm4kwoz9GPA-Cca4grPxZtoFW7Y2YJTLeZJ5zV1tdMR_fpQVsoyYT7evqRk2R6iFAXkz-HQtD4ak49CbZK-8J62qkNsS_qPcxP10VHWbqIENHhlTOO6XLo8lpfPuSC3wcPs6_3AEQXx2ypZB6C4xtUxTZApBYeFDXlUAK8nwuJB-3gSt3PnCexBb4-DZz2BEpzWtS2ji_bXAt1_ZsoQaiYvRVn-zzn0SbqDDKYpi-oO4CgTBVVDlYpo0oWOoOen-24vAjVrEJdE5HUJEDdBPaFhsw8pXse7BYP7dLNok2_StRkks1mWuVGElc1kK4cHg6MK7RGnCSL5rP1m7Ss8mj_atJslOACK71rNknBmFNDVy6fJV5-9UpdO9D4-4NU6WhotUVcF9mwm54g"
+      },
+      {
+        "photo_reference": "Aa-ngMZPL981nYcHehKjqpcmWKS3E_xI8-OBFCIjZD6DD6LoLdGr0Rg5irPrLiUE8Boca7JFFRVn7X0jRQR5gQnAcgTFvk0UGBdQfIvC3vDLRoAxuaIPC9UfobbYPfq1J1ll_4yCtZ7WDSiPg6-4MPf-siJnXWrGhMNO6b3qCjoGdai_1zjtc2RvwFUi6nYEpRNSYG3MW2ANKatYdG7nYAnlQ1TBVEpx7yabl_FmNZ6cCG1QKfLoenqUl9BEWFGxNP0PNwBlqQuQ-ULELlELH5XMp-GQd3IEhumcnK0uk8kYW7zJEjq4CWrbe0OdCsounothp5UXPTosSEU_VH1O9pnNObvrdbF1e1nzW2JEaz07PHGb4ww8cLyAQwCmhvQOf7tFe0LV7iJ0za0LcPprElx3k1sOjZnwn8Bn-sWPUyQhT6B3_g",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZPL981nYcHehKjqpcmWKS3E_xI8-OBFCIjZD6DD6LoLdGr0Rg5irPrLiUE8Boca7JFFRVn7X0jRQR5gQnAcgTFvk0UGBdQfIvC3vDLRoAxuaIPC9UfobbYPfq1J1ll_4yCtZ7WDSiPg6-4MPf-siJnXWrGhMNO6b3qCjoGdai_1zjtc2RvwFUi6nYEpRNSYG3MW2ANKatYdG7nYAnlQ1TBVEpx7yabl_FmNZ6cCG1QKfLoenqUl9BEWFGxNP0PNwBlqQuQ-ULELlELH5XMp-GQd3IEhumcnK0uk8kYW7zJEjq4CWrbe0OdCsounothp5UXPTosSEU_VH1O9pnNObvrdbF1e1nzW2JEaz07PHGb4ww8cLyAQwCmhvQOf7tFe0LV7iJ0za0LcPprElx3k1sOjZnwn8Bn-sWPUyQhT6B3_g"
+      },
+      {
+        "photo_reference": "Aa-ngMbSDPfgC4ty4aOJDEpJxtrBX346Hg-7BJDt3YIQFlXS_aWQBS8cVZ438qUCYb-o9T6jZJb7wPLSC0225d8EatGDAJIEdeJn_nE7RBtczRK18TU0XqVB5wBWPoNU1PXvbIqZ7Sq3rzNGoWX81lxq7aA_64kt5gZUH-J5CsEAKGjt4rRHGLAiG8zQmWA1yAhfLfTlZgBWyUbIMdBGRyZGB_qXlTd8bY4JEaSj1t6lM19veREX4L5NWwXb7kDrS1Nvg-Drf4GrUUX7MxbG8ktYEhUW3AXHiQg4OjlBareEKchkZdnpqSKoylL-_IznQbJ277dOeHcisd5ZKm2BtBg40X_rrwszlFKqEbcYFzCf-FDfm9TXM9ZScpmzDENRhf290iZCdFGz0PbSj9hO-FuiqQKyKA",
+        "height": 4000,
+        "width": 2252,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbSDPfgC4ty4aOJDEpJxtrBX346Hg-7BJDt3YIQFlXS_aWQBS8cVZ438qUCYb-o9T6jZJb7wPLSC0225d8EatGDAJIEdeJn_nE7RBtczRK18TU0XqVB5wBWPoNU1PXvbIqZ7Sq3rzNGoWX81lxq7aA_64kt5gZUH-J5CsEAKGjt4rRHGLAiG8zQmWA1yAhfLfTlZgBWyUbIMdBGRyZGB_qXlTd8bY4JEaSj1t6lM19veREX4L5NWwXb7kDrS1Nvg-Drf4GrUUX7MxbG8ktYEhUW3AXHiQg4OjlBareEKchkZdnpqSKoylL-_IznQbJ277dOeHcisd5ZKm2BtBg40X_rrwszlFKqEbcYFzCf-FDfm9TXM9ZScpmzDENRhf290iZCdFGz0PbSj9hO-FuiqQKyKA"
+      },
+      {
+        "photo_reference": "Aa-ngMb1FASPciBKUhCAUxOxLPapYyEBgRI36GW3ZdoxNQNtCVTj5YCzwYPCoYQuxoBH-mg7NlRCOaGHDlh63Q_6NPUxiZPdyX89w0a8-nfZMq5tbSgSSnlSDTHoLIH0yOJbeTZ1cTLDl4pB7JPqtjdSKMQZXT20VfsPZXI2g8Cifyym_53CqgbyYvZdXoW8_wZHBwFkeWNBuhIUacsUE9lna21ISKvU2bxpV3w9wwtCLXtPyL6nGQ6AxCoQRg_1oVqDbB1s8Jy6PJRUE6whZ2twRJ9oy5-WgQwRS7eOofXCyLbUIsqSd517hagHgfF1QMn_0FzF1R834Gz-Jf2vBRkExfiLc6LRiQNOkA4m1H7P6Igi7u0GVCMmOfrpJ-OV3g-arTczHLT65P16a4DnPAqhtWUeW6PCjQhpqiSXn6kawUvq",
+        "height": 1600,
+        "width": 900,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMb1FASPciBKUhCAUxOxLPapYyEBgRI36GW3ZdoxNQNtCVTj5YCzwYPCoYQuxoBH-mg7NlRCOaGHDlh63Q_6NPUxiZPdyX89w0a8-nfZMq5tbSgSSnlSDTHoLIH0yOJbeTZ1cTLDl4pB7JPqtjdSKMQZXT20VfsPZXI2g8Cifyym_53CqgbyYvZdXoW8_wZHBwFkeWNBuhIUacsUE9lna21ISKvU2bxpV3w9wwtCLXtPyL6nGQ6AxCoQRg_1oVqDbB1s8Jy6PJRUE6whZ2twRJ9oy5-WgQwRS7eOofXCyLbUIsqSd517hagHgfF1QMn_0FzF1R834Gz-Jf2vBRkExfiLc6LRiQNOkA4m1H7P6Igi7u0GVCMmOfrpJ-OV3g-arTczHLT65P16a4DnPAqhtWUeW6PCjQhpqiSXn6kawUvq"
+      }
+    ],
+    "place_id": "ChIJN_IIGQDl3JQRFFu4KtEv9Tk",
+    "price_level": 1,
+    "rating": 4.7,
+    "types": [
+      "bar",
+      "establishment",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=4176296804867398420",
+    "user_ratings_total": 140,
+    "website": "https://www.instagram.com/edinocultural/",
+    "added_at": "2026-10-06T17:51:33.869Z"
   }
 ]
