@@ -18,10 +18,10 @@ export function checkCatalog(places, expected) {
     const category = inferCategory(place.tags, place.types);
     counts.set(category, (counts.get(category) ?? 0) + 1);
     if (!Array.isArray(place.photos) || place.photos.length === 0) {
-      withoutPhoto.push(place.name || "(sem nome)");
+      withoutPhoto.push(displayName(place));
     }
     if (place.place_id) {
-      if (seenIds.has(place.place_id)) problems.push(`place_id repetido: ${place.name || place.place_id}`);
+      if (seenIds.has(place.place_id)) problems.push(`place_id repetido: ${displayName(place)}`);
       seenIds.add(place.place_id);
     }
   }
@@ -42,7 +42,14 @@ export function checkCatalog(places, expected) {
     }
   }
 
-  return { ok: problems.length === 0, markdown: render(expected.note, counts, withoutPhoto, problems) };
+  return { ok: problems.length === 0, markdown: render(counts, withoutPhoto, problems) };
+}
+
+function displayName(place) {
+  const nickname = typeof place.nickname === "string" ? place.nickname.trim() : "";
+  if (nickname) return nickname;
+  const name = typeof place.name === "string" ? place.name.trim() : "";
+  return name || "(sem nome)";
 }
 
 function placeMatches(place, wanted) {
@@ -53,7 +60,7 @@ function placeMatches(place, wanted) {
   return true;
 }
 
-function render(note, counts, withoutPhoto, problems) {
+function render(counts, withoutPhoto, problems) {
   const countLines = [...counts.entries()]
     .sort((a, b) => a[0].localeCompare(b[0]))
     .map(([category, count]) => `- ${category}: ${count}`);
@@ -64,8 +71,6 @@ function render(note, counts, withoutPhoto, problems) {
   return [
     "## Catálogo",
     "",
-    note || "Lista esperada copiada do seed. Se o seed mudar e este arquivo não, o comentário fica velho.",
-    "",
     "### Por categoria",
     ...countLines,
     "",
@@ -74,6 +79,8 @@ function render(note, counts, withoutPhoto, problems) {
     "",
     "### Problemas",
     ...problemLines,
+    "",
+    "Os nomes que o seed exige estão em `data/roteiros-esperados.json`.",
     "",
   ].join("\n");
 }

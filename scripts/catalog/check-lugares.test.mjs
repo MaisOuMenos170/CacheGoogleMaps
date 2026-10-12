@@ -16,6 +16,23 @@ const expected = {
   ],
 };
 
+test("a place without a photo is listed by its nickname", () => {
+  const result = checkCatalog(
+    [
+      {
+        name: "R. São Francisco, 171",
+        nickname: "Último estacionamento de cavalo de Curitiba",
+        place_id: "x",
+        types: ["street_address"],
+        photos: [],
+      },
+    ],
+    { routes: [] },
+  );
+  assert.match(result.markdown, /Último estacionamento de cavalo de Curitiba/);
+  assert.doesNotMatch(result.markdown, /São Francisco, 171|mentir/);
+});
+
 test("a missing seed name fails and the report stays free of coordinates", () => {
   const result = checkCatalog(
     [
