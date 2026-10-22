@@ -15435,5 +15435,235 @@
     "user_ratings_total": 2900,
     "website": "https://www.italycaffe.com.br/",
     "added_at": "2026-10-22T18:23:53.762Z"
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "761",
+        "short_name": "761",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Rep. Argentina",
+        "short_name": "Avenida Rep. Argentina",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Água Verde",
+        "short_name": "Água Verde",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "PR",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "BR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80240-210",
+        "short_name": "80240-210",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Av. Rep. Argentina, 761 - Água Verde, Curitiba - PR, 80240-210, Brasil",
+    "formatted_phone_number": "(41) 3244-6885",
+    "geometry": {
+      "location": {
+        "lat": -25.4533218,
+        "lng": -49.28763559999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -25.4519598197085,
+          "lng": -49.28634986970849
+        },
+        "southwest": {
+          "lat": -25.4546577802915,
+          "lng": -49.28904783029149
+        }
+      }
+    },
+    "international_phone_number": "+55 41 3244-6885",
+    "name": "Casa das Massas Cicinielli",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1330"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "segunda-feira: Fechado",
+        "terça-feira: 09:00 – 18:00",
+        "quarta-feira: 09:00 – 18:00",
+        "quinta-feira: 09:00 – 18:00",
+        "sexta-feira: 09:00 – 18:00",
+        "sábado: 09:00 – 18:00",
+        "domingo: 08:00 – 13:30"
+      ]
+    },
+    "photos": [
+      {
+        "photo_reference": "Aa-ngMYMGuZrPmF0lTnV_ZtErNmRh2ng72oV2VqZSjChPiQpjb_tsKefvRACKWwk8ckbEwEhdBDCoL-45mSkyKz50twky1OUQm8Tit8tU40f2uooXpYx6CYnrBD5lxNIpClC7JwC_O3a8Q7rBXiQ6D5-Jh_Ikj5BRjJEjFfYpWI7QFe8_bAkHiGI_c3asVheQC4Pqc8oEw46b9NaEpczwIikTfO60OKJTh8PYPoExOEFJXf-bwuXT65yvkmhs3rNpJuIIVfDc62yLmqeFck6AMyYqZugwD8p6BeUMFQi09SQ0axQve8KZRhsZbu-vM1pSBZ1DnArFLWR9FBBUCvRPQrmgxfY-7ReOU49KcOdX3xQZ_USHwQgBJYaUdpx6ZLKOf2HTBxj88b77gpg36jwM7ajfMKIfKA",
+        "height": 900,
+        "width": 1305,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYMGuZrPmF0lTnV_ZtErNmRh2ng72oV2VqZSjChPiQpjb_tsKefvRACKWwk8ckbEwEhdBDCoL-45mSkyKz50twky1OUQm8Tit8tU40f2uooXpYx6CYnrBD5lxNIpClC7JwC_O3a8Q7rBXiQ6D5-Jh_Ikj5BRjJEjFfYpWI7QFe8_bAkHiGI_c3asVheQC4Pqc8oEw46b9NaEpczwIikTfO60OKJTh8PYPoExOEFJXf-bwuXT65yvkmhs3rNpJuIIVfDc62yLmqeFck6AMyYqZugwD8p6BeUMFQi09SQ0axQve8KZRhsZbu-vM1pSBZ1DnArFLWR9FBBUCvRPQrmgxfY-7ReOU49KcOdX3xQZ_USHwQgBJYaUdpx6ZLKOf2HTBxj88b77gpg36jwM7ajfMKIfKA"
+      },
+      {
+        "photo_reference": "Aa-ngMYplxFnT5xboVHERtkFOQXZuliMAN0N-Xhw2_q9z1FKLyrds_ecAm_NaqaoD5ozwFBej57kZ2g9kxcjnkgicPhfIG-30kPE72FXmUqvEoo6FVRfUgIkGFRb1lSrNb6ZNA1GFQzu0vNUb5Ek2YH0n0585ViGqnMIHT95P9aBKGQrroOHiUN6uejavWB2sbljJ-rSjE98NFNwRu86fyDqOuWQ3uq7MdqiatazRj78EtbnFvf9pTLZ8bg7TMAHbZF2Y4vSZVNv3QOhJTy67fCp89hYVzXRqxkqhQnoVmXjxVH5zJeg0xmOAkdMLf8_N8Cgcap7d-6hkIocPIQlFNGnwhCMkGcPEDXQKH3F4hCSPjIIWRMM0pl-jpOHKSTEGcLHn3njKPH_Spj6bazCvpYJIhAO77XKx90",
+        "height": 2000,
+        "width": 1600,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYplxFnT5xboVHERtkFOQXZuliMAN0N-Xhw2_q9z1FKLyrds_ecAm_NaqaoD5ozwFBej57kZ2g9kxcjnkgicPhfIG-30kPE72FXmUqvEoo6FVRfUgIkGFRb1lSrNb6ZNA1GFQzu0vNUb5Ek2YH0n0585ViGqnMIHT95P9aBKGQrroOHiUN6uejavWB2sbljJ-rSjE98NFNwRu86fyDqOuWQ3uq7MdqiatazRj78EtbnFvf9pTLZ8bg7TMAHbZF2Y4vSZVNv3QOhJTy67fCp89hYVzXRqxkqhQnoVmXjxVH5zJeg0xmOAkdMLf8_N8Cgcap7d-6hkIocPIQlFNGnwhCMkGcPEDXQKH3F4hCSPjIIWRMM0pl-jpOHKSTEGcLHn3njKPH_Spj6bazCvpYJIhAO77XKx90"
+      },
+      {
+        "photo_reference": "Aa-ngMZQI8XwWHK-iJPMZT7O5q6AZGdJJHz-tkmgJyiuGuqEFG-McQM064l0t87FcpSv34BPzefKrF-8kr2q9bdbmcJ2zV7_3s45oj6rhgQQ0Pwo4WjuayV61zKpQL9nfZ7vbA4ABe_QaiVNpkB0mQFT6WbJ_qtzHaISXyGdzyCHEe5IPKgR4T2NJyxEbMa6CEXzp2eGj0nHL33_Qs_v1Qkpa8M_66y2yz6t_YfwMjiAm_olcyDHPkWi5rsIeJUtg-s5C4kiHZyYyS2mpbASjTyWWUp7nvsrPAzgsT-Su43dGXg5ZSgFhe1tvHt9eZ5kpBBpOoi639PCbQEWFJykvfwAbhhzGuhZEoOGix87PRfhjYI0nOBaEIiI10Fu5p7_-ttBKMFylElILg16SHHzhq63RIds0BfLOUc",
+        "height": 4032,
+        "width": 3024,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMZQI8XwWHK-iJPMZT7O5q6AZGdJJHz-tkmgJyiuGuqEFG-McQM064l0t87FcpSv34BPzefKrF-8kr2q9bdbmcJ2zV7_3s45oj6rhgQQ0Pwo4WjuayV61zKpQL9nfZ7vbA4ABe_QaiVNpkB0mQFT6WbJ_qtzHaISXyGdzyCHEe5IPKgR4T2NJyxEbMa6CEXzp2eGj0nHL33_Qs_v1Qkpa8M_66y2yz6t_YfwMjiAm_olcyDHPkWi5rsIeJUtg-s5C4kiHZyYyS2mpbASjTyWWUp7nvsrPAzgsT-Su43dGXg5ZSgFhe1tvHt9eZ5kpBBpOoi639PCbQEWFJykvfwAbhhzGuhZEoOGix87PRfhjYI0nOBaEIiI10Fu5p7_-ttBKMFylElILg16SHHzhq63RIds0BfLOUc"
+      },
+      {
+        "photo_reference": "Aa-ngMah8DuU4KldBTCpoF9oERM6iMpa7fa4Fly2B0rwr69GfcIGG4-MP8IQ7W2ETjthgbAeGdLV3RP714FfyEQb7cdFsUddAWB-7UCh117eOAJJgSr9RNfKhRrrDFQg-JcfHeLDYdNbp2fA-tlZfy7zCSrCL5iTcFS5XfiH-FaTW_pVuJ6d0rLE0vuDawJTc2jZbVDKqDW07DkJoqlN-vDN-d58hn2ol3ooslS9FfRxLzw9yuh5b2lUFH6xqpJOv1YwiMqPynD3Wkxx7QhpVux97N9W-0Vr7jA4qSB7PqVCEruWS--uNNWaX5A8TK7wH6iB6CHyVo9So1Fbt4EcQyG9GIi82OVe-elziH9LL0jsXpMEjKEWK2LBHO0rf_nkizFx5QeFuSY9HmFTMPqAb_ELg3fHWnI",
+        "height": 3472,
+        "width": 4624,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMah8DuU4KldBTCpoF9oERM6iMpa7fa4Fly2B0rwr69GfcIGG4-MP8IQ7W2ETjthgbAeGdLV3RP714FfyEQb7cdFsUddAWB-7UCh117eOAJJgSr9RNfKhRrrDFQg-JcfHeLDYdNbp2fA-tlZfy7zCSrCL5iTcFS5XfiH-FaTW_pVuJ6d0rLE0vuDawJTc2jZbVDKqDW07DkJoqlN-vDN-d58hn2ol3ooslS9FfRxLzw9yuh5b2lUFH6xqpJOv1YwiMqPynD3Wkxx7QhpVux97N9W-0Vr7jA4qSB7PqVCEruWS--uNNWaX5A8TK7wH6iB6CHyVo9So1Fbt4EcQyG9GIi82OVe-elziH9LL0jsXpMEjKEWK2LBHO0rf_nkizFx5QeFuSY9HmFTMPqAb_ELg3fHWnI"
+      },
+      {
+        "photo_reference": "Aa-ngMYLUz-EpOp2TKjNfFjwnZBXFMgtnodeDp93gd7Hj475M7C-4HZ-4GGjKPuW7Ub7G2AY2i43nxGS-MjqKu5mLF29Lho0hZDVpTjmbIzhxjQp7T-ulRbRfCH7sz6S1Q5RzDfZvO06czHdB87drK33Z83V-yQW2pTF33O_xCYp-_S3nAUksnlICldKKF0JgRiEXZwX3FdHOFpNhnU6KntX7KPts_ezLAUERx-7TrhUawlx-D5jHgmw6bb8UMqbFBm6dvdz8U124cpHr5ZXB3vYoYBEPVyX-D9AbwfjQ92KhMVJmLkQ-QrvS-diKBE30fQDE1TRg2ZAixxxUOSQXqVLdtjvFqlcBiKu72stx7KsYek9RxCVNJS4TW-BV3h16zEo9h4PCwH-566OLG3MJ49G9g5ItvctkNY",
+        "height": 2000,
+        "width": 1600,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMYLUz-EpOp2TKjNfFjwnZBXFMgtnodeDp93gd7Hj475M7C-4HZ-4GGjKPuW7Ub7G2AY2i43nxGS-MjqKu5mLF29Lho0hZDVpTjmbIzhxjQp7T-ulRbRfCH7sz6S1Q5RzDfZvO06czHdB87drK33Z83V-yQW2pTF33O_xCYp-_S3nAUksnlICldKKF0JgRiEXZwX3FdHOFpNhnU6KntX7KPts_ezLAUERx-7TrhUawlx-D5jHgmw6bb8UMqbFBm6dvdz8U124cpHr5ZXB3vYoYBEPVyX-D9AbwfjQ92KhMVJmLkQ-QrvS-diKBE30fQDE1TRg2ZAixxxUOSQXqVLdtjvFqlcBiKu72stx7KsYek9RxCVNJS4TW-BV3h16zEo9h4PCwH-566OLG3MJ49G9g5ItvctkNY"
+      },
+      {
+        "photo_reference": "Aa-ngMbdT_lhML2_6mQAeUrFB5-NyUuSYb86deo4kzMDaKXyiDRLqxj8SLlcUR1sJAvQWPzt5TtBhcpHGCHCL8Kq5isBgM7JvCWfrhtPiW7W5rfCFvxWeAGRbvxmPK-Lzxdhn8esgzQsvhjXWJ9BzsD9MhEjUeQtak3i3UyMC8QlVr9Z7bCYy3CVsttN3r6Rublm3I6cpldh8VQtnvXzyR0VMGWLOXjrxjQ-4pz3TnQ3E7mZhk_rj29Eh2Z-mh1irftLVeSsDHUvc51acEmDP1bjGD095jS5mW4g0nsrw41efuDdSEUy77FN-BgsixpOEFJCXaEIhxRIl5vZUiCPR619iMeKa-Q7WXk14k6fANrjvya5_aigyhfsSUkJ7-SZJwjrDw_4Zx60toDaL7DNMPHE1vOthXlj",
+        "height": 1600,
+        "width": 2000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbdT_lhML2_6mQAeUrFB5-NyUuSYb86deo4kzMDaKXyiDRLqxj8SLlcUR1sJAvQWPzt5TtBhcpHGCHCL8Kq5isBgM7JvCWfrhtPiW7W5rfCFvxWeAGRbvxmPK-Lzxdhn8esgzQsvhjXWJ9BzsD9MhEjUeQtak3i3UyMC8QlVr9Z7bCYy3CVsttN3r6Rublm3I6cpldh8VQtnvXzyR0VMGWLOXjrxjQ-4pz3TnQ3E7mZhk_rj29Eh2Z-mh1irftLVeSsDHUvc51acEmDP1bjGD095jS5mW4g0nsrw41efuDdSEUy77FN-BgsixpOEFJCXaEIhxRIl5vZUiCPR619iMeKa-Q7WXk14k6fANrjvya5_aigyhfsSUkJ7-SZJwjrDw_4Zx60toDaL7DNMPHE1vOthXlj"
+      },
+      {
+        "photo_reference": "Aa-ngMaiBP8kjrnR_peYisGCkOjsWdMb5JFxWBNNPqCYzBXm6D1y_nQbCSdJ9EtXjoJbNrng0FFIkxYDXDxt4L0TvqWz5N524zr5ub0KFYAD3OTlC_zI2WF7Jy9StNzTZbG7cW5NJxz1kQuKIbWXw8Dv6fBcfLGFGHrJKlgIK-57xM6xja8hNnxxrmHFUaW1IrIVUC56RiKarFnJ_wf2KEzYdFu0-xi2PQrka_MQN3F3q3ZVPg30oMWIOeWAty4oNc13VPpULOCmWnN0O-6y7Lyeq9E3OL67FdMxNlbM5NJFdeah_UoUhg1qjfEBTqm05yVXdHxAAeY20HIeaQ5H8mdxLoCrbll4yRfZqEV7p7yYICYPKxzbbnngNm2KfIiLpHLlndjwGWCM7Pzp2hLG3zUSuwqqA5Q",
+        "height": 2000,
+        "width": 1600,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMaiBP8kjrnR_peYisGCkOjsWdMb5JFxWBNNPqCYzBXm6D1y_nQbCSdJ9EtXjoJbNrng0FFIkxYDXDxt4L0TvqWz5N524zr5ub0KFYAD3OTlC_zI2WF7Jy9StNzTZbG7cW5NJxz1kQuKIbWXw8Dv6fBcfLGFGHrJKlgIK-57xM6xja8hNnxxrmHFUaW1IrIVUC56RiKarFnJ_wf2KEzYdFu0-xi2PQrka_MQN3F3q3ZVPg30oMWIOeWAty4oNc13VPpULOCmWnN0O-6y7Lyeq9E3OL67FdMxNlbM5NJFdeah_UoUhg1qjfEBTqm05yVXdHxAAeY20HIeaQ5H8mdxLoCrbll4yRfZqEV7p7yYICYPKxzbbnngNm2KfIiLpHLlndjwGWCM7Pzp2hLG3zUSuwqqA5Q"
+      },
+      {
+        "photo_reference": "Aa-ngMak--dJj-muBE1GgpdQDzXmQ_XRYHC4_G2AAZVxN5_dZZTqhBlO-EG82scR6a6OXaqkjcjN5D3Svn5xOM6KjdFnUsJt_2wmUtmyuxGjBANBJo-q9nAkd-IuG-c6RgbOHwBVIr6kRt6Xle3dBONA1BvjRDwPtF8bPrHTlJXw-qBbucnlNzkVg7jqcmUvi7yL3PbYWkjnknzFVyHoav32fb9tu0nwFa5dpjqSWXB33aOe3U4mBHV6_1MEejrCdYdcW3KkwgHZ5e2HmHOTK4NLpUM-6pc6ZDjg-rd6ejlYcKQKa0egP4j3R0OTAEglJXqYJL-novDDMWGcwn7KNlf8t3VEdalsEhxZCDeVdJe0wRDsxv9LMqG67wey2006SZ4iGdM0KvO_oJuUEOwY7GZ9C01bq84",
+        "height": 2000,
+        "width": 1600,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMak--dJj-muBE1GgpdQDzXmQ_XRYHC4_G2AAZVxN5_dZZTqhBlO-EG82scR6a6OXaqkjcjN5D3Svn5xOM6KjdFnUsJt_2wmUtmyuxGjBANBJo-q9nAkd-IuG-c6RgbOHwBVIr6kRt6Xle3dBONA1BvjRDwPtF8bPrHTlJXw-qBbucnlNzkVg7jqcmUvi7yL3PbYWkjnknzFVyHoav32fb9tu0nwFa5dpjqSWXB33aOe3U4mBHV6_1MEejrCdYdcW3KkwgHZ5e2HmHOTK4NLpUM-6pc6ZDjg-rd6ejlYcKQKa0egP4j3R0OTAEglJXqYJL-novDDMWGcwn7KNlf8t3VEdalsEhxZCDeVdJe0wRDsxv9LMqG67wey2006SZ4iGdM0KvO_oJuUEOwY7GZ9C01bq84"
+      },
+      {
+        "photo_reference": "Aa-ngMbhR4yq-YrtGc1njcv8o3vmuZU6w9hwW8nxJ8dKLSqrbjXHyQOi6E6ehJwz0yyYTF59eCN_b8Eymumb2MTGjCXjubmnxBch5JGJaeoV7JJ76V1-G9qq5qH9ReIj58z64piwuTSn2mejwZ6gqIpNeNH4atTFR8lRqOStvTyTzy7K9Xc9Gq-4MbVWO0LN_P5OlWa3XbA7oEethKnAeKpPYHmj8DZf9hFgFMs4wf0J0_P3CSp2lVD1MBbmo7ZS3gbxJXb9U-t6QZFu6ih5YtdyJR5IMAwXm9Ze7LA2o9igIYaJ8tM1oPvLoEHKoPWvw5wtQNMFBryoQzpHQr3xVNRz-MhXAsjIXeGQmdDzK6uMxtCuGnHZnQxQ4YAklUP9maiRfpVnoKmIYwbjcHZlhLIhwrOSoDZ3",
+        "height": 3024,
+        "width": 4032,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMbhR4yq-YrtGc1njcv8o3vmuZU6w9hwW8nxJ8dKLSqrbjXHyQOi6E6ehJwz0yyYTF59eCN_b8Eymumb2MTGjCXjubmnxBch5JGJaeoV7JJ76V1-G9qq5qH9ReIj58z64piwuTSn2mejwZ6gqIpNeNH4atTFR8lRqOStvTyTzy7K9Xc9Gq-4MbVWO0LN_P5OlWa3XbA7oEethKnAeKpPYHmj8DZf9hFgFMs4wf0J0_P3CSp2lVD1MBbmo7ZS3gbxJXb9U-t6QZFu6ih5YtdyJR5IMAwXm9Ze7LA2o9igIYaJ8tM1oPvLoEHKoPWvw5wtQNMFBryoQzpHQr3xVNRz-MhXAsjIXeGQmdDzK6uMxtCuGnHZnQxQ4YAklUP9maiRfpVnoKmIYwbjcHZlhLIhwrOSoDZ3"
+      },
+      {
+        "photo_reference": "Aa-ngMY_0jbzzXOU9dHj7CQWY6rtnHmD4tb1SDdahSoeZ99SEtoiQicifPQcxTTTIWSujIPAJAN91z28mPnGRdsZp9Xd-sMlBNxbWVbxYbt1fELsIPHkjo_XJfnsXnkuR6OVpBmvC7o5PItYRAJMpNIm7l9XBkB63HnZNy7yvPv598TkFE7DSOT59kIQFBv5HK7GcP3YYqHiOsilTYyKTSkDwmvCmefz_lJILYgIj8cEdGGkASsrv10y5AK0K-tt4_Ll1G87qxYqqBSxpWJFLqZUI-rElxu4OY1otg1iKSoLHllhfILxGvudcqCu6lEXQnKsbgscXNg_pc3BJGs-lA8aO1CDxHKjTUJDbtnH-2hXZE84HLhM-f2Y2wv9A3VSNUuggJnI7ya_QQ3miVUX-dlCGVmHz8CU0GE",
+        "height": 1600,
+        "width": 2000,
+        "proxy_url": "/api/places/photo?ref=Aa-ngMY_0jbzzXOU9dHj7CQWY6rtnHmD4tb1SDdahSoeZ99SEtoiQicifPQcxTTTIWSujIPAJAN91z28mPnGRdsZp9Xd-sMlBNxbWVbxYbt1fELsIPHkjo_XJfnsXnkuR6OVpBmvC7o5PItYRAJMpNIm7l9XBkB63HnZNy7yvPv598TkFE7DSOT59kIQFBv5HK7GcP3YYqHiOsilTYyKTSkDwmvCmefz_lJILYgIj8cEdGGkASsrv10y5AK0K-tt4_Ll1G87qxYqqBSxpWJFLqZUI-rElxu4OY1otg1iKSoLHllhfILxGvudcqCu6lEXQnKsbgscXNg_pc3BJGs-lA8aO1CDxHKjTUJDbtnH-2hXZE84HLhM-f2Y2wv9A3VSNUuggJnI7ya_QQ3miVUX-dlCGVmHz8CU0GE"
+      }
+    ],
+    "place_id": "ChIJm0m8oIHj3JQROR3P0ur5qO4",
+    "price_level": 2,
+    "rating": 4.7,
+    "types": [
+      "establishment",
+      "food",
+      "meal_delivery",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "url": "https://maps.google.com/?cid=17197269964068691257",
+    "user_ratings_total": 275,
+    "website": "https://linktr.ee/casadasmassascicinielli?fbclid=PAAabg_8fJXO4i5wo--z0nSlpGQ9lrzTBQ0V4Ifg3U6RCuyVmqTvUhgK3UwiU",
+    "added_at": "2026-10-22T18:24:12.036Z"
   }
 ]
