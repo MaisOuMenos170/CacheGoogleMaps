@@ -1,0 +1,38 @@
+{
+  "note": "Copiado de ZanzarBackend/scripts/seed/seed-zanzardb.js. Se o seed mudar, este arquivo precisa mudar junto. Uma lista velha deixa o comentário do PR mentir.",
+  "routes": [
+    {
+      "slug": "visitando-parques",
+      "routeType": "free",
+      "targetCategory": "park",
+      "targetCount": 4,
+      "places": [
+        { "name": "Parque Barigui", "addressIncludes": "Cândido Hartmann" },
+        { "name": "Parque Tanguá" },
+        { "name": "Jardim Botânico Municipal de Curitiba" },
+        { "name": "Bosque Papa João Paulo II" },
+        { "name": "Parque São Lourenço" },
+        { "name": "Bosque Alemão" },
+        { "name": "Parque Tingui" },
+        { "name": "Museu Oscar Niemeyer | MON" },
+        { "name": "Represa do Passaúna" },
+        { "name": "Bosque Zaninelli I UNILIVRE" },
+        { "name": "Passeio Público" },
+        { "name": "Bosque de Portugal 🇵🇹" },
+        { "name": "Bosque Gutierrez" },
+        { "name": "Praça do Japão" },
+        { "name": "Parque General Iberê de Matos (Parque Bacacheri)" }
+      ]
+    },
+    {
+      "slug": "centro-historico",
+      "routeType": "fixed",
+      "places": [
+        { "name": "Ruínas de São Francisco" },
+        { "name": "Cavalo Babão" },
+        { "name": "Memorial de Curitiba" },
+        { "name": "Arcádia - Sebo & Café - Vinis, Livros, Dvds, Cds" }
+      ]
+    }
+  ]
+}
