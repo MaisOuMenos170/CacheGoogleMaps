@@ -1,0 +1,39 @@
+name: Artefato do mapa
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - data/lugares.json
+      - scripts/map/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  map:
+    name: Gerar GeoJSON
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Gerar
+        run: node scripts/map/geojson.mjs
+
+      - name: Resumo por categoria
+        run: cat map-summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publicar o artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lugares.geojson
+          path: lugares.geojson
+          retention-days: 14
