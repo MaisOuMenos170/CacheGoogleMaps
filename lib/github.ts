@@ -60,7 +60,41 @@ export async function fetchCatalogFromGitHub(customToken?: string | null): Promi
   }
 
   const data = await res.json();
-  const rawContent = Buffer.from(data.content, "base64").toString("utf-8");
+  const content = typeof data.content === "string" ? data.content : "";
+  const headers = {
+    Authorization: `Bearer ${token}`,
+    Accept: "application/vnd.github.v3+json",
+    "User-Agent": "CacheGoogleMaps-App",
+  };
+
+  let rawContent: string;
+
+  if (content.length > 0) {
+    // Caso normal: arquivos de até 1 MB chegam com o conteúdo no próprio response.
+    rawContent = Buffer.from(content, "base64").toString("utf-8");
+  } else if (typeof data.git_url === "string") {
+    // Arquivos acima de 1 MB: a Contents API retorna content vazio (encoding "none").
+    // Usamos o `sha`/`git_url` para buscar o conteúdo completo via Git Data API
+    // (blobs), que suporta arquivos de até 100 MB.
+    const blobRes = await fetch(data.git_url, { headers, cache: "no-store" });
+
+    if (!blobRes.ok) {
+      const errorBody = await blobRes.text();
+      throw new Error(
+        `Erro ao buscar o conteúdo completo do arquivo ${filePath} (${blobRes.status} ${blobRes.statusText}): ${errorBody}`
+      );
+    }
+
+    const blob = await blobRes.json();
+    rawContent =
+      blob.encoding === "base64"
+        ? Buffer.from(String(blob.content ?? ""), "base64").toString("utf-8")
+        : String(blob.content ?? "");
+  } else {
+    throw new Error(
+      `O GitHub não retornou o conteúdo do arquivo ${filePath} (arquivo vazio ou resposta inesperada).`
+    );
+  }
 
   let items: CatalogItem[] = [];
   try {
