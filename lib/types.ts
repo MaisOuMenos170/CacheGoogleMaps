@@ -41,6 +41,7 @@ export interface PlaceDetails {
     height: number;
     width: number;
     url?: string;
+    proxy_url?: string;
   }>;
   editorial_summary?: {
     overview?: string;

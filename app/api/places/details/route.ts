@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getGooglePlaceDetails } from "@/lib/google-places";
+import { getFreePlaceDetails } from "@/lib/free-places";
 
 export async function GET(req: NextRequest) {
   try {
@@ -13,8 +13,7 @@ export async function GET(req: NextRequest) {
       );
     }
 
-    const customApiKey = req.headers.get("x-google-api-key");
-    const details = await getGooglePlaceDetails(placeId, customApiKey);
+    const details = await getFreePlaceDetails(placeId);
     return NextResponse.json({ place: details });
   } catch (error) {
     console.error("Erro na rota /api/places/details:", error);

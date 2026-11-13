@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { searchGooglePlaces } from "@/lib/google-places";
+import { searchFreePlaces } from "@/lib/free-places";
 
 export async function POST(req: NextRequest) {
   try {
@@ -13,8 +13,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const customApiKey = req.headers.get("x-google-api-key");
-    const results = await searchGooglePlaces(query, customApiKey);
+    const results = await searchFreePlaces(query);
     return NextResponse.json({ results });
   } catch (error) {
     console.error("Erro na rota /api/places/search:", error);

@@ -28,20 +28,13 @@ import { CatalogItem, PlaceDetails, PlaceSearchResult } from "@/lib/types";
 export default function Home() {
   const [activeTab, setActiveTab] = useState<"search" | "catalog">("search");
 
-  // Credenciais
-  const [googleApiKey, setGoogleApiKey] = useState<string>("");
+  // Credenciais - Apenas GitHub Token (Google Places agora usa OpenStreetMap gratuito)
   const [githubToken, setGithubToken] = useState<string>("");
   const [showSettingsModal, setShowSettingsModal] = useState<boolean>(false);
-  const [tempApiKey, setTempApiKey] = useState<string>("");
   const [tempGithubToken, setTempGithubToken] = useState<string>("");
 
   useEffect(() => {
-    const savedApiKey = localStorage.getItem("google_places_api_key") || "";
     const savedGithubToken = localStorage.getItem("github_token") || "";
-    if (savedApiKey) {
-      setGoogleApiKey(savedApiKey);
-      setTempApiKey(savedApiKey);
-    }
     if (savedGithubToken) {
       setGithubToken(savedGithubToken);
       setTempGithubToken(savedGithubToken);
@@ -49,14 +42,6 @@ export default function Home() {
   }, []);
 
   const handleSaveSettings = () => {
-    const trimmedApiKey = tempApiKey.trim();
-    setGoogleApiKey(trimmedApiKey);
-    if (trimmedApiKey) {
-      localStorage.setItem("google_places_api_key", trimmedApiKey);
-    } else {
-      localStorage.removeItem("google_places_api_key");
-    }
-
     const trimmedToken = tempGithubToken.trim();
     setGithubToken(trimmedToken);
     if (trimmedToken) {
@@ -75,10 +60,9 @@ export default function Home() {
     const headers: Record<string, string> = {
       "Content-Type": "application/json",
     };
-    if (googleApiKey) headers["x-google-api-key"] = googleApiKey;
     if (githubToken) headers["x-github-token"] = githubToken;
     return headers;
-  }, [googleApiKey, githubToken]);
+  }, [githubToken]);
 
   // Catálogo do GitHub
   const [catalog, setCatalog] = useState<CatalogItem[]>([]);
@@ -189,7 +173,7 @@ export default function Home() {
     } catch (err) {
       const msg = (err as Error).message;
       setSearchError(msg);
-      if (msg.includes("Chave do Google Places")) setShowSettingsModal(true);
+      // Não precisa mais abrir modal de configurações para chave do Google
     } finally {
       setSearching(false);
     }
@@ -206,11 +190,9 @@ export default function Home() {
     setActionError(null);
 
     try {
-      const headers: Record<string, string> = {};
-      if (googleApiKey) headers["x-google-api-key"] = googleApiKey;
-
+      // Não precisa mais de chave do Google - usa OpenStreetMap gratuito
       const res = await fetch(`/api/places/details?place_id=${encodeURIComponent(placeId)}`, {
-        headers,
+        headers: getCustomHeaders(),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Erro ao obter detalhes.");
@@ -504,7 +486,6 @@ export default function Home() {
             {/* Configurações */}
             <button
               onClick={() => {
-                setTempApiKey(googleApiKey);
                 setTempGithubToken(githubToken);
                 setShowSettingsModal(true);
               }}
@@ -528,13 +509,12 @@ export default function Home() {
             </div>
             <button
               onClick={() => {
-                setTempApiKey(googleApiKey);
                 setTempGithubToken(githubToken);
                 setShowSettingsModal(true);
               }}
               className="px-3 py-1.5 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-lg shrink-0 transition"
             >
-              Configurar Token
+              Configurar GitHub Token
             </button>
           </div>
         )}
@@ -602,16 +582,8 @@ export default function Home() {
               </form>
 
               {searchError && (
-                <div className="mt-3 p-3 bg-red-50 border border-red-100 rounded-xl text-red-700 text-xs flex items-center justify-between">
+                <div className="mt-3 p-3 bg-red-50 border border-red-100 rounded-xl text-red-700 text-xs">
                   <span>{searchError}</span>
-                  {searchError.includes("Chave do Google Places") && (
-                    <button
-                      onClick={() => setShowSettingsModal(true)}
-                      className="text-xs font-bold underline"
-                    >
-                      Inserir Chave
-                    </button>
-                  )}
                 </div>
               )}
             </div>
@@ -981,7 +953,7 @@ export default function Home() {
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                   src={`/api/places/photo?ref=${encodeURIComponent(photo.photo_reference)}&maxwidth=400${
-                                    googleApiKey ? `&key=${encodeURIComponent(googleApiKey)}` : ""
+                                    photo.proxy_url?.includes('url=') ? `&url=${encodeURIComponent(photo.proxy_url.split('url=')[1]?.split('&')[0] || '')}` : ''
                                   }`}
                                   alt={`${selectedPlaceDetails.name} foto`}
                                   className="w-full h-full object-cover"
@@ -1510,7 +1482,7 @@ export default function Home() {
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-zinc-900/40 backdrop-blur-sm">
           <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl border border-zinc-200">
             <div className="flex items-center justify-between pb-3 border-b border-zinc-100">
-              <h3 className="font-bold text-zinc-900 text-sm">Configurações & Chaves</h3>
+              <h3 className="font-bold text-zinc-900 text-sm">Configurações</h3>
               <button
                 onClick={() => setShowSettingsModal(false)}
                 className="text-zinc-400 hover:text-zinc-600"
@@ -1533,17 +1505,9 @@ export default function Home() {
                 />
               </div>
 
-              <div>
-                <label className="block text-xs font-semibold text-zinc-700 mb-1">
-                  Google Places API Key
-                </label>
-                <input
-                  type="password"
-                  value={tempApiKey}
-                  onChange={(e) => setTempApiKey(e.target.value)}
-                  placeholder="AIzaSy..."
-                  className="w-full px-3 py-2 text-xs rounded-lg border border-zinc-300 focus:outline-none focus:border-zinc-500 font-mono"
-                />
+              <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-lg text-xs text-emerald-800">
+                <p className="font-semibold">🆓 Busca gratuita via OpenStreetMap</p>
+                <p className="mt-0.5">Não é mais necessária chave do Google Places. A busca usa Nominatim/Photon (OpenStreetMap) - gratuito e sem limite de quota.</p>
               </div>
             </div>
 
@@ -1567,7 +1531,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-zinc-200 py-4 mt-auto bg-white text-center text-xs text-zinc-400">
-        PlaceCache &bull; Google Places API &bull; GitHub REST API
+        PlaceCache &bull; OpenStreetMap (Nominatim/Photon) &bull; GitHub REST API
       </footer>
     </div>
   );

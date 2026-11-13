@@ -1,27 +1,21 @@
 import { NextRequest, NextResponse } from "next/server";
+import { proxyPhoto } from "@/lib/free-places";
 
 export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const photoRef = searchParams.get("ref");
+    const url = searchParams.get("url"); // For Wikimedia images
     const maxWidth = searchParams.get("maxwidth") || "800";
-
-    const apiKey = req.headers.get("x-google-api-key") || process.env.GOOGLE_PLACES_API_KEY?.trim();
-    if (!apiKey) {
-      return NextResponse.json({ error: "Google API key não configurada." }, { status: 500 });
-    }
 
     if (!photoRef) {
       return NextResponse.json({ error: "Parâmetro 'ref' é obrigatório." }, { status: 400 });
     }
 
-    const photoUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=${maxWidth}&photoreference=${encodeURIComponent(
-      photoRef
-    )}&key=${apiKey}`;
-
-    const res = await fetch(photoUrl);
+    const res = await proxyPhoto(photoRef, url || undefined);
+    
     if (!res.ok) {
-      return NextResponse.json({ error: "Falha ao buscar imagem do Google Places." }, { status: res.status });
+      return NextResponse.json({ error: "Falha ao buscar imagem." }, { status: res.status });
     }
 
     const contentType = res.headers.get("content-type") || "image/jpeg";
@@ -35,6 +29,21 @@ export async function GET(req: NextRequest) {
     });
   } catch (error) {
     console.error("Erro na rota de foto:", error);
-    return NextResponse.json({ error: "Erro ao processar imagem." }, { status: 500 });
+    // Return a placeholder SVG instead of error
+    const placeholderSvg = `
+      <svg width="${800}" height="${600}" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill="#e5e7eb"/>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+              font-family="system-ui" font-size="16" fill="#9ca3af">
+          Imagem não disponível
+        </text>
+      </svg>
+    `;
+    return new NextResponse(placeholderSvg, {
+      headers: {
+        "Content-Type": "image/svg+xml",
+        "Cache-Control": "public, max-age=86400",
+      },
+    });
   }
 }

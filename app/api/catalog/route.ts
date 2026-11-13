@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { fetchCatalogFromGitHub, commitCatalogToGitHub } from "@/lib/github";
-import { getGooglePlaceDetails } from "@/lib/google-places";
+import { getFreePlaceDetails } from "@/lib/free-places";
 import { CatalogItem, PlaceDetails } from "@/lib/types";
 
 function normalizeTags(tags: unknown): string[] {
@@ -69,8 +69,7 @@ export async function POST(req: NextRequest) {
     if (providedPlace && providedPlace.formatted_address && providedPlace.geometry) {
       fullDetails = providedPlace;
     } else {
-      const customApiKey = req.headers.get("x-google-api-key");
-      fullDetails = await getGooglePlaceDetails(targetPlaceId, customApiKey);
+      fullDetails = await getFreePlaceDetails(targetPlaceId);
     }
 
     // 4. Montar o novo item do catálogo
