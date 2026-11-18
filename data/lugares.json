@@ -17612,5 +17612,100 @@
     "user_ratings_total": 1844,
     "website": "http://pedraolar.com.br/",
     "added_at": "2026-10-27T18:25:08.482Z"
+  },
+  {
+    "place_id": "osm:N:768565891",
+    "name": "Mafalda Café Bistrô",
+    "formatted_address": "Mafalda Café Bistrô, Rua Tibagi, Centro, Curitiba, Paraná, Região Sul, 80060-110, Brasil",
+    "geometry": {
+      "location": {
+        "lat": -25.4278258,
+        "lng": -49.2644835
+      }
+    },
+    "url": "https://www.openstreetmap.org/node/768565891",
+    "types": [
+      "restaurant",
+      "amenity"
+    ],
+    "opening_hours": {
+      "weekday_text": [
+        "Horário: Mo-Fr 11:30-14:00,18:00-01:00; Sa,PH 19:00-01:00; Su off"
+      ]
+    },
+    "photos": [],
+    "address_components": [
+      {
+        "long_name": "Mafalda Café Bistrô",
+        "short_name": "Mafalda Café Bistrô",
+        "types": [
+          "amenity"
+        ]
+      },
+      {
+        "long_name": "Rua Tibagi",
+        "short_name": "Rua Tibagi",
+        "types": [
+          "road"
+        ]
+      },
+      {
+        "long_name": "Centro",
+        "short_name": "Centro",
+        "types": [
+          "suburb"
+        ]
+      },
+      {
+        "long_name": "Curitiba",
+        "short_name": "Curitiba",
+        "types": [
+          "city"
+        ]
+      },
+      {
+        "long_name": "Paraná",
+        "short_name": "Paraná",
+        "types": [
+          "state"
+        ]
+      },
+      {
+        "long_name": "BR-PR",
+        "short_name": "BR-PR",
+        "types": [
+          "ISO3166-2-lvl4"
+        ]
+      },
+      {
+        "long_name": "Região Sul",
+        "short_name": "Região Sul",
+        "types": [
+          "region"
+        ]
+      },
+      {
+        "long_name": "80060-110",
+        "short_name": "80060-110",
+        "types": [
+          "postcode"
+        ]
+      },
+      {
+        "long_name": "Brasil",
+        "short_name": "Brasil",
+        "types": [
+          "country"
+        ]
+      },
+      {
+        "long_name": "br",
+        "short_name": "br",
+        "types": [
+          "country_code"
+        ]
+      }
+    ],
+    "added_at": "2026-11-18T17:41:25.655Z"
   }
 ]
